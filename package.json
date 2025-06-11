@@ -5,9 +5,15 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pick-album": "node scripts/pick-album.js $(date +%F)",
+    "enrich-album": "node scripts/enrich-album.js data/album-of-the-day/$(date +%F).json",
+    "pick-and-enrich-album": "npm run pick-album && npm run enrich-album",
+    "test:pick-album": "node --test scripts/pick-album.test.mjs",
+    "test:enrich-album": "node --test scripts/enrich-album.test.mjs",
+    "test": "npm run test:pick-album && npm run test:enrich-album"
   },
   "dependencies": {
-    "@11ty/eleventy": "3.1.1"
+    "@11ty/eleventy": "3.1.1",
+    "csv-parse": "5.6.0"
   }
 }
