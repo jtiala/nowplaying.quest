@@ -1,0 +1,13 @@
+---
+permalink: "/index.html"
+---
+
+{% assign album = albums | last %} {% assign is_index = true %}
+
+<!doctype html>
+<html lang="en">
+  {% include "_head.html" %}
+  <body>
+    {% include "_album.html" %}
+  </body>
+</html>

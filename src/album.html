@@ -1,0 +1,15 @@
+---
+permalink: "/{{ album.date }}/index.html"
+pagination:
+  data: albums
+  size: 1
+  alias: album
+---
+
+<!doctype html>
+<html lang="en">
+  {% include "_head.html" %}
+  <body>
+    {% include "_album.html" %}
+  </body>
+</html>

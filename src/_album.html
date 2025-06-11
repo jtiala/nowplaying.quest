@@ -1,0 +1,86 @@
+{% include "_nav.html" %}
+<h2>
+  <em>Daily album for {% assign date_to_format = album.date %}{% include "_date.html" %}</em>
+</h2>
+<h1>
+  {{ album.title }}
+</h1>
+<h2>by {{ album.artist }} ({{ album.year }})</h2>
+{% if album.genres %}
+  <div>
+    <ul>
+      {% for genre in album.genres %}
+        <li>{{ genre }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}
+{% if album.coverArt %}
+  <img src="/{{ album.date }}/cover-art.webp" alt="Cover art for {{ album.title }}" />
+{% endif %}
+<div>
+  <strong>Listen on:</strong>
+  <ul>
+    <li><a href="{{ album.streamingLinks.spotify }}" target="_blank">Spotify</a></li>
+    <li><a href="{{ album.streamingLinks.appleMusic }}" target="_blank">Apple Music</a></li>
+    <li><a href="{{ album.streamingLinks.youtube }}" target="_blank">YouTube</a></li>
+    <li><a href="{{ album.streamingLinks.youtubeMusic }}" target="_blank">YouTube Music</a></li>
+    <li><a href="{{ album.streamingLinks.amazonMusic }}" target="_blank">Amazon Music</a></li>
+    <li><a href="{{ album.streamingLinks.tidal }}" target="_blank">Tidal</a></li>
+    <li><a href="{{ album.streamingLinks.deezer }}" target="_blank">Deezer</a></li>
+  </ul>
+</div>
+{% if album.description %}
+  <div>
+    <p>{{ album.description }}
+      {% if album.externalLinks.wikipedia %}
+        <a href="{{ album.externalLinks.wikipedia }}" target="_blank">Read more on
+          <em>Wikipedia</em>.
+        </a>
+      {% endif %}
+    </p>
+  </div>
+{% endif %}
+{% if album.externalLinks.rateyourmusic or album.externalLinks.discogs %}
+  <div>
+    <ul>
+      {% if album.externalLinks.rateyourmusic %}
+        <li>
+          <a href="{{ album.externalLinks.rateyourmusic }}" target="_blank">See on
+            <em>Rate Your Music</em>
+          </a>
+        </li>
+      {% endif %}
+      {% if album.externalLinks.discogs %}
+        <li>
+          <a href="{{ album.externalLinks.discogs }}" target="_blank">See on
+            <em>Discogs</em>
+          </a>
+        </li>
+      {% endif %}
+    </ul>
+  </div>
+{% endif %}
+{% if album.curatedLists %}
+  <div>
+    <strong>Featured on:</strong>
+    <ul>
+      {% for list in album.curatedLists %}
+        <li>
+          {% if list == "1001-albums-you-must-hear-before-you-die-all-editions" %}1001 Albums You Must Hear Before You Die
+            {% elsif list == "nme-the-500-greatest-albums-of-all-time" %}The 500 Greatest Albums of All Time (NME)
+            {% elsif list == "pitchfork-200-best-albums-of-the-last-25-years" %}200 Best Albums of the Last 25 Years (Pitchfork)
+            {% elsif list == "rolling-stone-the-500-greatest-albums-of-all-time-all-editions" %}The 500 Greatest Albums of All Time (Rolling Stone)
+            {% elsif list == "rolling-stone-the-200-greatest-hip-hop-albums-of-all-time" %}The 200 Greatest Hip-Hop Albums of All Time (Rolling Stone)
+            {% elsif list == "the-guardian-the-100-best-albums-of-the-21st-century" %}The 100 Best Albums of the 21st Century (The Guardian)
+            {% elsif list == "jazzwise-the-100-jazz-albums-that-shook-the-world" %}The 100 Jazz Albums That Shook the World (Jazzwise)
+            {% elsif list == "npr-the-150-greatest-albums-made-by-women" %}The 150 Greatest Albums Made by Women (NPR)
+          {% else %}
+            {{ list }}
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}
+{% include "_footer.html" %}

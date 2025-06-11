@@ -1,0 +1,39 @@
+name: Daily Album Automation
+
+on:
+  schedule:
+    # Runs every day at 05:00 UTC
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+      SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+      - name: Install dependencies
+        run: npm ci
+      - name: Set current date
+        id: date
+        run: |
+          echo "date=$(date -u +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+      - name: Pick album for today
+        run: node scripts/pick-album.js ${{ steps.date.outputs.date }}
+      - name: Enrich album
+        run: node scripts/enrich-album.js data/album-of-the-day/${{ steps.date.outputs.date }}.json
+      - name: Download and optimize cover art
+        run: node scripts/download-cover-art.js data/album-of-the-day/${{ steps.date.outputs.date }}.json
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Daily album automation for ${{ steps.date.outputs.date }}"
+          branch: main
+          file_pattern: data/**

@@ -1,0 +1,20 @@
+<nav>
+  {% if is_index %}
+    {% assign prev_index = albums.size | minus: 2 %}
+    {% if prev_index >= 0 %}
+      {% assign prev = albums[prev_index] %}
+      <a href="/{{ prev.date }}">&larr; {% assign date_to_format = prev.date %}{% include "_date.html" %}</a>
+    {% endif %}
+  {% else %}
+    {% if pagination.href.previous %}
+      {% assign prev_index = pagination.pageNumber | minus: 1 %}
+      {% assign prev = albums[prev_index] %}
+      <a href="{{ pagination.href.previous }}">&larr; {% assign date_to_format = prev.date %}{% include "_date.html" %}</a>
+    {% endif %}
+    {% if pagination.href.next %}
+      {% assign next_index = pagination.pageNumber | plus: 1 %}
+      {% assign next = albums[next_index] %}
+      <a href="{{ pagination.href.next }}">{% assign date_to_format = next.date %}{% include "_date.html" %} &rarr;</a>
+    {% endif %}
+  {% endif %}
+</nav>
