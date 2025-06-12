@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /**
  * enrich-album.js
  *
@@ -255,6 +256,9 @@ async function main() {
     }
 
     coverArt = await getCoverArt(mbid);
+    if (coverArt && coverArt.startsWith("http:")) {
+      coverArt = coverArt.replace(/^http:/, "https:");
+    }
 
     if (wikidata) {
       try {

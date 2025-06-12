@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /**
  * pick-album.js
  *

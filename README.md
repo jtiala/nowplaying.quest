@@ -48,10 +48,22 @@ node scripts/enrich-album.js data/album-of-the-day/2025-06-12.json
 
 This updates the JSON file in `data/album-of-the-day/` with additional fields (cover art, genres, streaming links, etc).
 
-### Running all scripts for today
+### Downloading and optimizing cover art
+
+To download and optimize the cover art for a given album JSON:
 
 ```console
-npm run pick-and-enrich-album
+npm run download-cover-art
+# or manually:
+node scripts/download-cover-art.js data/album-of-the-day/2025-06-12.json
+```
+
+This saves a WebP image (640x640px, max 200 KB) alongside the JSON file.
+
+### Running all scripts at once
+
+```console
+npm run new-album
 ```
 
 ### Testing scripts
@@ -62,4 +74,4 @@ To run all script tests:
 npm test
 ```
 
-This will run both the picker and enrichment script tests. Tests are run automatically in CI for every change to the scripts.
+This will run the picker, enrichment, and cover art script tests. Tests are run automatically in CI for every change to the scripts.
