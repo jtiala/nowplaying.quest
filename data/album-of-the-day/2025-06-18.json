@@ -1,0 +1,36 @@
+{
+  "artist": "Van Morrison",
+  "title": "Astral Weeks",
+  "year": "1968",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "blue-eyed soul",
+    "blues rock",
+    "chamber folk",
+    "folk rock",
+    "rock",
+    "singer-songwriter"
+  ],
+  "description": "Astral Weeks is the second studio album by Northern Irish singer-songwriter Van Morrison. It was recorded at Century Sound Studios in New York during September and October 1968, and released in November of the same year by Warner Bros. Records.",
+  "coverArt": "https://coverartarchive.org/release/3edf39cf-f328-43d9-8653-fef37800516f/8929867356.jpg",
+  "mbid": "7d568f14-d86e-3584-97d0-c1824599de04",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q750452",
+    "wikipedia": "https://en.wikipedia.org/wiki/Astral_Weeks",
+    "discogs": "https://www.discogs.com/master/14541",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/van_morrison/astral_weeks/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/4pG3bKkbmReDt5QTDn3JDz",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1031002336?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_mN1vJvo-kOqKkx3sfxsIlUtwqq2IEfaJ0",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mN1vJvo-kOqKkx3sfxsIlUtwqq2IEfaJ0",
+    "amazonMusic": "https://music.amazon.com/albums/B07VPRVV7T",
+    "tidal": "https://listen.tidal.com/album/3044352",
+    "deezer": "https://www.deezer.com/album/345012"
+  }
+}
