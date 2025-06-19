@@ -1,6 +1,6 @@
-# 🧭 [Now Playing Quest](https://nowplaying.quest)
+# ![Now Playing Quest](./branding/combination-mark-horizontal-midnight-bg.png)
 
-Discover a daily album worth a listen.
+Check out today's album at [nowplaying.quest](https://nowplaying.quest)!
 
 ## Running locally
 
@@ -13,7 +13,7 @@ npm i
 2. Start the hot-reloading local web server
 
 ```console
-npx @11ty/eleventy --serve
+npm run dev
 ```
 
 3. The site should now be available at [localhost:8080](http://localhost:8080/)
