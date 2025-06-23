@@ -1,13 +1,14 @@
 ---
 permalink: "/index.html"
+layout: layouts/base.html
+eleventyComputed:
+  title: "{{ albums | last | map: 'title' }} by {{ albums | last | map: 'artist' }} ({{ albums | last | map: 'year' }}) | Daily album for {{ albums | last | map: 'date' | join | format_date }}"
+  canonical: "{{ albums | last | map: 'date' | join }}/"
 ---
 
 {% assign album = albums | last %} {% assign is_index = true %}
 
-<!doctype html>
-<html lang="en">
-  {% include "_head.html" %}
-  <body>
-    {% include "_album.html" %}
-  </body>
-</html>
+{% include "partials/header.html" %}
+{% include "partials/nav.html" %}
+{% include "partials/album.html" %}
+{% include "partials/footer.html" %}

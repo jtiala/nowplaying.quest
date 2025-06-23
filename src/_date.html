@@ -1,5 +1,0 @@
-{% capture months_en %}January,February,March,April,May,June,July,August,September,October,November,December{% endcapture %}
-{% assign months_en = months_en | split: "," %}
-{% assign month_num = date_to_format | date: "%m" | minus: 1 %}
-{% assign month_name = months_en[month_num] %}
-{{ month_name }} {{ date_to_format | date: "%e, %Y" }}

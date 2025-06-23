@@ -1,15 +1,16 @@
 ---
 permalink: "/{{ album.date }}/index.html"
+layout: layouts/base.html
 pagination:
   data: albums
   size: 1
   alias: album
+eleventyComputed:
+  title: "{{ album | map: 'title' }} by {{ album | map: 'artist' }} ({{ album | map: 'year' }}) | Daily album for {{ album | map: 'date' | join | format_date }}"
+  canonical: "{{ album | map: 'date' | join }}/"
 ---
 
-<!doctype html>
-<html lang="en">
-  {% include "_head.html" %}
-  <body>
-    {% include "_album.html" %}
-  </body>
-</html>
+{% include "partials/header.html" %}
+{% include "partials/nav.html" %}
+{% include "partials/album.html" %}
+{% include "partials/footer.html" %}

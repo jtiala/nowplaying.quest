@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>
+      {{ title }} | {{ site.name }}
+    </title>
+    {% if canonical and canonical != "" %}
+      <link rel="canonical" href="{{ site.url }}/{{ canonical }}" />
+    {% endif %}
+  </head>
+  <body>
+    {{ content }}
+  </body>
+</html>

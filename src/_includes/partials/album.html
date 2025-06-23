@@ -1,6 +1,5 @@
-{% include "_nav.html" %}
 <h2>
-  <em>Daily album for {% assign date_to_format = album.date %}{% include "_date.html" %}</em>
+  <em>Daily album for {{ album.date | format_date }}</em>
 </h2>
 <h1>
   {{ album.title }}
@@ -83,4 +82,3 @@
     </ul>
   </div>
 {% endif %}
-{% include "_footer.html" %}
