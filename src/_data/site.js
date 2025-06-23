@@ -1,7 +1,7 @@
 import process from "process";
 
 export default {
-  name: "Now Playing Quest",
+  title: "Now Playing Quest",
   slogan: "Discover a daily album worth a listen.",
   description:
     "Explore a daily, critically acclaimed album worth your time — essential listens, hidden gems, and music history, one album per day.",
