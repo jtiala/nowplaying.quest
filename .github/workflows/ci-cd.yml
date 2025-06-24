@@ -33,6 +33,8 @@ jobs:
             echo "No script changes, skipping tests."
           fi
       - name: Build site
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
         run: npm run build
       - name: Upload static files as artifact
         id: deployment
