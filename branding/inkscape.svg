@@ -25,15 +25,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.31636909"
-     inkscape:cx="1305.4372"
-     inkscape:cy="654.29906"
-     inkscape:window-width="1504"
-     inkscape:window-height="837"
-     inkscape:window-x="0"
-     inkscape:window-y="38"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer5"
+     inkscape:zoom="0.81623054"
+     inkscape:cx="2279.9931"
+     inkscape:cy="481.48162"
+     inkscape:window-width="3440"
+     inkscape:window-height="1387"
+     inkscape:window-x="1512"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g23"
      showgrid="false">
     <inkscape:page
        x="0"
@@ -60,9 +60,23 @@
        id="page6"
        margin="0 0 0 0"
        bleed="0" />
+    <inkscape:page
+       x="3116.5576"
+       y="0"
+       width="793.70081"
+       height="1122.5198"
+       id="page1"
+       margin="0"
+       bleed="0" />
   </sodipodi:namedview>
   <defs
      id="defs1">
+    <rect
+       x="3116.5577"
+       y="355.61503"
+       width="499.99999"
+       height="106.55613"
+       id="rect23" />
     <rect
        x="1427.4788"
        y="545.64117"
@@ -391,102 +405,102 @@
        y="0"><tspan
          x="898.69922"
          y="211.94695"
-         id="tspan3"><tspan
+         id="tspan17"><tspan
            dx="0 0 0 0 0 0 20.856388 0 0 0 0 0 20.856392 0 0 0 0 0 20.856384 0 0 0 20.856384 0 0 0 0 0 20.856384"
            style="font-style:normal;font-family:'Courier Prime';-inkscape-font-specification:'Courier Prime';text-align:justify"
-           id="tspan1">Lorem ipsum dolor sit amet, consectetur </tspan></tspan><tspan
+           id="tspan2">Lorem ipsum dolor sit amet, consectetur </tspan></tspan><tspan
          x="898.69922"
          y="228.82141"
-         id="tspan6"><tspan
+         id="tspan47"><tspan
            dx="0 0 0 0 0 0 0 0 0 0 0 7.2653055 0 0 0 0 0 7.2653055 0 0 0 0 0 0 0 7.2653055 0 0 0 0 0 0 0 0 0 0 7.2652903 0 0 0 0 0 7.2652903"
            style="font-style:normal;font-family:'Courier Prime';-inkscape-font-specification:'Courier Prime';text-align:justify"
-           id="tspan4">adipiscing elit. Quisque tincidunt, lacus quis </tspan></tspan><tspan
+           id="tspan20">adipiscing elit. Quisque tincidunt, lacus quis </tspan></tspan><tspan
          x="898.69922"
          y="245.69588"
-         id="tspan8"><tspan
+         id="tspan49"><tspan
            dx="0 0 0 0 0 0 0 0 0 7.67241 0 0 0 0 0 0 0 0 7.67241 0 0 0 0 7.67241 0 0 0 0 0 7.6724253 0 0 0 0 0 0 7.6723948 0 0 0 0 0 0 7.6723948"
            style="font-style:normal;font-family:'Courier Prime';-inkscape-font-specification:'Courier Prime';text-align:justify"
-           id="tspan7">eleifend posuere, diam metus semper massa, et </tspan></tspan><tspan
+           id="tspan48">eleifend posuere, diam metus semper massa, et </tspan></tspan><tspan
          x="898.69922"
          y="262.57035"
-         id="tspan10"><tspan
+         id="tspan51"><tspan
            dx="0 0 0 0 0 0 0 0 1.0289698 0 0 0 0 0 1.0289698 0 0 0 0 0 0 1.0289621 0 0 1.0289774 0 0 0 0 0 1.0289621 0 0 0 0 0 1.0289621 0 0 0 0 0 0 1.0289621"
            style="font-style:normal;font-family:'Courier Prime';-inkscape-font-specification:'Courier Prime';text-align:justify"
-           id="tspan9">sodales neque ligula eu arcu. Donec tempor dictum </tspan></tspan><tspan
+           id="tspan50">sodales neque ligula eu arcu. Donec tempor dictum </tspan></tspan><tspan
          x="898.69922"
          y="279.44481"
-         id="tspan12"><tspan
+         id="tspan53"><tspan
            dx="0 0 0 0 0 0 7.6724062 0 0 7.6724024 0 0 0 0 0 0 0 7.67241 0 0 0 0 0 7.67241 0 0 0 0 0 0 0 0 0 7.6723948 0 0 0 0 0 0 7.6723948"
            style="font-style:normal;font-family:'Courier Prime';-inkscape-font-specification:'Courier Prime';text-align:justify"
-           id="tspan11">nibh, ut viverra felis facilisis vitae. Morbi </tspan></tspan><tspan
+           id="tspan52">nibh, ut viverra felis facilisis vitae. Morbi </tspan></tspan><tspan
          x="898.69922"
          y="296.31926"
-         id="tspan14"><tspan
+         id="tspan55"><tspan
            style="font-style:normal;font-family:'Courier Prime';-inkscape-font-specification:'Courier Prime';text-align:justify"
-           id="tspan13">scelerisque vel dui ut dignissim. 
+           id="tspan54">scelerisque vel dui ut dignissim. 
 </tspan></tspan><tspan
          x="898.69922"
          y="313.19371"
-         id="tspan16"><tspan
+         id="tspan57"><tspan
            style="font-style:normal;font-family:'Courier Prime';-inkscape-font-specification:'Courier Prime';text-align:justify"
-           id="tspan15">
+           id="tspan56">
 </tspan></tspan><tspan
          x="898.69922"
          y="330.06816"
-         id="tspan19"><tspan
+         id="tspan59"><tspan
            dx="0 0 0 0 0 0 0 0 0 0 0 3.3821344 0 0 0 0 0 0 0 0 3.3821421 0 0 0 0 3.3821421 0 0 3.3821421 0 0 0 0 0 0 0 0 0 3.3821421"
            style="font-style:normal;font-family:'Courier Prime';-inkscape-font-specification:'Courier Prime';text-align:justify"
-           id="tspan18">Vestibulum maximus, nisl at convallis tincidunt, </tspan></tspan><tspan
+           id="tspan58">Vestibulum maximus, nisl at convallis tincidunt, </tspan></tspan><tspan
          x="898.69922"
          y="346.94261"
-         id="tspan22"><tspan
+         id="tspan61"><tspan
            dx="0 0 0 0 0 0 7.2653017 0 0 0 7.2653055 0 0 0 0 0 0 0 0 0 7.2653055 0 0 0 0 0 0 7.2652903 0 0 0 0 0 0 0 0 0 7.2653208"
            style="font-style:normal;font-family:'Courier Prime';-inkscape-font-specification:'Courier Prime';text-align:justify"
-           id="tspan21">dolor sem hendrerit nulla, vulputate tincidunt </tspan></tspan><tspan
+           id="tspan60">dolor sem hendrerit nulla, vulputate tincidunt </tspan></tspan><tspan
          x="898.69922"
          y="363.81706"
-         id="tspan24"><tspan
+         id="tspan63"><tspan
            dx="0 0 0 0 0 0 0 2.1138391 0 0 0 0 0 2.1138391 0 2.1138315 0 0 0 0 0 0 0 2.1138315 0 0 2.1138315 0 0 0 0 0 0 0 2.1138315 0 0 0 0 0 2.1138315 0 0 0 0 0 2.1138315"
            style="font-style:normal;font-family:'Courier Prime';-inkscape-font-specification:'Courier Prime';text-align:justify"
-           id="tspan23">turpis neque a turpis. In gravida lacus nunc, id </tspan></tspan><tspan
+           id="tspan62">turpis neque a turpis. In gravida lacus nunc, id </tspan></tspan><tspan
          x="898.69922"
          y="380.69152"
-         id="tspan26"><tspan
+         id="tspan65"><tspan
            dx="0 0 0 0 0 0 0 9.2068872 0 0 0 0 0 9.2068949 0 0 0 0 0 0 0 0 9.2068949 0 0 0 9.2069101 0 0 0 0 0 0 0 9.2069101"
            style="font-style:normal;font-family:'Courier Prime';-inkscape-font-specification:'Courier Prime';text-align:justify"
-           id="tspan25">tempus lacus vehicula eu. Quisque ullamcorper </tspan></tspan><tspan
+           id="tspan64">tempus lacus vehicula eu. Quisque ullamcorper </tspan></tspan><tspan
          x="898.69922"
          y="397.56597"
-         id="tspan28"><tspan
+         id="tspan67"><tspan
            dx="0 0 0 0 0 0 9.2903948 0 0 9.2903986 0 0 0 0 0 0 0 0 9.2904062 0 0 0 0 0 0 0 0 0 9.2904062 0 0 0 0 9.2904062 0 0 0 0 9.2903757"
            style="font-style:normal;font-family:'Courier Prime';-inkscape-font-specification:'Courier Prime';text-align:justify"
-           id="tspan27">nulla ac accumsan bibendum. Cras eget libero </tspan></tspan><tspan
+           id="tspan66">nulla ac accumsan bibendum. Cras eget libero </tspan></tspan><tspan
          x="898.69922"
          y="414.44042"
-         id="tspan31"><tspan
+         id="tspan70"><tspan
            dx="0 0 0 0 0 0 4.4364328 0 0 0 0 0 0 0 4.4364481 0 0 0 0 4.4364481"
            style="font-style:normal;font-family:'Courier Prime';-inkscape-font-specification:'Courier Prime';text-align:justify"
-           id="tspan29">arcu. Vivamus eros mauris, </tspan><tspan
+           id="tspan68">arcu. Vivamus eros mauris, </tspan><tspan
            dx="4.4364328 0 0 0 0 0 0 0 0 0 4.4364328 0 0 0 4.4364634"
            style="font-style:normal;font-family:'Courier Prime';-inkscape-font-specification:'Courier Prime';text-align:justify"
-           id="tspan30">fermentum non mattis </tspan></tspan><tspan
+           id="tspan69">fermentum non mattis </tspan></tspan><tspan
          x="898.69922"
          y="431.31487"
-         id="tspan33"><tspan
+         id="tspan72"><tspan
            dx="0 0 0 0 0 6.0544214 0 0 0 0 0 0 0 0 6.0544138 0 0 6.0544291 0 0 0 0 0 0 6.0544138 0 0 0 0 0 0 6.0544138 0 0 6.0544443"
            style="font-style:normal;font-family:'Courier Prime';-inkscape-font-specification:'Courier Prime';text-align:justify"
-           id="tspan32">vel, placerat at felis. Mauris in sollicitudin </tspan></tspan><tspan
+           id="tspan71">vel, placerat at felis. Mauris in sollicitudin </tspan></tspan><tspan
          x="898.69922"
          y="448.18932"
-         id="tspan35"><tspan
+         id="tspan74"><tspan
            dx="0 0 0 0 0 0 3.802659 0 0 0 0 0 3.802659 0 0 0 0 0 0 0 3.802659 0 0 0 0 0 0 0 3.8026438 0 0 3.8026743 0 0 3.8026438 0 0 0 0 0 0 0 0 3.8026438"
            style="font-style:normal;font-family:'Courier Prime';-inkscape-font-specification:'Courier Prime';text-align:justify"
-           id="tspan34">ante, vitae feugiat sapien. Ut ut molestie dui. </tspan></tspan><tspan
+           id="tspan73">ante, vitae feugiat sapien. Ut ut molestie dui. </tspan></tspan><tspan
          x="898.69922"
          y="465.06377"
-         id="tspan37"><tspan
+         id="tspan76"><tspan
            style="font-style:normal;font-family:'Courier Prime';-inkscape-font-specification:'Courier Prime';text-align:justify"
-           id="tspan36">Duis aliquam posuere augue in sodales.</tspan></tspan></text>
+           id="tspan75">Duis aliquam posuere augue in sodales.</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text29-1"
@@ -497,9 +511,9 @@
        y="0"><tspan
          x="981.7066"
          y="248.48673"
-         id="tspan39"><tspan
+         id="tspan78"><tspan
            style="font-weight:bold;font-family:'Playfair Display';-inkscape-font-specification:'Playfair Display Bold'"
-           id="tspan38">by Pink Floyd (1973)</tspan></tspan></text>
+           id="tspan77">by Pink Floyd (1973)</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text29-2"
@@ -510,14 +524,14 @@
        y="0"><tspan
          x="934.15613"
          y="236.56174"
-         id="tspan41"><tspan
+         id="tspan80"><tspan
            style="font-family:'Playfair Display Black';-inkscape-font-specification:'Playfair Display Black, ';text-align:center;text-anchor:middle"
-           id="tspan40">The Dark Side of </tspan></tspan><tspan
+           id="tspan79">The Dark Side of </tspan></tspan><tspan
          x="1008.8921"
          y="283.30413"
-         id="tspan43"><tspan
+         id="tspan82"><tspan
            style="font-family:'Playfair Display Black';-inkscape-font-specification:'Playfair Display Black, ';text-align:center;text-anchor:middle"
-           id="tspan42">The Moon</tspan></tspan></text>
+           id="tspan81">The Moon</tspan></tspan></text>
     <text
        xml:space="preserve"
        id="text29"
@@ -528,9 +542,9 @@
        y="0"><tspan
          x="960.36657"
          y="244.73992"
-         id="tspan45"><tspan
+         id="tspan84"><tspan
            style="font-style:italic;font-family:'Playfair Display';-inkscape-font-specification:'Playfair Display Italic';text-align:center;text-anchor:middle;fill:#ffffff"
-           id="tspan44">Daily album for June 16, 2025</tspan></tspan></text>
+           id="tspan83">Daily album for June 16, 2025</tspan></tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke-width:2.23286"
        id="rect6"
@@ -889,5 +903,39 @@
        style="fill:#001d3d;fill-opacity:1;stroke-width:2.13746"
        inkscape:label="emblem"
        d="m 2470.7688,743.31555 a 50,50 0 0 0 -50,50 50,50 0 0 0 50,50.00002 50,50 0 0 0 50,-50.00002 50,50 0 0 0 -50,-50 z m 0,10 v 2.5 a 37.500001,37.5 0 0 0 -37.5,37.5 h -2.5 a 40.000001,40 0 0 1 40,-40 z m 0,5 v 2.5 a 32.500001,32.5 0 0 0 -32.5,32.5 h -2.5 a 35.000001,35 0 0 1 35,-35 z m 0,5 v 2.5 c -15.1878,0 -27.5,12.31217 -27.5,27.5 h -2.5 c 0,-16.56854 13.4315,-30 30,-30 z m 28.2852,1.71484 -12.1211,24.95899 c 0.2198,1.07411 0.3359,2.18708 0.3359,3.32617 0,9.1127 -7.3873,16.5 -16.5,16.5 -1.1391,0 -2.2521,-0.11615 -3.3262,-0.33594 l -24.959,12.12106 12.1211,-24.95895 c -0.2198,-1.07411 -0.3359,-2.18708 -0.3359,-3.32617 0,-9.1127 7.3873,-16.5 16.5,-16.5 1.1391,0 2.2521,0.11615 3.3262,0.33594 z m -28.2852,23.28516 c -2.7614,0 -5,2.23858 -5,5 0,2.76142 2.2386,5 5,5 2.7614,0 5,-2.23858 5,-5 0,-2.76142 -2.2386,-5 -5,-5 z m 27.5,5 h 2.5 c 0,16.56854 -13.4315,30.00002 -30,30.00002 v -2.5 c 15.1878,0 27.5,-12.31219 27.5,-27.50002 z m 5,0 h 2.5 a 35.000001,35 0 0 1 -35,35.00002 v -2.5 a 32.500001,32.5 0 0 0 32.5,-32.50002 z m 5,0 h 2.5 a 40.000001,40 0 0 1 -40,40.00002 v -2.5 a 37.500001,37.5 0 0 0 37.5,-37.50002 z" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g23"
+     inkscape:label="no-cover-art"
+     transform="translate(1395.789)">
+    <rect
+       style="fill:#001d3d;fill-opacity:1;stroke-width:8.74923"
+       id="rect9"
+       width="500"
+       height="500"
+       x="-173.30118"
+       y="-46.560001"
+       transform="translate(1894.0699,46.559999)"
+       inkscape:label="bg"
+       inkscape:export-filename="../no-cover-art.png"
+       inkscape:export-xdpi="122.88"
+       inkscape:export-ydpi="122.88" />
+    <path
+       id="circle19-0"
+       style="fill:#003566;fill-opacity:1;stroke-width:3.8388"
+       inkscape:label="record"
+       d="M 1970.7688,160.20192 A 89.798073,89.798073 0 0 0 1880.9707,250 a 89.798073,89.798073 0 0 0 89.7981,89.79807 89.798073,89.798073 0 0 0 89.798,-89.79807 89.798073,89.798073 0 0 0 -89.798,-89.79808 z m 0,17.95962 v 4.4899 A 67.348554,67.348554 0 0 0 1903.4202,250 h -4.4899 a 71.838458,71.838458 0 0 1 71.8385,-71.83846 z m 0,8.97981 v 4.4899 A 58.368747,58.368747 0 0 0 1912.4,250 h -4.4899 a 62.858651,62.858651 0 0 1 62.8587,-62.85865 z m 0,8.9798 v 4.48991 c -27.2767,0 -49.389,22.11218 -49.389,49.38894 h -4.4899 c 0,-29.75646 24.1225,-53.87885 53.8789,-53.87885 z m 0,24.24548 A 29.633364,29.633364 0 0 1 2000.4021,250 29.633364,29.633364 0 0 1 1970.7688,279.63336 29.633364,29.633364 0 0 1 1941.1354,250 a 29.633364,29.633364 0 0 1 29.6334,-29.63337 z m 0,20.65356 A 8.9798073,8.9798073 0 0 0 1961.789,250 a 8.9798073,8.9798073 0 0 0 8.9798,8.9798 8.9798073,8.9798073 0 0 0 8.9798,-8.9798 8.9798073,8.9798073 0 0 0 -8.9798,-8.97981 z M 2020.1577,250 h 4.4899 c 0,29.75646 -24.1223,53.87884 -53.8788,53.87884 v -4.4899 c 27.2767,0 49.3889,-22.11219 49.3889,-49.38894 z m 8.9798,0 h 4.4899 a 62.858651,62.858651 0 0 1 -62.8586,62.85865 v -4.48991 A 58.368747,58.368747 0 0 0 2029.1375,250 Z m 8.9798,0 h 4.4899 a 71.838458,71.838458 0 0 1 -71.8384,71.83846 v -4.48991 A 67.348554,67.348554 0 0 0 2038.1173,250 Z" />
+    <text
+       xml:space="preserve"
+       transform="translate(-1393.4859,54.654918)"
+       id="text23"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:0.9;font-family:'Playfair Display';-inkscape-font-specification:'Playfair Display Italic';text-align:center;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect23);fill:#ffffff;fill-opacity:1;stroke-width:4.40315"
+       x="0"
+       y="0"
+       inkscape:label="no-cover-art"><tspan
+         x="3250.1225"
+         y="373.8961"
+         id="tspan85">No cover art available.</tspan></text>
   </g>
 </svg>

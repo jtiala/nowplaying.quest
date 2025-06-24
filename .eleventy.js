@@ -76,6 +76,8 @@ export default function (eleventyConfig) {
     return `${monthName} ${dayNum}, ${year}`;
   });
 
+  eleventyConfig.addPassthroughCopy({ "src/assets/*": "." });
+
   eleventyConfig.addWatchTarget("data/album-of-the-day");
   eleventyConfig.ignores.add("src/_*/**");
   eleventyConfig.ignores.add("src/_*");
