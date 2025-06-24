@@ -1,0 +1,35 @@
+{
+  "artist": "Elvis Presley",
+  "title": "Elvis Presley",
+  "year": "1956",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "pop",
+    "pop rock",
+    "rock",
+    "rock and roll",
+    "rockabilly"
+  ],
+  "description": "Elvis Presley is the debut studio album by American rock and roll singer Elvis Presley. It was released by RCA Victor, on March 23, 1956. The recording sessions took place on January 10 and January 11 at the RCA Victor Studios in Nashville, Tennessee, and on January 30 and January 31 at the RCA Victor studios in New York. Additional material originated from sessions at Sun Studio in Memphis, Tennessee, on July 5, August 19 and September 10, 1954, and on July 11, 1955.",
+  "coverArt": "https://coverartarchive.org/release/a511fc89-91ff-4b4e-8ecc-cfcbc39d2ad6/32954036777.jpg",
+  "mbid": "2ebeec96-6ef7-3d4d-943c-0b4a2af1d7cc",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q610926",
+    "wikipedia": "https://en.wikipedia.org/wiki/Elvis_Presley_(album)",
+    "discogs": "https://www.discogs.com/master/107325",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/elvis_presley/elvis_presley/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/album:Elvis%20Presley%20artist:Elvis%20Presley",
+    "appleMusic": "https://music.apple.com/us/search?term=Elvis%20Presley%20Elvis%20Presley",
+    "youtube": "https://www.youtube.com/results?search_query=Elvis%20Presley%20Elvis%20Presley",
+    "youtubeMusic": "https://music.youtube.com/search?q=Elvis%20Presley%20Elvis%20Presley",
+    "amazonMusic": "https://music.amazon.com/search/Elvis%20Presley%20Elvis%20Presley",
+    "tidal": "https://tidal.com/search/albums?q=Elvis%20Presley%20Elvis%20Presley",
+    "deezer": "https://www.deezer.com/search/Elvis%20Presley%20Elvis%20Presley/album"
+  }
+}
