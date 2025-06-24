@@ -24,12 +24,12 @@
     "rateyourmusic": "https://rateyourmusic.com/release/album/elvis_presley/elvis_presley/"
   },
   "streamingLinks": {
-    "spotify": "https://open.spotify.com/search/album:Elvis%20Presley%20artist:Elvis%20Presley",
-    "appleMusic": "https://music.apple.com/us/search?term=Elvis%20Presley%20Elvis%20Presley",
-    "youtube": "https://www.youtube.com/results?search_query=Elvis%20Presley%20Elvis%20Presley",
-    "youtubeMusic": "https://music.youtube.com/search?q=Elvis%20Presley%20Elvis%20Presley",
-    "amazonMusic": "https://music.amazon.com/search/Elvis%20Presley%20Elvis%20Presley",
-    "tidal": "https://tidal.com/search/albums?q=Elvis%20Presley%20Elvis%20Presley",
-    "deezer": "https://www.deezer.com/search/Elvis%20Presley%20Elvis%20Presley/album"
+    "spotify": "https://open.spotify.com/album/7GXP5OhYyPVLmcVfO9Iqin",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/671019373?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_mNgnnqNh5vUfi3XMBj63WiiHLvjjac02E",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mNgnnqNh5vUfi3XMBj63WiiHLvjjac02E",
+    "amazonMusic": "https://music.amazon.com/albums/B00DU1995I",
+    "tidal": "https://listen.tidal.com/album/21277614",
+    "deezer": "https://www.deezer.com/album/6768976"
   }
 }

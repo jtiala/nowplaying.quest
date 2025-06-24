@@ -23,8 +23,8 @@ const album = JSON.parse(fs.readFileSync(albumPath, "utf8"));
 const coverUrl = album.coverArt;
 
 if (!coverUrl) {
-  console.error("No coverArt field in album JSON");
-  process.exit(1);
+  console.error("No coverArt field in album JSON.");
+  process.exit(0);
 }
 
 const outDir = path.dirname(albumPath);
@@ -98,7 +98,7 @@ async function main() {
     process.exit(0);
   } catch (err) {
     console.error("Error downloading or optimizing cover art:", err);
-    process.exit(1);
+    process.exit(0);
   }
 }
 

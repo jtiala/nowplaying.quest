@@ -1,5 +1,8 @@
 # Now Playing Quest: TODO
 
+- [ ] **Properly handle missing data**
+  - Missing cover -> use placeholder
+  - Missing description in in rss feed
 - [ ] **Update 11ty templates styling**
   - Styled with tailwindcss 4 (with build step)
 - [ ] **Add OpenGraph & social image generation**

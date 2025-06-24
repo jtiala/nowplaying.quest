@@ -124,7 +124,7 @@ async function getWikipediaSummary(wikipediaTitle) {
   return data.extract || null;
 }
 
-async function getSpotifyAlbumLink(artist, title) {
+async function getSpotifyAlbumLink(artist, title, year) {
   const clientId = process.env.SPOTIFY_CLIENT_ID;
   const clientSecret = process.env.SPOTIFY_CLIENT_SECRET;
 
@@ -154,26 +154,42 @@ async function getSpotifyAlbumLink(artist, title) {
   const tokenData = await tokenRes.json();
   const accessToken = tokenData.access_token;
 
-  const q = encodeURIComponent(`artist:${artist} album:${title}`);
-  const searchRes = await fetch(
-    `https://api.spotify.com/v1/search?type=album&limit=1&q=${q}`,
-    {
-      headers: {
-        Authorization: `Bearer ${accessToken}`,
+  const queries = [
+    `artist:${artist} album:${title} year:${year}`,
+    `artist:${artist} album:${title}`,
+    `album:${title} year:${year}`,
+    `artist:${artist} year:${year}`,
+  ];
+
+  for (const q of queries) {
+    const searchRes = await fetch(
+      `https://api.spotify.com/v1/search?type=album&limit=1&q=${encodeURIComponent(q)}`,
+      {
+        headers: {
+          Authorization: `Bearer ${accessToken}`,
+        },
       },
-    },
-  );
+    );
 
-  if (!searchRes.ok) {
-    return null;
-  }
+    if (!searchRes.ok) {
+      continue;
+    }
 
-  const searchData = await searchRes.json();
-  const album =
-    searchData.albums && searchData.albums.items && searchData.albums.items[0];
+    const searchData = await searchRes.json();
 
-  if (album && album.id) {
-    return `https://open.spotify.com/album/${album.id}`;
+    if (
+      searchData.albums &&
+      searchData.albums.items &&
+      searchData.albums.items[0]
+    ) {
+      const album = searchData.albums.items[0];
+
+      if (album && album.id) {
+        console.log(`Found album in Spotify with query: '${q}'`);
+
+        return `https://open.spotify.com/album/${album.id}`;
+      }
+    }
   }
 
   return null;
@@ -195,6 +211,28 @@ async function getOdesliLinks(url) {
 
     const data = await res.json();
     return data.linksByPlatform || null;
+  } catch (e) {
+    return null;
+  }
+}
+
+async function getWikidataEntity(wikidataId) {
+  try {
+    const wdRes = await fetch(
+      `https://www.wikidata.org/wiki/Special:EntityData/${wikidataId}.json`,
+      {
+        headers: { "User-Agent": userAgent },
+      },
+    );
+
+    if (wdRes.ok) {
+      const wdData = await wdRes.json();
+      const entity = wdData.entities[wikidataId];
+
+      if (entity && entity.sitelinks && entity.sitelinks.enwiki) {
+        return entity;
+      }
+    }
   } catch (e) {
     return null;
   }
@@ -261,30 +299,14 @@ async function main() {
     }
 
     if (wikidata) {
-      try {
-        const wikidataId = wikidata.split("/").pop();
-        const wdRes = await fetch(
-          `https://www.wikidata.org/wiki/Special:EntityData/${wikidataId}.json`,
-          {
-            headers: { "User-Agent": userAgent },
-          },
-        );
+      const wikidataId = wikidata.split("/").pop();
+      const wikidataEntity = await getWikidataEntity(wikidataId);
 
-        if (wdRes.ok) {
-          const wdData = await wdRes.json();
-          const entity = wdData.entities[wikidataId];
-
-          if (entity && entity.sitelinks && entity.sitelinks.enwiki) {
-            wikipediaTitle = entity.sitelinks.enwiki.title;
-            wikipedia = `https://en.wikipedia.org/wiki/${entity.sitelinks.enwiki.title.replace(
-              / /g,
-              "_",
-            )}`;
-          }
-        }
-      } catch (e) {
-        // ignore errors, leave wikipedia as null
-      }
+      wikipediaTitle = wikidataEntity.sitelinks.enwiki.title;
+      wikipedia = `https://en.wikipedia.org/wiki/${wikidataEntity.sitelinks.enwiki.title.replace(
+        / /g,
+        "_",
+      )}`;
     }
   }
 
@@ -292,7 +314,7 @@ async function main() {
     description = await getWikipediaSummary(wikipediaTitle);
   }
 
-  const spotifyAlbumUrl = await getSpotifyAlbumLink(artist, title);
+  const spotifyAlbumUrl = await getSpotifyAlbumLink(artist, title, year);
 
   const odesliLinks = spotifyAlbumUrl
     ? await getOdesliLinks(spotifyAlbumUrl)
@@ -300,13 +322,11 @@ async function main() {
 
   const query = encodeURIComponent(`${artist} ${title}`);
   let streamingLinks = {
-    spotify: `https://open.spotify.com/search/album:${encodeURIComponent(
-      title,
-    )}%20artist:${encodeURIComponent(artist)}`,
+    spotify: `https://open.spotify.com/search/${query}/albums`,
     appleMusic: `https://music.apple.com/us/search?term=${query}`,
     youtube: `https://www.youtube.com/results?search_query=${query}`,
     youtubeMusic: `https://music.youtube.com/search?q=${query}`,
-    amazonMusic: `https://music.amazon.com/search/${query}`,
+    amazonMusic: `https://music.amazon.com/search/${query}/albums`,
     tidal: `https://tidal.com/search/albums?q=${query}`,
     deezer: `https://www.deezer.com/search/${query}/album`,
   };
