@@ -5,12 +5,12 @@ eleventyExcludeFromCollections: true
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>{{ site.url }}/</id>
-  <title>{{ site.title }}</title>
-  <subtitle>{{ site.description }}</subtitle>
+  <title>{{ site.title | escapeHtml }}</title>
+  <subtitle>{{ site.description | escapeHtml }}</subtitle>
   <updated>{{ albums | last | map: 'date' | join }}T00:00:00.000Z</updated>
   <link href="{{ site.url }}/feed.xml" rel="self" />
   <author>
-    <name>{{ site.title }}</name>
+    <name>{{ site.title | escapeHtml }}</name>
     <uri>{{ site.url }}</uri>
   </author>
   <category term="music" />
@@ -18,8 +18,8 @@ eleventyExcludeFromCollections: true
   {% for album in latest_albums %}
     <entry>
       <id>{{ site.url }}/{{ album.date }}/</id>
-      <title>{{ album.title }} by {{ album.artist }} ({{ album.year }}) | Daily album for {{ album.date | format_date }}</title>
-      <summary>{{ album.description }}</summary>
+      <title>{{ album.title | escapeHtml }} by {{ album.artist | escapeHtml }} ({{ album.year }}) | Daily album for {{ album.date | format_date }}</title>
+      <summary>{{ album.description | escapeHtml }}</summary>
       <updated>{{ album.date }}T00:00:00.000Z</updated>
       <link href="{{ site.url }}/{{ album.date }}/" rel="alternate" />
     </entry>

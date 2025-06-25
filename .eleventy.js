@@ -76,7 +76,21 @@ export default function (eleventyConfig) {
     return `${monthName} ${dayNum}, ${year}`;
   });
 
+  eleventyConfig.addFilter("escapeHtml", (str) => {
+    if (!str) {
+      return "";
+    }
+
+    return str
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&apos;");
+  });
+
   eleventyConfig.addPassthroughCopy({ "src/assets/*": "." });
+  eleventyConfig.addPassthroughCopy({ "src/styles/*": "." });
 
   eleventyConfig.addWatchTarget("data/album-of-the-day");
   eleventyConfig.ignores.add("src/_*/**");
