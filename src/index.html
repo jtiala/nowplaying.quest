@@ -4,11 +4,9 @@ layout: layouts/base.html
 eleventyComputed:
   title: "{{ albums | last | map: 'title' }} by {{ albums | last | map: 'artist' }} ({{ albums | last | map: 'year' }}) | Daily album for {{ albums | last | map: 'date' | join | format_date }}"
   canonical: "{{ albums | last | map: 'date' | join }}/"
+  is_index: true
 ---
 
-{% assign album = albums | last %} {% assign is_index = true %}
+{% assign album = albums | last %}
 
-{% include "partials/header.html" %}
-{% include "partials/nav.html" %}
 {% include "partials/album.html" %}
-{% include "partials/footer.html" %}

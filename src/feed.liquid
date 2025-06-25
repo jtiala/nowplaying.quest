@@ -19,7 +19,7 @@ eleventyExcludeFromCollections: true
     <entry>
       <id>{{ site.url }}/{{ album.date }}/</id>
       <title>{{ album.title | escapeHtml }} by {{ album.artist | escapeHtml }} ({{ album.year }}) | Daily album for {{ album.date | format_date }}</title>
-      <summary>{{ album.description | escapeHtml }}</summary>
+      <summary>{{ album.description | escapeHtml | default: album.title }}</summary>
       <updated>{{ album.date }}T00:00:00.000Z</updated>
       <link href="{{ site.url }}/{{ album.date }}/" rel="alternate" />
     </entry>

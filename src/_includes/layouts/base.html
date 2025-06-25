@@ -2,23 +2,51 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
       {{ title }} | {{ site.title }}
     </title>
+    <meta name="description" content="{{ site.description }}" />
+    <meta name="author" content="{{ site.title }}" />
+    <meta name="theme-color" content="#001d3d" />
+    <meta property="og:title" content="{{ title }} | {{ site.title }}" />
+    <meta property="og:description" content="{{ site.description }}" />
+    <meta property="og:type" content="website" />
+    {% if canonical and canonical != "" %}
+      <meta property="og:url" content="{{ site.url }}/{{ canonical }}" />
+    {% else %}
+      <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    {% endif %}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ title }} | {{ site.title }}" />
+    <meta name="twitter:description" content="{{ site.description }}" />
     {% if canonical and canonical != "" %}
       <link rel="canonical" href="{{ site.url }}/{{ canonical }}" />
     {% endif %}
     <link
       rel="icon"
-      href="/favicon.ico"
+      href="{{ site.url }}/favicon.ico"
       sizes="32x32">
     <link
       rel="icon"
-      href="/icon.svg"
+      href="{{ site.url }}/icon.svg"
       type="image/svg+xml">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="{{ site.url }}/apple-touch-icon.png">
+    <link rel="stylesheet" href="{{ site.url }}/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin>
   </head>
   <body>
-    {{ content }}
+    {% include "partials/header.html" %}
+    <main>
+      {{ content }}
+    </main>
+    {% if not hide_album_nav %}
+      {% include "partials/nav.html" %}
+    {% endif %}
+    {% include "partials/footer.html" %}
   </body>
 </html>

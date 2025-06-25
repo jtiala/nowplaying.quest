@@ -3,7 +3,7 @@
  * download-cover-art.js
  *
  * Downloads and optimizes the cover art for a given album JSON file.
- * Saves the image as WebP (640x640px, max 200 KB) in the same directory as the JSON file, with the same basename.
+ * Saves the image as WebP (480x480px, max 200 KB) in the same directory as the JSON file, with the same basename.
  *
  * Usage:
  *   node download-cover-art.js <path-to-album-json>
@@ -73,9 +73,9 @@ async function main() {
   try {
     const imgBuffer = await downloadImage(coverUrl);
 
-    // Optimize to 640x640px, WebP, max 200 KB
+    // Optimize to 480x480px, WebP, max 200 KB
     let webpBuffer = await sharp(imgBuffer)
-      .resize(640, 640, { fit: "inside" })
+      .resize(480, 480, { fit: "inside" })
       .webp({ quality: 80 })
       .toBuffer();
 
@@ -84,7 +84,7 @@ async function main() {
     while (webpBuffer.length > 200 * 1024 && quality > 40) {
       quality -= 10;
       webpBuffer = await sharp(imgBuffer)
-        .resize(640, 640, { fit: "inside" })
+        .resize(480, 480, { fit: "inside" })
         .webp({ quality })
         .toBuffer();
     }
