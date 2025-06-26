@@ -47,13 +47,13 @@ h1,
 h2,
 h3 {
   font-family: var(--font-heading);
+  font-weight: 600;
   color: var(--color-gold);
   margin: 0;
 }
 
 h3 {
   font-size: 1.4rem;
-  font-weight: 600;
 }
 
 a {
@@ -147,6 +147,7 @@ main {
   gap: 0.6rem;
   margin: 0;
   font-family: var(--font-heading);
+  font-weight: 600;
 }
 
 .album header h1 em {

@@ -1,8 +1,5 @@
 # Now Playing Quest: TODO
 
-- [ ] **Add OpenGraph & social image generation**
-  - Generate OpenGraph meta tags for each album page for rich social sharing.
-  - Generate a social image (OG image) for each album page (e.g., using Puppeteer, Satori, or 11ty plugin).
 - [ ] **Add analytics**
   - Integrate privacy-friendly analytics (e.g., Plausible, GoatCounter) to track site usage.
 - [ ] **Add GitHub Action for social posting**

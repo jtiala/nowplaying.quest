@@ -6,8 +6,9 @@ pagination:
   size: 1
   alias: album
 eleventyComputed:
-  title: "{{ album | map: 'title' }} by {{ album | map: 'artist' }} ({{ album | map: 'year' }}) | Daily album for {{ album | map: 'date' | join | format_date }}"
-  canonical: "{{ album | map: 'date' | join }}/"
+  title: "{{ album.title }} by {{ album.artist }} ({{ album.year }}) | Daily album for {{ album.date | join | format_date }}"
+  canonical: "{{ album.date | join }}/"
+  og_image: "{{ album.date }}/og.png"
 ---
 
 {% include "partials/album.html" %}

@@ -13,10 +13,11 @@
     "test:enrich-album": "node --test scripts/enrich-album.test.mjs",
     "test:download-cover-art": "node --test scripts/download-cover-art.test.mjs",
     "test": "npm run test:pick-album && npm run test:enrich-album && npm run test:download-cover-art",
-    "pick-album": "node scripts/pick-album.js $(date +%F)",
-    "enrich-album": "node scripts/enrich-album.js data/album-of-the-day/$(date +%F).json",
-    "download-cover-art": "node scripts/download-cover-art.js data/album-of-the-day/$(date +%F).json",
-    "new-album": "npm run pick-album && npm run enrich-album && npm run download-cover-art"
+    "pick-album": "node scripts/pick-album.js ${DATE:-$(date +%F)}",
+    "enrich-album": "node scripts/enrich-album.js data/album-of-the-day/${DATE:-$(date +%F)}.json",
+    "download-cover-art": "node scripts/download-cover-art.js data/album-of-the-day/${DATE:-$(date +%F)}.json",
+    "generate-og-image": "node scripts/generate-og-image.js data/album-of-the-day/${DATE:-$(date +%F)}.json",
+    "new-album": "npm run pick-album && npm run enrich-album && npm run download-cover-art && npm run generate-og-image"
   },
   "dependencies": {
     "@11ty/eleventy": "3.1.1",

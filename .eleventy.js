@@ -5,7 +5,7 @@ import { formatDate } from "./src/utils/date.js";
 
 const outdir = "_site";
 
-function copyCoverArt() {
+function copyImages() {
   const srcDir = "data/album-of-the-day";
 
   if (fs.existsSync(srcDir)) {
@@ -20,6 +20,14 @@ function copyCoverArt() {
           path.join(destDir, "cover-art.webp"),
         );
       }
+
+      if (file.endsWith("-og.png")) {
+        const date = path.basename(file, "-og.png");
+        const destDir = path.join(outdir, date);
+
+        fs.mkdirSync(destDir, { recursive: true });
+        fs.copyFileSync(path.join(srcDir, file), path.join(destDir, "og.png"));
+      }
     }
   }
 }
@@ -30,11 +38,11 @@ export default function (eleventyConfig) {
       fs.rmSync(outdir, { recursive: true, force: true });
     }
 
-    copyCoverArt();
+    copyImages();
   });
 
   eleventyConfig.on("beforeWatch", () => {
-    copyCoverArt();
+    copyImages();
   });
 
   eleventyConfig.addTransform("prettier", function (content) {
