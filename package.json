@@ -17,13 +17,15 @@
     "enrich-album": "node scripts/enrich-album.js data/album-of-the-day/${DATE:-$(date +%F)}.json",
     "download-cover-art": "node scripts/download-cover-art.js data/album-of-the-day/${DATE:-$(date +%F)}.json",
     "generate-og-image": "node scripts/generate-og-image.js data/album-of-the-day/${DATE:-$(date +%F)}.json",
-    "automate-album": "npm run pick-album && npm run enrich-album && npm run download-cover-art && npm run generate-og-image"
+    "automate-album": "npm run pick-album && npm run enrich-album && npm run download-cover-art && npm run generate-og-image",
+    "update-dependencies": "ncu -ui --install never"
   },
   "dependencies": {
-    "@11ty/eleventy": "3.1.1",
+    "@11ty/eleventy": "3.1.2",
     "csv-parse": "5.6.0",
     "fuzzball": "2.2.2",
-    "prettier": "3.5.3",
+    "npm-check-updates": "18.0.1",
+    "prettier": "3.6.1",
     "sharp": "0.34.2"
   }
 }
