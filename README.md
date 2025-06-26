@@ -22,12 +22,12 @@ npm run dev
 
 ### Picking the album of the day
 
-To pick a new album for a given date and update the history:
+To pick a new album for a given date and update the history.csv`:
 
 ```console
-npm run pick-album
+DATE=2025-07-01 npm run pick-album
 # or manually:
-node scripts/pick-album.js 2025-06-12
+node scripts/pick-album.js 2025-07-01
 ```
 
 This writes a new JSON file to `data/album-of-the-day/YYYY-MM-DD.json`.
@@ -41,9 +41,9 @@ Some enrichment features require API credentials. For full functionality, set th
 To enrich the picked album with metadata and streaming links:
 
 ```console
-npm run enrich-album
+DATE=2025-07-01 npm run enrich-album
 # or manually:
-node scripts/enrich-album.js data/album-of-the-day/2025-06-12.json
+node scripts/enrich-album.js data/album-of-the-day/2025-07-01.json
 ```
 
 This updates the JSON file in `data/album-of-the-day/` with additional fields (cover art, genres, streaming links, etc).
@@ -53,18 +53,34 @@ This updates the JSON file in `data/album-of-the-day/` with additional fields (c
 To download and optimize the cover art for a given album JSON:
 
 ```console
-npm run download-cover-art
+DATE=2025-07-01 npm run download-cover-art
 # or manually:
-node scripts/download-cover-art.js data/album-of-the-day/2025-06-12.json
+node scripts/download-cover-art.js data/album-of-the-day/2025-07-01.json
 ```
 
-This saves a WebP image (640x640px, max 200 KB) alongside the JSON file.
+This saves a WebP image (480x480px, max 200 KB) alongside the JSON file.
+
+### Generating Open Graph image
+
+To generate a Open Graph image for a given album JSON:
+
+```console
+DATE=2025-07-01 npm run generate-og-image
+# or manually:
+node scripts/generate-og-image.js data/album-of-the-day/2025-07-01.json
+```
+
+This saves a PNG image (600x315px) alongside the JSON file.
 
 ### Running all scripts at once
 
 ```console
-npm run new-album
+DATE=2025-07-01 npm run automate-album
 ```
+
+### Manually choosing an album
+
+To manually choose an album for a day, add it to `data/history.csv` and run the automation normally.
 
 ### Testing scripts
 

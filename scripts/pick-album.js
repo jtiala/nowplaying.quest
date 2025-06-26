@@ -141,35 +141,57 @@ function main() {
   }
 
   const history = readHistory(historyPath);
-  const usedRows = new Set(history.map((row) => row.row));
-  const unused = albums.filter((row) => !usedRows.has(row.row));
+  const existing = history.find((row) => row.date === date);
+  let album;
 
-  if (unused.length === 0) {
-    rotateHistory();
-    writeHistory(historyPath, []);
+  if (existing) {
+    const curatedLists = getCuratedListsForAlbum(
+      existing.artist,
+      existing.title,
+      existing.year,
+    );
+    album = {
+      date,
+      row: existing.row,
+      artist: existing.artist,
+      title: existing.title,
+      year: existing.year,
+      curatedLists,
+    };
 
-    console.log("All albums used. Rotated history. Starting over.");
+    console.log(`Found existing album for the date:`, album);
+  } else {
+    const usedRows = new Set(history.map((row) => row.row));
+    const unused = albums.filter((row) => !usedRows.has(row.row));
 
-    return main();
+    if (unused.length === 0) {
+      rotateHistory();
+      writeHistory(historyPath, []);
+
+      console.log("All albums used. Rotated history. Starting over.");
+
+      return main();
+    }
+
+    const picked = unused[Math.floor(Math.random() * unused.length)];
+    const curatedLists = getCuratedListsForAlbum(
+      picked.artist,
+      picked.title,
+      picked.year,
+    );
+    album = {
+      date,
+      row: picked.row,
+      artist: picked.artist,
+      title: picked.title,
+      year: picked.year,
+      curatedLists,
+    };
+
+    history.push(album);
+    writeHistory(historyPath, history);
+    console.log(`Picked album (out of ${unused.length} unused):`, album);
   }
-
-  const picked = unused[Math.floor(Math.random() * unused.length)];
-  const curatedLists = getCuratedListsForAlbum(
-    picked.artist,
-    picked.title,
-    picked.year,
-  );
-  const album = {
-    date,
-    row: picked.row,
-    artist: picked.artist,
-    title: picked.title,
-    year: picked.year,
-    curatedLists,
-  };
-
-  history.push(album);
-  writeHistory(historyPath, history);
 
   const albumPath = path.join(albumOfTheDayDir, `${date}.json`);
 
@@ -190,8 +212,6 @@ function main() {
       2,
     ),
   );
-
-  console.log(`Picked album (out of ${unused.length} unused):`, album);
 }
 
 main();

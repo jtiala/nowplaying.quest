@@ -3,7 +3,7 @@
  * generate-og-image.js
  *
  * Generates an Open Graph image for a given album JSON file.
- * Saves the image as PNG (600x315px, max TBD KB) in the same directory as the JSON file, with the same basename but with `-og` suffix.
+ * Saves the image as PNG (600x315px) in the same directory as the JSON file, with the same basename but with `-og` suffix.
  *
  * Usage:
  *   node generate-og-image.js <path-to-album-json>
