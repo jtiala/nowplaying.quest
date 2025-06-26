@@ -26,6 +26,8 @@ jobs:
           fc-cache -f -v
       - name: Install dependencies
         run: npm ci
+      - name: Manully install sharp
+        run: npm install --include=optional sharp
       - name: Set current date
         id: date
         run: |
