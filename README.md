@@ -1,4 +1,4 @@
-# ![Now Playing Quest](./branding/combination-mark-horizontal-midnight-bg.png)
+# ![Now Playing Quest](./branding/combination-mark-horizontal-bg.png)
 
 Check out today's album at [nowplaying.quest](https://nowplaying.quest)!
 
