@@ -57,3 +57,17 @@ export function splitStringToRows(str, maxRows = 3, maxLen = 24) {
 
   return rows;
 }
+
+export function normalizeString(
+  str,
+  lowercase = true,
+  stripAllSpecialChars = false,
+) {
+  const casing = lowercase ? str.toLowerCase() : str;
+  const normalized = casing.normalize("NFD");
+  const stripped = stripAllSpecialChars
+    ? normalized.replace(/[^a-z0-9\u00c0-\u024f ]+/gi, "")
+    : normalized.replace(/[^a-z0-9\u00c0-\u024f.,\-& ]+/gi, "");
+
+  return stripped.replace(/\s+/g, " ").trim();
+}

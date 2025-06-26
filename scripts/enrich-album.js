@@ -17,6 +17,8 @@
  */
 
 import fs from "fs";
+import { extract, token_sort_ratio } from "fuzzball";
+import { normalizeString } from "../src/utils/string.js";
 
 const userAgent = "nowplaying.quest/1.0 (github.com/jtiala/nowplaying.quest)";
 const albumPath = process.argv[2];
@@ -34,21 +36,35 @@ function readAlbum() {
   return JSON.parse(fs.readFileSync(albumPath, "utf8"));
 }
 
+function findBestAlbumMatch(query, candidates, threshold = 80) {
+  const choices = candidates.map((c) => c.title);
+
+  const best = extract(query, choices, {
+    scorer: token_sort_ratio,
+    returnObjects: true,
+  }).reduce((max, curr) => (curr.score > max.score ? curr : max), { score: 0 });
+
+  if (best.score >= threshold) {
+    return candidates.find((c) => c.title === best.choice);
+  }
+
+  return undefined;
+}
+
 async function searchMusicBrainz(artist, title, year) {
+  const normalizedArtist = normalizeString(artist);
+  const normalizedTitle = normalizeString(title);
+
   const queries = [
-    `releasegroup:"${title}" AND artist:"${artist}" AND firstreleasedate:${year} AND primarytype:album`,
-    `releasegroup:"${title}" AND artist:"${artist}" AND firstreleasedate:${year}`,
-    `releasegroup:"${title}" AND artist:"${artist}" AND primarytype:album`,
-    `releasegroup:"${title}" AND artist:"${artist}"`,
-    `releasegroup:"${title}" AND firstreleasedate:${year} AND primarytype:album`,
-    `releasegroup:"${title}" AND firstreleasedate:${year}`,
-    `artist:"${artist}" AND firstreleasedate:${year} AND primarytype:album`,
+    `releasegroup:"${normalizedTitle}" AND artist:"${normalizedArtist}" AND firstreleasedate:${year} AND primarytype:album`,
+    `artist:"${normalizedArtist}" AND firstreleasedate:${year} AND primarytype:album`,
+    `artist:"${normalizedArtist}" AND primarytype:album`,
   ];
 
   for (const q of queries) {
     const url = `https://musicbrainz.org/ws/2/release-group/?query=${encodeURIComponent(
       q,
-    )}&fmt=json&limit=5`;
+    )}&fmt=json&limit=10`;
     const res = await fetch(url, {
       headers: {
         "User-Agent": userAgent,
@@ -65,25 +81,44 @@ async function searchMusicBrainz(artist, title, year) {
       continue;
     }
 
-    console.log(`Found album in MusicBrainz with query: '${q}'`);
+    const exact = data["release-groups"].find((r) => {
+      if (
+        !r["artist-credit"] ||
+        r["artist-credit"].length === 0 ||
+        !r.title ||
+        !r["first-release-date"]
+      ) {
+        return false;
+      }
 
-    // Prefer exact artist/title/year match
-    let best = data["release-groups"].find(
-      (r) =>
-        r["artist-credit"] &&
-        r["artist-credit"][0].name.toLowerCase() === artist.toLowerCase() &&
-        r.title &&
-        r.title.toLowerCase() === title.toLowerCase() &&
-        r["first-release-date"] &&
-        r["first-release-date"].startsWith(year.toString()),
-    );
+      const normalizedArtistResult = normalizeString(
+        r["artist-credit"][0].name,
+      );
+      const normalizedTitleResult = normalizeString(r.title);
 
-    if (best) {
-      return best;
+      return (
+        normalizedArtistResult === normalizedArtist &&
+        normalizedTitleResult === normalizedTitle &&
+        r["first-release-date"].startsWith(year.toString())
+      );
+    });
+
+    if (exact) {
+      console.log("Found exact result in MusicBrainz");
+
+      return exact;
     }
 
-    return data["release-groups"][0];
+    const closest = findBestAlbumMatch(normalizedTitle, data["release-groups"]);
+
+    if (closest) {
+      console.log("Found close match in MusicBrainz");
+
+      return closest;
+    }
   }
+
+  console.log("Couldn't find album in MusicBrainz.");
 
   return null;
 }
@@ -169,11 +204,13 @@ async function getSpotifyAlbumLink(artist, title, year) {
   const tokenData = await tokenRes.json();
   const accessToken = tokenData.access_token;
 
+  const normalizedArtist = normalizeString(artist);
+  const normalizedTitle = normalizeString(title);
   const queries = [
-    `artist:${artist} album:${title} year:${year}`,
-    `artist:${artist} album:${title}`,
-    `album:${title} year:${year}`,
-    `artist:${artist} year:${year}`,
+    `artist:${normalizedArtist} album:${normalizedTitle} year:${year}`,
+    `artist:${normalizedArtist} album:${normalizedTitle}`,
+    `album:${normalizedTitle} year:${year}`,
+    `artist:${normalizedArtist} year:${year}`,
   ];
 
   for (const q of queries) {
@@ -335,15 +372,17 @@ async function main() {
     ? await getOdesliLinks(spotifyAlbumUrl)
     : null;
 
-  const query = encodeURIComponent(`${artist} ${title}`);
+  const query = encodeURIComponent(
+    normalizeString(`${artist} ${title}`, false, true),
+  );
   let streamingLinks = {
-    spotify: `https://open.spotify.com/search/${query}/albums`,
+    spotify: `https://open.spotify.com/search/${query}`,
     appleMusic: `https://music.apple.com/us/search?term=${query}`,
     youtube: `https://www.youtube.com/results?search_query=${query}`,
     youtubeMusic: `https://music.youtube.com/search?q=${query}`,
-    amazonMusic: `https://music.amazon.com/search/${query}/albums`,
-    tidal: `https://tidal.com/search/albums?q=${query}`,
-    deezer: `https://www.deezer.com/search/${query}/album`,
+    amazonMusic: `https://music.amazon.com/search/${query}`,
+    tidal: `https://tidal.com/search?q=${query}`,
+    deezer: `https://www.deezer.com/search/${query}`,
   };
 
   if (odesliLinks) {
