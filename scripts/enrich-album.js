@@ -35,42 +35,57 @@ function readAlbum() {
 }
 
 async function searchMusicBrainz(artist, title, year) {
-  const query = `releasegroup:"${title}" AND artist:"${artist}" AND primarytype:album AND firstreleasedate:${year}`;
-  const url = `https://musicbrainz.org/ws/2/release-group/?query=${encodeURIComponent(
-    query,
-  )}&fmt=json&limit=5`;
-  const res = await fetch(url, {
-    headers: {
-      "User-Agent": userAgent,
-    },
-  });
+  const queries = [
+    `releasegroup:"${title}" AND artist:"${artist}" AND firstreleasedate:${year} AND primarytype:album`,
+    `releasegroup:"${title}" AND artist:"${artist}" AND firstreleasedate:${year}`,
+    `releasegroup:"${title}" AND artist:"${artist}" AND primarytype:album`,
+    `releasegroup:"${title}" AND artist:"${artist}"`,
+    `releasegroup:"${title}" AND firstreleasedate:${year} AND primarytype:album`,
+    `releasegroup:"${title}" AND firstreleasedate:${year}`,
+    `artist:"${artist}" AND firstreleasedate:${year} AND primarytype:album`,
+  ];
 
-  if (!res.ok) {
-    return null;
+  for (const q of queries) {
+    const url = `https://musicbrainz.org/ws/2/release-group/?query=${encodeURIComponent(
+      q,
+    )}&fmt=json&limit=5`;
+    const res = await fetch(url, {
+      headers: {
+        "User-Agent": userAgent,
+      },
+    });
+
+    if (!res.ok) {
+      continue;
+    }
+
+    const data = await res.json();
+
+    if (!data["release-groups"] || !data["release-groups"].length) {
+      continue;
+    }
+
+    console.log(`Found album in MusicBrainz with query: '${q}'`);
+
+    // Prefer exact artist/title/year match
+    let best = data["release-groups"].find(
+      (r) =>
+        r["artist-credit"] &&
+        r["artist-credit"][0].name.toLowerCase() === artist.toLowerCase() &&
+        r.title &&
+        r.title.toLowerCase() === title.toLowerCase() &&
+        r["first-release-date"] &&
+        r["first-release-date"].startsWith(year.toString()),
+    );
+
+    if (best) {
+      return best;
+    }
+
+    return data["release-groups"][0];
   }
 
-  const data = await res.json();
-
-  if (!data["release-groups"] || !data["release-groups"].length) {
-    return null;
-  }
-
-  // Prefer exact artist/title/year match
-  let best = data["release-groups"].find(
-    (r) =>
-      r["artist-credit"] &&
-      r["artist-credit"][0].name.toLowerCase() === artist.toLowerCase() &&
-      r.title &&
-      r.title.toLowerCase() === title.toLowerCase() &&
-      r["first-release-date"] &&
-      r["first-release-date"].startsWith(year.toString()),
-  );
-
-  if (!best) {
-    best = data["release-groups"][0];
-  }
-
-  return best;
+  return null;
 }
 
 async function getMusicBrainzDetails(mbid) {
