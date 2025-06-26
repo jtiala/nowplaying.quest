@@ -174,7 +174,7 @@ async function getWikipediaSummary(wikipediaTitle) {
   return data.extract || null;
 }
 
-async function getSpotifyAlbumLink(artist, title, year) {
+async function getSpotifyAccessToken() {
   const clientId = process.env.SPOTIFY_CLIENT_ID;
   const clientSecret = process.env.SPOTIFY_CLIENT_SECRET;
 
@@ -202,7 +202,12 @@ async function getSpotifyAlbumLink(artist, title, year) {
   }
 
   const tokenData = await tokenRes.json();
-  const accessToken = tokenData.access_token;
+
+  return tokenData.access_token;
+}
+
+async function getSpotifyAlbumLink(artist, title, year) {
+  const accessToken = await getSpotifyAccessToken();
 
   const normalizedArtist = normalizeString(artist);
   const normalizedTitle = normalizeString(title);
