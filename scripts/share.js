@@ -7,6 +7,7 @@
  * Usage:
  *   node share.js <path-to-album-json>
  */
+import { AtpAgent, RichText } from "@atproto/api";
 import fs from "fs";
 import path from "path";
 import { formatDate } from "../src/utils/date.js";
@@ -76,9 +77,54 @@ async function shareToInstagram(imagePath, caption) {
   );
 }
 
-async function shareToBluesky(text) {
-  // TODO: Implement Bluesky sharing
-  console.log(`[Bluesky] Would post: ${text}`);
+async function shareToBluesky(caption, url, hashtags) {
+  const handle = process.env.BLUESKY_HANDLE;
+  const appPassword = process.env.BLUESKY_APP_PASSWORD;
+
+  if (!handle || !appPassword) {
+    console.log("[Bluesky] Credentials not set, skipping post.");
+    return;
+  }
+
+  const agent = new AtpAgent({ service: "https://bsky.social" });
+
+  try {
+    await agent.login({ identifier: handle, password: appPassword });
+
+    let tags = [...hashtags];
+    let textWithoutTags = `${caption}\n\nListen at ${url}`.trim();
+    let text = `${textWithoutTags}\n\n${tags.join(" ")}`.trim();
+    let rt = new RichText({ text });
+    await rt.detectFacets(agent);
+
+    // Bluesky post limit is 300 graphemes
+    while (rt.graphemeLength > 300 && tags.length > 0) {
+      tags.pop();
+      text =
+        `${textWithoutTags}${tags.length ? `\n\n${tags.join(" ")}` : ""}`.trim();
+      rt = new RichText({ text });
+      await rt.detectFacets(agent);
+    }
+
+    if (rt.graphemeLength > 300) {
+      let truncated = rt.text.slice(0, 300);
+
+      while ([...truncated].length > 300) {
+        truncated = truncated.slice(0, -1);
+      }
+
+      text = truncated;
+      rt = new RichText({ text });
+
+      await rt.detectFacets(agent);
+    }
+
+    await agent.post({ text, facets: rt.facets, langs: ["en-US"] });
+
+    console.log("[Bluesky] Posted:", text);
+  } catch (err) {
+    console.error("[Bluesky] Failed to post:", err);
+  }
 }
 
 async function shareToReddit(title, text) {
@@ -92,7 +138,7 @@ async function getSpotifyAccessToken() {
 
   if (!clientId || !clientSecret) {
     console.warn(
-      "Spotify credentials not set, skipping direct Spotify lookup.",
+      "[Spotify] Credentials not set, skipping direct Spotify lookup.",
     );
 
     return null;
@@ -124,7 +170,7 @@ async function getSpotifyUserAccessTokenWithRefresh() {
   const refreshToken = process.env.SPOTIFY_REFRESH_TOKEN;
 
   if (!clientId || !clientSecret || !refreshToken) {
-    throw new Error("Spotify client credentials or refresh token missing");
+    throw new Error("[Spotify] Client credentials or refresh token missing");
   }
 
   const res = await fetch("https://accounts.spotify.com/api/token", {
@@ -142,7 +188,7 @@ async function getSpotifyUserAccessTokenWithRefresh() {
   });
 
   if (!res.ok) {
-    throw new Error("Failed to refresh Spotify user access token");
+    throw new Error("[Spotify] Failed to refresh user access token");
   }
 
   const data = await res.json();
@@ -160,7 +206,7 @@ async function addMostPopularSongToSpotifyPlaylist(album) {
   const playlistId = process.env.SPOTIFY_PLAYLIST_ID;
 
   if (!playlistId) {
-    console.log("Spotify playlist ID missing, skipping playlist add.");
+    console.log("[Spotify] Playlist ID missing, skipping playlist add.");
     return;
   }
 
@@ -169,14 +215,14 @@ async function addMostPopularSongToSpotifyPlaylist(album) {
     !album.streamingLinks.spotify ||
     album.streamingLinks.spotify.includes("/search/")
   ) {
-    console.log("No direct Spotify album link, skipping playlist add.");
+    console.log("[Spotify] No direct album link, skipping playlist add.");
     return;
   }
 
   const albumId = await getSpotifyAlbumId(album.streamingLinks.spotify);
 
   if (!albumId) {
-    console.log("Could not extract Spotify album ID.");
+    console.log("[Spotify] Could not extract album ID.");
     return;
   }
 
@@ -189,7 +235,7 @@ async function addMostPopularSongToSpotifyPlaylist(album) {
   );
 
   if (!tracksRes.ok) {
-    console.log("Failed to fetch album tracks from Spotify.");
+    console.log("[Spotify] Failed to fetch album tracks.");
     return;
   }
 
@@ -203,7 +249,7 @@ async function addMostPopularSongToSpotifyPlaylist(album) {
   );
 
   if (!tracksInfoRes.ok) {
-    console.log("Failed to fetch track info from Spotify.");
+    console.log("[Spotify] Failed to fetch track info.");
     return;
   }
 
@@ -214,7 +260,7 @@ async function addMostPopularSongToSpotifyPlaylist(album) {
   );
 
   if (!mostPopular) {
-    console.log("No tracks found to add to playlist.");
+    console.log("[Spotify] No tracks found to add to playlist.");
     return;
   }
 
@@ -222,7 +268,7 @@ async function addMostPopularSongToSpotifyPlaylist(album) {
   try {
     userToken = await getSpotifyUserAccessTokenWithRefresh();
   } catch (err) {
-    console.log("Failed to get user access token:", err);
+    console.log("[Spotify] Failed to get user access token:", err);
     return;
   }
 
@@ -239,14 +285,72 @@ async function addMostPopularSongToSpotifyPlaylist(album) {
   );
 
   if (addRes.ok) {
-    console.log(`Added most popular track to playlist: ${mostPopular.name}`);
+    console.log(
+      `[Spotify] Added most popular track to playlist: ${mostPopular.name}`,
+    );
   } else {
     console.log(
-      "Failed to add track to playlist:",
+      "[Spotify] Failed to add track to playlist:",
       addRes.status,
       addRes.statusText,
     );
   }
+}
+
+function toHashtag(str) {
+  if (!str) {
+    return null;
+  }
+
+  // Replace dashes with spaces
+  str = str.replace(/-/g, " ");
+  // Replace & the with 'AndThe'
+  str = str.replace(/& (the)\b/gi, "AndThe");
+  // Remove all non-alphanumeric (except spaces and accented letters)
+  str = str.replace(/[^\p{L}\p{N} ]+/gu, "");
+  // Remove extra spaces
+  str = str.replace(/\s+/g, " ").trim();
+  // Split words, capitalize first letter, join
+  str = str
+    .split(" ")
+    .map((w) => w.charAt(0).toLocaleUpperCase() + w.slice(1))
+    .join("");
+
+  return str ? `#${str}` : null;
+}
+
+function generateGeneralHashtags(platform) {
+  const hashtags = [
+    "#NowPlayingQuest",
+    "#NowPlaying",
+    "#AlbumOfTheDay",
+    "#Music",
+  ];
+
+  if (platform === "bluesky") {
+    hashtags.push("#MusicSky");
+  }
+
+  return hashtags;
+}
+
+function generateAlbumHashtags(album) {
+  const hashtags = [];
+
+  if (album.genres && Array.isArray(album.genres)) {
+    for (const genre of album.genres) {
+      const tag = toHashtag(genre);
+
+      if (tag) {
+        hashtags.push(tag);
+      }
+    }
+  }
+
+  hashtags.push(toHashtag(album.artist));
+  hashtags.push(toHashtag(album.title));
+
+  return [...new Set(hashtags.filter(Boolean))];
 }
 
 async function main() {
@@ -266,11 +370,15 @@ async function main() {
     const baseUrl = process.env.SITE_URL;
     const albumUrl = `${baseUrl.replace(/\/$/, "")}/${date}/`;
     const dateStr = formatDate(date);
-    const caption = `${album.title} by ${album.artist} (${album.year}) | Daily album for ${dateStr}`;
+    const caption = `${album.title} by ${album.artist} (${album.year}) is the daily album for ${dateStr}.`;
+    const albumHashtags = generateAlbumHashtags(album);
 
-    await shareToInstagram(instagramImage, `${caption}\n\n${albumUrl}`);
-    await shareToBluesky(`${caption}\n\n${albumUrl}`);
-    await shareToReddit(caption, albumUrl);
+    // await shareToInstagram(instagramImage, `${caption}\n\n${albumUrl}`);
+    await shareToBluesky(caption, albumUrl, [
+      ...generateGeneralHashtags("bluesky"),
+      ...albumHashtags,
+    ]);
+    // await shareToReddit(caption, albumUrl);
     await addMostPopularSongToSpotifyPlaylist(album);
 
     process.exit(0);
