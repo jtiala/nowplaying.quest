@@ -57,7 +57,7 @@ async function ensureAlbumPageIsLive(date) {
   return false;
 }
 
-async function getInstagramImagePath(date) {
+async function getCoverArtPath(date) {
   const dataDir = path.resolve(__dirname, "../data/album-of-the-day");
   const brandingDir = path.resolve(__dirname, "../branding");
   const coverArt = path.join(dataDir, `${date}.webp`);
@@ -77,7 +77,7 @@ async function shareToInstagram(imagePath, caption) {
   );
 }
 
-async function shareToBluesky(caption, url, hashtags) {
+async function shareToBluesky(caption, url, hashtags, imagePath) {
   const handle = process.env.BLUESKY_HANDLE;
   const appPassword = process.env.BLUESKY_APP_PASSWORD;
 
@@ -119,7 +119,41 @@ async function shareToBluesky(caption, url, hashtags) {
       await rt.detectFacets(agent);
     }
 
-    await agent.post({ text, facets: rt.facets, langs: ["en-US"] });
+    let embed = undefined;
+
+    if (imagePath) {
+      try {
+        const imgBuffer = fs.readFileSync(imagePath);
+        const mimeType = imagePath.endsWith(".webp")
+          ? "image/webp"
+          : "image/png";
+
+        const blobRes = await agent.uploadBlob(imgBuffer, {
+          encoding: mimeType,
+        });
+
+        if (blobRes && blobRes.data && blobRes.data.blob) {
+          embed = {
+            $type: "app.bsky.embed.images",
+            images: [
+              {
+                image: blobRes.data.blob,
+                alt: "Album cover art",
+              },
+            ],
+          };
+        }
+      } catch (err) {
+        console.error("[Bluesky] Failed to upload image:", err);
+      }
+    }
+
+    await agent.post({
+      text,
+      facets: rt.facets,
+      langs: ["en-US"],
+      ...(embed ? { embed } : {}),
+    });
 
     console.log("[Bluesky] Posted:", text);
   } catch (err) {
@@ -361,11 +395,7 @@ async function main() {
       throw new Error("Album page not live.");
     }
 
-    const instagramImage = await getInstagramImagePath(date);
-
-    if (!instagramImage) {
-      throw new Error(`Instagram image not found for date: ${date}`);
-    }
+    const coverArtPath = await getCoverArtPath(date);
 
     const baseUrl = process.env.SITE_URL;
     const albumUrl = `${baseUrl.replace(/\/$/, "")}/${date}/`;
@@ -373,11 +403,13 @@ async function main() {
     const caption = `${album.title} by ${album.artist} (${album.year}) is the daily album for ${dateStr}.`;
     const albumHashtags = generateAlbumHashtags(album);
 
-    // await shareToInstagram(instagramImage, `${caption}\n\n${albumUrl}`);
-    await shareToBluesky(caption, albumUrl, [
-      ...generateGeneralHashtags("bluesky"),
-      ...albumHashtags,
-    ]);
+    // await shareToInstagram(coverArtPath, `${caption}\n\n${albumUrl}`);
+    await shareToBluesky(
+      caption,
+      albumUrl,
+      [...generateGeneralHashtags("bluesky"), ...albumHashtags],
+      coverArtPath,
+    );
     // await shareToReddit(caption, albumUrl);
     await addMostPopularSongToSpotifyPlaylist(album);
 
