@@ -1,0 +1,36 @@
+{
+  "artist": "Lou Reed",
+  "title": "Berlin",
+  "year": "1973",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "art rock",
+    "glam rock",
+    "hard rock",
+    "proto-punk",
+    "rock",
+    "rock and roll"
+  ],
+  "description": "Berlin is the third solo studio album by American rock musician Lou Reed, released in October 1973 by RCA Records. A concept album, Berlin tells the story of a couple's struggle with drug addiction and abuse. Initially, critical reception was mixed but appraisals of the album have warmed over the years: in 1973 Rolling Stone declared the album \"a disaster\", but by 2012 the album was ranked No. 344 on its list of the 500 greatest albums of all time.",
+  "coverArt": "https://coverartarchive.org/release/448ae14a-1053-341d-9639-94188a236caf/3592779547.jpg",
+  "mbid": "c6190069-644f-3b41-92aa-1e771e451036",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q793582",
+    "wikipedia": "https://en.wikipedia.org/wiki/Berlin_(Lou_Reed_album)",
+    "discogs": "https://www.discogs.com/master/44291",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/lou_reed/berlin/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/4iaDgkP0M6ahEHrBynAFei",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/257563947?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_nh2zAf1oW5gNs1XUMGNp0AWW1xRk1mmLI",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nh2zAf1oW5gNs1XUMGNp0AWW1xRk1mmLI",
+    "amazonMusic": "https://music.amazon.com/albums/B00138H28Q",
+    "tidal": "https://listen.tidal.com/album/494530",
+    "deezer": "https://www.deezer.com/album/6927481"
+  }
+}
