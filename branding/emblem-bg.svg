@@ -1,7 +1,7 @@
 <svg viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
   <rect id="background" fill="#001d3d" width="150" height="150" />
   <g id="emblem">
-    <circle id="emblem-background" fill="transparent" cx="75" cy="75" r="45" />
+    <circle id="emblem-background" fill="none" cx="75" cy="75" r="45" />
     <path
       id="emblem-shape"
       fill="#ffd60a"
