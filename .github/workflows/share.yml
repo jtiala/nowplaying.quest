@@ -18,6 +18,12 @@ jobs:
       BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
       BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
       SITE_URL: ${{ vars.SITE_URL }}
+      REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+      REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+      REDDIT_USERNAME: ${{ secrets.REDDIT_USERNAME }}
+      REDDIT_PASSWORD: ${{ secrets.REDDIT_PASSWORD }}
+      REDDIT_SUBREDDIT: ${{ secrets.REDDIT_SUBREDDIT }}
+      REDDIT_FLAIR_ID: ${{ secrets.REDDIT_FLAIR_ID }}
     steps:
       - uses: actions/checkout@v4
         with:
