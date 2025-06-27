@@ -161,9 +161,83 @@ async function shareToBluesky(caption, url, hashtags, imagePath) {
   }
 }
 
-async function shareToReddit(title, text) {
-  // TODO: Implement Reddit sharing
-  console.log(`[Reddit] Would post: ${title}\n${text}`);
+async function shareToReddit(title, url) {
+  if (url.includes("localhost")) {
+    console.log("[Reddit] URL is localhost, skipping post.");
+    return;
+  }
+
+  const {
+    REDDIT_CLIENT_ID: clientId,
+    REDDIT_CLIENT_SECRET: clientSecret,
+    REDDIT_USERNAME: username,
+    REDDIT_PASSWORD: password,
+    REDDIT_SUBREDDIT: subreddit,
+    REDDIT_FLAIR_ID: flairId,
+    REDDIT_USER_AGENT:
+      userAgent = "nowplaying.quest:v1.0 (by /u/NowPlayingQuest)",
+  } = process.env;
+
+  if (!clientId || !clientSecret || !username || !password || !subreddit) {
+    console.log("[Reddit] Credentials or subreddit not set, skipping post.");
+
+    return;
+  }
+
+  const auth = Buffer.from(`${clientId}:${clientSecret}`).toString("base64");
+  const tokenRes = await fetch("https://www.reddit.com/api/v1/access_token", {
+    method: "POST",
+    headers: {
+      Authorization: `Basic ${auth}`,
+      "Content-Type": "application/x-www-form-urlencoded",
+      "User-Agent": userAgent,
+    },
+    body: new URLSearchParams({
+      grant_type: "password",
+      username,
+      password,
+    }),
+  });
+
+  if (!tokenRes.ok) {
+    console.error(
+      "[Reddit] Failed to get access token:",
+      await tokenRes.text(),
+    );
+
+    return;
+  }
+  const tokenData = await tokenRes.json();
+  const accessToken = tokenData.access_token;
+
+  const postRes = await fetch("https://oauth.reddit.com/api/submit", {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${accessToken}`,
+      "Content-Type": "application/x-www-form-urlencoded",
+      "User-Agent": userAgent,
+    },
+    body: new URLSearchParams({
+      sr: subreddit,
+      kind: "link",
+      title,
+      url,
+      flair_id: flairId,
+      resubmit: "true",
+      api_type: "json",
+    }),
+  });
+
+  const postData = await postRes.json();
+
+  if (!postRes.ok || postData.json?.errors?.length) {
+    console.error("[Reddit] Failed to submit post:", postData);
+
+    return;
+  }
+
+  const postUrl = postData.json.data.url;
+  console.log(`[Reddit] Posted: ${postUrl}`);
 }
 
 async function getSpotifyAccessToken() {
@@ -410,7 +484,7 @@ async function main() {
       [...generateGeneralHashtags("bluesky"), ...albumHashtags],
       coverArtPath,
     );
-    // await shareToReddit(caption, albumUrl);
+    await shareToReddit(caption, albumUrl);
     await addMostPopularSongToSpotifyPlaylist(album);
 
     process.exit(0);
