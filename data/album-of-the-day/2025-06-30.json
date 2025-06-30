@@ -5,15 +5,25 @@
   "curatedLists": [
     "1001-albums-you-must-hear-before-you-die-all-editions"
   ],
-  "genres": [],
-  "description": null,
-  "coverArt": null,
-  "mbid": null,
+  "genres": [
+    "art rock",
+    "classic rock",
+    "classical",
+    "opera",
+    "orchestral",
+    "progressive rock",
+    "rock",
+    "symphonic prog",
+    "symphonic rock"
+  ],
+  "description": "Pictures at an Exhibition is a live album by English progressive rock band Emerson, Lake & Palmer, released in November 1971 on Island Records. It features the group's rock adaptation of Pictures at an Exhibition, the piano suite by Modest Mussorgsky, performed at Newcastle City Hall on 26 March 1971.",
+  "coverArt": "https://coverartarchive.org/release/de0e0375-0860-3c49-b57a-5df6e717cf18/28794585487.jpg",
+  "mbid": "b1fff2ac-34eb-358b-9bf5-196b2a5fc288",
   "externalLinks": {
-    "wikidata": null,
-    "wikipedia": null,
-    "discogs": null,
-    "rateyourmusic": null
+    "wikidata": "https://www.wikidata.org/wiki/Q769424",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pictures_at_an_Exhibition_(Emerson,_Lake_&_Palmer_album)",
+    "discogs": "https://www.discogs.com/master/11839",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/emerson-lake-and-palmer/pictures-at-an-exhibition/"
   },
   "streamingLinks": {
     "spotify": "https://open.spotify.com/album/1qQAk408AWd5SC8eJOo01I",
