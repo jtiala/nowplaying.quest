@@ -173,12 +173,67 @@ function main() {
       return main();
     }
 
-    const picked = unused[Math.floor(Math.random() * unused.length)];
-    const curatedLists = getCuratedListsForAlbum(
-      picked.artist,
-      picked.title,
-      picked.year,
-    );
+    let picked, curatedLists;
+    let last = history.length > 0 ? history[history.length - 1] : null;
+    let lastCurated = last
+      ? getCuratedListsForAlbum(last.artist, last.title, last.year)
+      : [];
+    let rerollCount = 0;
+    let candidates = unused.slice();
+    let lastRerollReason = null;
+
+    for (let attempt = 0; attempt < 10; attempt++) {
+      picked = candidates[Math.floor(Math.random() * candidates.length)];
+      curatedLists = getCuratedListsForAlbum(
+        picked.artist,
+        picked.title,
+        picked.year,
+      );
+
+      let rerollReason = null;
+
+      if (last) {
+        if (picked.artist === last.artist) {
+          rerollReason = `same artist: ${picked.artist}`;
+        } else if (picked.year === last.year) {
+          rerollReason = `same year: ${picked.year}`;
+        } else if (
+          curatedLists.length === 1 &&
+          lastCurated.length === 1 &&
+          curatedLists[0] === lastCurated[0]
+        ) {
+          rerollReason = `same curated list: ${curatedLists[0]}`;
+        }
+      }
+
+      if (rerollReason && attempt < 9) {
+        rerollCount++;
+        lastRerollReason = rerollReason;
+
+        console.log(
+          `Rerolling (attempt ${rerollCount}): ${rerollReason} for album:`,
+          picked,
+        );
+
+        // Exclude this pick from future attempts
+        candidates = candidates.filter((a) => a !== picked);
+
+        if (candidates.length === 0) {
+          break;
+        }
+      } else {
+        lastRerollReason = rerollReason;
+        break;
+      }
+    }
+
+    // After 10 attempts, pick the last tried album regardless of reroll reason
+    if (lastRerollReason) {
+      console.warn(
+        "No valid album found after 10 attempts, picking last tried album.",
+      );
+    }
+
     album = {
       date,
       row: picked.row,

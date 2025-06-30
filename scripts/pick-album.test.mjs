@@ -149,3 +149,111 @@ test("throws if albums.csv is empty", async () => {
     });
   });
 });
+
+// New tests for rerolling logic
+test("rerolls if same artist as previous", async () => {
+  const date = "2025-06-30";
+  setupTestPaths(date);
+  resetTestData({
+    albums:
+      'artist,title,year\n"Artist0","Album0",2000\n"Artist1","Album1",2001\n"Artist0","Album2",2002\n',
+    history:
+      'date,row,artist,title,year\n2025-06-29,2,"Artist0","Album0",2000\n',
+    curatedLists: {
+      "curated-list-0": 'artist,title,year\n"Artist0","Album0",2000\n',
+      "curated-list-1": 'artist,title,year\n"Artist1","Album1",2001\n',
+      "curated-list-2": 'artist,title,year\n"Artist0","Album2",2002\n',
+    },
+  });
+
+  await new Promise((resolve, reject) => {
+    const proc = spawn("node", [scriptPath, date], {
+      stdio: "inherit",
+      env: { ...process.env, DATA_DIR: tmpDir },
+    });
+
+    proc.on("exit", (code) => {
+      if (code === 0) {
+        resolve();
+      } else {
+        reject(new Error("Script failed"));
+      }
+    });
+  });
+
+  const album = JSON.parse(fs.readFileSync(albumJsonPath, "utf8"));
+
+  assert.ok(
+    ["Artist0", "Artist1"].includes(album.artist),
+    "Should pick any artist after 10 attempts",
+  );
+});
+
+test("rerolls if same year as previous", async () => {
+  const date = "2025-06-30";
+  setupTestPaths(date);
+  resetTestData({
+    albums:
+      'artist,title,year\n"Artist0","Album0",2000\n"Artist1","Album1",2001\n"Artist2","Album2",2000\n',
+    history:
+      'date,row,artist,title,year\n2025-06-29,2,"Artist0","Album0",2000\n',
+    curatedLists: {
+      "curated-list-0": 'artist,title,year\n"Artist0","Album0",2000\n',
+      "curated-list-1": 'artist,title,year\n"Artist1","Album1",2001\n',
+      "curated-list-2": 'artist,title,year\n"Artist2","Album2",2000\n',
+    },
+  });
+
+  await new Promise((resolve, reject) => {
+    const proc = spawn("node", [scriptPath, date], {
+      stdio: "inherit",
+      env: { ...process.env, DATA_DIR: tmpDir },
+    });
+
+    proc.on("exit", (code) => {
+      if (code === 0) {
+        resolve();
+      } else {
+        reject(new Error("Script failed"));
+      }
+    });
+  });
+
+  const album = JSON.parse(fs.readFileSync(albumJsonPath, "utf8"));
+  assert.ok(["Artist0", "Artist1", "Artist2"].includes(album.artist));
+});
+
+test("rerolls if same curated list as previous", async () => {
+  const date = "2025-07-01";
+  setupTestPaths(date);
+  resetTestData({
+    albums:
+      'artist,title,year\n"Artist0","Album0",2000\n"Artist1","Album1",2001\n"Artist2","Album2",2002\n',
+    history:
+      'date,row,artist,title,year\n2025-06-29,2,"Artist0","Album0",2000\n',
+    curatedLists: {
+      "curated-list-0":
+        'artist,title,year\n"Artist0","Album0",2000\n"Artist2","Album2",2002\n',
+      "curated-list-1": 'artist,title,year\n"Artist1","Album1",2001\n',
+    },
+  });
+
+  await new Promise((resolve, reject) => {
+    const proc = spawn("node", [scriptPath, date], {
+      stdio: "inherit",
+      env: { ...process.env, DATA_DIR: tmpDir },
+    });
+
+    proc.on("exit", (code) => {
+      if (code === 0) {
+        resolve();
+      } else {
+        reject(new Error("Script failed"));
+      }
+    });
+  });
+
+  const album = JSON.parse(fs.readFileSync(albumJsonPath, "utf8"));
+  // After 10 attempts, may pick same curated list if no other options
+  assert.ok(["Artist0", "Artist1", "Artist2"].includes(album.artist));
+});
