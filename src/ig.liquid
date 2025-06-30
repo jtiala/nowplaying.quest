@@ -1,5 +1,5 @@
 ---
-permalink: /feed.xml
+permalink: share/ig.xml
 eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
@@ -8,7 +8,7 @@ eleventyExcludeFromCollections: true
   <title>{{ site.title | escape_html }}</title>
   <subtitle>{{ site.description | escape_html }}</subtitle>
   <updated>{{ albums | last | map: 'date' | join }}T00:00:00.000Z</updated>
-  <link href="{{ site.url }}/feed.xml" rel="self" />
+  <link href="{{ site.url }}/ig.xml" rel="self" />
   <author>
     <name>{{ site.title | escape_html }}</name>
     <uri>{{ site.url }}</uri>
@@ -16,12 +16,18 @@ eleventyExcludeFromCollections: true
   <category term="music" />
   {% assign latest_albums = albums | reverse | slice: 0, 10 %}
   {% for album in latest_albums %}
+    {% assign formatted_date = album.date | format_date %}
+    {% assign album_url = site.url | append: '/' | append: album.date | append: '/' %}
     <entry>
       <id>{{ site.url }}/{{ album.date }}/</id>
-      <title>{{ album.title | escape_html }} by {{ album.artist | escape_html }} ({{ album.year }}) | Daily album for {{ album.date | format_date }}</title>
-      <summary>{{ album.description | escape_html | default: album.title }}</summary>
+      <title>{{ album | generate_caption: formatted_date, album_url, 'instagram' | escape_html }}</title>
+      {% if album.coverArt %}
+        <summary>{{ site.url }}/{{ album.date }}/cover-art.webp</summary>
+      {% else %}
+        <summary>{{ site.url }}/default-cover-art.webp</summary>
+      {% endif %}
       <updated>{{ album.date }}T00:00:00.000Z</updated>
-      <link href="{{ site.url }}/{{ album.date }}/" rel="alternate" />
+      <link href="{{ album_url }}" rel="alternate" />
     </entry>
   {% endfor %}
 </feed>

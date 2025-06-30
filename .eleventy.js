@@ -1,7 +1,13 @@
 import fs from "fs";
 import path from "path";
 import prettier from "prettier";
+import {
+  generateAlbumHashtags,
+  generateCaption,
+  generatePlatformHashtags,
+} from "./src/utils/content.js";
 import { formatDate } from "./src/utils/date.js";
+import { escapeHtml } from "./src/utils/string.js";
 
 const outdir = "_site";
 
@@ -59,19 +65,37 @@ export default function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter("format_date", formatDate);
+  eleventyConfig.addFilter("escape_html", escapeHtml);
+  eleventyConfig.addFilter(
+    "generate_caption",
+    function (album, dateStr, url, platform) {
+      const hashtags = [
+        ...generatePlatformHashtags(platform),
+        ...generateAlbumHashtags(album),
+      ];
 
-  eleventyConfig.addFilter("escapeHtml", (str) => {
-    if (!str) {
-      return "";
-    }
+      const listenStr =
+        platform === "instagram"
+          ? "Listen now — Link in bio."
+          : `Listen now: ${url}`;
 
-    return str
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;")
-      .replace(/'/g, "&apos;");
-  });
+      const isShortEnough = (s) => {
+        if (platform === "x") {
+          return s.length <= 280;
+        }
+
+        return true;
+      };
+
+      return generateCaption({
+        album,
+        dateStr,
+        listenStr,
+        hashtags,
+        isShortEnough,
+      });
+    },
+  );
 
   eleventyConfig.addPassthroughCopy({ "src/assets/*": "." });
   eleventyConfig.addPassthroughCopy({ "src/styles/*": "." });

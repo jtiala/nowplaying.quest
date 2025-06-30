@@ -63,6 +63,10 @@ export function normalizeString(
   lowercase = true,
   stripAllSpecialChars = false,
 ) {
+  if (!str || typeof str !== "string" || str.trim() === "") {
+    return "";
+  }
+
   const casing = lowercase ? str.toLowerCase() : str;
   const normalized = casing.normalize("NFD");
   const stripped = stripAllSpecialChars
@@ -70,4 +74,17 @@ export function normalizeString(
     : normalized.replace(/[^a-z0-9\u00c0-\u024f.,\-& ]+/gi, "");
 
   return stripped.replace(/\s+/g, " ").trim();
+}
+
+export function escapeHtml(str) {
+  if (!str || typeof str !== "string" || str.trim() === "") {
+    return "";
+  }
+
+  return str
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&apos;");
 }

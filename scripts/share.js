@@ -10,6 +10,11 @@
 import { AtpAgent, RichText } from "@atproto/api";
 import fs from "fs";
 import path from "path";
+import {
+  generateAlbumHashtags,
+  generateCaption,
+  generatePlatformHashtags,
+} from "../src/utils/content.js";
 import { formatDate } from "../src/utils/date.js";
 
 const albumPath = process.argv[2];
@@ -70,7 +75,7 @@ async function getCoverArtPath(date) {
   return defaultCover;
 }
 
-async function shareToBluesky(caption, url, hashtags, imagePath) {
+async function shareToBluesky(album, dateStr, albumUrl, coverArtPath) {
   const handle = process.env.BLUESKY_HANDLE;
   const appPassword = process.env.BLUESKY_APP_PASSWORD;
 
@@ -84,40 +89,33 @@ async function shareToBluesky(caption, url, hashtags, imagePath) {
   try {
     await agent.login({ identifier: handle, password: appPassword });
 
-    let tags = [...hashtags];
-    let textWithoutTags = `${caption}\n\nListen at ${url}`.trim();
-    let text = `${textWithoutTags}\n\n${tags.join(" ")}`.trim();
+    const hashtags = [
+      ...generatePlatformHashtags("bluesky"),
+      ...generateAlbumHashtags(album),
+    ];
+
+    const isShortEnough = (text) => {
+      const rt = new RichText({ text });
+      return rt.graphemeLength <= 300;
+    };
+
+    let text = generateCaption({
+      album,
+      dateStr,
+      listenStr: `Listen now: ${albumUrl}`,
+      hashtags,
+      isShortEnough,
+    });
+
     let rt = new RichText({ text });
     await rt.detectFacets(agent);
 
-    // Bluesky post limit is 300 graphemes
-    while (rt.graphemeLength > 300 && tags.length > 0) {
-      tags.pop();
-      text =
-        `${textWithoutTags}${tags.length ? `\n\n${tags.join(" ")}` : ""}`.trim();
-      rt = new RichText({ text });
-      await rt.detectFacets(agent);
-    }
-
-    if (rt.graphemeLength > 300) {
-      let truncated = rt.text.slice(0, 300);
-
-      while ([...truncated].length > 300) {
-        truncated = truncated.slice(0, -1);
-      }
-
-      text = truncated;
-      rt = new RichText({ text });
-
-      await rt.detectFacets(agent);
-    }
-
     let embed = undefined;
 
-    if (imagePath) {
+    if (coverArtPath) {
       try {
-        const imgBuffer = fs.readFileSync(imagePath);
-        const mimeType = imagePath.endsWith(".webp")
+        const imgBuffer = fs.readFileSync(coverArtPath);
+        const mimeType = coverArtPath.endsWith(".webp")
           ? "image/webp"
           : "image/png";
 
@@ -154,7 +152,7 @@ async function shareToBluesky(caption, url, hashtags, imagePath) {
   }
 }
 
-async function shareToReddit(title, url) {
+async function shareToReddit(album, dateStr, albumUrl) {
   if (url.includes("localhost")) {
     console.log("[Reddit] URL is localhost, skipping post.");
     return;
@@ -203,6 +201,11 @@ async function shareToReddit(title, url) {
   const tokenData = await tokenRes.json();
   const accessToken = tokenData.access_token;
 
+  const title = generateCaption({
+    album,
+    dateStr,
+  });
+
   const postRes = await fetch("https://oauth.reddit.com/api/submit", {
     method: "POST",
     headers: {
@@ -214,7 +217,7 @@ async function shareToReddit(title, url) {
       sr: subreddit,
       kind: "link",
       title,
-      url,
+      url: albumUrl,
       flair_id: flairId,
       resubmit: "true",
       api_type: "json",
@@ -398,62 +401,6 @@ async function addMostPopularSongToSpotifyPlaylist(album) {
   }
 }
 
-function toHashtag(str) {
-  if (!str) {
-    return null;
-  }
-
-  // Replace dashes with spaces
-  str = str.replace(/-/g, " ");
-  // Replace & the with 'AndThe'
-  str = str.replace(/& (the)\b/gi, "AndThe");
-  // Remove all non-alphanumeric (except spaces and accented letters)
-  str = str.replace(/[^\p{L}\p{N} ]+/gu, "");
-  // Remove extra spaces
-  str = str.replace(/\s+/g, " ").trim();
-  // Split words, capitalize first letter, join
-  str = str
-    .split(" ")
-    .map((w) => w.charAt(0).toLocaleUpperCase() + w.slice(1))
-    .join("");
-
-  return str ? `#${str}` : null;
-}
-
-function generateGeneralHashtags(platform) {
-  const hashtags = [
-    "#NowPlayingQuest",
-    "#NowPlaying",
-    "#AlbumOfTheDay",
-    "#Music",
-  ];
-
-  if (platform === "bluesky") {
-    hashtags.push("#MusicSky");
-  }
-
-  return hashtags;
-}
-
-function generateAlbumHashtags(album) {
-  const hashtags = [];
-
-  if (album.genres && Array.isArray(album.genres)) {
-    for (const genre of album.genres) {
-      const tag = toHashtag(genre);
-
-      if (tag) {
-        hashtags.push(tag);
-      }
-    }
-  }
-
-  hashtags.push(toHashtag(album.artist));
-  hashtags.push(toHashtag(album.title));
-
-  return [...new Set(hashtags.filter(Boolean))];
-}
-
 async function main() {
   try {
     const date = path.basename(albumPath, ".json");
@@ -467,16 +414,9 @@ async function main() {
     const baseUrl = process.env.SITE_URL;
     const albumUrl = `${baseUrl.replace(/\/$/, "")}/${date}/`;
     const dateStr = formatDate(date);
-    const caption = `${album.title} by ${album.artist} (${album.year}) is the daily album for ${dateStr}.`;
-    const albumHashtags = generateAlbumHashtags(album);
 
-    await shareToBluesky(
-      caption,
-      albumUrl,
-      [...generateGeneralHashtags("bluesky"), ...albumHashtags],
-      coverArtPath,
-    );
-    await shareToReddit(caption, albumUrl);
+    await shareToBluesky(album, dateStr, albumUrl, coverArtPath);
+    await shareToReddit(album, dateStr, albumUrl);
     await addMostPopularSongToSpotifyPlaylist(album);
 
     process.exit(0);
