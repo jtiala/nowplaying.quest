@@ -22,7 +22,7 @@ npm run dev
 
 ### Picking the album of the day
 
-To pick a new album for a given date and update the history.csv`:
+To pick a new album for a given date and update the `history.csv`:
 
 ```console
 DATE=2025-07-01 npm run pick-album
