@@ -153,7 +153,7 @@ async function shareToBluesky(album, dateStr, albumUrl, coverArtPath) {
 }
 
 async function shareToReddit(album, dateStr, albumUrl) {
-  if (url.includes("localhost")) {
+  if (albumUrl.includes("localhost")) {
     console.log("[Reddit] URL is localhost, skipping post.");
     return;
   }
