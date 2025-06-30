@@ -71,7 +71,7 @@ export function normalizeString(
   const normalized = casing.normalize("NFD");
   const stripped = stripAllSpecialChars
     ? normalized.replace(/[^a-z0-9\u00c0-\u024f ]+/gi, "")
-    : normalized.replace(/[^a-z0-9\u00c0-\u024f.,\-& ]+/gi, "");
+    : normalized.replace(/[^a-z0-9\u00c0-\u024f.,\-&\/ ]+/gi, "");
 
   return stripped.replace(/\s+/g, " ").trim();
 }

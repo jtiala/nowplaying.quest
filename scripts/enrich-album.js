@@ -52,7 +52,7 @@ function findBestAlbumMatch(query, candidates, threshold = 80) {
 }
 
 function splitArtistsForMusicBrainz(artist) {
-  // Split on ' / ', '/', ' & ', '&' (with or without spaces), splitting even AC/DC
+  // Split on ' / ', '/', ' & ', '&' (with or without spaces)
   return artist
     .split(/\s*\/\s*|\s*&\s*/)
     .map(normalizeString)
