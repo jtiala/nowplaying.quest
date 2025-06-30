@@ -1,7 +1,7 @@
 <article class="album">
   <header>
     <h1>
-      <em>Daily album for {{ album.date | format_date }}</em>
+      <em>Daily album for {{ album.date | format_date: true }}</em>
       <strong>{{ album.title }}</strong>
       <span>by {{ album.artist }} ({{ album.year }})</span>
     </h1>

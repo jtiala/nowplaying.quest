@@ -39,7 +39,7 @@ body {
   gap: 2rem;
   margin-left: auto;
   margin-right: auto;
-  padding: 2rem;
+  padding: 1.5rem;
   max-width: 960px;
 }
 
@@ -161,10 +161,10 @@ main {
 
 .album header h1 strong {
   color: var(--color-gold);
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-style: normal;
   font-weight: 900;
-  line-height: 0.9;
+  line-height: 0.95;
 }
 
 .album header h1 span {
