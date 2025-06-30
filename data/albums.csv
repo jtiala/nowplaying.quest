@@ -95,6 +95,8 @@ artist,title,year
 "Astrud Gilberto","Beach Samba",1967
 "Astrud Gilberto","The Astrud Gilberto Album",1965
 "At the Drive-In","Relationship of Command",2000
+"At the Gates","Slaughter of the Soul",1995
+"Avenged Sevenfold","City of Evil",2005
 "Azealia Banks","Broke With Expensive Taste",2014
 "Aztec Camera","High Land, Hard Rain",1983
 "B.B. King","Live at the Regal",1965
@@ -108,10 +110,12 @@ artist,title,year
 "Bad Company","Bad Company",1974
 "Badly Drawn Boy","The Hour of Bewilderbeast",2000
 "Bangles","All Over the Place",1984
+"Baroness","Red Album",2007
 "Barry Adamson","Moss Side Story",1989
 "Barry Adamson","Oedipus Schmoedipus",1996
 "Barry White","Can't Get Enough",1974
 "Basement Jaxx","Remedy",1999
+"Bathory","Under the Sign of the Black Mark",1987
 "Battles","Mirrored",2007
 "Bauhaus","Mask",1981
 "Beach House","Bloom",2012
@@ -175,8 +179,10 @@ artist,title,year
 "Black Rebel Motorcycle Club","B.R.M.C.",2001
 "Black Sabbath","Black Sabbath Vol. 4",1972
 "Black Sabbath","Black Sabbath",1970
+"Black Sabbath","Heaven and Hell",1980
 "Black Sabbath","Master of Reality",1971
 "Black Sabbath","Paranoid",1970
+"Black Sabbath","Sabotage",1975
 "Black Sheep","A Wolf in Sheep's Clothing",1991
 "Black Star","Mos Def & Talib Kweli Are Black Star",1998
 "Black Uhuru","Red",1981
@@ -212,6 +218,7 @@ artist,title,year
 "Bobbie Gentry","Ode to Billie Joe",1967
 "Bobby Bland","Two Steps From the Blues",1961
 "Bobby Womack","The Poet",1981
+"Body Count","Body Count",1992
 "Bon Iver","22, a Million",2016
 "Bon Iver","Bon Iver, Bon Iver",2011
 "Bon Iver","For Emma, Forever Ago",2007
@@ -275,6 +282,7 @@ artist,title,year
 "Captain Beefheart & His Magic Band","Trout Mask Replica",1969
 "Car Seat Headrest","Teens of Denial",2016
 "Car Seat Headrest","Twin Fantasy",2018
+"Carcass","Heartwork",1993
 "Cardi B","Invasion of Privacy",2018
 "Carly Rae Jepsen","E·MO·TION",2015
 "Carly Simon","No Secrets",1972
@@ -286,6 +294,7 @@ artist,title,year
 "Cecil Taylor","Live at the Cafe Montmartre",1963
 "Cee-Lo Green","Cee-Lo Green... Is the Soul Machine",2004
 "Celia Cruz","Son con guaguancó",1966
+"Celtic Frost","Morbid Tales",1984
 "Chaka Khan","I Feel for You",1984
 "Chance the Rapper","Acid Rap",2013
 "Chance the Rapper","Coloring Book",2016
@@ -322,6 +331,7 @@ artist,title,year
 "Common","Be",2005
 "Common","Like Water for Chocolate",2000
 "Company Flow","Funcrusher Plus",1997
+"Converge","Jane Doe",2001
 "Cornershop","When I Was Born for the 7th Time",1997
 "Count Basie Orchestra + Neal Hefti Arrangements","Basie",1958
 "Country Joe & The Fish","Electric Music for the Mind and Body",1967
@@ -360,6 +370,8 @@ artist,title,year
 "Danger Mouse","The Grey Album",2004
 "Danny Brown","Atrocity Exhibition",2016
 "Danny Brown","XXX",2011
+"Danzig","Danzig",1988
+"Darkthrone","Transilvanian Hunger",1994
 "David Ackles","American Gothic",1972
 "David Bowie","""Heroes""",1977
 "David Bowie","Aladdin Sane",1973
@@ -384,6 +396,7 @@ artist,title,year
 "Death Cab for Cutie","Transatlanticism",2003
 "Death Grips","The Money Store",2012
 "Death in Vegas","The Contino Sessions",1999
+"Death","Human",1991
 "Deee-Lite","World Clique",1990
 "Deep Purple","Deep Purple in Rock",1970
 "Deep Purple","Machine Head",1972
@@ -406,6 +419,7 @@ artist,title,year
 "Dexys Midnight Runners","Don't Stand Me Down",1985
 "Dexys Midnight Runners","Searching for the Young Soul Rebels",1980
 "Diamanda Galás","The Litanies of Satan",1982
+"Diamond Head","Lightning to the Nations",1980
 "Diana Krall","Love Scenes",1997
 "Diana Ross & The Supremes","Anthology (III)",2001
 "Diana Ross","Diana",1980
@@ -413,6 +427,7 @@ artist,title,year
 "Digital Underground","Sex Packets",1990
 "Dinosaur Jr","Bug",1988
 "Dinosaur","You're Living All Over Me",1987
+"Dio","Holy Diver",1983
 "Dion","Born to Be With You",1975
 "Dire Straits","Brothers in Arms",1985
 "Dire Straits","Dire Straits",1978
@@ -447,6 +462,7 @@ artist,title,year
 "Drake","If You're Reading This It's Too Late",2015
 "Drake","Take Care",2011
 "Drakeo the Ruler","Cold Devil",2017
+"Dream Theater","Images and Words",1992
 "Drive Like Jehu","Yank Crime",1994
 "Drive-By Truckers","Southern Rock Opera",2001
 "Duke Ellington","Ellington at Newport",1956
@@ -507,8 +523,10 @@ artist,title,year
 "Emmylou Harris","Pieces of the Sky",1975
 "Emmylou Harris","Red Dirt Girl",2000
 "Emmylou Harris","Wrecking Ball",1995
+"Emperor","Anthems to the Welkin at Dusk",1997
 "Eno","Another Green World",1975
 "Eno","Here Come the Warm Jets",1974
+"Entombed","Left Hand Path",1990
 "EPMD","Strictly Business",1988
 "Eric B. & Rakim","Follow the Leader",1988
 "Eric B. & Rakim","Paid In Full",1987
@@ -525,12 +543,16 @@ artist,title,year
 "Etta James","Rocks the House",1964
 "Eurythmics","Sweet Dreams (Are Made of This)",1983
 "Eurythmics","Touch",1983
+"Evanescence","Fallen",2003
 "Eve","Scorpion",2001
 "Everything but the Girl","Idlewild",1988
 "Everything but the Girl","Walking Wounded",1996
+"Exodus","Bonded by Blood",1985
+"Eyehategod","Take as Needed for Pain",1993
 "Faces","A Nod Is as Good as a Wink... to a Blind Horse",1971
 "Fairport Convention","Liege & Lief",1969
 "Fairport Convention","Unhalfbricking",1969
+"Faith No More","Angel Dust",1992
 "Faith No More","The Real Thing",1989
 "Fanny","Fanny Hill",1972
 "Fatboy Slim","Better Living Through Chemistry",1996
@@ -615,8 +637,10 @@ artist,title,year
 "Gladys Knight & The Pips","Imagination",1973
 "Glasvegas","Glasvegas",2008
 "Go-Go's","Beauty and the Beat",1981
+"Godflesh","Streetcleaner",1989
 "Godspeed You Black Emperor!","F♯A♯∞",1997
 "Godspeed You Black Emperor!","Lift Yr. Skinny Fists Like Antennas to Heaven!",2000
+"Gojira","From Mars to Sirius",2005
 "Goldfrapp","Black Cherry",2003
 "Goldfrapp","Felt Mountain",2000
 "Goldfrapp","Seventh Tree",2008
@@ -658,9 +682,11 @@ artist,title,year
 "Heart","Dreamboat Annie",1976
 "Heartbreakers","L.A.M.F.",1977
 "Heaven 17","Penthouse and Pavement",1981
+"Helmet","Meantime",1992
 "Herbie Hancock","Head Hunters",1973
 "Herbie Hancock","Maiden Voyage",1966
 "Herbie Hancock","The New Standard",1996
+"High on Fire","Blessed Black Wings",2005
 "Hole","Celebrity Skin",1998
 "Hole","Live Through This",1994
 "Holger Czukay","Movies",1979
@@ -689,9 +715,11 @@ artist,title,year
 "Iris DeMent","My Life",1994
 "Iron Butterfly","In-A-Gadda-Da-Vida",1968
 "Iron Maiden","Iron Maiden",1980
+"Iron Maiden","Powerslave",1984
 "Iron Maiden","The Number of the Beast",1982
 "Isaac Hayes","Hot Buttered Soul",1969
 "Isaac Hayes","Shaft",1971
+"Isis","Oceanic",2002
 "J Dilla","Donuts",2006
 "J. Cole","2014 Forest Hills Drive",2014
 "Jack White","Blunderbuss",2012
@@ -782,6 +810,8 @@ artist,title,year
 "Joy Division","Closer",1980
 "Joy Division","Unknown Pleasures",1979
 "Judas Priest","British Steel",1980
+"Judas Priest","Screaming for Vengeance",1982
+"Judas Priest","Stained Class",1978
 "Juice WRLD","Goodbye & Good Riddance",2018
 "Julian Cope","Peggy Suicide",1991
 "Jungle Brothers","Done by the Forces of Nature",1989
@@ -835,11 +865,14 @@ artist,title,year
 "Konono N°1","Congotronics",2005
 "Kool G Rap & DJ Polo","Wanted: Dead or Alive",1990
 "Korn","Follow the Leader",1998
+"Korn","Korn",1994
 "Kraftwerk","Autobahn",1974
 "Kraftwerk","Computerwelt",1981
 "Kraftwerk","Die Mensch-Maschine",1978
 "Kraftwerk","Trans-Europa Express",1977
 "Kurt Vile","Smoke Ring for My Halo",2011
+"Kvelertak","Meir",2013
+"Kyuss","Blues for the Red Sun",1992
 "L.L. Cool J","Mama Said Knock You Out",1990
 "L.L. Cool J","Radio",1985
 "Labelle","Nightbirds",1974
@@ -848,6 +881,7 @@ artist,title,year
 "Lady Gaga","The Fame",2008
 "Ladysmith Black Mambazo","Shaka Zulu",1987
 "Laibach","Opus Dei",1987
+"Lamb of God","As the Palaces Burn",2003
 "Lambchop","Nixon",2000
 "Lana Del Rey","Born to Die",2012
 "Lana Del Rey","Chemtrails Over the Country Club",2021
@@ -880,6 +914,7 @@ artist,title,year
 "Leonard Cohen","You Want It Darker",2016
 "Les Rythmes Digitales","Darkdancer",1999
 "Liars","They Were Wrong, So We Drowned",2004
+"Life of Agony","River Runs Red",1993
 "Lightning Bolt","Wonderful Rainbow",2003
 "Lil Nas X","Montero",2021
 "Lil Uzi Vert","Eternal Atake",2020
@@ -940,6 +975,7 @@ artist,title,year
 "Manic Street Preachers","Everything Must Go",1996
 "Manic Street Preachers","Generation Terrorists",1992
 "Manic Street Preachers","The Holy Bible",1994
+"Manowar","Hail to England",1984
 "Manu Chao","...Próxima estación... Esperanza",2001
 "Manu Chao","Clandestino",1998
 "Mariah Carey","Butterfly",1997
@@ -947,6 +983,7 @@ artist,title,year
 "Mariah Carey","The Emancipation of Mimi",2005
 "Marianne Faithfull","Broken English",1979
 "Marilyn Manson","Antichrist Superstar",1996
+"Marilyn Manson","Portrait of an American Family",1994
 "Marley Marl","In Control, Volume 1",1988
 "Marty Robbins","Gunfighter Ballads and Trail Songs",1959
 "Marvin Gaye","Here, My Dear",1978
@@ -958,8 +995,10 @@ artist,title,year
 "Massive Attack","Blue Lines",1991
 "Massive Attack","Mezzanine",1998
 "Massive Attack","Protection",1994
+"Mastodon","Leviathan",2004
 "Maxwell","BLACKsummers'night",2009
 "Maxwell","Maxwell's Urban Hang Suite",1996
+"Mayhem","De mysteriis Dom Sathanas",1994
 "MC Lyte","Lyte as a Rock",1988
 "MC Solaar","Qui sème le vent récolte le tempo",1991
 "MC5","Back in the USA",1970
@@ -969,19 +1008,25 @@ artist,title,year
 "Meat Loaf","Bat Out of Hell",1977
 "Meat Puppets","Meat Puppets II",1984
 "Medeski, Martin & Wood","Combustication",1998
+"Megadeth","Countdown to Extinction",1992
 "Megadeth","Peace Sells... But Who's Buying?",1986
 "Megadeth","Rust in Peace",1990
 "Megan Thee Stallion","Fever",2019
 "Mekons","Fear and Whiskey",1985
+"Melvins","Bullhead",1991
 "Mercedes Sosa","Mercedes Sosa en Argentina",1982
 "Mercury Rev","Deserter's Songs",1998
+"Mercyful Fate","Melissa",1983
 "Meredith Monk","Dolmen Music",1981
 "Merle Haggard and The Strangers","Branded Man",1967
 "Merle Haggard and The Strangers","I'm a Lonesome Fugitive",1967
 "Merle Haggard","Down Every Road 1962-1994",1996
+"Meshuggah","Destroy Erase Improve",1995
 "Metallica","...And Justice for All",1988
+"Metallica","Kill 'Em All",1983
 "Metallica","Master of Puppets",1986
 "Metallica","Metallica",1991
+"Metallica","Ride the Lightning",1984
 "Metallica","S&M",1999
 "Method Man","Tical",1994
 "Metronomy","Nights Out",2008
@@ -1023,6 +1068,7 @@ artist,title,year
 "Modest Mouse","The Moon & Antarctica",2000
 "Mogwai","Mogwai Young Team",1997
 "Monks","Black Monk Time",1966
+"Morbid Angel","Covenant",1993
 "Morrissey","Vauxhall and I",1994
 "Morrissey","Viva Hate",1988
 "Morrissey","You Are the Quarry",2004
@@ -1031,6 +1077,7 @@ artist,title,year
 "Mott the Hoople","All the Young Dudes",1972
 "Mott the Hoople","Mott",1973
 "Motörhead","Ace of Spades",1980
+"Motörhead","No Remorse",1984
 "Motörhead","No Sleep 'Til Hammersmith",1981
 "Ms Dynamite","A Little Deeper",2002
 "Muddy Waters","Folk Singer",1964
@@ -1047,11 +1094,15 @@ artist,title,year
 "My Morning Jacket","Z",2005
 "Mylo","Destroy Rock & Roll",2004
 "Mystery Jets","Twenty One",2008
+"Mötley Crüe","Shout at the Devil",1983
+"Mötley Crüe","Too Fast for Love",1981
 "N.W.A","Straight Outta Compton",1989
 "N*E*R*D","Fly or Die",2004
 "N*E*R*D","In Search Of...",2002
+"Naked City","Torture Garden",1990
 "Nanci Griffith","The Last of the True Believers",1986
 "Nancy Sinatra & Lee Hazlewood","Nancy & Lee",1968
+"Napalm Death","From Enslavement to Obliteration",1988
 "Napalm Death","Scum",1987
 "Nas","Illmatic",1994
 "Nas","It Was Written",1996
@@ -1065,6 +1116,7 @@ artist,title,year
 "Neil Young","Tonight's the Night",1975
 "Neneh Cherry","Raw Like Sushi",1989
 "NEU!","NEU! '75",1975
+"Neurosis","Through Silver in Blood",1996
 "Neutral Milk Hotel","In the Aeroplane Over the Sea",1998
 "New Order","Low-Life",1985
 "New Order","Power, Corruption & Lies",1983
@@ -1085,6 +1137,7 @@ artist,title,year
 "Nicki Minaj","Pink Friday",2010
 "Nico","Chelsea Girl",1967
 "Nightmares on Wax","Smokers Delight",1995
+"Nightwish","Once",2004
 "Nilsson","Nilsson Schmilsson",1971
 "Nina Simone","I Put a Spell on You",1965
 "Nina Simone","Nina Simone Sings the Blues",1967
@@ -1110,6 +1163,7 @@ artist,title,year
 "Ol' Dirty Bastard","Return to the 36 Chambers: The Dirty Version",1995
 "Oliver Nelson","The Blues and the Abstract Truth",1961
 "Olivia Rodrigo","SOUR",2021
+"Opeth","Blackwater Park",2001
 "Orange Juice","Rip It Up",1982
 "Orbital","Orbital",1993
 "Orbital","Snivilisation",1994
@@ -1126,7 +1180,10 @@ artist,title,year
 "OutKast","Speakerboxxx / The Love Below",2003
 "OutKast","Stankonia",2000
 "Ozomatli","Street Signs",2004
+"Ozzy Osbourne","Blizzard of Ozz",1980
+"Ozzy Osbourne","Diary of a Madman",1981
 "Panda Bear","Person Pitch",2007
+"Pantera","Far Beyond Driven",1994
 "Pantera","Vulgar Display of Power",1992
 "Parliament","Mothership Connection",1975
 "Pat Metheny","Bright Size Life",1976
@@ -1168,6 +1225,7 @@ artist,title,year
 "Phil Spector","Back to Mono (1958-1969)",1991
 "Phoebe Bridgers","Punisher",2020
 "Phoenix","Wolfgang Amadeus Phoenix",2009
+"Pig Destroyer","Terrifyer",2004
 "PiL","Metal Box",1979
 "Pink Floyd","The Dark Side of the Moon",1973
 "Pink Floyd","The Piper at the Gates of Dawn",1967
@@ -1218,6 +1276,7 @@ artist,title,year
 "Queens of the Stone Age","Queens of the Stone Age",1998
 "Queens of the Stone Age","Rated R",2000
 "Queens of the Stone Age","Songs for the Deaf",2002
+"Queensrÿche","Operation: Mindcrime",1988
 "Quicksilver Messenger Service","Happy Trails",1969
 "R.E.M.","Automatic for the People",1992
 "R.E.M.","Document",1987
@@ -1236,6 +1295,7 @@ artist,title,year
 "Rage Against the Machine","Rage Against the Machine",1992
 "Rage Against the Machine","The Battle of Los Angeles",1999
 "Rahul Dev Burman","Shalimar",1978
+"Rainbow","Rising",1976
 "Ramblin' Jack Elliott","Jack Takes the Floor",1958
 "Ramones","Ramones",1976
 "Ramones","Rocket to Russia",1977
@@ -1315,6 +1375,7 @@ artist,title,year
 "Scarface","The Diary",1994
 "ScHoolboy Q","Blank Face LP",2016
 "Scissor Sisters","Scissor Sisters",2004
+"Scorpions","Blackout",1982
 "Scott Engel","Scott 4",1969
 "Scott Walker","Scott 2",1968
 "Screaming Trees","Dust",1996
@@ -1322,6 +1383,7 @@ artist,title,year
 "Sebadoh","Bubble & Scrape",1993
 "Selena","Amor prohibido",1994
 "Sepultura","Arise",1991
+"Sepultura","Chaos A.D.",1993
 "Sepultura","Roots",1996
 "Serge Gainsbourg","Histoire de Melody Nelson",1971
 "Sex Pistols","Never Mind the Bollocks Here's the Sex Pistols",1977
@@ -1353,11 +1415,15 @@ artist,title,year
 "Skunk Anansie","Post Orgasmic Chill",1999
 "Slade","Slayed?",1972
 "Slayer","Reign in Blood",1986
+"Slayer","Seasons in the Abyss",1990
+"Slayer","South of Heaven",1988
 "Sleater-Kinney","Dig Me Out",1997
 "Sleater-Kinney","The Woods",2005
+"Sleep","Jerusalem",1999
 "Slick Rick","The Great Adventures of Slick Rick",1988
 "Slint","Spiderland",1991
 "Slipknot","All Hope Is Gone",2008
+"Slipknot","Iowa",2001
 "Slipknot","Slipknot",1999
 "Slowdive","Slowdive",2017
 "Slum Village","Fantastic, Vol. 2",2000
@@ -1369,6 +1435,7 @@ artist,title,year
 "Smashing Pumpkins","Siamese Dream",1993
 "Smokey Robinson and The Miracles","Going to a Go-Go",1965
 "Snoop Doggy Dogg","Doggystyle",1993
+"Sodom","Agent Orange",1989
 "Soft Cell","Non-Stop Erotic Cabaret",1981
 "Soft Machine","Third",1970
 "Solange","A Seat at the Table",2016
@@ -1385,6 +1452,7 @@ artist,title,year
 "Soul II Soul","Club Classics Vol. One",1989
 "Souls of Mischief","93 'Til Infinity",1993
 "Soundgarden","Badmotorfinger",1991
+"Soundgarden","Louder Than Love",1989
 "Soundgarden","Superunknown",1994
 "Spacemen 3","Playing With Fire",1989
 "Sparks","Kimono My House",1974
@@ -1429,6 +1497,7 @@ artist,title,year
 "Sugar","Copper Blue",1992
 "Suicide","Suicide",1977
 "Sun Ra","The Heliocentric Worlds of Sun Ra",1965
+"Sunn O)))","Monoliths & Dimensions",2009
 "Super Furry Animals","Fuzzy Logic",1996
 "Super Furry Animals","Radiator",1997
 "Super Furry Animals","Rings Around the World",2001
@@ -1439,6 +1508,7 @@ artist,title,year
 "Swans","To Be Kind",2014
 "Syd Barrett","The Madcap Laughs",1970
 "System of a Down","System of a Down",1998
+"System of a Down","Toxicity",2001
 "SZA","Ctrl",2017
 "SZA","SOS",2022
 "T. Rex","Electric Warrior",1971
@@ -1542,6 +1612,7 @@ artist,title,year
 "The Darkness","Permission to Land",2003
 "The Dave Brubeck Quartet","Time Out",1959
 "The Dictators","Go Girl Crazy!",1975
+"The Dillinger Escape Plan","Calculating Infinity",1999
 "The Dismemberment Plan","Emergency & I",1999
 "The Disposable Heroes of Hiphoprisy","Hypocrisy Is the Greatest Luxury",1992
 "The Divine Comedy","A Short Album About Love",1997
@@ -1784,6 +1855,7 @@ artist,title,year
 "Tom Waits","The Heart of Saturday Night",1974
 "Tomasz Stanko Quartet","Soul of Things",2002
 "Too $hort","Life Is... Too Short",1989
+"Tool","Ænima",1996
 "Toots & The Maytals","Funky Kingston",1975
 "Tori Amos","Little Earthquakes",1992
 "Tortoise","Millions Now Living Will Never Die",1996
@@ -1797,10 +1869,12 @@ artist,title,year
 "TV on the Radio","Dear Science",2008
 "TV on the Radio","Desperate Youth, Blood Thirsty Babes",2004
 "TV on the Radio","Return to Cookie Mountain",2006
+"Twisted Sister","Stay Hungry",1984
 "Tyler, The Creator","Bastard",2009
 "Tyler, The Creator","Call Me If You Get Lost",2021
 "Tyler, The Creator","Flower Boy",2017
 "Tyler, The Creator","Igor",2019
+"Type O Negative","Bloody Kisses",1993
 "U2","Achtung Baby",1991
 "U2","All That You Can't Leave Behind",2000
 "U2","Boy",1980
@@ -1819,6 +1893,7 @@ artist,title,year
 "Vampire Weekend","Vampire Weekend",2008
 "Van Halen","1984",1984
 "Van Halen","Van Halen",1978
+"Van Halen","Women and Children First",1980
 "Van Morrison","Astral Weeks",1968
 "Van Morrison","It's Too Late to Stop Now",1974
 "Van Morrison","Moondance",1970
@@ -1834,9 +1909,11 @@ artist,title,year
 "Various Artists","The Sun Records Collection",1994
 "Various Artists","Wild Style",1983
 "Venom","Black Metal",1982
+"Venom","Welcome to Hell",1981
 "Verve","A Storm in Heaven",1993
 "Vince Staples","Summertime '06",2015
 "Violent Femmes","Violent Femmes",1983
+"Voivod","Dimension Hatröss",1988
 "WAR","The World Is a Ghetto",1972
 "Waxahatchee","Saint Cloud",2020
 "Waylon Jennings","Honky Tonk Heroes",1973
@@ -1848,6 +1925,7 @@ artist,title,year
 "Westside Gunn","FLYGOD",2016
 "Weyes Blood","Titanic Rising",2019
 "White Denim","D",2011
+"White Zombie","La Sexorcisto: Devil Music Vol. 1",1992
 "Whitney Houston","Whitney Houston",1985
 "Whitney Houston","Whitney",1987
 "Wilco","Being There",1996
