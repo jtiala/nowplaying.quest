@@ -1,32 +1,34 @@
-<nav class="album-nav" aria-label="Daily album navigation">
-  <h3>Browse daily albums</h3>
-  <ul>
-    {% if is_index %}
-      {% assign prev_index = albums.size | minus: 2 %}
-      {% if prev_index >= 0 %}
-        {% assign prev = albums[prev_index] %}
-        <li>
-          <span class="arrow">&larr;</span>
-          <a href="{{ site.url }}/{{ prev.date }}/" rel="prev">{{ prev.date | format_date }}</a>
-        </li>
+{% if albums.size > 1 %}
+  <nav class="album-nav" aria-label="Daily album navigation">
+    <h3>Browse daily albums</h3>
+    <ul>
+      {% if is_index %}
+        {% assign prev_index = albums.size | minus: 2 %}
+        {% if prev_index >= 0 %}
+          {% assign prev = albums[prev_index] %}
+          <li>
+            <span class="arrow">&larr;</span>
+            <a href="{{ site.url }}/{{ prev.date }}/" rel="prev">{{ prev.date | format_date }}</a>
+          </li>
+        {% endif %}
+      {% else %}
+        {% if pagination.href.previous %}
+          {% assign prev_index = pagination.pageNumber | minus: 1 %}
+          {% assign prev = albums[prev_index] %}
+          <li>
+            <span class="arrow">&larr;</span>
+            <a href="{{ pagination.href.previous }}" rel="prev">{{ prev.date | format_date }}</a>
+          </li>
+        {% endif %}
+        {% if pagination.href.next %}
+          {% assign next_index = pagination.pageNumber | plus: 1 %}
+          {% assign next = albums[next_index] %}
+          <li>
+            <a href="{{ pagination.href.next }}" rel="next">{{ next.date | format_date }}</a>
+            <span class="arrow">&rarr;</span>
+          </li>
+        {% endif %}
       {% endif %}
-    {% else %}
-      {% if pagination.href.previous %}
-        {% assign prev_index = pagination.pageNumber | minus: 1 %}
-        {% assign prev = albums[prev_index] %}
-        <li>
-          <span class="arrow">&larr;</span>
-          <a href="{{ pagination.href.previous }}" rel="prev">{{ prev.date | format_date }}</a>
-        </li>
-      {% endif %}
-      {% if pagination.href.next %}
-        {% assign next_index = pagination.pageNumber | plus: 1 %}
-        {% assign next = albums[next_index] %}
-        <li>
-          <a href="{{ pagination.href.next }}" rel="next">{{ next.date | format_date }}</a>
-          <span class="arrow">&rarr;</span>
-        </li>
-      {% endif %}
-    {% endif %}
-  </ul>
-</nav>
+    </ul>
+  </nav>
+{% endif %}
