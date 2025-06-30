@@ -51,15 +51,32 @@ function findBestAlbumMatch(query, candidates, threshold = 80) {
   return undefined;
 }
 
+function splitArtistsForMusicBrainz(artist) {
+  // Split on ' / ', '/', ' & ', '&' (with or without spaces), splitting even AC/DC
+  return artist
+    .split(/\s*\/\s*|\s*&\s*/)
+    .map(normalizeString)
+    .filter(Boolean);
+}
+
 async function searchMusicBrainz(artist, title, year) {
   const normalizedArtist = normalizeString(artist);
   const normalizedTitle = normalizeString(title);
+  const splitArtists = splitArtistsForMusicBrainz(artist);
 
-  const queries = [
+  let queries = [
     `releasegroup:"${normalizedTitle}" AND artist:"${normalizedArtist}" AND firstreleasedate:${year} AND primarytype:album`,
     `artist:"${normalizedArtist}" AND firstreleasedate:${year} AND primarytype:album`,
     `artist:"${normalizedArtist}" AND primarytype:album`,
   ];
+
+  for (const split of splitArtists) {
+    if (split !== normalizedArtist) {
+      queries.push(
+        `releasegroup:"${normalizedTitle}" AND artist:"${split}" AND firstreleasedate:${year} AND primarytype:album`,
+      );
+    }
+  }
 
   for (const q of queries) {
     const url = `https://musicbrainz.org/ws/2/release-group/?query=${encodeURIComponent(
@@ -324,13 +341,45 @@ async function main() {
       }
 
       if (details.relations && details.relations.length) {
-        for (const rel of details.relations) {
-          if (rel.type === "wikidata" && rel.url && rel.url.resource) {
-            if (!wikidata) {
-              wikidata = rel.url.resource;
+        const wikidataRels = details.relations.filter(
+          (rel) => rel.type === "wikidata" && rel.url && rel.url.resource,
+        );
+        let bestWikidata = null;
+        let bestWikidataEntity = null;
+        let bestScore = -1;
+
+        for (const rel of wikidataRels) {
+          const wikidataId = rel.url.resource.split("/").pop();
+          const wikidataEntity = await getWikidataEntity(wikidataId);
+
+          if (
+            wikidataEntity &&
+            wikidataEntity.sitelinks &&
+            wikidataEntity.sitelinks.enwiki &&
+            wikidataEntity.sitelinks.enwiki.title
+          ) {
+            const enwikiTitle = wikidataEntity.sitelinks.enwiki.title;
+
+            const score = token_sort_ratio(
+              normalizeString(enwikiTitle),
+              normalizeString(title),
+            );
+
+            if (score > bestScore) {
+              bestScore = score;
+              bestWikidata = rel.url.resource;
+              bestWikidataEntity = wikidataEntity;
             }
           }
+        }
 
+        if (bestWikidata && bestWikidataEntity) {
+          wikidata = bestWikidata;
+          wikipediaTitle = bestWikidataEntity.sitelinks.enwiki.title;
+          wikipedia = `https://en.wikipedia.org/wiki/${wikipediaTitle.replace(/ /g, "_")}`;
+        }
+
+        for (const rel of details.relations) {
           if (
             rel.url &&
             rel.url.resource &&
@@ -353,17 +402,6 @@ async function main() {
     coverArt = await getCoverArt(mbid);
     if (coverArt && coverArt.startsWith("http:")) {
       coverArt = coverArt.replace(/^http:/, "https:");
-    }
-
-    if (wikidata) {
-      const wikidataId = wikidata.split("/").pop();
-      const wikidataEntity = await getWikidataEntity(wikidataId);
-
-      wikipediaTitle = wikidataEntity.sitelinks.enwiki.title;
-      wikipedia = `https://en.wikipedia.org/wiki/${wikidataEntity.sitelinks.enwiki.title.replace(
-        / /g,
-        "_",
-      )}`;
     }
   }
 
