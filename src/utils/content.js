@@ -1,6 +1,10 @@
-export function toHashtag(str) {
+export function toHashtag(str, isGenre = false) {
   if (!str) {
     return null;
+  }
+
+  if (isGenre) {
+    str = str.replace(/r&b/i, "RnB");
   }
 
   // Replace dashes with spaces
@@ -40,7 +44,7 @@ export function generateAlbumHashtags(album) {
 
   if (album.genres && Array.isArray(album.genres)) {
     for (const genre of album.genres) {
-      const tag = toHashtag(genre);
+      const tag = toHashtag(genre, true);
 
       if (tag) {
         hashtags.push(tag);
