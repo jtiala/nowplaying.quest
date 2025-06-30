@@ -2,7 +2,7 @@
 /**
  * share.js
  *
- * Shares an album to Instagram, Bluesky, and Reddit. Adds the most popular song of the album to a Spotify playlist.
+ * Shares an album to Bluesky and Reddit. Adds the most popular song of the album to a Spotify playlist.
  *
  * Usage:
  *   node share.js <path-to-album-json>
@@ -68,13 +68,6 @@ async function getCoverArtPath(date) {
   }
 
   return defaultCover;
-}
-
-async function shareToInstagram(imagePath, caption) {
-  // TODO: Implement Instagram sharing via API or service
-  console.log(
-    `[Instagram] Would post image: ${imagePath} with caption: ${caption}`,
-  );
 }
 
 async function shareToBluesky(caption, url, hashtags, imagePath) {
@@ -477,7 +470,6 @@ async function main() {
     const caption = `${album.title} by ${album.artist} (${album.year}) is the daily album for ${dateStr}.`;
     const albumHashtags = generateAlbumHashtags(album);
 
-    // await shareToInstagram(coverArtPath, `${caption}\n\n${albumUrl}`);
     await shareToBluesky(
       caption,
       albumUrl,
