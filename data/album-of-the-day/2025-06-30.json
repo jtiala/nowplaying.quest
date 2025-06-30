@@ -1,0 +1,27 @@
+{
+  "artist": "Emerson, Lake & Palmer",
+  "title": "Pictures at an Exhibition",
+  "year": "1972",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions"
+  ],
+  "genres": [],
+  "description": null,
+  "coverArt": null,
+  "mbid": null,
+  "externalLinks": {
+    "wikidata": null,
+    "wikipedia": null,
+    "discogs": null,
+    "rateyourmusic": null
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/1qQAk408AWd5SC8eJOo01I",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1528524485?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_k0mft99-pyd72Hft9wTfHa92H9OyFUhgY",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_k0mft99-pyd72Hft9wTfHa92H9OyFUhgY",
+    "amazonMusic": "https://music.amazon.com/albums/B0F17DTRHR",
+    "tidal": "https://listen.tidal.com/album/68650831",
+    "deezer": "https://www.deezer.com/album/13944584"
+  }
+}
