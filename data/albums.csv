@@ -1,8 +1,10 @@
 artist,title,year
 "10cc","Sheet Music",1974
+"2 Many DJ's","As Heard on Radio Soulwax Pt. 2",2002
 "21 Savage & Metro Boomin","Savage Mode",2016
 "2Pac","All Eyez on Me",1996
 "2Pac","Me Against the World",1995
+"4hero / DJ Marky","The Kings of Drum + Bass",2010
 "50 Cent","Get Rich or Die Tryin'",2003
 "808 State","90",1989
 "A Tribe Called Quest","Midnight Marauders",1993
@@ -287,6 +289,7 @@ artist,title,year
 "Car Seat Headrest","Twin Fantasy",2018
 "Carcass","Heartwork",1993
 "Cardi B","Invasion of Privacy",2018
+"Carl Craig","Sessions",2008
 "Carly Rae Jepsen","E·MO·TION",2015
 "Carly Simon","No Secrets",1972
 "Carole King","Tapestry",1971
@@ -396,6 +399,7 @@ artist,title,year
 "De La Soul","Buhloone Mindstate",1993
 "De La Soul","De La Soul Is Dead",1991
 "Dead Kennedys","Fresh Fruit for Rotting Vegetables",1980
+"deadmau5","4x4=12",2010
 "Deafheaven","Sunbather",2013
 "Death Cab for Cutie","Transatlanticism",2003
 "Death Grips","The Money Store",2012
@@ -816,6 +820,7 @@ artist,title,year
 "Jorge Ben","África Brasil",1976
 "Joy Division","Closer",1980
 "Joy Division","Unknown Pleasures",1979
+"Juan Atkins","20 Years 1985 - 2005",2005
 "Judas Priest","British Steel",1980
 "Judas Priest","Screaming for Vengeance",1982
 "Judas Priest","Stained Class",1978
@@ -1003,6 +1008,7 @@ artist,title,year
 "Massive Attack","Mezzanine",1998
 "Massive Attack","Protection",1994
 "Mastodon","Leviathan",2004
+"Maurice Joshua & Paul Johnson","Trax Records: The 20th Anniversary Collection",2004
 "Maxwell","BLACKsummers'night",2009
 "Maxwell","Maxwell's Urban Hang Suite",1996
 "Mayhem","De mysteriis Dom Sathanas",1994
@@ -1045,6 +1051,7 @@ artist,title,year
 "Michael Jackson","Off the Wall",1979
 "Michael Jackson","Thriller",1982
 "Michael Kiwanuka","Kiwanuka",2019
+"Michael Mayer","Immer",2002
 "Migos","Culture",2017
 "Mike Ladd","Welcome to the Afterfuture",2000
 "Mike Oldfield","Tubular Bells",1973
@@ -1175,6 +1182,7 @@ artist,title,year
 "Olivia Rodrigo","SOUR",2021
 "Opeth","Blackwater Park",2001
 "Orange Juice","Rip It Up",1982
+"Orbital","Orbital 20",2009
 "Orbital","Orbital",1993
 "Orbital","Snivilisation",1994
 "Orchestral Manœuvres in the Dark","Architecture & Morality",1981
@@ -1204,6 +1212,7 @@ artist,title,year
 "Paul & Linda McCartney","Ram",1971
 "Paul McCartney and Wings","Band on the Run",1973
 "Paul McCartney","McCartney",1970
+"Paul Oakenfold","Tranceport",1998
 "Paul Revere & The Raiders","Midnight Ride",1966
 "Paul Simon","Graceland",1986
 "Paul Simon","Hearts and Bones",1983
@@ -1383,6 +1392,7 @@ artist,title,year
 "Sarah Vaughan and Her Trio","At Mister Kelly's",1958
 "Sarah Vaughan","Sarah Vaughan",1955
 "Sarah Vaughan","Sassy Swings Again",1967
+"Sasha and John Digweed","Northern Exposure",1996
 "Sault","Untitled (Black Is)",2020
 "Scarface","The Diary",1994
 "ScHoolboy Q","Blank Face LP",2016
@@ -1424,6 +1434,7 @@ artist,title,year
 "Siouxsie and The Banshees","The Scream",1978
 "Sister Sledge","We Are Family",1979
 "Skepta","Konnichiwa",2016
+"Skrillex","Bangarang",2011
 "Skunk Anansie","Post Orgasmic Chill",1999
 "Slade","Slayed?",1972
 "Slayer","Reign in Blood",1986
@@ -1709,6 +1720,7 @@ artist,title,year
 "The Notorious B.I.G.","Ready to Die",1994
 "The Offspring","Smash",1994
 "The Only Ones","The Only Ones",1978
+"The Orb","The BBC Sessions: 1989-2001",2008
 "The Orb","U.F.Orb",1992
 "The Ornette Coleman Double Quartet","Free Jazz",1961
 "The Oscar Peterson Trio","Night Train",1963
@@ -1899,6 +1911,7 @@ artist,title,year
 "Umm Kulthum","Inta Omri",1964
 "Underground Kings","Super Tight...",1994
 "Underworld","Second Toughest in the Infants",1996
+"Underworld","Underworld 1992-2002",2003
 "Usher","Confessions",2004
 "Ute Lemper","Punishing Kiss",2000
 "Vampire Weekend","Contra",2010
@@ -1913,6 +1926,8 @@ artist,title,year
 "Various Artists","A Christmas Gift for You From Philles Records",1963
 "Various Artists","Anthology of American Folk Music",1997
 "Various Artists","Funny Girl",1964
+"Various Artists","Journey Into Paradise: The Larry Levan Story",2006
+"Various Artists","Make 'Em Mokum Crazy - This Is the New Sound of Popcore",1996
 "Various Artists","Nuggets: Original Artyfacts From the First Psychedelic Era 1965-1968",1972
 "Various Artists","Rawkus Presents: Soundbombing II",1999
 "Various Artists","Saturday Night Fever",1977
@@ -1920,6 +1935,7 @@ artist,title,year
 "Various Artists","The Indestructible Beat of Soweto",1986
 "Various Artists","The Sugar Hill Records Story",1997
 "Various Artists","The Sun Records Collection",1994
+"Various Artists","True Spirit.",2002
 "Various Artists","Wild Style",1983
 "Venom","Black Metal",1982
 "Venom","Welcome to Hell",1981
