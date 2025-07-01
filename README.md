@@ -4,45 +4,47 @@ Check out today's album at [nowplaying.quest](https://nowplaying.quest)!
 
 ## Running locally
 
-1. Install dependencies
+1. Make a copy of the example `.env` file and configure the environment variables. Only `SITE_URL` is required for the site to function, the rest are for the album scripts described below.
 
-```console
-npm i
-```
+   ```console
+   cp .env.example .env
+   ```
 
-2. Start the hot-reloading local web server
+2. Install dependencies
 
-```console
-npm run dev
-```
+   ```console
+   npm i
+   ```
 
-3. The site should now be available at [localhost:8080](http://localhost:8080/)
+3. Start the hot-reloading local web server
+
+   ```console
+   npm run dev
+   ```
+
+4. The site should now be available at [localhost:8080](http://localhost:8080/)
 
 ## Album scripts
 
 ### Picking the album of the day
 
-To pick a new album for a given date and update the `history.csv`:
+To pick a new album for a given date:
 
 ```console
 DATE=2025-07-01 npm run pick-album
-# or manually:
+# or
 node scripts/pick-album.js 2025-07-01
 ```
 
-This writes a new JSON file to `data/album-of-the-day/YYYY-MM-DD.json`.
+This writes a new JSON file to `data/album-of-the-day/YYYY-MM-DD.json` and updates `data/history.csv`.
 
 ### Enriching the album of the day
-
-Some enrichment features require API credentials. For full functionality, set the following environment variables:
-
-- `SPOTIFY_CLIENT_ID` and `SPOTIFY_CLIENT_SECRET`: Required for Spotify album lookups and cross-platform streaming links. You can set these in your shell or in a `.env` file (if using a tool like `direnv`).
 
 To enrich the picked album with metadata and streaming links:
 
 ```console
 DATE=2025-07-01 npm run enrich-album
-# or manually:
+# or
 node scripts/enrich-album.js data/album-of-the-day/2025-07-01.json
 ```
 
@@ -50,15 +52,15 @@ This updates the JSON file in `data/album-of-the-day/` with additional fields (c
 
 ### Downloading and optimizing cover art
 
-To download and optimize the cover art for a given album JSON:
+To download and optimize the cover art for a given album:
 
 ```console
 DATE=2025-07-01 npm run download-cover-art
-# or manually:
+# or
 node scripts/download-cover-art.js data/album-of-the-day/2025-07-01.json
 ```
 
-This saves a WebP image (480x480px, max 200 KB) alongside the JSON file.
+This saves a WebP image (480x480px, max 200 KB) alongside the JSON file in `data/album-of-the-day/`.
 
 ### Generating Open Graph image
 
@@ -66,11 +68,11 @@ To generate a Open Graph image for a given album JSON:
 
 ```console
 DATE=2025-07-01 npm run generate-og-image
-# or manually:
+# or
 node scripts/generate-og-image.js data/album-of-the-day/2025-07-01.json
 ```
 
-This saves a PNG image (600x315px) alongside the JSON file.
+This saves a PNG image (600x315px) alongside the JSON file in `data/album-of-the-day/`.
 
 ### Running all scripts at once
 
