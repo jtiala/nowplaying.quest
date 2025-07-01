@@ -6,5 +6,31 @@
     "1001-albums-you-must-hear-before-you-die-all-editions",
     "nme-the-500-greatest-albums-of-all-time",
     "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
-  ]
+  ],
+  "genres": [
+    "funk",
+    "motown",
+    "pop",
+    "r&b",
+    "smooth soul",
+    "soul"
+  ],
+  "description": "What's Going On is the eleventh studio album by the American soul singer Marvin Gaye. It was released on May 21, 1971, by the Motown Records subsidiary label Tamla. Recorded between 1970 and 1971 in sessions at Hitsville U.S.A., Golden World, United Sound Studios in Detroit, and at The Sound Factory in West Hollywood, California, it was Gaye's first album to credit him as producer and to credit Motown's in-house session musicians, known as the Funk Brothers.",
+  "coverArt": "https://coverartarchive.org/release/ba91f9e2-2391-4bbd-9114-c9eff138fd98/23121356179.png",
+  "mbid": "c1fa4d2c-ec62-37d5-b01d-6df7f8fd2c90",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q901648",
+    "wikipedia": "https://en.wikipedia.org/wiki/What's_Going_On_(album)",
+    "discogs": "https://www.discogs.com/master/66631",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/marvin_gaye/whats_going_on/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/2v6ANhWhZBUKkg6pJJBs3B",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1538081586?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_l-s2m0elwdWQMZkwd1F6NJEWMzfg90DYg",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_l-s2m0elwdWQMZkwd1F6NJEWMzfg90DYg",
+    "amazonMusic": "https://music.amazon.com/albums/B08MVJQY9W",
+    "tidal": "https://listen.tidal.com/album/161195262",
+    "deezer": "https://www.deezer.com/album/184480112"
+  }
 }
