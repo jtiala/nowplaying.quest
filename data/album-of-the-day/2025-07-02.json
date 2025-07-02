@@ -1,0 +1,40 @@
+{
+  "artist": "Massive Attack",
+  "title": "Mezzanine",
+  "year": "1998",
+  "curatedLists": [
+    "nme-the-500-greatest-albums-of-all-time",
+    "pitchfork-200-best-albums-of-the-last-25-years",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "alternative dance",
+    "downtempo",
+    "dub",
+    "electronic",
+    "electronica",
+    "illbient",
+    "leftfield",
+    "novo dub",
+    "post-industrial",
+    "trip hop"
+  ],
+  "description": "Mezzanine is the third studio album by English electronic music group Massive Attack, released on 20 April 1998 by Circa and Virgin Records. For the album, the group began to explore a darker aesthetic, and focused on a more atmospheric style influenced by British post-punk, industrial music, hip hop and dub music. The album spawned four singles, \"Risingson\", \"Teardrop\", \"Angel\" and \"Inertia Creeps\". It was the group's first album not to feature rapper Adrian \"Tricky\" Thaws and the last to feature Andrew \"Mushroom\" Vowles. It also marked the first collaboration between Robert \"3D\" Del Naja and producer Neil Davidge. It also features guest vocals from recurring collaborator Horace Andy, as well as Elizabeth Fraser of Cocteau Twins and Sarah Jay Hawley.",
+  "coverArt": "https://coverartarchive.org/release/6e512ec0-1316-4abb-b6b6-07dbd8b005ed/12203062606.png",
+  "mbid": "6f9f6899-c0d3-311d-ae87-a10ae6bc53a9",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q844258",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mezzanine_(album)",
+    "discogs": "https://www.discogs.com/master/23683",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/massive_attack/mezzanine/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/49MNmJhZQewjt06rpwp6QR",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/724466069?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/results?search_query=Massive%20Attack%20Mezzanine",
+    "youtubeMusic": "https://music.youtube.com/search?q=Massive%20Attack%20Mezzanine",
+    "amazonMusic": "https://music.amazon.com/albums/B000T00PE2",
+    "tidal": "https://listen.tidal.com/album/161314",
+    "deezer": "https://www.deezer.com/album/301773"
+  }
+}
