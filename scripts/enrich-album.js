@@ -23,6 +23,7 @@ import { normalizeString } from "../src/utils/string.js";
 const userAgent = "nowplaying.quest/1.0 (github.com/jtiala/nowplaying.quest)";
 const albumPath = process.argv[2];
 const fetchTimeout = 5000;
+const fetchRetries = 3;
 
 if (!albumPath) {
   console.error("Usage: node enrich-album.js <path-to-album-json>");
@@ -122,76 +123,116 @@ async function searchMusicBrainz(artist, title, year) {
   for (const q of queries) {
     await new Promise((resolve) => setTimeout(resolve, fetchTimeout));
 
-    try {
-      const url = `https://musicbrainz.org/ws/2/release-group/?query=${encodeURIComponent(
-        q,
-      )}&fmt=json&limit=10`;
-      const res = await fetch(url, {
-        headers: {
-          "User-Agent": userAgent,
-        },
-      });
+    let attempt = 0;
+    let success = false;
+    let data = null;
 
-      if (!res.ok) {
-        continue;
-      }
+    while (attempt < fetchRetries && !success) {
+      try {
+        const url = `https://musicbrainz.org/ws/2/release-group/?query=${encodeURIComponent(
+          q,
+        )}&fmt=json&limit=10`;
+        const res = await fetch(url, {
+          headers: {
+            "User-Agent": userAgent,
+          },
+        });
 
-      const data = await res.json();
+        if (!res.ok) {
+          attempt++;
 
-      console.log(
-        `[MusicBrainz] Searching with query: '${q}', got ${data["release-groups"]?.length || 0} results.`,
-      );
+          if (attempt < fetchRetries) {
+            console.warn(
+              `[MusicBrainz] Query failed, retrying (attempt ${attempt}): '${q}'`,
+            );
 
-      if (!data["release-groups"] || !data["release-groups"].length) {
-        continue;
-      }
+            await new Promise((resolve) => setTimeout(resolve, fetchTimeout));
 
-      const exact = data["release-groups"].find((r) => {
-        if (
-          !r["artist-credit"] ||
-          r["artist-credit"].length === 0 ||
-          !r.title ||
-          !r["first-release-date"]
-        ) {
-          return false;
+            continue;
+          }
+
+          continue;
         }
 
-        const normalizedArtistResult = normalizeString(
-          r["artist-credit"][0].name,
-        );
-        const normalizedTitleResult = normalizeString(r.title);
+        data = await res.json();
+        success = true;
+      } catch (e) {
+        attempt++;
 
-        return (
-          normalizedArtistResult === normalizedArtist &&
-          normalizedTitleResult === normalizedTitle &&
-          r["first-release-date"].startsWith(year.toString())
-        );
-      });
+        if (attempt < fetchRetries) {
+          console.warn(
+            `[MusicBrainz] Query failed, retrying (attempt ${attempt}): '${q}'`,
+            e,
+          );
 
-      if (exact) {
-        console.log(
-          `[MusicBrainz] Found exact result: ${exact.title} by ${exact["artist-credit"][0].name} with query: '${q}'.`,
-        );
+          await new Promise((resolve) => setTimeout(resolve, fetchTimeout));
 
-        return exact;
+          continue;
+        } else {
+          console.error(
+            `[MusicBrainz] Error fetching data for query '${q}':`,
+            e,
+          );
+
+          continue;
+        }
+      }
+    }
+
+    if (!success || !data) {
+      continue;
+    }
+
+    console.log(
+      `[MusicBrainz] Searching with query: '${q}', got ${data["release-groups"]?.length || 0} results.`,
+    );
+
+    if (!data["release-groups"] || !data["release-groups"].length) {
+      continue;
+    }
+
+    const exact = data["release-groups"].find((r) => {
+      if (
+        !r["artist-credit"] ||
+        r["artist-credit"].length === 0 ||
+        !r.title ||
+        !r["first-release-date"]
+      ) {
+        return false;
       }
 
-      const closest = findBestAlbumMatch(
-        normalizedTitle,
-        normalizedArtist,
-        data["release-groups"],
+      const normalizedArtistResult = normalizeString(
+        r["artist-credit"][0].name,
+      );
+      const normalizedTitleResult = normalizeString(r.title);
+
+      return (
+        normalizedArtistResult === normalizedArtist &&
+        normalizedTitleResult === normalizedTitle &&
+        r["first-release-date"].startsWith(year.toString())
+      );
+    });
+
+    if (exact) {
+      console.log(
+        `[MusicBrainz] Found exact result: ${exact.title} by ${exact["artist-credit"][0].name} with query: '${q}'.`,
       );
 
-      if (closest) {
-        console.log(
-          `[MusicBrainz] Found close match: ${closest.title} by ${closest["artist-credit"][0].name} with query: '${q}'.`,
-        );
+      return exact;
+    }
 
-        return closest;
-      }
-    } catch (e) {
-      console.error(`[MusicBrainz] Error fetching data for query '${q}':`, e);
-      continue;
+    const closest = findBestAlbumMatch(
+      normalizedTitle,
+      normalizedArtist,
+      data["release-groups"],
+    );
+
+    if (closest) {
+      console.log(
+        `[MusicBrainz] Found close match: ${closest.title} by ${closest["artist-credit"][0].name} with query: '${q}'.`,
+      );
+
+      return closest;
     }
   }
 
@@ -216,11 +257,55 @@ async function getMusicBrainzDetails(mbid) {
 
 async function getCoverArt(mbid) {
   const url = `https://coverartarchive.org/release-group/${mbid}`;
-  const res = await fetch(url, {
-    headers: { "User-Agent": userAgent },
-  });
+  let attempt = 0;
+  let success = false;
+  let res = null;
 
-  if (!res.ok) {
+  while (attempt < fetchRetries && !success) {
+    try {
+      res = await fetch(url, {
+        headers: { "User-Agent": userAgent },
+      });
+
+      if (!res.ok) {
+        attempt++;
+
+        if (attempt < fetchRetries) {
+          console.warn(
+            `[CoverArtArchive] Query failed, retrying (attempt ${attempt}): '${url}'`,
+          );
+
+          await new Promise((resolve) => setTimeout(resolve, fetchTimeout));
+
+          continue;
+        }
+
+        continue;
+      }
+      success = true;
+    } catch (e) {
+      attempt++;
+
+      if (attempt < fetchRetries) {
+        console.warn(
+          `[CoverArtArchive] Query failed, retrying (attempt ${attempt}): '${url}'`,
+          e,
+        );
+
+        await new Promise((resolve) => setTimeout(resolve, fetchTimeout));
+
+        continue;
+      } else {
+        console.error(
+          `[CoverArtArchive] Error fetching data for url '${url}':`,
+          e,
+        );
+        continue;
+      }
+    }
+  }
+
+  if (!success || !res) {
     return null;
   }
 
@@ -239,11 +324,55 @@ async function getWikipediaSummary(wikipediaTitle) {
   const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(
     wikipediaTitle,
   )}`;
-  const res = await fetch(url, {
-    headers: { "User-Agent": userAgent },
-  });
+  let attempt = 0;
+  let success = false;
+  let res = null;
 
-  if (!res.ok) {
+  while (attempt < fetchRetries && !success) {
+    try {
+      res = await fetch(url, {
+        headers: { "User-Agent": userAgent },
+      });
+
+      if (!res.ok) {
+        attempt++;
+
+        if (attempt < fetchRetries) {
+          console.warn(
+            `[Wikipedia] Query failed, retrying (attempt ${attempt}) '${wikipediaTitle}'`,
+          );
+
+          await new Promise((resolve) => setTimeout(resolve, fetchTimeout));
+
+          continue;
+        }
+        continue;
+      }
+      success = true;
+    } catch (e) {
+      attempt++;
+
+      if (attempt < fetchRetries) {
+        console.warn(
+          `[Wikipedia] Query failed, retrying (attempt ${attempt}): '${wikipediaTitle}'`,
+          e,
+        );
+
+        await new Promise((resolve) => setTimeout(resolve, fetchTimeout));
+
+        continue;
+      } else {
+        console.error(
+          `[Wikipedia] Error fetching summary for '${wikipediaTitle}':`,
+          e,
+        );
+
+        continue;
+      }
+    }
+  }
+
+  if (!success || !res) {
     return null;
   }
 
@@ -306,69 +435,105 @@ async function getSpotifyAlbumLink(artist, title, year) {
   for (const q of queries) {
     await new Promise((resolve) => setTimeout(resolve, fetchTimeout));
 
-    try {
-      const searchRes = await fetch(
-        `https://api.spotify.com/v1/search?type=album&limit=10&q=${encodeURIComponent(q)}`,
-        {
-          headers: {
-            Authorization: `Bearer ${accessToken}`,
+    let attempt = 0;
+    let success = false;
+    let searchData = null;
+
+    while (attempt < fetchRetries && !success) {
+      try {
+        const searchRes = await fetch(
+          `https://api.spotify.com/v1/search?type=album&limit=10&q=${encodeURIComponent(q)}`,
+          {
+            headers: {
+              Authorization: `Bearer ${accessToken}`,
+            },
           },
-        },
-      );
+        );
 
-      if (!searchRes.ok) {
-        continue;
-      }
+        if (!searchRes.ok) {
+          attempt++;
 
-      const searchData = await searchRes.json();
+          if (attempt < fetchRetries) {
+            console.warn(
+              `[Spotify] Query failed, retrying (attempt ${attempt}): '${q}'`,
+            );
 
-      console.log(
-        `[Spotify] Searching with query: '${q}', got ${searchData.albums?.items?.length || 0} results.`,
-      );
+            await new Promise((resolve) => setTimeout(resolve, fetchTimeout));
 
-      if (
-        searchData.albums &&
-        searchData.albums.items &&
-        searchData.albums.items.length
-      ) {
-        let best = null;
-        let bestScore = 0;
-
-        for (const album of searchData.albums.items) {
-          const albumArtist =
-            album.artists && album.artists[0] ? album.artists[0].name : "";
-          const artistScore = token_sort_ratio(
-            normalizeString(albumArtist),
-            normalizedArtist,
-          );
-          const titleVariants = getTitleVariants(album.name);
-          const titleScores = titleVariants.map((v) =>
-            token_sort_ratio(v, normalizedTitle),
-          );
-          const maxTitleScore = Math.max(...titleScores);
-          const combinedScore = (maxTitleScore + artistScore) / 2;
-
-          console.log(
-            `[Spotify] Candidate with score ${combinedScore}: ${album.name} by ${album.artists[0].name}. Artist score: ${artistScore}, title score: ${maxTitleScore}.`,
-          );
-
-          if (combinedScore > bestScore) {
-            bestScore = combinedScore;
-            best = album;
+            continue;
           }
+
+          continue;
         }
 
-        if (best && bestScore > 80) {
-          console.log(
-            `[Spotify] Found close match: ${best.name} by ${best.artists[0].name}.`,
+        searchData = await searchRes.json();
+        success = true;
+      } catch (e) {
+        attempt++;
+
+        if (attempt < fetchRetries) {
+          console.warn(
+            `[Spotify] Query failed, retrying (attempt ${attempt}): '${q}'`,
+            e,
           );
 
-          return `https://open.spotify.com/album/${best.id}`;
+          await new Promise((resolve) => setTimeout(resolve, fetchTimeout));
+
+          continue;
+        } else {
+          console.error(`[Spotify] Error fetching data for query '${q}':`, e);
+          continue;
         }
       }
-    } catch (e) {
-      console.error(`[Spotify] Error fetching data for query '${q}':`, e);
+    }
+
+    if (!success || !searchData) {
       continue;
+    }
+
+    console.log(
+      `[Spotify] Searching with query: '${q}', got ${searchData.albums?.items?.length || 0} results.`,
+    );
+
+    if (
+      searchData.albums &&
+      searchData.albums.items &&
+      searchData.albums.items.length
+    ) {
+      let best = null;
+      let bestScore = 0;
+
+      for (const album of searchData.albums.items) {
+        const albumArtist =
+          album.artists && album.artists[0] ? album.artists[0].name : "";
+        const artistScore = token_sort_ratio(
+          normalizeString(albumArtist),
+          normalizedArtist,
+        );
+        const titleVariants = getTitleVariants(album.name);
+        const titleScores = titleVariants.map((v) =>
+          token_sort_ratio(v, normalizedTitle),
+        );
+        const maxTitleScore = Math.max(...titleScores);
+        const combinedScore = (maxTitleScore + artistScore) / 2;
+
+        console.log(
+          `[Spotify] Candidate with score ${combinedScore}: ${album.name} by ${album.artists[0].name}. Artist score: ${artistScore}, title score: ${maxTitleScore}.`,
+        );
+
+        if (combinedScore > bestScore) {
+          bestScore = combinedScore;
+          best = album;
+        }
+      }
+
+      if (best && bestScore > 80) {
+        console.log(
+          `[Spotify] Found close match: ${best.name} by ${best.artists[0].name}.`,
+        );
+
+        return `https://open.spotify.com/album/${best.id}`;
+      }
     }
   }
 
