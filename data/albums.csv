@@ -164,7 +164,7 @@ artist,title,year
 "Bill Withers","Just as I Am",1971
 "Bill Withers","Still Bill",1972
 "Billie Eilish","WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",2019
-"Billie Holiday & Ray Ellis and His Orchestra","Lady in Satin",1958
+"Billie Holiday","Lady in Satin",1958
 "Billie Holiday","At Jazz at the Philharmonic",1954
 "Billy Bragg & Wilco","Mermaid Avenue",1998
 "Billy Bragg","Life's a Riot With Spy vs. Spy",1983
@@ -1858,7 +1858,7 @@ artist,title,year
 "Tina Turner","Private Dancer",1984
 "Tindersticks","Tindersticks",1993
 "Tito Puente & La Lupe","La pareja",1978
-"Tito Puente and His Orchestra","Dance Mania",1958
+"Tito Puente & His Orchestra","Dance Mania",1958
 "Titus Andronicus","The Monitor",2010
 "TLC","CrazySexyCool",1994
 "Todd Rundgren","A Wizard / A True Star",1973
@@ -1923,9 +1923,8 @@ artist,title,year
 "Van Morrison","Astral Weeks",1968
 "Van Morrison","It's Too Late to Stop Now",1974
 "Van Morrison","Moondance",1970
-"Various Artists","A Christmas Gift for You From Philles Records",1963
-"Various Artists","Anthology of American Folk Music",1997
-"Various Artists","Funny Girl",1964
+"Various Artists","A Christmas Gift for You from Phil Spector",1963
+"Various Artists","Anthology of American Folk Music",1952
 "Various Artists","Journey Into Paradise: The Larry Levan Story",2006
 "Various Artists","Make 'Em Mokum Crazy - This Is the New Sound of Popcore",1996
 "Various Artists","Nuggets: Original Artyfacts From the First Psychedelic Era 1965-1968",1972
@@ -1935,7 +1934,6 @@ artist,title,year
 "Various Artists","The Indestructible Beat of Soweto",1986
 "Various Artists","The Sugar Hill Records Story",1997
 "Various Artists","The Sun Records Collection",1994
-"Various Artists","True Spirit.",2002
 "Various Artists","Wild Style",1983
 "Venom","Black Metal",1982
 "Venom","Welcome to Hell",1981
