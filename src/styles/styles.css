@@ -262,6 +262,12 @@ main {
   fill: #a238ff;
 }
 
+.album .streaming-links em {
+  font-size: 0.8rem;
+  font-family: var(--font-body);
+  color: var(--color-white);
+}
+
 .album .columns {
   display: grid;
   grid-template-columns: 1fr;

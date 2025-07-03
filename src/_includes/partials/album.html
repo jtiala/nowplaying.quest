@@ -115,6 +115,15 @@
           </a>
         </li>
       </ul>
+      {% if album.streamingLinks.spotify contains "spotify.com/search" %}
+        <em>
+          If your preferred streaming platform doesn't have the album, try
+          <a
+            href="{{ album.streamingLinks.youtube }}"
+            target="_blank"
+            rel="noopener noreferrer">searching for it on YouTube</a>.
+        </em>
+      {% endif %}
     </section>
   </header>
   <div class="columns">
