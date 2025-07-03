@@ -1,0 +1,39 @@
+{
+  "artist": "Rage Against the Machine",
+  "title": "Rage Against the Machine",
+  "year": "1992",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time",
+    "rolling-stone-the-100-greatest-metal-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "alternative metal",
+    "funk metal",
+    "metal",
+    "political hip hop",
+    "pop",
+    "post-hardcore",
+    "rap metal",
+    "rock"
+  ],
+  "description": "Rage Against the Machine is the debut studio album by American rock band Rage Against the Machine. It was released on November 6, 1992, by Epic Records, four days after the release of the album's first single, \"Killing in the Name\". The album was based largely on the band's first commercial demo tape of the same name, completed 11 months prior to the album's release. The tape contained earlier recordings of seven of the ten songs.",
+  "coverArt": "https://coverartarchive.org/release/389a60bf-e586-4dc3-b995-fe196c5cf0f7/33270800624.jpg",
+  "mbid": "1305859b-8937-397f-9c33-39f62eb672fb",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q540943",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rage_Against_the_Machine_(album)",
+    "discogs": "https://www.discogs.com/master/7939",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/rage-against-the-machine/rage-against-the-machine/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/4Io5vWtmV1rFj4yirKb4y4",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/578028823?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/results?search_query=Rage%20Against%20the%20Machine%20Rage%20Against%20the%20Machine",
+    "youtubeMusic": "https://music.youtube.com/search?q=Rage%20Against%20the%20Machine%20Rage%20Against%20the%20Machine",
+    "amazonMusic": "https://music.amazon.com/albums/B00A4Y9NR8",
+    "tidal": "https://listen.tidal.com/album/17953419",
+    "deezer": "https://www.deezer.com/album/6088193"
+  }
+}
