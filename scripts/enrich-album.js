@@ -121,7 +121,9 @@ async function searchMusicBrainz(artist, title, year) {
     });
 
     if (exact) {
-      console.log("Found exact result in MusicBrainz");
+      console.log(
+        `Found exact result (${exact.title} by ${exact["artist-credit"][0].name}) in MusicBrainz with query: '${q}'`,
+      );
 
       return exact;
     }
@@ -129,7 +131,9 @@ async function searchMusicBrainz(artist, title, year) {
     const closest = findBestAlbumMatch(normalizedTitle, data["release-groups"]);
 
     if (closest) {
-      console.log("Found close match in MusicBrainz");
+      console.log(
+        `Found close match (${closest.title} by ${closest["artist-credit"][0].name}) in MusicBrainz with query: '${q}'`,
+      );
 
       return closest;
     }
@@ -259,7 +263,9 @@ async function getSpotifyAlbumLink(artist, title, year) {
       const album = searchData.albums.items[0];
 
       if (album && album.id) {
-        console.log(`Found album in Spotify with query: '${q}'`);
+        console.log(
+          `Found album (${album.name} by ${album.artists[0].name}) in Spotify with query: '${q}'`,
+        );
 
         return `https://open.spotify.com/album/${album.id}`;
       }
