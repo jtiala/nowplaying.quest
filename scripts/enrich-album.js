@@ -17,11 +17,12 @@
  */
 
 import fs from "fs";
-import { extract, token_sort_ratio } from "fuzzball";
+import { token_sort_ratio } from "fuzzball";
 import { normalizeString } from "../src/utils/string.js";
 
 const userAgent = "nowplaying.quest/1.0 (github.com/jtiala/nowplaying.quest)";
 const albumPath = process.argv[2];
+const fetchTimeout = 5000;
 
 if (!albumPath) {
   console.error("Usage: node enrich-album.js <path-to-album-json>");
@@ -36,115 +37,171 @@ function readAlbum() {
   return JSON.parse(fs.readFileSync(albumPath, "utf8"));
 }
 
-function findBestAlbumMatch(query, candidates, threshold = 80) {
-  const choices = candidates.map((c) => c.title);
+function findBestAlbumMatch(title, artist, candidates, threshold = 80) {
+  if (!candidates || !candidates.length) {
+    return undefined;
+  }
 
-  const best = extract(query, choices, {
-    scorer: token_sort_ratio,
-    returnObjects: true,
-  }).reduce((max, curr) => (curr.score > max.score ? curr : max), { score: 0 });
+  const normalizedTitle = normalizeString(title);
+  const normalizedArtist = normalizeString(artist);
 
-  if (best.score >= threshold) {
-    return candidates.find((c) => c.title === best.choice);
+  let best = null;
+  let bestScore = 0;
+
+  for (const c of candidates) {
+    const candidateTitle = c.title;
+    const candidateArtist =
+      c["artist-credit"] && c["artist-credit"][0] && c["artist-credit"][0].name
+        ? normalizeString(c["artist-credit"][0].name)
+        : "";
+    const artistScore = token_sort_ratio(candidateArtist, normalizedArtist);
+    const titleVariants = getTitleVariants(candidateTitle);
+    const titleScores = titleVariants.map((v) =>
+      token_sort_ratio(v, normalizedTitle),
+    );
+    const maxTitleScore = Math.max(...titleScores);
+    const combinedScore = (maxTitleScore + artistScore) / 2;
+
+    console.log(
+      `[MusicBrainz] Candidate with score ${combinedScore}: ${c.title} by ${candidateArtist}. Artist score: ${artistScore}, title score: ${maxTitleScore}.`,
+    );
+
+    if (combinedScore > bestScore) {
+      bestScore = combinedScore;
+      best = c;
+    }
+  }
+
+  if (best && bestScore >= threshold) {
+    return best;
   }
 
   return undefined;
 }
 
-function splitArtistsForMusicBrainz(artist) {
+function getArtistVariants(artist) {
   // Split on ' / ', '/', ' & ', '&' (with or without spaces)
-  return artist
-    .split(/\s*\/\s*|\s*&\s*/)
-    .map(normalizeString)
-    .filter(Boolean);
+  const split = artist.split(/\s*\/\s*|\s*&\s*/).filter(Boolean);
+
+  return [...new Set([artist, ...split].map((s) => normalizeString(s)))];
+}
+
+function getTitleVariants(str) {
+  const noParen = str.replace(/\s*\([^)]*\)\s*$/, "");
+  const noColon = str.includes(":") ? str.slice(0, str.lastIndexOf(":")) : str;
+  const noDash = str.includes("-") ? str.slice(0, str.lastIndexOf("-")) : str;
+
+  return [
+    ...new Set([str, noParen, noColon, noDash].map((s) => normalizeString(s))),
+  ];
 }
 
 async function searchMusicBrainz(artist, title, year) {
   const normalizedArtist = normalizeString(artist);
   const normalizedTitle = normalizeString(title);
-  const splitArtists = splitArtistsForMusicBrainz(artist);
+  const artistVariants = getArtistVariants(artist);
+  const titleVariants = getTitleVariants(title);
 
-  let queries = [
-    `releasegroup:"${normalizedTitle}" AND artist:"${normalizedArtist}" AND firstreleasedate:${year} AND primarytype:album`,
-    `artist:"${normalizedArtist}" AND firstreleasedate:${year} AND primarytype:album`,
-    `artist:"${normalizedArtist}" AND primarytype:album`,
-  ];
+  const queries = [];
 
-  for (const split of splitArtists) {
-    if (split !== normalizedArtist) {
+  for (const artist of artistVariants) {
+    for (const title of titleVariants) {
       queries.push(
-        `releasegroup:"${normalizedTitle}" AND artist:"${split}" AND firstreleasedate:${year} AND primarytype:album`,
+        `releasegroup:"${title}" AND artist:"${artist}" AND firstreleasedate:${year} AND primarytype:album`,
       );
+      queries.push(
+        `releasegroup:"${title}" AND artist:"${artist}" AND primarytype:album`,
+      );
+      queries.push(
+        `artist:"${artist}" AND firstreleasedate:${year} AND primarytype:album`,
+      );
+      queries.push(`artist:"${artist}" AND primarytype:album`);
     }
   }
 
   for (const q of queries) {
-    const url = `https://musicbrainz.org/ws/2/release-group/?query=${encodeURIComponent(
-      q,
-    )}&fmt=json&limit=10`;
-    const res = await fetch(url, {
-      headers: {
-        "User-Agent": userAgent,
-      },
-    });
+    await new Promise((resolve) => setTimeout(resolve, fetchTimeout));
 
-    if (!res.ok) {
-      continue;
-    }
+    try {
+      const url = `https://musicbrainz.org/ws/2/release-group/?query=${encodeURIComponent(
+        q,
+      )}&fmt=json&limit=10`;
+      const res = await fetch(url, {
+        headers: {
+          "User-Agent": userAgent,
+        },
+      });
 
-    const data = await res.json();
-
-    if (!data["release-groups"] || !data["release-groups"].length) {
-      continue;
-    }
-
-    const exact = data["release-groups"].find((r) => {
-      if (
-        !r["artist-credit"] ||
-        r["artist-credit"].length === 0 ||
-        !r.title ||
-        !r["first-release-date"]
-      ) {
-        return false;
+      if (!res.ok) {
+        continue;
       }
 
-      const normalizedArtistResult = normalizeString(
-        r["artist-credit"][0].name,
-      );
-      const normalizedTitleResult = normalizeString(r.title);
+      const data = await res.json();
 
-      return (
-        normalizedArtistResult === normalizedArtist &&
-        normalizedTitleResult === normalizedTitle &&
-        r["first-release-date"].startsWith(year.toString())
-      );
-    });
-
-    if (exact) {
       console.log(
-        `Found exact result (${exact.title} by ${exact["artist-credit"][0].name}) in MusicBrainz with query: '${q}'`,
+        `[MusicBrainz] Searching with query: '${q}', got ${data["release-groups"]?.length || 0} results.`,
       );
 
-      return exact;
-    }
+      if (!data["release-groups"] || !data["release-groups"].length) {
+        continue;
+      }
 
-    const closest = findBestAlbumMatch(normalizedTitle, data["release-groups"]);
+      const exact = data["release-groups"].find((r) => {
+        if (
+          !r["artist-credit"] ||
+          r["artist-credit"].length === 0 ||
+          !r.title ||
+          !r["first-release-date"]
+        ) {
+          return false;
+        }
 
-    if (closest) {
-      console.log(
-        `Found close match (${closest.title} by ${closest["artist-credit"][0].name}) in MusicBrainz with query: '${q}'`,
+        const normalizedArtistResult = normalizeString(
+          r["artist-credit"][0].name,
+        );
+        const normalizedTitleResult = normalizeString(r.title);
+
+        return (
+          normalizedArtistResult === normalizedArtist &&
+          normalizedTitleResult === normalizedTitle &&
+          r["first-release-date"].startsWith(year.toString())
+        );
+      });
+
+      if (exact) {
+        console.log(
+          `[MusicBrainz] Found exact result: ${exact.title} by ${exact["artist-credit"][0].name} with query: '${q}'.`,
+        );
+
+        return exact;
+      }
+
+      const closest = findBestAlbumMatch(
+        normalizedTitle,
+        normalizedArtist,
+        data["release-groups"],
       );
 
-      return closest;
+      if (closest) {
+        console.log(
+          `[MusicBrainz] Found close match: ${closest.title} by ${closest["artist-credit"][0].name} with query: '${q}'.`,
+        );
+
+        return closest;
+      }
+    } catch (e) {
+      console.error(`[MusicBrainz] Error fetching data for query '${q}':`, e);
+      continue;
     }
   }
 
-  console.log("Couldn't find album in MusicBrainz.");
+  console.log("[MusicBrainz] Couldn't find the album.");
 
   return null;
 }
 
 async function getMusicBrainzDetails(mbid) {
+  await new Promise((resolve) => setTimeout(resolve, fetchTimeout));
   const url = `https://musicbrainz.org/ws/2/release-group/${mbid}?inc=genres+tags+url-rels&fmt=json`;
   const res = await fetch(url, {
     headers: { "User-Agent": userAgent },
@@ -201,7 +258,7 @@ async function getSpotifyAccessToken() {
 
   if (!clientId || !clientSecret) {
     console.warn(
-      "Spotify credentials not set, skipping direct Spotify lookup.",
+      "[Spotify] Credentials not set, skipping direct Spotify lookup.",
     );
 
     return null;
@@ -232,45 +289,90 @@ async function getSpotifyAlbumLink(artist, title, year) {
 
   const normalizedArtist = normalizeString(artist);
   const normalizedTitle = normalizeString(title);
-  const queries = [
-    `artist:${normalizedArtist} album:${normalizedTitle} year:${year}`,
-    `artist:${normalizedArtist} album:${normalizedTitle}`,
-    `album:${normalizedTitle} year:${year}`,
-    `artist:${normalizedArtist} year:${year}`,
-  ];
+  const artistVariants = getArtistVariants(artist);
+  const titleVariants = getTitleVariants(title);
 
-  for (const q of queries) {
-    const searchRes = await fetch(
-      `https://api.spotify.com/v1/search?type=album&limit=1&q=${encodeURIComponent(q)}`,
-      {
-        headers: {
-          Authorization: `Bearer ${accessToken}`,
-        },
-      },
-    );
+  const queries = [];
 
-    if (!searchRes.ok) {
-      continue;
-    }
-
-    const searchData = await searchRes.json();
-
-    if (
-      searchData.albums &&
-      searchData.albums.items &&
-      searchData.albums.items[0]
-    ) {
-      const album = searchData.albums.items[0];
-
-      if (album && album.id) {
-        console.log(
-          `Found album (${album.name} by ${album.artists[0].name}) in Spotify with query: '${q}'`,
-        );
-
-        return `https://open.spotify.com/album/${album.id}`;
-      }
+  for (const artist of artistVariants) {
+    for (const title of titleVariants) {
+      queries.push(`artist:${artist} album:${title} year:${year}`);
+      queries.push(`artist:${artist} album:${title}`);
+      queries.push(`album:${title} year:${year}`);
+      queries.push(`artist:${artist} year:${year}`);
     }
   }
+
+  for (const q of queries) {
+    await new Promise((resolve) => setTimeout(resolve, fetchTimeout));
+
+    try {
+      const searchRes = await fetch(
+        `https://api.spotify.com/v1/search?type=album&limit=10&q=${encodeURIComponent(q)}`,
+        {
+          headers: {
+            Authorization: `Bearer ${accessToken}`,
+          },
+        },
+      );
+
+      if (!searchRes.ok) {
+        continue;
+      }
+
+      const searchData = await searchRes.json();
+
+      console.log(
+        `[Spotify] Searching with query: '${q}', got ${searchData.albums?.items?.length || 0} results.`,
+      );
+
+      if (
+        searchData.albums &&
+        searchData.albums.items &&
+        searchData.albums.items.length
+      ) {
+        let best = null;
+        let bestScore = 0;
+
+        for (const album of searchData.albums.items) {
+          const albumArtist =
+            album.artists && album.artists[0] ? album.artists[0].name : "";
+          const artistScore = token_sort_ratio(
+            normalizeString(albumArtist),
+            normalizedArtist,
+          );
+          const titleVariants = getTitleVariants(album.name);
+          const titleScores = titleVariants.map((v) =>
+            token_sort_ratio(v, normalizedTitle),
+          );
+          const maxTitleScore = Math.max(...titleScores);
+          const combinedScore = (maxTitleScore + artistScore) / 2;
+
+          console.log(
+            `[Spotify] Candidate with score ${combinedScore}: ${album.name} by ${album.artists[0].name}. Artist score: ${artistScore}, title score: ${maxTitleScore}.`,
+          );
+
+          if (combinedScore > bestScore) {
+            bestScore = combinedScore;
+            best = album;
+          }
+        }
+
+        if (best && bestScore > 80) {
+          console.log(
+            `[Spotify] Found close match: ${best.name} by ${best.artists[0].name}.`,
+          );
+
+          return `https://open.spotify.com/album/${best.id}`;
+        }
+      }
+    } catch (e) {
+      console.error(`[Spotify] Error fetching data for query '${q}':`, e);
+      continue;
+    }
+  }
+
+  console.log("[Spotify] Couldn't find the album.");
 
   return null;
 }
