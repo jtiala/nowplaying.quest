@@ -150,13 +150,14 @@ main {
   font-weight: 600;
 }
 
-.album header h1 em {
+.album header h1 a {
   color: var(--color-white);
   font-family: var(--font-tagline);
   font-size: 1.5rem;
   font-style: italic;
   font-weight: 300;
   line-height: 1;
+  text-decoration: none;
 }
 
 .album header h1 strong {

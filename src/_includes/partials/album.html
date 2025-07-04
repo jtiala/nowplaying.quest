@@ -1,7 +1,7 @@
 <article class="album">
   <header>
     <h1>
-      <em>Daily album for {{ album.date | format_date: true }}</em>
+      <a href="{{ site.url }}/{{ canonical }}" aria-current="page">Daily album for {{ album.date | format_date: true }}</a>
       <strong>{{ album.title }}</strong>
       <span>by {{ album.artist }} ({{ album.year }})</span>
     </h1>
