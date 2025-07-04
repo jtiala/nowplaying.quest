@@ -1,0 +1,63 @@
+---
+pagination:
+  data: albums
+  size: 3
+  alias: paginated_albums
+  reverse: true
+  addAllPagesToCollections: true
+permalink: "/archive/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber | plus: 1 }}/{% endif %}index.html"
+layout: layouts/base.html
+title: "Album Archive"
+hide_album_nav: true
+---
+
+<article class="album-archive">
+  <header>
+    <h1>Album Archive</h1>
+  </header>
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th class="album-number">#</th>
+          <th class="date">Date</th>
+          <th class="artist">Artist</th>
+          <th class="title">Title</th>
+          <th class="year">Year</th>
+          <th class="album">Album</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for album in paginated_albums %}
+          {% assign page_offset = pagination.pageNumber | times: pagination.size %}
+          {% assign album_index = page_offset | plus: forloop.index0 %}
+          {% assign album_number = albums.size | minus: album_index %}
+          <tr>
+            <th class="album-number">{{ album_number }}</th>
+            <td class="date">
+              <a href="{{ site.url }}/{{ album.date }}">{{ album.date | format_date: true }}</a>
+            </td>
+            <td class="artist">{{ album.artist }}</td>
+            <td class="title">{{ album.title }}</td>
+            <td class="year">{{ album.year }}</td>
+            <td class="album">
+              <a href="{{ site.url }}/{{ album.date }}">{{ album.date | format_date: true }}</a>
+              <span>{{ album.artist }} - {{ album.title }} ({{ album.year }})</span>
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% if pagination.pages.length > 1 %}
+    <nav aria-label="Album archive page navigation">
+      <ul>
+        {% for page in pagination.pages %}
+          <li>
+            <a href="{{ pagination.hrefs[forloop.index0] }}" class="{% if pagination.pageNumber == forloop.index0 %}active{% endif %}">{{ forloop.index }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  {% endif %}
+</article>

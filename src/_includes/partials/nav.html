@@ -1,33 +1,40 @@
 {% if albums.size > 1 %}
+  {% if is_index %}
+    {% assign has_prev = true %}
+    {% assign has_next = false %}
+    {% assign prev_index = albums.size | minus: 2 %}
+    {% assign prev = albums[prev_index] %}
+    {% assign class = "two-columns" %}
+  {% else %}
+    {% assign has_prev = pagination.href.previous %}
+    {% assign has_next = pagination.href.next %}
+    {% assign prev_index = pagination.pageNumber | minus: 1 %}
+    {% assign prev = albums[prev_index] %}
+    {% assign next_index = pagination.pageNumber | plus: 1 %}
+    {% assign next = albums[next_index] %}
+    {% if has_next and has_prev %}
+      {% assign class = "three-columns" %}
+    {% else %}
+      {% assign class = "two-columns" %}
+    {% endif %}
+  {% endif %}
   <nav class="album-nav" aria-label="Daily album navigation">
     <h3>Browse daily albums</h3>
-    <ul>
-      {% if is_index %}
-        {% assign prev_index = albums.size | minus: 2 %}
-        {% if prev_index >= 0 %}
-          {% assign prev = albums[prev_index] %}
-          <li>
-            <span class="arrow">&larr;</span>
-            <a href="{{ site.url }}/{{ prev.date }}/" rel="prev">{{ prev.date | format_date }}</a>
-          </li>
-        {% endif %}
-      {% else %}
-        {% if pagination.href.previous %}
-          {% assign prev_index = pagination.pageNumber | minus: 1 %}
-          {% assign prev = albums[prev_index] %}
-          <li>
-            <span class="arrow">&larr;</span>
-            <a href="{{ pagination.href.previous }}" rel="prev">{{ prev.date | format_date }}</a>
-          </li>
-        {% endif %}
-        {% if pagination.href.next %}
-          {% assign next_index = pagination.pageNumber | plus: 1 %}
-          {% assign next = albums[next_index] %}
-          <li>
-            <a href="{{ pagination.href.next }}" rel="next">{{ next.date | format_date }}</a>
-            <span class="arrow">&rarr;</span>
-          </li>
-        {% endif %}
+    <ul class="{{ class }}">
+      {% if has_prev %}
+        <li>
+          <span class="arrow">&larr;</span>
+          <a href="{{ site.url }}/{{ prev.date }}/" rel="prev">{{ prev.date | format_date }}</a>
+        </li>
+      {% endif %}
+      <li>
+        <a href="{{ site.url }}/archive/">Archive</a>
+      </li>
+      {% if has_next %}
+        <li>
+          <a href="{{ site.url }}/{{ next.date }}/" rel="next">{{ next.date | format_date }}</a>
+          <span class="arrow">&rarr;</span>
+        </li>
       {% endif %}
     </ul>
   </nav>

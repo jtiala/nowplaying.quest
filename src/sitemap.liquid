@@ -10,6 +10,12 @@ eleventyExcludeFromCollections: true
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
+  <url>
+    <loc>{{ site.url }}/archive/</loc>
+    <lastmod>{{ albums | last | map: 'date' | join }}T00:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.3</priority>
+  </url>
   {% for album in albums %}
     <url>
       <loc>{{ site.url }}/{{ album.date }}/</loc>
