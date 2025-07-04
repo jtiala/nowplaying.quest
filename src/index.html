@@ -2,7 +2,7 @@
 permalink: "/index.html"
 layout: layouts/base.html
 eleventyComputed:
-  title: "{{ albums | last | map: 'title' }} by {{ albums | last | map: 'artist' }} ({{ albums | last | map: 'year' }}) | Daily album for {{ albums | last | map: 'date' | join | format_date }}"
+  title: "{{ albums | last | map: 'title' | escape_html }} by {{ albums | last | map: 'artist' | escape_html }} ({{ albums | last | map: 'year' }}) | Daily album for {{ albums | last | map: 'date' | join | format_date }}"
   canonical: "{{ albums | last | map: 'date' | join }}/"
   og_image: "{{ albums | last | map: 'date' | join }}/og.png"
   is_index: true

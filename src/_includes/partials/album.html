@@ -130,9 +130,9 @@
     <div class="column">
       <div class="cover-art">
         {% if album.coverArt %}
-          <img src="{{ site.url }}/{{ album.date }}/cover-art.webp" alt="Cover art for {{ album.title }}" />
+          <img src="{{ site.url }}/{{ album.date }}/cover-art.webp" alt="Cover art for {{ album.title | escape_html }}" />
         {% else %}
-          <img src="{{ site.url }}/default-cover-art.webp" alt="No cover art available for {{ album.title }}" />
+          <img src="{{ site.url }}/default-cover-art.webp" alt="No cover art available for {{ album.title | escape_html }}" />
         {% endif %}
       </div>
     </div>
