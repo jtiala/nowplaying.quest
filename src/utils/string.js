@@ -68,10 +68,26 @@ export function normalizeString(
   }
 
   const casing = lowercase ? str.toLowerCase() : str;
-  const normalized = casing.normalize("NFD");
+  const replaces = casing
+    .replace(/[`‘’‚‛‹›′]/g, "'")
+    .replace(/[“”„‟«»″]/g, '"')
+    .replace(/[‐‑‒–—―]/g, "-")
+    .replace(/[…]/g, "...")
+    .replace(/[\u00A0\u2000-\u200B\u202F\u205F\u3000]/g, " ")
+    .replace(/[⁄∕]/g, "/")
+    .replace(/[＼﹨]/g, "\\")
+    .replace(/[♯]/g, "#")
+    .replace(/[＆﹠]/g, "&");
+  const normalized = replaces.normalize("NFD");
   const stripped = stripAllSpecialChars
-    ? normalized.replace(/[^a-z0-9\u00c0-\u024f ]+/gi, "")
-    : normalized.replace(/[^a-z0-9\u00c0-\u024f.,'\-&\/ ]+/gi, "");
+    ? normalized.replace(
+        /[^a-z0-9\u00c0-\u024f\u0370-\u03ff\u1f00-\u1fff ]+/gi,
+        "",
+      )
+    : normalized.replace(
+        /[^a-z0-9\u00c0-\u024f\u0370-\u03ff\u1f00-\u1fff.,'\-&#*=\/$ ]+/gi,
+        "",
+      );
 
   return stripped.replace(/\s+/g, " ").trim();
 }

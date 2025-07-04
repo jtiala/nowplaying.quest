@@ -38,33 +38,62 @@ function readAlbum() {
   return JSON.parse(fs.readFileSync(albumPath, "utf8"));
 }
 
-function findBestAlbumMatch(title, artist, candidates, threshold = 80) {
+function getArtistVariants(artist) {
+  // Split on ' and ', ' / ', '/', ' & ', '&'
+  const split = artist.split(/\s+and\s+|\s*\/\s*|\s*&\s*/).filter(Boolean);
+
+  return [...new Set([artist, ...split].map((s) => normalizeString(s)))];
+}
+
+function getTitleVariants(str) {
+  const noParen = str.replace(/\s*\([^)]*\)\s*$/, "");
+  const noColon = str.includes(":") ? str.slice(0, str.lastIndexOf(":")) : str;
+  const noDash = str.includes("-") ? str.slice(0, str.lastIndexOf("-")) : str;
+
+  return [
+    ...new Set([str, noParen, noColon, noDash].map((s) => normalizeString(s))),
+  ];
+}
+
+function findBestAlbumMatch(
+  artistVariants,
+  titleVariants,
+  candidates,
+  threshold = 80,
+) {
   if (!candidates || !candidates.length) {
     return undefined;
   }
-
-  const normalizedTitle = normalizeString(title);
-  const normalizedArtist = normalizeString(artist);
 
   let best = null;
   let bestScore = 0;
 
   for (const c of candidates) {
-    const candidateTitle = c.title;
-    const candidateArtist =
-      c["artist-credit"] && c["artist-credit"][0] && c["artist-credit"][0].name
-        ? normalizeString(c["artist-credit"][0].name)
-        : "";
-    const artistScore = token_sort_ratio(candidateArtist, normalizedArtist);
-    const titleVariants = getTitleVariants(candidateTitle);
-    const titleScores = titleVariants.map((v) =>
-      token_sort_ratio(v, normalizedTitle),
-    );
+    const cArtistVariants = getArtistVariants(c.artist);
+    const artistScores = cArtistVariants.reduce((acc, cArtistVariant) => {
+      return [
+        ...acc,
+        ...artistVariants.map((artistVariant) =>
+          token_sort_ratio(cArtistVariant, artistVariant),
+        ),
+      ];
+    }, []);
+    const maxArtistScore = Math.max(...artistScores);
+    const cTitleVariants = getTitleVariants(c.title);
+    const titleScores = cTitleVariants.reduce((acc, cTitleVariant) => {
+      return [
+        ...acc,
+        ...titleVariants.map((titleVariant) =>
+          token_sort_ratio(cTitleVariant, titleVariant),
+        ),
+      ];
+    }, []);
+
     const maxTitleScore = Math.max(...titleScores);
-    const combinedScore = (maxTitleScore + artistScore) / 2;
+    const combinedScore = (maxArtistScore + maxTitleScore) / 2;
 
     console.log(
-      `[MusicBrainz] Candidate with score ${combinedScore}: ${c.title} by ${candidateArtist}. Artist score: ${artistScore}, title score: ${maxTitleScore}.`,
+      `[Matcher] Candidate with score ${combinedScore}: ${c.title} by ${c.artist}. Artist score: ${maxArtistScore}, title score: ${maxTitleScore}.`,
     );
 
     if (combinedScore > bestScore) {
@@ -80,26 +109,7 @@ function findBestAlbumMatch(title, artist, candidates, threshold = 80) {
   return undefined;
 }
 
-function getArtistVariants(artist) {
-  // Split on ' / ', '/', ' & ', '&' (with or without spaces)
-  const split = artist.split(/\s*\/\s*|\s*&\s*/).filter(Boolean);
-
-  return [...new Set([artist, ...split].map((s) => normalizeString(s)))];
-}
-
-function getTitleVariants(str) {
-  const noParen = str.replace(/\s*\([^)]*\)\s*$/, "");
-  const noColon = str.includes(":") ? str.slice(0, str.lastIndexOf(":")) : str;
-  const noDash = str.includes("-") ? str.slice(0, str.lastIndexOf("-")) : str;
-
-  return [
-    ...new Set([str, noParen, noColon, noDash].map((s) => normalizeString(s))),
-  ];
-}
-
 async function searchMusicBrainz(artist, title, year) {
-  const normalizedArtist = normalizeString(artist);
-  const normalizedTitle = normalizeString(title);
   const artistVariants = getArtistVariants(artist);
   const titleVariants = getTitleVariants(title);
 
@@ -195,20 +205,16 @@ async function searchMusicBrainz(artist, title, year) {
       if (
         !r["artist-credit"] ||
         r["artist-credit"].length === 0 ||
+        typeof r["artist-credit"][0].name !== "string" ||
         !r.title ||
         !r["first-release-date"]
       ) {
         return false;
       }
 
-      const normalizedArtistResult = normalizeString(
-        r["artist-credit"][0].name,
-      );
-      const normalizedTitleResult = normalizeString(r.title);
-
       return (
-        normalizedArtistResult === normalizedArtist &&
-        normalizedTitleResult === normalizedTitle &&
+        artistVariants.includes(normalizeString(r["artist-credit"][0].name)) &&
+        titleVariants.includes(normalizeString(r.title)) &&
         r["first-release-date"].startsWith(year.toString())
       );
     });
@@ -218,18 +224,31 @@ async function searchMusicBrainz(artist, title, year) {
         `[MusicBrainz] Found exact result: ${exact.title} by ${exact["artist-credit"][0].name} with query: '${q}'.`,
       );
 
-      return exact;
+      return {
+        artist: exact["artist-credit"][0].name,
+        title: exact.title,
+        id: exact.id,
+      };
     }
 
     const closest = findBestAlbumMatch(
-      normalizedTitle,
-      normalizedArtist,
-      data["release-groups"],
+      artistVariants,
+      titleVariants,
+      data["release-groups"].map((a) => ({
+        artist:
+          !a["artist-credit"] ||
+          a["artist-credit"].length === 0 ||
+          typeof a["artist-credit"][0].name !== "string"
+            ? ""
+            : a["artist-credit"][0].name,
+        title: a.title,
+        id: a.id,
+      })),
     );
 
     if (closest) {
       console.log(
-        `[MusicBrainz] Found close match: ${closest.title} by ${closest["artist-credit"][0].name} with query: '${q}'.`,
+        `[MusicBrainz] Found close match: ${closest.title} by ${closest.artist} with query: '${q}'.`,
       );
 
       return closest;
@@ -416,8 +435,6 @@ async function getSpotifyAccessToken() {
 async function getSpotifyAlbumLink(artist, title, year) {
   const accessToken = await getSpotifyAccessToken();
 
-  const normalizedArtist = normalizeString(artist);
-  const normalizedTitle = normalizeString(title);
   const artistVariants = getArtistVariants(artist);
   const titleVariants = getTitleVariants(title);
 
@@ -500,39 +517,51 @@ async function getSpotifyAlbumLink(artist, title, year) {
       searchData.albums.items &&
       searchData.albums.items.length
     ) {
-      let best = null;
-      let bestScore = 0;
-
-      for (const album of searchData.albums.items) {
+      const exact = searchData.albums.items.find((a) => {
         const albumArtist =
-          album.artists && album.artists[0] ? album.artists[0].name : "";
-        const artistScore = token_sort_ratio(
-          normalizeString(albumArtist),
-          normalizedArtist,
-        );
-        const titleVariants = getTitleVariants(album.name);
-        const titleScores = titleVariants.map((v) =>
-          token_sort_ratio(v, normalizedTitle),
-        );
-        const maxTitleScore = Math.max(...titleScores);
-        const combinedScore = (maxTitleScore + artistScore) / 2;
+          a.artists && a.artists[0] ? a.artists[0].name : undefined;
 
-        console.log(
-          `[Spotify] Candidate with score ${combinedScore}: ${album.name} by ${album.artists[0].name}. Artist score: ${artistScore}, title score: ${maxTitleScore}.`,
-        );
-
-        if (combinedScore > bestScore) {
-          bestScore = combinedScore;
-          best = album;
+        if (typeof albumArtist !== "string" || typeof a.name !== "string") {
+          return false;
         }
+
+        const nArtist = normalizeString(albumArtist);
+        const nTitle = normalizeString(a.name);
+
+        return (
+          artistVariants.includes(nArtist) && titleVariants.includes(nTitle)
+        );
+      });
+
+      if (exact) {
+        console.log(
+          `[Spotify] Found exact result: ${exact.name} by ${exact.artists[0].name} with query: '${q}'.`,
+        );
+
+        return `https://open.spotify.com/album/${exact.id}`;
       }
 
-      if (best && bestScore > 80) {
+      const closest = findBestAlbumMatch(
+        artistVariants,
+        titleVariants,
+        searchData.albums.items.map((a) => ({
+          artist:
+            !a.artists ||
+            a.artists.length === 0 ||
+            typeof a.artists[0].name !== "string"
+              ? ""
+              : a.artists[0].name,
+          title: a.name,
+          id: a.id,
+        })),
+      );
+
+      if (closest) {
         console.log(
-          `[Spotify] Found close match: ${best.name} by ${best.artists[0].name}.`,
+          `[Spotify] Found close match: ${closest.title} by ${closest.artist} with query: '${q}'.`,
         );
 
-        return `https://open.spotify.com/album/${best.id}`;
+        return `https://open.spotify.com/album/${closest.id}`;
       }
     }
   }
@@ -601,10 +630,9 @@ async function main() {
 
   const mb = await searchMusicBrainz(artist, title, year);
 
-  if (mb) {
+  if (mb && mb.id) {
     mbid = mb.id;
-
-    const details = await getMusicBrainzDetails(mbid);
+    const details = await getMusicBrainzDetails(mb.id);
 
     if (details) {
       if (details.genres && details.genres.length) {
@@ -672,7 +700,7 @@ async function main() {
       }
     }
 
-    coverArt = await getCoverArt(mbid);
+    coverArt = await getCoverArt(mb.id);
     if (coverArt && coverArt.startsWith("http:")) {
       coverArt = coverArt.replace(/^http:/, "https:");
     }
