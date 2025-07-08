@@ -1,0 +1,36 @@
+{
+  "artist": "Soundgarden",
+  "title": "Superunknown",
+  "year": "1994",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "alternative metal",
+    "alternative rock",
+    "grunge",
+    "hard rock",
+    "psychedelic rock",
+    "rock",
+    "stoner rock"
+  ],
+  "description": "Superunknown is the fourth studio album by American rock band Soundgarden, released on March 8, 1994, through A&M Records. Produced by Michael Beinhorn and the band themselves, Soundgarden began work on the album after touring in support of their previous album, Badmotorfinger (1991). Superunknown retained the heaviness of the band's earlier releases while displaying a more diverse range of influences.",
+  "coverArt": null,
+  "mbid": "8300fe9c-0022-3c55-8a3e-8dc61f282e8c",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q739924",
+    "wikipedia": "https://en.wikipedia.org/wiki/Superunknown",
+    "discogs": "https://www.discogs.com/master/11547",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/soundgarden/superunknown/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/29sTacnS0qA9xri6YS8xLA",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1440855214?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/results?search_query=Soundgarden%20Superunknown",
+    "youtubeMusic": "https://music.youtube.com/search?q=Soundgarden%20Superunknown",
+    "amazonMusic": "https://music.amazon.com/albums/B00KNF9X3M",
+    "tidal": "https://listen.tidal.com/album/29980250",
+    "deezer": "https://www.deezer.com/album/7826453"
+  }
+}
