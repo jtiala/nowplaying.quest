@@ -1,0 +1,33 @@
+{
+  "artist": "New Order",
+  "title": "Low-Life",
+  "year": "1985",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time"
+  ],
+  "genres": [
+    "alternative dance",
+    "dance-rock",
+    "electronic",
+    "new wave"
+  ],
+  "description": "Low-Life is the third studio album by English rock band New Order, released on 13 May 1985 by Factory Records. It is considered to be among the band's strongest work, displaying the moment they completed their transformation from post-punk hold-overs to dance-rockers. The album shows New Order's increased incorporation of synthesisers and samplers, while still preserving the rock elements of their earlier work. The original Factory CD issues of the album were mastered with pre-emphasis.",
+  "coverArt": "https://coverartarchive.org/release/91365640-4a8e-44e2-bb1f-8fa3a5c37e0e/26939406726.jpg",
+  "mbid": "69be20bc-189f-3e40-8486-6fba8459f6a0",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q372143",
+    "wikipedia": "https://en.wikipedia.org/wiki/Low-Life",
+    "discogs": "https://www.discogs.com/master/3608",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/new_order/low_life/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/6ls958BLJbeFT3OqAYTvQB",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1041433918?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_lGHD6v1kcrPc3E4apihILajsIV6IDEgh8",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lGHD6v1kcrPc3E4apihILajsIV6IDEgh8",
+    "amazonMusic": "https://music.amazon.com/albums/B015KQ4400",
+    "tidal": "https://listen.tidal.com/album/71106092",
+    "deezer": "https://www.deezer.com/album/11234190"
+  }
+}
