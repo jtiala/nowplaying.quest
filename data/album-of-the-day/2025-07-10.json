@@ -1,0 +1,27 @@
+{
+  "artist": "Jacques Brel",
+  "title": "Olympia 64",
+  "year": "1964",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions"
+  ],
+  "genres": [],
+  "description": null,
+  "coverArt": null,
+  "mbid": null,
+  "externalLinks": {
+    "wikidata": null,
+    "wikipedia": null,
+    "discogs": null,
+    "rateyourmusic": null
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/5kR5vbaS4hzICUcPrY7rOv",
+    "appleMusic": "https://music.apple.com/us/search?term=Jacques%20Brel%20Olympia%2064",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_nR1n5lKGoyQDWrJ3IYHXmmYrCPM3tXgT0",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nR1n5lKGoyQDWrJ3IYHXmmYrCPM3tXgT0",
+    "amazonMusic": "https://music.amazon.com/albums/B000VZFYT6",
+    "tidal": "https://listen.tidal.com/album/3987636",
+    "deezer": "https://www.deezer.com/album/229021"
+  }
+}
