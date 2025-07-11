@@ -1,0 +1,36 @@
+{
+  "artist": "2Pac",
+  "title": "Me Against the World",
+  "year": "1995",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "rolling-stone-the-200-greatest-hip-hop-albums-of-all-time"
+  ],
+  "genres": [
+    "blues",
+    "conscious hip hop",
+    "g-funk",
+    "gangsta rap",
+    "hip hop",
+    "pop rap",
+    "west coast hip hop"
+  ],
+  "description": "Me Against the World is the third studio album by American rapper 2Pac. It was released on March 14, 1995, by Interscope Records and Out da Gutta Records and distributed by Atlantic Records. 2Pac draws lyrical inspiration from his impending prison sentence, troubles with the police, and poverty.",
+  "coverArt": "https://coverartarchive.org/release/3dbc70e8-b3a3-4a39-a1b6-1d4a6a4c7440/20098653914.jpg",
+  "mbid": "cfc98a2a-6aaa-3dda-a01d-e034e56c4fec",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q637860",
+    "wikipedia": "https://en.wikipedia.org/wiki/Me_Against_the_World",
+    "discogs": "https://www.discogs.com/master/84798",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/2pac/me_against_the_world/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/3OrucS4sHv6Bl9GS4rafEk",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/446002567?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_nJKaZjTOtfqdALHUXLBdw32JG6rcAyYSg",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nJKaZjTOtfqdALHUXLBdw32JG6rcAyYSg",
+    "amazonMusic": "https://music.amazon.com/albums/B0058VB7BM",
+    "tidal": "https://listen.tidal.com/album/7397029",
+    "deezer": "https://www.deezer.com/album/1183037"
+  }
+}
