@@ -1,0 +1,35 @@
+{
+  "artist": "Grateful Dead",
+  "title": "American Beauty",
+  "year": "1970",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "bluegrass",
+    "classic rock",
+    "country rock",
+    "folk rock",
+    "psychedelic rock",
+    "rock"
+  ],
+  "description": "American Beauty is the fifth studio album by American rock band the Grateful Dead. Released in November 1970, by Warner Bros. Records, the album continued the folk rock and country music style of their previous album Workingman's Dead, released earlier in the year.",
+  "coverArt": "https://coverartarchive.org/release/193be930-94f7-340a-9131-70185d22d238/5095748553.jpg",
+  "mbid": "994c2c59-d32f-304e-8f53-bda17a254f52",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q255923",
+    "wikipedia": "https://en.wikipedia.org/wiki/American_Beauty_(album)",
+    "discogs": "https://www.discogs.com/master/18442",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/grateful-dead/american-beauty/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/7rqgm1BnAZ8I4d6hukpkdg",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/664831661?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_nc3dHmM6xdsySO1SSxYLYzlm82rVZ1pfM",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nc3dHmM6xdsySO1SSxYLYzlm82rVZ1pfM",
+    "amazonMusic": "https://music.amazon.com/albums/B00IBD2R4U",
+    "tidal": "https://listen.tidal.com/album/68711020",
+    "deezer": "https://www.deezer.com/album/7407482"
+  }
+}
