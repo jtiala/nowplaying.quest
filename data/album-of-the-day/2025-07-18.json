@@ -1,0 +1,34 @@
+{
+  "artist": "Machito",
+  "title": "Kenya",
+  "year": "1958",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions"
+  ],
+  "genres": [
+    "afro-cuban jazz",
+    "jazz",
+    "latin",
+    "latin jazz",
+    "mambo",
+    "swing"
+  ],
+  "description": null,
+  "coverArt": "https://coverartarchive.org/release/481dbbbc-7147-4b2a-b4fe-085f53c8b323/15927454727.jpg",
+  "mbid": "2b5535ee-adbe-33a5-8986-74eace9dd169",
+  "externalLinks": {
+    "wikidata": null,
+    "wikipedia": null,
+    "discogs": "https://www.discogs.com/master/409551",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/machito/kenya/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/1BHUIrORQwywRkl5cjapQz",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/696175088?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_mJU0Ecfbwckp-GMSDvc7qDr4zWhc78q7Y",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mJU0Ecfbwckp-GMSDvc7qDr4zWhc78q7Y",
+    "amazonMusic": "https://music.amazon.com/albums/B013LURPJ4",
+    "tidal": "https://listen.tidal.com/album/1561774",
+    "deezer": "https://www.deezer.com/album/300162"
+  }
+}
