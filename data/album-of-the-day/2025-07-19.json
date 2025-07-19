@@ -1,0 +1,38 @@
+{
+  "artist": "Jay-Z",
+  "title": "The Blueprint",
+  "year": "2001",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time",
+    "pitchfork-200-best-albums-of-the-last-25-years",
+    "rolling-stone-the-200-greatest-hip-hop-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions",
+    "the-guardian-the-100-best-albums-of-the-21st-century"
+  ],
+  "genres": [
+    "chipmunk soul",
+    "east coast hip hop",
+    "hardcore hip hop",
+    "hip hop",
+    "pop rap"
+  ],
+  "description": "The Blueprint is the sixth studio album by American rapper Jay-Z, released on September 11, 2001, through Roc-A-Fella Records and Def Jam Recordings. Its release was set a week earlier than initially planned in order to combat bootlegging. Recording sessions for the album took place during 2001 at Manhattan Center Studios and Baseline Studios in New York City. Contrasting the sound of Jay-Z's previous work, The Blueprint features soul-based sampling and production handled primarily by Kanye West, Just Blaze, and Bink, as well as Timbaland, Trackmasters, and Eminem, who also contributes the album's sole guest feature.",
+  "coverArt": "https://coverartarchive.org/release/51fe12d2-4adb-4e83-9dee-f33f7907bc48/39652140374.jpg",
+  "mbid": "11ae8c9c-27c1-3308-9761-edb87c8f54ea",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q1088473",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Blueprint",
+    "discogs": "https://www.discogs.com/master/46989",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/jay_z/the_blueprint/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/54I5tDCMjnNVWSENHg8EDH",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1440935272?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_lF39DbpocpIgwPf1gBbqtJugIuNlDFstE",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lF39DbpocpIgwPf1gBbqtJugIuNlDFstE",
+    "amazonMusic": "https://music.amazon.com/albums/B0769GF12C",
+    "tidal": "https://listen.tidal.com/album/35738574",
+    "deezer": "https://www.deezer.com/album/8910319"
+  }
+}
