@@ -1,0 +1,35 @@
+{
+  "artist": "Sheryl Crow",
+  "title": "Tuesday Night Music Club",
+  "year": "1993",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "npr-the-150-greatest-albums-made-by-women"
+  ],
+  "genres": [
+    "alternative rock",
+    "americana",
+    "country rock",
+    "pop rock",
+    "rock",
+    "soft rock"
+  ],
+  "description": "Tuesday Night Music Club is the debut studio album from American singer-songwriter Sheryl Crow, released on August 3, 1993. The first two singles from the album were not particularly successful. However, the album gained attention after the success of the fourth single, \"All I Wanna Do\", based on the Wyn Cooper poem \"Fun\" and co-written by David Baerwald, Bill Bottrell, Sheryl Crow, and Kevin Gilbert. The single eventually reached number two on the Billboard Hot 100, propelling the album to number three on the US Billboard 200 albums chart. It has sold more than 4.5 million copies in the US as of January 2008. On the UK Albums Chart, Tuesday Night Music Club reached number eight and is certified 2× platinum.",
+  "coverArt": "https://coverartarchive.org/release/f10b4b40-4db1-4b9a-a223-06915fa06b3c/22039936498.png",
+  "mbid": "0f0ecd4f-1d20-34b9-9f67-5aaa785c7f11",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q1189251",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tuesday_Night_Music_Club",
+    "discogs": "https://www.discogs.com/master/90311",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/sheryl_crow/tuesday_night_music_club/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/7dC6axVAeBDpRMmNtRbpwU",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1440918803?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_kUEc5xIdhqaiYLksdRtedB-6fSCxN06RQ",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kUEc5xIdhqaiYLksdRtedB-6fSCxN06RQ",
+    "amazonMusic": "https://music.amazon.com/search/Sheryl%20Crow%20Tuesday%20Night%20Music%20Club",
+    "tidal": "https://listen.tidal.com/album/3287857",
+    "deezer": "https://www.deezer.com/album/103812"
+  }
+}
