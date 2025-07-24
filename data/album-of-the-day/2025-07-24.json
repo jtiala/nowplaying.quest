@@ -1,0 +1,30 @@
+{
+  "artist": "Eve",
+  "title": "Scorpion",
+  "year": "2001",
+  "curatedLists": [
+    "rolling-stone-the-200-greatest-hip-hop-albums-of-all-time"
+  ],
+  "genres": [
+    "hip hop",
+    "pop rap"
+  ],
+  "description": "Scorpion is the second studio album by American rapper Eve. It was released by Ruff Ryders Entertainment and Interscope Records on March 6, 2001, in the United States. The album's title is a reference to Eve's zodiac sign, Scorpio. It features the hit single \"Let Me Blow Ya Mind\", a duet with Gwen Stefani of No Doubt, which won the first Grammy Award for Best Rap/Sung Collaboration, a new category at the time.",
+  "coverArt": "https://coverartarchive.org/release/e94dccab-d78e-452c-9287-7e1fd2aeed7d/39893537037.jpg",
+  "mbid": "dde217d6-8a16-3b45-8798-49c26f5193e7",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q2777852",
+    "wikipedia": "https://en.wikipedia.org/wiki/Scorpion_(Eve_album)",
+    "discogs": "https://www.discogs.com/master/114454",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/eve/scorpion/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/6ZWL1xSTEvqs5A6dBh8vZw",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1440898228?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_kFks7lqcHzxV-2hGoyGYonUmv20Vplgqg",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kFks7lqcHzxV-2hGoyGYonUmv20Vplgqg",
+    "amazonMusic": "https://music.amazon.com/albums/B000WLVBDM",
+    "tidal": "https://listen.tidal.com/album/616967",
+    "deezer": "https://www.deezer.com/album/117745"
+  }
+}
