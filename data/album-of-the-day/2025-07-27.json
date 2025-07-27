@@ -1,0 +1,36 @@
+{
+  "artist": "Elvis Presley",
+  "title": "From Elvis in Memphis",
+  "year": "1969",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "blue-eyed soul",
+    "country",
+    "country soul",
+    "pop",
+    "rock and roll",
+    "soul",
+    "traditional country"
+  ],
+  "description": "From Elvis in Memphis is the ninth studio album by American rock and roll singer Elvis Presley. It was released by RCA Records on June 2, 1969. It was recorded at American Sound Studio in Memphis in January and February 1969 under the direction of producer Chips Moman and backed by its house band, informally known as the Memphis Boys. Following the success of Presley's TV special Elvis and its soundtrack, the album marked Presley's return to non-soundtrack albums after the completion of his film contract with Metro-Goldwyn-Mayer (MGM).",
+  "coverArt": "https://coverartarchive.org/release/e3f84078-44da-45ba-87ca-f8d3c3c5ea2f/14756703136.jpg",
+  "mbid": "2a753764-89d5-3b72-8dff-8c599f1ea925",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q1004072",
+    "wikipedia": "https://en.wikipedia.org/wiki/From_Elvis_in_Memphis",
+    "discogs": "https://www.discogs.com/master/107505",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/elvis_presley/from_elvis_in_memphis/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/3ekkFrfotMsEAKc5g71GHk",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1138094621?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_kHkRDaJKhiLzPBifyRurhci0H1zrk1E9A",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kHkRDaJKhiLzPBifyRurhci0H1zrk1E9A",
+    "amazonMusic": "https://music.amazon.com/albums/B01J51HK6Q",
+    "tidal": "https://listen.tidal.com/album/63372088",
+    "deezer": "https://www.deezer.com/album/13669784"
+  }
+}
