@@ -1,0 +1,33 @@
+{
+  "artist": "Ramones",
+  "title": "Rocket to Russia",
+  "year": "1977",
+  "curatedLists": [
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "pop punk",
+    "punk",
+    "punk rock",
+    "rock",
+    "surf punk"
+  ],
+  "description": "Rocket to Russia is the third studio album by the American punk rock band Ramones, released on November 4, 1977, through Sire Records. It is the band's last album to feature original drummer Tommy Ramone, who left the band in 1978 to focus on production. The album's origins date back to the summer of 1977, when \"Sheena Is a Punk Rocker\" was released as a single. That summer was known as the peak of the punk rock genre since many punk bands were offered recording contracts. The album's recording began in August 1977, and the band had a considerably larger budget with Sire allowing them between $25,000 and $30,000; much of this money went toward the album's production rather than recording.",
+  "coverArt": "https://coverartarchive.org/release/dd7b900f-d365-408b-bb05-9a91b9cd89b7/7235814706.jpg",
+  "mbid": "dd959091-dba1-32b8-8159-0090959ce75b",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q1352199",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rocket_to_Russia",
+    "discogs": "https://www.discogs.com/master/39371",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/ramones/rocket-to-russia/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/3SBh2kzao9z3gLCzOV45ho",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/847962534?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_m8mO_gk-BVsQd12kZ_WRCvFvvOtHDFyjM",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_m8mO_gk-BVsQd12kZ_WRCvFvvOtHDFyjM",
+    "amazonMusic": "https://music.amazon.com/albums/B00122QC9S",
+    "tidal": "https://listen.tidal.com/album/68697095",
+    "deezer": "https://www.deezer.com/album/340829"
+  }
+}
