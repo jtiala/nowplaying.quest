@@ -1,0 +1,36 @@
+{
+  "artist": "Alicia Keys",
+  "title": "Songs in A Minor",
+  "year": "2001",
+  "curatedLists": [
+    "npr-the-150-greatest-albums-made-by-women",
+    "the-guardian-the-100-best-albums-of-the-21st-century"
+  ],
+  "genres": [
+    "contemporary r&b",
+    "electronic",
+    "hip hop",
+    "house",
+    "neo soul",
+    "r&b",
+    "soul"
+  ],
+  "description": "Songs in A Minor is the debut studio album by American singer-songwriter Alicia Keys. It was released on June 26, 2001, by J Records. A classically trained pianist, Keys wrote, arranged and produced the majority of the album herself, though she frequently worked with her then-partner Kerry \"Krucial\" Brothers. The efforts resulted in a neo soul record fusing contemporary classical music with traditional and modern R&B, soul, jazz, hip-hop, blues, and gospel styles. Its lyrical themes center on love, perserverence, self-worth, survival, and introspection. Despite the album's title, only two of its tracks are composed in the key of A minor.",
+  "coverArt": "https://coverartarchive.org/release/7189231c-4757-4020-82b6-ccb96cca7884/34560842694.jpg",
+  "mbid": "5701e04b-efc2-3429-b8af-c6596f1d08cf",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q900686",
+    "wikipedia": "https://en.wikipedia.org/wiki/Songs_in_A_Minor",
+    "discogs": "https://www.discogs.com/master/144290",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/alicia-keys/songs-in-a-minor/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/5qUlPoDmNxCSzqVx81RDLJ",
+    "appleMusic": "https://music.apple.com/us/search?term=Alicia%20Keys%20Songs%20in%20A%20Minor",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_k6mofirDlpB_4HEttra_0kYT_TPh6FZi0",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_k6mofirDlpB_4HEttra_0kYT_TPh6FZi0",
+    "amazonMusic": "https://music.amazon.com/albums/B00138KJPE",
+    "tidal": "https://listen.tidal.com/album/514401",
+    "deezer": "https://www.deezer.com/album/107584"
+  }
+}
