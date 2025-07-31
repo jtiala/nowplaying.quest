@@ -1,0 +1,43 @@
+{
+  "artist": "Patti Smith",
+  "title": "Horses",
+  "year": "1975",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time",
+    "npr-the-150-greatest-albums-made-by-women",
+    "rolling-stone-the-40-greatest-punk-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "alternative rock",
+    "art punk",
+    "art rock",
+    "avant-garde",
+    "folk rock",
+    "garage rock",
+    "proto-punk",
+    "punk",
+    "punk rock",
+    "rock",
+    "singer-songwriter"
+  ],
+  "description": "Horses is the debut studio album by American musician Patti Smith, released on November 10, 1975 by Arista Records. Smith, supported by her regular backing band, recorded the album at Electric Lady Studios in September 1975, choosing former Velvet Underground member John Cale as the album's producer.",
+  "coverArt": "https://coverartarchive.org/release/96c08749-3ffe-37f2-a226-132c6e59c17d/11436427595.jpg",
+  "mbid": "ff8f533c-3cb3-3877-9209-11f433edaad2",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q774927",
+    "wikipedia": "https://en.wikipedia.org/wiki/Horses_(album)",
+    "discogs": "https://www.discogs.com/master/40109",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/patti_smith/horses/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/0OeuSeP8wp8n8OuTqYb61C",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1038568061?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=PLNPGM2D7aODemAbR6hXuVJbD-kct4rrqc",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PLNPGM2D7aODemAbR6hXuVJbD-kct4rrqc",
+    "amazonMusic": "https://music.amazon.com/albums/B0155P5CXO",
+    "tidal": "https://listen.tidal.com/album/51040614",
+    "deezer": "https://www.deezer.com/album/11184584"
+  }
+}
