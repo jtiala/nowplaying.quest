@@ -1,0 +1,39 @@
+{
+  "artist": "Thundercat",
+  "title": "Drunk",
+  "year": "2017",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions"
+  ],
+  "genres": [
+    "acid jazz",
+    "alternative r&b",
+    "contemporary jazz",
+    "contemporary r&b",
+    "downtempo",
+    "electronic",
+    "hip hop",
+    "jazz",
+    "jazz fusion",
+    "neo soul",
+    "r&b"
+  ],
+  "description": "Drunk is the third studio album by American musician Thundercat, released on February 24, 2017, by Brainfeeder. It features guest appearances from Kenny Loggins, Michael McDonald, Kendrick Lamar, Wiz Khalifa, Mac Miller, Pharrell, Kamasi Washington and Louis Cole. It was released nearly four years after his previous studio album, Apocalypse.",
+  "coverArt": "https://coverartarchive.org/release/54ee2e8a-ee1c-4136-987b-690dfede08fe/26343422461.jpg",
+  "mbid": "f0c89a63-6cb0-4b5f-9ced-79396b58a191",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q29843823",
+    "wikipedia": "https://en.wikipedia.org/wiki/Drunk_(album)",
+    "discogs": "https://www.discogs.com/master/1140592",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/thundercat/drunk/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/7vHBQDqwzB7uDvoE5bncMM",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1197789099?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_neDrgMIhi1YrjonmPx2QqRDAAUlfbV7_0",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_neDrgMIhi1YrjonmPx2QqRDAAUlfbV7_0",
+    "amazonMusic": "https://music.amazon.com/albums/B073JYYZ9V",
+    "tidal": "https://listen.tidal.com/album/69721913",
+    "deezer": "https://www.deezer.com/album/15174133"
+  }
+}
