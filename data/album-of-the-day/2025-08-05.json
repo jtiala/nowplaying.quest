@@ -1,0 +1,37 @@
+{
+  "artist": "Weyes Blood",
+  "title": "Titanic Rising",
+  "year": "2019",
+  "curatedLists": [
+    "pitchfork-200-best-albums-of-the-last-25-years"
+  ],
+  "genres": [
+    "art pop",
+    "ballad",
+    "baroque pop",
+    "chamber pop",
+    "indie folk",
+    "indie rock",
+    "progressive",
+    "psychedelic",
+    "soft rock"
+  ],
+  "description": "Titanic Rising is the fourth studio album by American singer-songwriter and musician Weyes Blood, released on April 5, 2019 by Sub Pop. Produced by the artist along with Jonathan Rado, it is influenced by 1970s FM radio. Its lyrical themes address romantic pursuits, climate change, and references to the Titanic.",
+  "coverArt": "https://coverartarchive.org/release/d48820e7-422e-4415-aeff-4dd5d6aa8854/41986945499.jpg",
+  "mbid": "b30447b9-8e32-4e98-a128-9c18d9378e8d",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q62515490",
+    "wikipedia": "https://en.wikipedia.org/wiki/Titanic_Rising",
+    "discogs": "https://www.discogs.com/master/1527838",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/weyes-blood/titanic-rising/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/0Cuqhgy8vm96JEkBY3polk",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1450550344?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_mtC3rfG4baRAWpRnlgWh2HnireB1MO8ok",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mtC3rfG4baRAWpRnlgWh2HnireB1MO8ok",
+    "amazonMusic": "https://music.amazon.com/albums/B07NHYZPZJ",
+    "tidal": "https://listen.tidal.com/album/106478328",
+    "deezer": "https://www.deezer.com/album/185277222"
+  }
+}
