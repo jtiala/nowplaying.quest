@@ -1,0 +1,35 @@
+{
+  "artist": "Steely Dan",
+  "title": "Aja",
+  "year": "1977",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "jazz fusion",
+    "jazz rock",
+    "pop",
+    "pop rock",
+    "rock",
+    "yacht rock"
+  ],
+  "description": "Aja is the sixth studio album by the American rock band Steely Dan, released on September 23, 1977, by ABC Records. For the album, band leaders Walter Becker and Donald Fagen pushed Steely Dan further into experimenting with different combinations of session players, enlisting the services of nearly 40 musicians, while pursuing longer, more sophisticated compositions and arrangements. As with all of the band's previous albums, it was produced by Gary Katz.",
+  "coverArt": "https://coverartarchive.org/release/5e8c8780-2b25-4e43-9d0f-804131132eb6/9701088050.jpg",
+  "mbid": "8588c5a5-b491-37a4-8d51-2227346a072e",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q411814",
+    "wikipedia": "https://en.wikipedia.org/wiki/Aja_(album)",
+    "discogs": "https://www.discogs.com/master/16921",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/steely-dan/aja/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/1hOK2ey9W76x9GnftSRgrw",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1706428459?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_ns_zqCLjZ6CXF0cji36OJNwTjH1YRYO_4",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_ns_zqCLjZ6CXF0cji36OJNwTjH1YRYO_4",
+    "amazonMusic": "https://music.amazon.com/albums/B0CJLZLLP7",
+    "tidal": "https://listen.tidal.com/album/317688857",
+    "deezer": "https://www.deezer.com/album/491146635"
+  }
+}
