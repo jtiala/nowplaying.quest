@@ -1,0 +1,37 @@
+{
+  "artist": "ABBA",
+  "title": "Arrival",
+  "year": "1976",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time"
+  ],
+  "genres": [
+    "dance",
+    "disco",
+    "electronic",
+    "euro-disco",
+    "europop",
+    "pop",
+    "pop rock",
+    "rock"
+  ],
+  "description": "Arrival is the fourth studio album by the Swedish pop group ABBA. It was originally released in Sweden on 11 October 1976 by Polar Records. It became one of ABBA's most successful albums to date, producing three of their biggest hits: \"Dancing Queen\", \"Money, Money, Money\" and \"Knowing Me, Knowing You\". The track \"Fernando\", which had been recently released as a single in March 1976, was included on the Australian and New Zealand versions of the album. Arrival was the best-selling album of 1977 in the United Kingdom and was certified gold by the Recording Industry Association of America.",
+  "coverArt": "https://coverartarchive.org/release/bc141786-124f-4690-aa6f-828afb9b3297/3127628964.jpg",
+  "mbid": "e464e167-83ab-3b59-88bd-262cf552056e",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q162392",
+    "wikipedia": "https://en.wikipedia.org/wiki/Arrival_(ABBA_album)",
+    "discogs": "https://www.discogs.com/master/5649",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/abba/arrival/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/1V6a99EbTTIegOhWoPxYI9",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1440820126?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_lTlswkE7FLki8tCzkbgFlwGd4h5S9w-ps",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lTlswkE7FLki8tCzkbgFlwGd4h5S9w-ps",
+    "amazonMusic": "https://music.amazon.com/albums/B073LMK5N4",
+    "tidal": "https://listen.tidal.com/album/570396",
+    "deezer": "https://www.deezer.com/album/126502"
+  }
+}
