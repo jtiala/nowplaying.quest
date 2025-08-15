@@ -1,0 +1,33 @@
+{
+  "artist": "OutKast",
+  "title": "Aquemini",
+  "year": "1998",
+  "curatedLists": [
+    "pitchfork-200-best-albums-of-the-last-25-years",
+    "rolling-stone-the-200-greatest-hip-hop-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "alternative hip hop",
+    "dirty south",
+    "hip hop"
+  ],
+  "description": "Aquemini is the third studio album by the American hip hop duo Outkast, released on September 29, 1998, by LaFace Records and Arista Records. The title is a portmanteau of the two performers' Zodiac signs: Aquarius and Gemini, which is indicative of the album's recurring theme of the differing personalities of the two members. The group recorded the majority of the album in Bobby Brown's Bosstown Recording Studios and Doppler Studios, both in Atlanta, Georgia.",
+  "coverArt": "https://coverartarchive.org/release/63f4592c-6f58-32bb-bd9f-a431dc14e04d/6640977411.jpg",
+  "mbid": "eb655897-6cc5-3fc1-b9ed-5008eb80c682",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q623242",
+    "wikipedia": "https://en.wikipedia.org/wiki/Aquemini",
+    "discogs": "https://www.discogs.com/master/25976",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/outkast/aquemini/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/5ceB3rxgXqIRpsOvVzTG28",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/266365274?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_mMl2tuhVjXqMfN1qH7E52rbXJz0jobYEk",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mMl2tuhVjXqMfN1qH7E52rbXJz0jobYEk",
+    "amazonMusic": "https://music.amazon.com/albums/B0013GE2P4",
+    "tidal": "https://listen.tidal.com/album/43868",
+    "deezer": "https://www.deezer.com/album/107860"
+  }
+}
