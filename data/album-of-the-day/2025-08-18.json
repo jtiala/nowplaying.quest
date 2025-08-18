@@ -1,0 +1,33 @@
+{
+  "artist": "Super Furry Animals",
+  "title": "Radiator",
+  "year": "1997",
+  "curatedLists": [
+    "nme-the-500-greatest-albums-of-all-time"
+  ],
+  "genres": [
+    "alternative rock",
+    "electronic",
+    "indie rock",
+    "psychedelic rock",
+    "rock"
+  ],
+  "description": "Radiator is the second studio album by Welsh alternative rock band Super Furry Animals. It was released in August 1997 by Creation Records, and later the same year in the United States under Flydaddy Records. It peaked at number eight on the UK Albums Chart. In 2005, it was reissued with a bonus disc of other tracks from the time.",
+  "coverArt": "https://coverartarchive.org/release/b9854978-60b5-4534-aea8-26cca7c469dc/4137065045.jpg",
+  "mbid": "a0ccd2d7-fe7c-3339-a021-f20d9d72a8b7",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q7280378",
+    "wikipedia": "https://en.wikipedia.org/wiki/Radiator_(album)",
+    "discogs": "https://www.discogs.com/master/124775",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/super_furry_animals/radiator/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/70AHUSi7BkS3mBWKxoSh0u",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1626518856?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_mCBt6f6Ui8ZSxZwd_qi6ftG9zfdVv-vEY",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mCBt6f6Ui8ZSxZwd_qi6ftG9zfdVv-vEY",
+    "amazonMusic": "https://music.amazon.com/albums/B0DZWV65QL",
+    "tidal": "https://listen.tidal.com/album/256703435",
+    "deezer": "https://www.deezer.com/album/370560237"
+  }
+}
