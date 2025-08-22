@@ -1,0 +1,30 @@
+{
+  "artist": "The Meters",
+  "title": "Rejuvenation",
+  "year": "1974",
+  "curatedLists": [
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "funk",
+    "soul"
+  ],
+  "description": "Rejuvenation is the fifth studio album by the New Orleans funk group The Meters. It was released in 1974. In 2003, the album was ranked number 138 on Rolling Stone magazine's list of the 500 greatest albums of all time, and 139 in a 2012 revised list.",
+  "coverArt": "https://coverartarchive.org/release/d703fe2a-26b6-4a53-8b4e-f9bfdfc1302c/16926330937.jpg",
+  "mbid": "ed25b54a-8287-375f-ae31-42c69785cec8",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q7310577",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rejuvenation_(The_Meters_album)",
+    "discogs": "https://www.discogs.com/master/109366",
+    "rateyourmusic": null
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/3OoFKxuziLv3B3NxhEJwOW",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/59401178?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_mDISdYafBbR_bTmIOXF1ik3I3AqV3bFQU",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mDISdYafBbR_bTmIOXF1ik3I3AqV3bFQU",
+    "amazonMusic": "https://music.amazon.com/albums/B00124HREA",
+    "tidal": "https://listen.tidal.com/album/215348",
+    "deezer": "https://www.deezer.com/album/87458"
+  }
+}
