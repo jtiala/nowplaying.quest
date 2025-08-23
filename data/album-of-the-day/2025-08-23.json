@@ -1,0 +1,35 @@
+{
+  "artist": "Wire",
+  "title": "Pink Flag",
+  "year": "1977",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time",
+    "rolling-stone-the-40-greatest-punk-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "art punk",
+    "post-punk",
+    "punk",
+    "punk rock"
+  ],
+  "description": "Pink Flag is the debut album by the British post-punk band Wire. It was released in November 1977 through Harvest Records. The album was acclaimed on release, and has since been highly influential; today it is regarded as a landmark in the development of post-punk music.",
+  "coverArt": "https://coverartarchive.org/release/f1d890b3-84e0-43f0-9db2-c81fc1acf39b/36502100048.jpg",
+  "mbid": "9facb8b5-4b02-3f28-9f4a-61cb9b8fd7aa",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q370633",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pink_Flag",
+    "discogs": "https://www.discogs.com/master/50645",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/wire/pink_flag/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/4WXqZZ28geJSPtqLcCF56L",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1328682500?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_lZ1INSkTGTM9-hFJnEkBrVxM_zXbYSmgI",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lZ1INSkTGTM9-hFJnEkBrVxM_zXbYSmgI",
+    "amazonMusic": "https://music.amazon.com/albums/B078P6NJ4H",
+    "tidal": "https://listen.tidal.com/album/82765045",
+    "deezer": "https://www.deezer.com/album/53944722"
+  }
+}
