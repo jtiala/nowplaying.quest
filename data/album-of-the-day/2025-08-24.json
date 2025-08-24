@@ -1,0 +1,30 @@
+{
+  "artist": "Harry Styles",
+  "title": "Fine Line",
+  "year": "2019",
+  "curatedLists": [
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "indie pop",
+    "pop"
+  ],
+  "description": "Fine Line is the second studio album by English singer-songwriter Harry Styles, released on 13 December 2019 by Erskine and Columbia Records. The album's themes revolve around breakups, happiness, sex and sadness. The record has been described as pop rock, with elements of progressive-pop, psychedelic pop, folk, soul, funk and indie pop. It was primarily written with and produced by frequent collaborator Tyler Johnson and Kid Harpoon.",
+  "coverArt": "https://coverartarchive.org/release/61210065-4118-43f9-866f-4038cfae5df4/24909263406.jpg",
+  "mbid": "b9990da8-7953-4e64-aea5-065ca9cd3cb7",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q73523694",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fine_Line_(Harry_Styles_album)",
+    "discogs": "https://www.discogs.com/master/1649896",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/harry-styles/fine-line/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/7xV2TzoaVc0ycW7fwBwAml",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1485802965?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_l-oeXy89ZqIF0Dw3adjIVcpTKpj_diYNY",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_l-oeXy89ZqIF0Dw3adjIVcpTKpj_diYNY",
+    "amazonMusic": "https://music.amazon.com/albums/B07ZZLH3X1",
+    "tidal": "https://listen.tidal.com/album/125310817",
+    "deezer": "https://www.deezer.com/album/122664252"
+  }
+}
