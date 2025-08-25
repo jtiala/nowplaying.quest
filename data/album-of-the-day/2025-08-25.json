@@ -1,0 +1,38 @@
+{
+  "artist": "Taylor Swift",
+  "title": "1989",
+  "year": "2014",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "pitchfork-200-best-albums-of-the-last-25-years",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions",
+    "the-guardian-the-100-best-albums-of-the-21st-century"
+  ],
+  "genres": [
+    "alternative pop",
+    "country rock",
+    "dance-pop",
+    "electronic",
+    "electropop",
+    "pop",
+    "synth-pop"
+  ],
+  "description": "1989 is the fifth studio album by the American singer-songwriter Taylor Swift. It was released on October 27, 2014, by Big Machine Records. Titled after Swift's birth year as a symbolic rebirth, the album recalibrated her artistic identity from country music to pop.",
+  "coverArt": "https://coverartarchive.org/release/d5cb50d8-8897-4029-b9b3-32806df7e06d/9282848916.jpg",
+  "mbid": "4d9ec1c2-58ec-48a4-aa0a-916718adead0",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q17544553",
+    "wikipedia": "https://en.wikipedia.org/wiki/1989_(album)",
+    "discogs": "https://www.discogs.com/master/750386",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/taylor_swift/1989/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/2QJmrSgbdM35R67eoGQo4j",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1440935467?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_lglIKPOFCG5X9_Rf4Hxsmmh9GEeHL94Jo",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lglIKPOFCG5X9_Rf4Hxsmmh9GEeHL94Jo",
+    "amazonMusic": "https://music.amazon.com/albums/B00OXE341G",
+    "tidal": "https://listen.tidal.com/album/37269992",
+    "deezer": "https://www.deezer.com/album/302068167"
+  }
+}
