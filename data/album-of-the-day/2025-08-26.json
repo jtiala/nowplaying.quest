@@ -1,0 +1,40 @@
+{
+  "artist": "Pink Floyd",
+  "title": "Wish You Were Here",
+  "year": "1975",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "ambient",
+    "art rock",
+    "classical",
+    "electronic",
+    "experimental rock",
+    "jazz",
+    "progressive",
+    "progressive rock",
+    "psychedelic rock",
+    "rock",
+    "space rock"
+  ],
+  "description": "Wish You Were Here is the ninth studio album by the English rock band Pink Floyd, released on 12 September 1975 through Harvest Records in the UK and Columbia Records in the US, their first for the label. Based on material Pink Floyd composed while performing in Europe, Wish You Were Here was recorded over numerous sessions throughout 1975 at EMI Studios in London.",
+  "coverArt": "https://coverartarchive.org/release/ab775ce9-93b7-43d1-b6a6-7d7af6d8193f/12699578857.jpg",
+  "mbid": "1a272023-10d3-38ee-bab3-317b55fcc21d",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q200872",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wish_You_Were_Here_(Pink_Floyd_album)",
+    "discogs": "https://www.discogs.com/master/11703",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/pink-floyd/wish-you-were-here/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/0bCAjiUamIFqKJsekOYuRw",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1065973975?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/results?search_query=Pink%20Floyd%20Wish%20You%20Were%20Here",
+    "youtubeMusic": "https://music.youtube.com/search?q=Pink%20Floyd%20Wish%20You%20Were%20Here",
+    "amazonMusic": "https://music.amazon.com/albums/B019HKJT1Y",
+    "tidal": "https://listen.tidal.com/album/55391797",
+    "deezer": "https://www.deezer.com/album/12114242"
+  }
+}
