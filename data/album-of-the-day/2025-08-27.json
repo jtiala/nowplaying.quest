@@ -1,0 +1,39 @@
+{
+  "artist": "Fleetwood Mac",
+  "title": "Rumours",
+  "year": "1977",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time",
+    "npr-the-150-greatest-albums-made-by-women",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "blues",
+    "blues rock",
+    "classic rock",
+    "folk pop",
+    "folk rock",
+    "pop rock",
+    "rock",
+    "soft rock"
+  ],
+  "description": "Rumours is the eleventh studio album by the British-American rock band Fleetwood Mac, released on 4 February 1977, by Warner Bros. Records. Largely recorded in California in 1976, it was produced by the band with Ken Caillat and Richard Dashut. The recording sessions took place as the band members dealt with breakups and struggled with heavy drug use, both of which shaped the album's direction and lyrics.",
+  "coverArt": "https://coverartarchive.org/release/7699b503-6a69-4920-91ac-8ee8aa1c1622/7946930592.jpg",
+  "mbid": "416bb5e5-c7d1-3977-8fd7-7c9daf6c2be6",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q695405",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rumours_(album)",
+    "discogs": "https://www.discogs.com/master/38722",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/fleetwood-mac/rumours/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/1bt6q2SruMsBtcerNVtpZB",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/594061854?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_lOWvxbyxSakNJBr3T4taG96SuTihpHGn4",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lOWvxbyxSakNJBr3T4taG96SuTihpHGn4",
+    "amazonMusic": "https://music.amazon.com/albums/B07VZY5WDB",
+    "tidal": "https://listen.tidal.com/album/68714459",
+    "deezer": "https://www.deezer.com/album/6237061"
+  }
+}
