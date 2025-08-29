@@ -1,0 +1,33 @@
+{
+  "artist": "Elvis Presley",
+  "title": "Elvis Is Back!",
+  "year": "1960",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions"
+  ],
+  "genres": [
+    "country",
+    "pop",
+    "rock",
+    "rock and roll",
+    "rockabilly"
+  ],
+  "description": "Elvis Is Back! is the fourth studio album by American singer Elvis Presley, released on April 8, 1960 by RCA Victor. It was Presley's first album of new material since 1958's King Creole soundtrack as well as his first to be recorded and released in stereophonic sound. The album marked Presley's return to music after his discharge from the U.S. Army.",
+  "coverArt": "https://coverartarchive.org/release/818b1b7d-0ee8-4840-a7b7-7ec9bd457071/11771499644.jpg",
+  "mbid": "4524e346-681e-364d-b975-bad70d71f2d7",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q259868",
+    "wikipedia": "https://en.wikipedia.org/wiki/Elvis_Is_Back!",
+    "discogs": "https://www.discogs.com/master/208429",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/elvis_presley/elvis_is_back_/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/2SBAAtgdyjgfTO1UMHnza1",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/948933421?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_ltulZrZZPuPxs0jn51NpSafyHQnSrJRrk",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_ltulZrZZPuPxs0jn51NpSafyHQnSrJRrk",
+    "amazonMusic": "https://music.amazon.com/albums/B00QR72JIG",
+    "tidal": "https://listen.tidal.com/album/38671349",
+    "deezer": "https://www.deezer.com/album/9301680"
+  }
+}
