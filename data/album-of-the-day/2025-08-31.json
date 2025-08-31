@@ -1,0 +1,37 @@
+{
+  "artist": "Eminem",
+  "title": "The Marshall Mathers LP",
+  "year": "2000",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time",
+    "pitchfork-200-best-albums-of-the-last-25-years",
+    "rolling-stone-the-200-greatest-hip-hop-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions",
+    "the-guardian-the-100-best-albums-of-the-21st-century"
+  ],
+  "genres": [
+    "hardcore hip hop",
+    "hip hop",
+    "horrorcore",
+    "pop rap"
+  ],
+  "description": "The Marshall Mathers LP is the third studio album by American rapper Eminem, released on May 23, 2000, by Aftermath Entertainment and Interscope Records. Production on the album was handled by Dr. Dre, Mel-Man, F.B.T., Eminem, and The 45 King. The album spawned three hit singles: \"The Real Slim Shady\", \"The Way I Am\" and \"Stan\", and features guest appearances from Dido, RBX, Sticky Fingaz, Dina Rae, Bizarre, Dr. Dre, Snoop Dogg, Xzibit, Nate Dogg, Paul Rosenberg and D12.",
+  "coverArt": "https://coverartarchive.org/release/e13db7c6-7291-45bc-9ce9-3a4f9c9b5f55/37454953221.jpg",
+  "mbid": "b0fa91c8-0996-38f1-ab84-797f58d7c4eb",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q153607",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Marshall_Mathers_LP",
+    "discogs": "https://www.discogs.com/master/12236",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/eminem/the_marshall_mathers_lp/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/6t7956yu5zYf5A829XRiHC",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1440866782?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_lD5szk37WYrgQwlKKDQt6FfYgP9T_bgEg",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lD5szk37WYrgQwlKKDQt6FfYgP9T_bgEg",
+    "amazonMusic": "https://music.amazon.com/albums/B000VWGYHU",
+    "tidal": "https://listen.tidal.com/album/586938",
+    "deezer": "https://www.deezer.com/album/125748"
+  }
+}
