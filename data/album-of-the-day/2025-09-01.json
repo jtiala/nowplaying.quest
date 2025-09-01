@@ -1,0 +1,29 @@
+{
+  "artist": "Bob Marley & The Wailers",
+  "title": "Live!",
+  "year": "1975",
+  "curatedLists": [
+    "nme-the-500-greatest-albums-of-all-time"
+  ],
+  "genres": [
+    "reggae"
+  ],
+  "description": "Live! is a 1975 album by Bob Marley and the Wailers which was recorded live in concert during July 1975 at the Lyceum Theatre, London. \"No Woman, No Cry \" was released as a single. A two-disc deluxe edition was released in 2016 containing both the concerts that were used to compile the original album.",
+  "coverArt": "https://coverartarchive.org/release/2ddaeafc-ec0a-40ec-aa8e-ba7e06be02b1/30632460684.jpg",
+  "mbid": "e64c467f-ef01-3448-960e-4aade8d62144",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q935400",
+    "wikipedia": "https://en.wikipedia.org/wiki/Live!_(Bob_Marley_and_the_Wailers_album)",
+    "discogs": "https://www.discogs.com/master/107556",
+    "rateyourmusic": null
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/5mvQHYARofQRsOE2cqBzik",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1440822588?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/results?search_query=Bob%20Marley%20The%20Wailers%20Live",
+    "youtubeMusic": "https://music.youtube.com/search?q=Bob%20Marley%20The%20Wailers%20Live",
+    "amazonMusic": "https://music.amazon.com/search/Bob%20Marley%20The%20Wailers%20Live",
+    "tidal": "https://listen.tidal.com/album/569069",
+    "deezer": "https://www.deezer.com/album/239716"
+  }
+}
