@@ -1,0 +1,34 @@
+{
+  "artist": "Arthur Russell",
+  "title": "World of Echo",
+  "year": "1986",
+  "curatedLists": [
+    "nme-the-500-greatest-albums-of-all-time"
+  ],
+  "genres": [
+    "ambient",
+    "ambient pop",
+    "avant-folk",
+    "electronic",
+    "experimental",
+    "folk"
+  ],
+  "description": "World of Echo is the second studio album by American musician Arthur Russell, released in 1986 on Upside Records in the US and in 1987 on Rough Trade Records in the UK. It is composed primarily of Russell's vocals, cello, and percussion, which are liberally treated with effects such as delay and reverb.",
+  "coverArt": "https://coverartarchive.org/release/a8c0921c-1fc5-31b3-99e6-4cbe676aea18/14023274587.jpg",
+  "mbid": "2ab0cdf7-fe0c-307c-b87a-a956a4d626e3",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q8036598",
+    "wikipedia": "https://en.wikipedia.org/wiki/World_of_Echo",
+    "discogs": "https://www.discogs.com/master/48576",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/arthur_russell/world_of_echo/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/7hodLjVNQZSsNEqvG77ZkI",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/905117516?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_kBT7X8kK3gNaOPPe0P79qmrgy9CebyASg",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kBT7X8kK3gNaOPPe0P79qmrgy9CebyASg",
+    "amazonMusic": "https://music.amazon.com/albums/B000QZZG7Q",
+    "tidal": "https://listen.tidal.com/album/19882200",
+    "deezer": "https://www.deezer.com/album/6522779"
+  }
+}
