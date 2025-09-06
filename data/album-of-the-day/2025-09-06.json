@@ -1,0 +1,35 @@
+{
+  "artist": "Frank Sinatra",
+  "title": "In the Wee Small Hours",
+  "year": "1955",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "ballad",
+    "jazz",
+    "orchestral",
+    "traditional pop",
+    "vocal jazz"
+  ],
+  "description": "In the Wee Small Hours is the ninth studio album by the American singer Frank Sinatra, released on April 25, 1955, by Capitol Records. Produced by Voyle Gilmore with arrangements by Nelson Riddle, the album's songs deal with themes such as introspection, melancholy, lost love, failed relationships, depression and night life; as such, it has been called one of the first concept albums. The cover artwork reflects these themes, portraying Sinatra alone at night on an eerie and deserted city street awash in blue-tinged street lights.",
+  "coverArt": "https://coverartarchive.org/release/881f621c-618c-48da-80a8-50380996fe15/18485861293.jpg",
+  "mbid": "5a5d9938-38a9-3f32-b03b-8f14f62b880a",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q221573",
+    "wikipedia": "https://en.wikipedia.org/wiki/In_the_Wee_Small_Hours",
+    "discogs": "https://www.discogs.com/master/96471",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/frank_sinatra/in_the_wee_small_hours/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/3GmwKB1tgPZgXeRJZSm9WX",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1440815019?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_lFiADHET32g6yRLwK8iRs9YCg5yPEZzxI",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lFiADHET32g6yRLwK8iRs9YCg5yPEZzxI",
+    "amazonMusic": "https://music.amazon.com/albums/B000SXJMSK",
+    "tidal": "https://listen.tidal.com/album/1577507",
+    "deezer": "https://www.deezer.com/album/300276"
+  }
+}
