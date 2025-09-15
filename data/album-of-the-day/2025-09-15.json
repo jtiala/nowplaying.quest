@@ -1,0 +1,36 @@
+{
+  "artist": "Fleetwood Mac",
+  "title": "Fleetwood Mac",
+  "year": "1975",
+  "curatedLists": [
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "acoustic rock",
+    "classic rock",
+    "country pop",
+    "folk rock",
+    "pop",
+    "pop rock",
+    "rock",
+    "soft rock"
+  ],
+  "description": "Fleetwood Mac is the tenth studio album by the British-American rock band of the same name, released on 11 July 1975 in the United States and on 1 August 1975 in the United Kingdom by Reprise Records. It is the band's second eponymous album, the first being their 1968 debut album, and is sometimes referred to by fans as the White Album. It is the first Fleetwood Mac album with Lindsey Buckingham as guitarist and Stevie Nicks as a vocalist, after Bob Welch departed the band in late 1974. It is also the band's last album to be released on the Reprise label until 1997's The Dance; the band's subsequent albums until then were released through Warner Bros. Records, Reprise's parent company.",
+  "coverArt": "https://coverartarchive.org/release/8772c89c-cd4e-4215-9d02-b4e631f97caa/33330532154.jpg",
+  "mbid": "6b5d9bf1-f496-34b5-9488-7df2533d6208",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q1427756",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fleetwood_Mac_(1975_album)",
+    "discogs": "https://www.discogs.com/master/38776",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/fleetwood-mac/fleetwood-mac/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/5VIQ3VaAoRKOEpJ0fewdvo",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/912323292?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_kCTjcgsf1PtpzM5BN9NZ0a8B2NtnVJ6pE",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kCTjcgsf1PtpzM5BN9NZ0a8B2NtnVJ6pE",
+    "amazonMusic": "https://music.amazon.com/albums/B001W2JWWC",
+    "tidal": "https://listen.tidal.com/album/68713896",
+    "deezer": "https://www.deezer.com/album/339661"
+  }
+}
