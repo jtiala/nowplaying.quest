@@ -1,0 +1,34 @@
+{
+  "artist": "Burial",
+  "title": "Untrue",
+  "year": "2007",
+  "curatedLists": [
+    "pitchfork-200-best-albums-of-the-last-25-years",
+    "rolling-stone-the-30-greatest-edm-albums-of-all-time",
+    "the-guardian-the-100-best-albums-of-the-21st-century"
+  ],
+  "genres": [
+    "dubstep",
+    "electronic",
+    "future garage",
+    "grime"
+  ],
+  "description": "Untrue is the second studio album by British electronic music producer Burial. Released on 5 November 2007 by Hyperdub, the album was produced by Burial in 2007 using the digital audio editing software Sound Forge. Untrue builds on the sound established by Burial on his eponymous debut album from the previous year, notably through its more prominent use of pitch-shifted and time-stretched vocal samples. The album, like Burial's previous work, also draws on influences from UK garage, ambient, and hardcore music.",
+  "coverArt": "https://coverartarchive.org/release/e685c54d-196c-47bd-9a75-74dafe4c43b7/24820081496.jpg",
+  "mbid": "fddedc4f-7a2e-3d7d-9ec5-1705c416f3f4",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q2445090",
+    "wikipedia": "https://en.wikipedia.org/wiki/Untrue_(album)",
+    "discogs": "https://www.discogs.com/master/11772",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/burial_f1/untrue_f1/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/1C30LhZB9I48LdpVCRRYvq",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/893175779?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/results?search_query=Burial%20Untrue",
+    "youtubeMusic": "https://music.youtube.com/search?q=Burial%20Untrue",
+    "amazonMusic": "https://music.amazon.com/albums/B00L9NS0PE",
+    "tidal": "https://listen.tidal.com/album/111936796",
+    "deezer": "https://www.deezer.com/album/8045388"
+  }
+}
