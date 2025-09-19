@@ -1,0 +1,32 @@
+{
+  "artist": "Eels",
+  "title": "Beautiful Freak",
+  "year": "1996",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time"
+  ],
+  "genres": [
+    "alternative rock",
+    "indie pop",
+    "rock"
+  ],
+  "description": "Beautiful Freak is the debut album by American rock band Eels. It was released on 13 August 1996 and is the second album released by record label DreamWorks.",
+  "coverArt": "https://coverartarchive.org/release/9d93fea7-b1c8-4104-b193-0a0625fd0500/4351764980.jpg",
+  "mbid": "119a9488-9980-3645-be68-f50210a35a26",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q548392",
+    "wikipedia": "https://en.wikipedia.org/wiki/Beautiful_Freak",
+    "discogs": "https://www.discogs.com/master/111487",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/eels/beautiful_freak/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/6WEY2G6OgFXLqO0hYUBuii",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1660467056?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_l9bEaxyzPaau0op8dScxbCO_DZgTJYrcI",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_l9bEaxyzPaau0op8dScxbCO_DZgTJYrcI",
+    "amazonMusic": "https://music.amazon.com/albums/B0BQH3W812",
+    "tidal": "https://listen.tidal.com/album/269088425",
+    "deezer": "https://www.deezer.com/album/387978357"
+  }
+}
