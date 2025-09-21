@@ -1,0 +1,33 @@
+{
+  "artist": "Twisted Sister",
+  "title": "Stay Hungry",
+  "year": "1984",
+  "curatedLists": [
+    "rolling-stone-the-100-greatest-metal-albums-of-all-time"
+  ],
+  "genres": [
+    "glam metal",
+    "hard rock",
+    "heavy metal",
+    "pop rock",
+    "rock"
+  ],
+  "description": "Stay Hungry is the third studio album by American heavy metal band Twisted Sister, released on May 10, 1984, by Atlantic Records. It contains the band's two signature songs, \"We're Not Gonna Take It\" and \"I Wanna Rock\", both of which remain a staple of '80s glam metal. According to RIAA, Stay Hungry is the band's most successful release by far and their only platinum album. Eventually, the album achieved multi-platinum status in the U.S. with sales of more than 3 million copies by 1995.",
+  "coverArt": "https://coverartarchive.org/release/3414a339-4206-4be1-bf40-cd09bcb5d229/13475102293.jpg",
+  "mbid": "ce11e17f-1c1f-345e-9c41-e5f0010c3b53",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q1070789",
+    "wikipedia": "https://en.wikipedia.org/wiki/Stay_Hungry_(album)",
+    "discogs": "https://www.discogs.com/master/68247",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/twisted_sister/stay_hungry_f1/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/7LEgf3IOaVyBExG9rdU2wl",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1788380657?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_mckKvTd_FQGnLA8HgnuxZd9imErMiS5ik",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mckKvTd_FQGnLA8HgnuxZd9imErMiS5ik",
+    "amazonMusic": "https://music.amazon.com/albums/B0DZXJSWLX",
+    "tidal": "https://listen.tidal.com/album/27439632",
+    "deezer": "https://www.deezer.com/album/7574909"
+  }
+}
