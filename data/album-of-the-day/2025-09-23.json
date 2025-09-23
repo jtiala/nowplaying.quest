@@ -1,0 +1,28 @@
+{
+  "artist": "John Mayall with Eric Clapton",
+  "title": "Blues Breakers",
+  "year": "1966",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [],
+  "description": null,
+  "coverArt": null,
+  "mbid": null,
+  "externalLinks": {
+    "wikidata": null,
+    "wikipedia": null,
+    "discogs": null,
+    "rateyourmusic": null
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/4bSvzPMgzwvfqHAbcWG88o",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1425961217?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/results?search_query=John%20Mayall%20with%20Eric%20Clapton%20Blues%20Breakers",
+    "youtubeMusic": "https://music.youtube.com/search?q=John%20Mayall%20with%20Eric%20Clapton%20Blues%20Breakers",
+    "amazonMusic": "https://music.amazon.com/albums/B07GDR47YN",
+    "tidal": "https://listen.tidal.com/album/93527306",
+    "deezer": "https://www.deezer.com/album/70620132"
+  }
+}
