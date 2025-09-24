@@ -1,0 +1,27 @@
+{
+  "artist": "Reba McEntire",
+  "title": "Rumor Has It",
+  "year": "1990",
+  "curatedLists": [
+    "npr-the-150-greatest-albums-made-by-women"
+  ],
+  "genres": [],
+  "description": null,
+  "coverArt": null,
+  "mbid": null,
+  "externalLinks": {
+    "wikidata": null,
+    "wikipedia": null,
+    "discogs": null,
+    "rateyourmusic": null
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/164LWFbi9ynXhbbYPOseKo",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1523081186?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/results?search_query=Reba%20McEntire%20Rumor%20Has%20It",
+    "youtubeMusic": "https://music.youtube.com/search?q=Reba%20McEntire%20Rumor%20Has%20It",
+    "amazonMusic": "https://music.amazon.com/albums/B08CRTQV8D",
+    "tidal": "https://listen.tidal.com/album/154172656",
+    "deezer": "https://www.deezer.com/album/171923872"
+  }
+}
