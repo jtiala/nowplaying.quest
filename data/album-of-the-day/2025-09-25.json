@@ -1,0 +1,39 @@
+{
+  "artist": "Gorillaz",
+  "title": "Gorillaz",
+  "year": "2001",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions"
+  ],
+  "genres": [
+    "alternative rock",
+    "dub",
+    "electronic",
+    "experimental",
+    "hip hop",
+    "leftfield",
+    "lo-fi",
+    "pop",
+    "pop rap",
+    "rock",
+    "trip hop"
+  ],
+  "description": "Gorillaz is the debut studio album by the English virtual band Gorillaz, released on 26 March 2001 in the United Kingdom by Parlophone and on 19 June 2001 in the United States by Virgin Records.",
+  "coverArt": "https://coverartarchive.org/release/e289452e-292b-455d-9e4b-da9319d1ed23/36124994535.png",
+  "mbid": "b0405d2a-5720-340a-bb56-4e135d031cc2",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q538380",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gorillaz_(album)",
+    "discogs": "https://www.discogs.com/master/57988",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/gorillaz/gorillaz/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/0YvYmLBFFwYxgI4U9KKgUm",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/850576570?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_ktGXrd2wOfjJqSIXO2Lnm7vPpsfNBxZd0",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_ktGXrd2wOfjJqSIXO2Lnm7vPpsfNBxZd0",
+    "amazonMusic": "https://music.amazon.com/albums/B07VVSSKZQ",
+    "tidal": "https://listen.tidal.com/album/34443706",
+    "deezer": "https://www.deezer.com/album/4015931"
+  }
+}
