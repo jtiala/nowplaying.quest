@@ -1,0 +1,40 @@
+{
+  "artist": "Alice Cooper",
+  "title": "School's Out",
+  "year": "1972",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions"
+  ],
+  "genres": [
+    "acid rock",
+    "arena rock",
+    "art rock",
+    "classic rock",
+    "garage rock",
+    "glam rock",
+    "hard rock",
+    "heavy metal",
+    "pop",
+    "proto-punk",
+    "psychedelic rock",
+    "rock"
+  ],
+  "description": "School's Out is the fifth studio album by American rock band Alice Cooper, released in June 1972. Following the success of Killer, the album reached No. 2 on the US Billboard 200 chart and No. 1 on the Canadian RPM 100 Top Albums chart, holding the top position for four weeks. The single \"School's Out\" reached No. 7 on the Billboard Hot 100, No. 3 on the Canadian RPM Top Singles Chart and went to No. 1 in the UK Singles Chart.",
+  "coverArt": "https://coverartarchive.org/release/cf959903-6393-3a7d-bcfb-beeeb9e25010/11383026668.jpg",
+  "mbid": "9e038b79-8be1-3cf1-bdd6-62f4842ab665",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q262947",
+    "wikipedia": "https://en.wikipedia.org/wiki/School's_Out_(album)",
+    "discogs": "https://www.discogs.com/master/52901",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/alice_cooper_f1/schools_out/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/0zKjnOsXxs63unPR6TWoHq",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/40458557?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_krsCII4MCWnRORGli0sy_lVZWkVyjaUOY",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_krsCII4MCWnRORGli0sy_lVZWkVyjaUOY",
+    "amazonMusic": "https://music.amazon.com/albums/B00123G5N0",
+    "tidal": "https://listen.tidal.com/album/214631",
+    "deezer": "https://www.deezer.com/album/86986"
+  }
+}
