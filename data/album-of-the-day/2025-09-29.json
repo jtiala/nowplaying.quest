@@ -1,0 +1,33 @@
+{
+  "artist": "Carpenters",
+  "title": "Close to You",
+  "year": "1970",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "country pop",
+    "pop",
+    "pop rock",
+    "soft rock"
+  ],
+  "description": "Close to You is the second studio album by the American music duo the Carpenters, released on August 19, 1970. In 2003, the album was ranked No. 175 on Rolling Stone's list of the 500 greatest albums of all time, maintaining the rating in a 2012 revised list. The album contains the hit singles \"(They Long to Be) Close to You\" and \"We've Only Just Begun\". The success of the title track earned Carpenters an international reputation. The album topped the Canadian Albums Chart and peaked at #2 on the U.S. Billboard albums chart. It was also successful in the United Kingdom, entering the top 50 of the official chart for 76 weeks during the first half of the 1970s.",
+  "coverArt": "https://coverartarchive.org/release/d90e72fb-5766-4826-80aa-1864abe6c2fb/37113211247.jpg",
+  "mbid": "ca8d0ba2-f227-3665-9104-30e3c09eafae",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q868020",
+    "wikipedia": "https://en.wikipedia.org/wiki/Close_to_You_(The_Carpenters_album)",
+    "discogs": "https://www.discogs.com/master/84990",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/carpenters/close_to_you/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/1CsuCA05y9r7ftG9bGGtWV",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1423766994?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_klMe8Q64PPy3_5p0QevtCfbrBAyxsag44",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_klMe8Q64PPy3_5p0QevtCfbrBAyxsag44",
+    "amazonMusic": "https://music.amazon.com/albums/B07G9Z5QTT",
+    "tidal": "https://listen.tidal.com/album/93295437",
+    "deezer": "https://www.deezer.com/album/70296162"
+  }
+}
