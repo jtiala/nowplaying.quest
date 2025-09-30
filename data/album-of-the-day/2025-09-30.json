@@ -1,0 +1,36 @@
+{
+  "artist": "Nirvana",
+  "title": "In Utero",
+  "year": "1993",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "alternative rock",
+    "grunge",
+    "noise rock",
+    "post-hardcore",
+    "punk",
+    "rock"
+  ],
+  "description": "In Utero is the third and final studio album by the American rock band Nirvana, released in September 1993, by DGC Records. After breaking into the mainstream with their previous album, Nevermind (1991), Nirvana hired Steve Albini to record In Utero, seeking a more complex, abrasive sound that was reminiscent of their work prior to Nevermind. Although the songwriter, Kurt Cobain, said it was \"very impersonal\", many songs allude to his personal life, expressing feelings of angst that were prevalent on Nevermind.",
+  "coverArt": "https://coverartarchive.org/release/7d13c434-1c49-4d7f-b164-a5247108af01/19918667556.jpg",
+  "mbid": "2a0981fb-9593-3019-864b-ce934d97a16e",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q222001",
+    "wikipedia": "https://en.wikipedia.org/wiki/In_Utero",
+    "discogs": "https://www.discogs.com/master/13859",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/nirvana/in_utero/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/7wOOA7l306K8HfBKfPoafr",
+    "appleMusic": "https://music.apple.com/us/search?term=Nirvana%20In%20Utero",
+    "youtube": "https://www.youtube.com/playlist?list=PLI6kLIhBBwmSCzML7-MOi1J6WiZAlb-SO",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PLI6kLIhBBwmSCzML7-MOi1J6WiZAlb-SO",
+    "amazonMusic": "https://music.amazon.com/search/Nirvana%20In%20Utero",
+    "tidal": "https://listen.tidal.com/album/77610844",
+    "deezer": "https://www.deezer.com/album/6916355"
+  }
+}
