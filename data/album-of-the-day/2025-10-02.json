@@ -1,0 +1,33 @@
+{
+  "artist": "Bo Diddley",
+  "title": "Bo Diddley / Go Bo Diddley",
+  "year": "1986",
+  "curatedLists": [
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "blues",
+    "blues rock",
+    "doo-wop",
+    "rock",
+    "rock and roll"
+  ],
+  "description": null,
+  "coverArt": "https://coverartarchive.org/release/65d4135f-36c0-44e7-801f-d5a00c51cf57/20560209642.jpg",
+  "mbid": "8dfbac86-ac5f-320a-8fea-2c4f41f98af9",
+  "externalLinks": {
+    "wikidata": null,
+    "wikipedia": null,
+    "discogs": null,
+    "rateyourmusic": null
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/71lvfHjjLerIFN8ZNSrqIe",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1449758009?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_kKYlr16uVEbmRpFTgs0KIbIEBEnplwr6o",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kKYlr16uVEbmRpFTgs0KIbIEBEnplwr6o",
+    "amazonMusic": "https://music.amazon.com/albums/B07H11FTD2",
+    "tidal": "https://listen.tidal.com/album/102638997",
+    "deezer": "https://www.deezer.com/album/84923032"
+  }
+}
