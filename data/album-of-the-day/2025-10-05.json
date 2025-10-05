@@ -1,0 +1,33 @@
+{
+  "artist": "Iron Maiden",
+  "title": "The Number of the Beast",
+  "year": "1982",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "rolling-stone-the-100-greatest-metal-albums-of-all-time"
+  ],
+  "genres": [
+    "heavy metal",
+    "metal",
+    "nwobhm",
+    "pop"
+  ],
+  "description": "The Number of the Beast is the third studio album by English heavy metal band Iron Maiden. It was released on 22 March 1982 in the US by Harvest and Capitol Records, and on 29 March 1982 in the UK by EMI Records. The album was their first to feature vocalist Bruce Dickinson and their last with drummer Clive Burr.",
+  "coverArt": "https://coverartarchive.org/release/20d20196-ee7b-3069-aaca-943b8ee5a28a/8978752966.jpg",
+  "mbid": "4ebfe175-e7ed-34cd-8e91-67c7e4a53579",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q223858",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Number_of_the_Beast_(album)",
+    "discogs": "https://www.discogs.com/master/18742",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/iron_maiden/the_number_of_the_beast/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/1GmhZDrn15PUncSANUoteo",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1147165685?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=PL61FzOQgnq7eJlMcfC7vtQldOoDYIIrCr",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PL61FzOQgnq7eJlMcfC7vtQldOoDYIIrCr",
+    "amazonMusic": "https://music.amazon.com/albums/B0F18X6CFC",
+    "tidal": "https://listen.tidal.com/album/68739430",
+    "deezer": "https://www.deezer.com/album/79560072"
+  }
+}
