@@ -1,0 +1,41 @@
+{
+  "artist": "Paul Simon",
+  "title": "Graceland",
+  "year": "1986",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "afrobeat",
+    "folk",
+    "folk rock",
+    "funk",
+    "isicathamiya",
+    "pop",
+    "pop rock",
+    "rock",
+    "singer-songwriter",
+    "worldbeat",
+    "zydeco"
+  ],
+  "description": "Graceland is the seventh solo studio album by the American singer-songwriter Paul Simon. It was produced by Simon, engineered by Roy Halee and released on August 25, 1986, by Warner Bros. Records. It incorporates genres including pop, rock, a cappella, zydeco, and South African styles such as isicathamiya and mbaqanga.",
+  "coverArt": "https://coverartarchive.org/release/0fe9089e-6b0a-4a73-9093-350d72e84be5/42228708582.jpg",
+  "mbid": "19847822-1430-3380-9cf1-bc45545b34ac",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q1027822",
+    "wikipedia": "https://en.wikipedia.org/wiki/Graceland_(album)",
+    "discogs": "https://www.discogs.com/master/55658",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/paul_simon/graceland/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/4WoQ94qzwQj28n3nlSOVLB",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/529574560?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/results?search_query=Paul%20Simon%20Graceland",
+    "youtubeMusic": "https://music.youtube.com/search?q=Paul%20Simon%20Graceland",
+    "amazonMusic": "https://music.amazon.com/albums/B0085LMFAE",
+    "tidal": "https://listen.tidal.com/album/15425468",
+    "deezer": "https://www.deezer.com/album/3095481"
+  }
+}
