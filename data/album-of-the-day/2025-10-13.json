@@ -1,0 +1,41 @@
+{
+  "artist": "Lady Gaga",
+  "title": "Born This Way",
+  "year": "2011",
+  "curatedLists": [
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "dance-pop",
+    "electro house",
+    "electronic",
+    "electropop",
+    "europop",
+    "french electro",
+    "futurepop",
+    "glam rock",
+    "pop",
+    "pop rock",
+    "post-industrial",
+    "rock",
+    "synth-pop"
+  ],
+  "description": "Born This Way is the second studio album by American singer Lady Gaga. It was released by Interscope Records on May 23, 2011. It was co-written and co-produced by Gaga with other producers, including Fernando Garibay and RedOne, who had previously worked with her. She also worked with artists such as E Street Band saxophonist Clarence Clemons and Queen guitarist Brian May. Gaga and Garibay are the album's musical directors.",
+  "coverArt": "https://coverartarchive.org/release/97277195-b627-4c86-b23a-216c3272697b/29921321584.jpg",
+  "mbid": "2e3b231b-ab9f-4d85-950a-48708a1cc2fb",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q164646",
+    "wikipedia": "https://en.wikipedia.org/wiki/Born_This_Way_(album)",
+    "discogs": "https://www.discogs.com/master/338175",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/lady-gaga/born-this-way/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/2KkMVsxymoNR7hRmBcMttd",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1440824019?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/results?search_query=Lady%20Gaga%20Born%20This%20Way",
+    "youtubeMusic": "https://music.youtube.com/search?q=Lady%20Gaga%20Born%20This%20Way",
+    "amazonMusic": "https://music.amazon.com/albums/B0051QIGP4",
+    "tidal": "https://listen.tidal.com/album/77669919",
+    "deezer": "https://www.deezer.com/album/320932967"
+  }
+}
