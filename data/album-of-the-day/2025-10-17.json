@@ -1,0 +1,32 @@
+{
+  "artist": "Tim Buckley",
+  "title": "Happy Sad",
+  "year": "1969",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time"
+  ],
+  "genres": [
+    "jazz rock",
+    "psychedelic folk",
+    "singer-songwriter"
+  ],
+  "description": "Happy Sad is the third album by American singer-songwriter Tim Buckley, released in April 1969. It was recorded at Elektra Sound Recorders in Los Angeles, California and was produced by former Lovin' Spoonful members Zal Yanovsky and, coincidentally, his subsequent replacement Jerry Yester. It marked the beginning of Buckley's experimental period, as it incorporated elements of jazz that he had never used before. Many of the songs here represent a departure from the binary form that dominated much of his previous work.",
+  "coverArt": "https://coverartarchive.org/release/30438d95-b851-45da-ab0c-1de75ec7502e/11263223430.jpg",
+  "mbid": "50701e2b-a074-380e-82aa-cfb21421dbb4",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q426474",
+    "wikipedia": "https://en.wikipedia.org/wiki/Happy_Sad_(album)",
+    "discogs": "https://www.discogs.com/master/72173",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/tim_buckley/happy_sad/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/20CYfxjKvqXkCXBhAgOE39",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/393790080?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_n099pgRyT1w-ncO224f_6UDrkefyBeGps",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_n099pgRyT1w-ncO224f_6UDrkefyBeGps",
+    "amazonMusic": "https://music.amazon.com/albums/B0043XDTV2",
+    "tidal": "https://listen.tidal.com/album/4527462",
+    "deezer": "https://www.deezer.com/album/667034"
+  }
+}
