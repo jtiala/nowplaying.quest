@@ -1,0 +1,30 @@
+{
+  "artist": "The Temptations",
+  "title": "Cloud Nine",
+  "year": "1969",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions"
+  ],
+  "genres": [
+    "funk",
+    "soul"
+  ],
+  "description": "Cloud Nine is the ninth studio album by American musical group The Temptations for the Gordy (Motown) label released in 1969.",
+  "coverArt": "https://coverartarchive.org/release/e0a3bf73-6b49-4030-87d4-6f504813a515/1917068977.jpg",
+  "mbid": "e6c7e050-119b-3c99-92f6-039137c4a18d",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q510608",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cloud_Nine_(The_Temptations_album)",
+    "discogs": "https://www.discogs.com/master/154548",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/the_temptations/cloud_nine/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/5ETcOu2ITbVLilnw3QQqSX",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1443179202?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/results?search_query=The%20Temptations%20Cloud%20Nine",
+    "youtubeMusic": "https://music.youtube.com/search?q=The%20Temptations%20Cloud%20Nine",
+    "amazonMusic": "https://music.amazon.com/albums/B000VZV7C4",
+    "tidal": "https://listen.tidal.com/album/33006428",
+    "deezer": "https://www.deezer.com/album/8446951"
+  }
+}
