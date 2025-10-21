@@ -1,0 +1,38 @@
+{
+  "artist": "Baroness",
+  "title": "Red Album",
+  "year": "2007",
+  "curatedLists": [
+    "rolling-stone-the-100-greatest-metal-albums-of-all-time"
+  ],
+  "genres": [
+    "alternative metal",
+    "hard rock",
+    "heavy metal",
+    "post-hardcore",
+    "progressive metal",
+    "psychedelic rock",
+    "rock",
+    "sludge metal",
+    "space rock",
+    "stoner rock"
+  ],
+  "description": "Red Album is the debut studio album by American heavy metal band Baroness. It was released in 2007 by Relapse Records.",
+  "coverArt": "https://coverartarchive.org/release/3f4477d3-b9ee-436c-9085-0b0e16aa5e3f/26857659470.jpg",
+  "mbid": "0f72f6e7-e59d-3501-94a5-97ff3061176c",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q7303621",
+    "wikipedia": "https://en.wikipedia.org/wiki/Red_Album_(Baroness_album)",
+    "discogs": "https://www.discogs.com/master/60260",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/baroness/red-album/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/7HjDc1R38sIpwbKHOrbBNR",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/274013471?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_nNH2WDBfH60CMyPafbPXQC83lg4kbQRI4",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nNH2WDBfH60CMyPafbPXQC83lg4kbQRI4",
+    "amazonMusic": "https://music.amazon.com/albums/B000XUFPJS",
+    "tidal": "https://listen.tidal.com/album/6668517",
+    "deezer": "https://www.deezer.com/album/1004091"
+  }
+}
