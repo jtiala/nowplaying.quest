@@ -1,0 +1,31 @@
+{
+  "artist": "Bob Dylan",
+  "title": "\"Love and Theft\"",
+  "year": "2001",
+  "curatedLists": [
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "blues rock",
+    "folk rock",
+    "rock"
+  ],
+  "description": "\"Love and Theft\" is the thirty-first studio album by American singer-songwriter Bob Dylan, released on September 11, 2001, by Columbia Records. It featured backing by his touring band of the time, with keyboardist Augie Meyers added for the sessions. It peaked at No. 5 on the Billboard 200, and has been certified Gold by the RIAA. The album's highest chart positions worldwide were in Norway and Sweden, where it peaked at No. 1, giving Dylan his first No. 1 album in Norway since Infidels, and his first No. 1 album ever in Sweden. A limited edition release included a separate disc with two bonus tracks recorded in the early 1960s, and two years later, on September 16, 2003, this album was remixed into 5.1 surround sound and became one of 15 Dylan titles reissued and remastered for SACD playback.",
+  "coverArt": "https://coverartarchive.org/release/edef5e18-d733-3fcb-a24a-26d0fb19c1a1/7472793886.jpg",
+  "mbid": "9980ffe5-c5b5-3a83-8c1e-1ec6618f97ca",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q425909",
+    "wikipedia": "https://en.wikipedia.org/wiki/Love_and_Theft_(Bob_Dylan_album)",
+    "discogs": "https://www.discogs.com/master/27804",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/bob_dylan/love_and_theft/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/4BcfuxQ4EO07Y53yr6YhAJ",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/552413840?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_kXM-1wfUC-W03ScZ2AuO5MeiyqWFneUqk",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kXM-1wfUC-W03ScZ2AuO5MeiyqWFneUqk",
+    "amazonMusic": "https://music.amazon.com/albums/B008WK31A6",
+    "tidal": "https://listen.tidal.com/album/16823029",
+    "deezer": "https://www.deezer.com/album/5378821"
+  }
+}
