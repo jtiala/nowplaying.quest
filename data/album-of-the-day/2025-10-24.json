@@ -1,0 +1,32 @@
+{
+  "artist": "Quicksilver Messenger Service",
+  "title": "Happy Trails",
+  "year": "1969",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "acid rock",
+    "psychedelic rock",
+    "rock"
+  ],
+  "description": "Happy Trails is the second album of the American band Quicksilver Messenger Service. Most of the album was recorded from two performances at the Fillmore East and Fillmore West, although it is not clear which parts were recorded at which Fillmore. The record was released by Capitol Records in 1969 in stereo.",
+  "coverArt": "https://coverartarchive.org/release/7aad21d8-d1d0-4fdc-98c3-ecafa123d655/37858891927.jpg",
+  "mbid": "688f6d4d-c035-3454-b840-62d191d305e9",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q754693",
+    "wikipedia": "https://en.wikipedia.org/wiki/Happy_Trails_(album)",
+    "discogs": "https://www.discogs.com/master/12100",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/quicksilver-messenger-service/happy-trails-1/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/7d9IZA5hVMlRqkRszYt66r",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1452645811?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_nujWGXjIuX_ozaMM-4I4_ocNoFBzKvsYo",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nujWGXjIuX_ozaMM-4I4_ocNoFBzKvsYo",
+    "amazonMusic": "https://music.amazon.com/albums/B000V2J5EY",
+    "tidal": "https://listen.tidal.com/album/2501431",
+    "deezer": "https://www.deezer.com/album/301390"
+  }
+}
