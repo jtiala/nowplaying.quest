@@ -1,0 +1,35 @@
+{
+  "artist": "Deep Purple",
+  "title": "Machine Head",
+  "year": "1972",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions"
+  ],
+  "genres": [
+    "arena rock",
+    "blues rock",
+    "classic rock",
+    "hard rock",
+    "heavy metal",
+    "metal",
+    "rock"
+  ],
+  "description": "Machine Head is the sixth studio album by English rock band Deep Purple. It was recorded in December 1971 in Montreux, Switzerland, and released on 30 March 1972, by Purple Records. It is the band's third studio album to feature the Mark II line-up of Ritchie Blackmore, Ian Gillan, Roger Glover, Jon Lord, and Ian Paice.",
+  "coverArt": "https://coverartarchive.org/release/0aba4008-b3e2-443e-8d44-985bee0f3c3e/34266599999.jpg",
+  "mbid": "d00243c5-adcf-3018-9aa7-1957d7a5a774",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q211742",
+    "wikipedia": "https://en.wikipedia.org/wiki/Machine_Head_(album)",
+    "discogs": "https://www.discogs.com/master/1843",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/deep_purple/machine_head/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/1EK3a0Yctg4d3nGQzE4Uty",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1099334597?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=PL6ogdCG3tAWjsIIQ_16U5c_qjfH71Zjz8",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PL6ogdCG3tAWjsIIQ_16U5c_qjfH71Zjz8",
+    "amazonMusic": "https://music.amazon.com/albums/B0011Z8SHK",
+    "tidal": "https://listen.tidal.com/album/384004",
+    "deezer": "https://www.deezer.com/album/1345762"
+  }
+}
