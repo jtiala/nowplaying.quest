@@ -1,0 +1,39 @@
+{
+  "artist": "Metallica",
+  "title": "...And Justice for All",
+  "year": "1988",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "rolling-stone-the-100-greatest-metal-albums-of-all-time"
+  ],
+  "genres": [
+    "blues",
+    "hard rock",
+    "heavy metal",
+    "metal",
+    "progressive",
+    "progressive metal",
+    "rock",
+    "speed metal",
+    "technical thrash metal",
+    "thrash metal"
+  ],
+  "description": "...And Justice for All is the fourth studio album by American heavy metal band Metallica, released on September 7, 1988, by Elektra Records. It was Metallica's first full-length studio album to feature bassist Jason Newsted following the death of Cliff Burton in 1986. Burton received posthumous co-writing credit on \"To Live Is to Die\" as Newsted followed bass lines Burton had recorded prior to his death.",
+  "coverArt": "https://coverartarchive.org/release/da53e497-8c61-4d4a-a29b-a5b53d86ccb7/7476858115.jpg",
+  "mbid": "67553e23-8dad-3792-b6f2-8fedd5650ff3",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q214973",
+    "wikipedia": "https://en.wikipedia.org/wiki/...And_Justice_for_All_(album)",
+    "discogs": "https://www.discogs.com/master/6571",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/metallica/___and_justice_for_all/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/2XbWaerVk9fjhEiGSrd6TF",
+    "appleMusic": "https://music.apple.com/us/search?term=Metallica%20And%20Justice%20for%20All",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_n7puKCDpUYQr58-TYX4-eXXD8QaXpcLL8",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_n7puKCDpUYQr58-TYX4-eXXD8QaXpcLL8",
+    "amazonMusic": "https://music.amazon.com/search/Metallica%20And%20Justice%20for%20All",
+    "tidal": "https://tidal.com/search?q=Metallica%20And%20Justice%20for%20All",
+    "deezer": "https://www.deezer.com/album/71447062"
+  }
+}
