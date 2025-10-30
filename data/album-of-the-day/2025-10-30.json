@@ -1,0 +1,38 @@
+{
+  "artist": "The Slits",
+  "title": "Cut",
+  "year": "1979",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time",
+    "npr-the-150-greatest-albums-made-by-women",
+    "rolling-stone-the-40-greatest-punk-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "art pop",
+    "art punk",
+    "post-punk",
+    "progressive",
+    "psychedelic",
+    "reggae rock"
+  ],
+  "description": "Cut is the debut studio album by English punk band the Slits, released on 7 September 1979. It was recorded at Ridge Farm Studios in Rusper, England, and produced by Dennis Bovell.",
+  "coverArt": "https://coverartarchive.org/release/826dea98-e427-351e-a692-adc00a74f5a0/11479840521.jpg",
+  "mbid": "116b94a2-4361-3ec2-af92-270d97dc10f9",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q899653",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cut_(The_Slits_album)",
+    "discogs": "https://www.discogs.com/master/42269",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/the_slits/cut/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/0TfUvdJAj5ggwaLihQQ5qs",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1440911059?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/results?search_query=The%20Slits%20Cut",
+    "youtubeMusic": "https://music.youtube.com/search?q=The%20Slits%20Cut",
+    "amazonMusic": "https://music.amazon.com/search/The%20Slits%20Cut",
+    "tidal": "https://listen.tidal.com/album/336452",
+    "deezer": "https://www.deezer.com/album/122274"
+  }
+}
