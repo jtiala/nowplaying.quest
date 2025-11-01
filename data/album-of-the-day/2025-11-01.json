@@ -1,0 +1,37 @@
+{
+  "artist": "Creedence Clearwater Revival",
+  "title": "Chronicle",
+  "year": "1976",
+  "curatedLists": [
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "blues rock",
+    "classic rock",
+    "country rock",
+    "folk rock",
+    "rock",
+    "rock and roll",
+    "roots rock",
+    "southern rock",
+    "swamp rock"
+  ],
+  "description": "Chronicle, or fully Chronicle: The 20 Greatest Hits, is a greatest hits album by the American rock band Creedence Clearwater Revival. It was released in January 1976 by Fantasy Records. The edited version of \"I Heard It Through the Grapevine\" featured on the album was simultaneously released as a single.",
+  "coverArt": "https://coverartarchive.org/release/26774e2e-266b-4f85-9a67-cb11bbb61034/22044748408.jpg",
+  "mbid": "0411d11f-d310-3425-8f46-a16243d15763",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q2277614",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chronicle:_The_20_Greatest_Hits",
+    "discogs": "https://www.discogs.com/master/55427",
+    "rateyourmusic": "https://rateyourmusic.com/release/comp/creedence_clearwater_revival/chronicle__the_20_greatest_hits/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/03GKkfyog7hnllilFS3jIV",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1440955595?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_kzJn69CejR-_vwm7mYt-QSzxeyiR-X0pI",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kzJn69CejR-_vwm7mYt-QSzxeyiR-X0pI",
+    "amazonMusic": "https://music.amazon.com/albums/B005DOJ68K",
+    "tidal": "https://listen.tidal.com/album/2826532",
+    "deezer": "https://www.deezer.com/album/372043"
+  }
+}
