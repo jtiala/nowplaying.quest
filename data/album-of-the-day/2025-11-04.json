@@ -1,0 +1,36 @@
+{
+  "artist": "The Cure",
+  "title": "The Head on the Door",
+  "year": "1985",
+  "curatedLists": [
+    "nme-the-500-greatest-albums-of-all-time"
+  ],
+  "genres": [
+    "alternative rock",
+    "art pop",
+    "electronic",
+    "gothic rock",
+    "new wave",
+    "post-punk",
+    "rock",
+    "synth-pop"
+  ],
+  "description": "The Head on the Door is the sixth studio album by the English rock band the Cure. It was released on 30 August 1985 by Fiction Records. Preceded by the single \"In Between Days\" which had reached No. 15 on the UK Singles Chart, The Head on the Door was described by Melody Maker as \"a collection of pop songs\". With its variety of styles, it allowed the group to reach a wider audience in both Europe and North America. In the United Kingdom it became their most successful album to date, entering the albums chart at No. 7 on 7 September.",
+  "coverArt": "https://coverartarchive.org/release/83a2617a-393f-4119-bfe8-f1e00dba266d/27656588123.jpg",
+  "mbid": "cf5d6187-e43b-3848-ba51-8ec1df3d97e3",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q1931734",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Head_on_the_Door",
+    "discogs": "https://www.discogs.com/master/22309",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/the_cure/the_head_on_the_door/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/6HhpmJekzDCRu2K64ZbWqw",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/282971465?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_lFxBkpDs-S_D9Kg9KQWh0NNTng_WMBE7s",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_lFxBkpDs-S_D9Kg9KQWh0NNTng_WMBE7s",
+    "amazonMusic": "https://music.amazon.com/albums/B001AXEOKI",
+    "tidal": "https://listen.tidal.com/album/33262655",
+    "deezer": "https://www.deezer.com/album/1347711"
+  }
+}
