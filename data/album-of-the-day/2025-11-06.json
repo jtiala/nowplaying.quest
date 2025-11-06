@@ -1,0 +1,34 @@
+{
+  "artist": "Emerson, Lake & Palmer",
+  "title": "Tarkus",
+  "year": "1971",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions"
+  ],
+  "genres": [
+    "art rock",
+    "classic rock",
+    "progressive rock",
+    "psychedelic rock",
+    "rock",
+    "symphonic prog"
+  ],
+  "description": "Tarkus is the second studio album by English progressive rock band Emerson, Lake & Palmer, released on 4 June 1971 on Island Records. Following their debut tour across Europe during the second half of 1970, the group paused touring commitments in January 1971 to record a new album at Advision Studios in London. Greg Lake produced the album with Eddy Offord as engineer.",
+  "coverArt": "https://coverartarchive.org/release/c5d93157-322a-4598-8625-7e8d1175d68c/26169974295.jpg",
+  "mbid": "e940f4e4-1b0a-3d83-9ccd-6ed712a55b3c",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q920627",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tarkus",
+    "discogs": "https://www.discogs.com/master/11871",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/emerson-lake-and-palmer/tarkus-16/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/5yByhxbOs8FOU2UutO7AGO",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1528520968?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=PL_7uDR7uwx35vz46V87pkru_Sk2Antz4t",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PL_7uDR7uwx35vz46V87pkru_Sk2Antz4t",
+    "amazonMusic": "https://music.amazon.com/albums/B0F16GPCP4",
+    "tidal": "https://listen.tidal.com/album/68650823",
+    "deezer": "https://www.deezer.com/album/13944188"
+  }
+}
