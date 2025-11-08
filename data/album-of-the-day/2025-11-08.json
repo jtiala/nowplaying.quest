@@ -1,0 +1,41 @@
+{
+  "artist": "Radiohead",
+  "title": "OK Computer",
+  "year": "1997",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time",
+    "pitchfork-200-best-albums-of-the-last-25-years",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "alternative rock",
+    "art rock",
+    "electronic",
+    "experimental",
+    "indie rock",
+    "leftfield",
+    "pop rock",
+    "post-britpop",
+    "rock",
+    "space rock revival"
+  ],
+  "description": "OK Computer is the third studio album by the English rock band Radiohead, released on 21 May 1997. With their producer, Nigel Godrich, Radiohead recorded most of OK Computer in their rehearsal space in Oxfordshire and the historic mansion of St Catherine's Court in Bath in 1996 and early 1997. They distanced themselves from the guitar-centred, lyrically introspective style of their previous album, The Bends. OK Computer's abstract lyrics, densely layered sound and eclectic influences laid the groundwork for Radiohead's later, more experimental work.",
+  "coverArt": "https://coverartarchive.org/release/30702389-5c67-4438-9ea0-2351c8de0f1d/43287476628.png",
+  "mbid": "b1392450-e666-3926-a536-22c65f834433",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q202996",
+    "wikipedia": "https://en.wikipedia.org/wiki/OK_Computer",
+    "discogs": "https://www.discogs.com/master/21491",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/radiohead/ok_computer/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/6dVIqQ8qmQ5GBnJ9shOYGE",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1097861387?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=PLxzSZG7g8c8x6GYz_FcNr-3zPQ7npP6WF",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PLxzSZG7g8c8x6GYz_FcNr-3zPQ7npP6WF",
+    "amazonMusic": "https://music.amazon.com/albums/B01DPRPZV8",
+    "tidal": "https://listen.tidal.com/album/58990510",
+    "deezer": "https://www.deezer.com/album/14879699"
+  }
+}
