@@ -1,0 +1,34 @@
+{
+  "artist": "The Smiths",
+  "title": "Hatful of Hollow",
+  "year": "1984",
+  "curatedLists": [
+    "nme-the-500-greatest-albums-of-all-time"
+  ],
+  "genres": [
+    "alternative rock",
+    "indie pop",
+    "indie rock",
+    "jangle pop",
+    "post-punk",
+    "rock"
+  ],
+  "description": "Hatful of Hollow is a compilation album by the English rock band the Smiths, released on 2 November 1984 in the United Kingdom, by Rough Trade Records. The album features tracks from BBC Radio 1 sessions, their first single \"Hand in Glove\" and two new singles and their B-sides. It was eventually released in the United States on 9 November 1993 by Sire Records, which had initially declined to release the album in the country. Sire instead released Louder Than Bombs in the US in 1987, which is effectively a hybrid of Hatful of Hollow and a subsequent UK compilation album The World Won't Listen, along with additional songs that do not appear on either.",
+  "coverArt": "https://coverartarchive.org/release/241680ca-ffc6-4106-8d63-a9c7dbdc5925/11904417856.jpg",
+  "mbid": "f81500a3-d01a-30e7-8ec9-75f672e9a775",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q1753988",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hatful_of_Hollow",
+    "discogs": "https://www.discogs.com/master/20048",
+    "rateyourmusic": "https://rateyourmusic.com/release/comp/the_smiths/hatful_of_hollow/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/1j57Q5ntVi7crpibb0h4sv",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/799969670?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_nsdC9MSylyttp6-POqF4vnCMhGihwwOsw",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nsdC9MSylyttp6-POqF4vnCMhGihwwOsw",
+    "amazonMusic": "https://music.amazon.com/albums/B005TLYES4",
+    "tidal": "https://listen.tidal.com/album/7932941",
+    "deezer": "https://www.deezer.com/album/1261479"
+  }
+}
