@@ -1,0 +1,34 @@
+{
+  "artist": "Frank Ocean",
+  "title": "Blonde",
+  "year": "2016",
+  "curatedLists": [
+    "pitchfork-200-best-albums-of-the-last-25-years",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions",
+    "the-guardian-the-100-best-albums-of-the-21st-century"
+  ],
+  "genres": [
+    "alternative r&b",
+    "art pop",
+    "contemporary r&b",
+    "neo soul"
+  ],
+  "description": "Blonde is the second studio album by the American singer Frank Ocean. It was released on August 20, 2016, as a timed exclusive on the iTunes Store and Apple Music, and followed the August 19 release of Ocean's video album Endless. The album features guest vocals from André 3000, Beyoncé, and Kim Burrell, among others. Production was handled by Ocean himself, alongside a variety of high-profile record producers, including Malay and Om'Mas Keith, who collaborated with Ocean on Channel Orange, as well as James Blake, Jon Brion, Buddy Ross, Pharrell Williams, and Rostam Batmanglij, among others.",
+  "coverArt": "https://coverartarchive.org/release/8294645a-f996-44b6-9060-7f189b9f59f3/14420632959.jpg",
+  "mbid": "0da340a0-6ad7-4fc2-a272-6f94393a7831",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q26450992",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blonde_(Frank_Ocean_album)",
+    "discogs": "https://www.discogs.com/master/1046042",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/frank-ocean/blonde/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/3mH6qwIy9crq0I9YQbOuDf",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1146195596?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_kR5nATUuJR0fuXd5XabH2VFwT63oVlaMM",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kR5nATUuJR0fuXd5XabH2VFwT63oVlaMM",
+    "amazonMusic": "https://music.amazon.com/albums/B01LYRBECE",
+    "tidal": "https://listen.tidal.com/album/65484188",
+    "deezer": "https://www.deezer.com/album/344137457"
+  }
+}
