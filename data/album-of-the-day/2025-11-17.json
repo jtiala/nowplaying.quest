@@ -1,0 +1,39 @@
+{
+  "artist": "Beck",
+  "title": "Sea Change",
+  "year": "2002",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time",
+    "pitchfork-200-best-albums-of-the-last-25-years",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "alternative country",
+    "alternative rock",
+    "chamber pop",
+    "contemporary folk",
+    "folk rock",
+    "indie rock",
+    "rock",
+    "singer-songwriter"
+  ],
+  "description": "Sea Change is the eighth studio album by American musician Beck, released on September 24, 2002, by Geffen Records. Recorded over a two-month period in Los Angeles with producer Nigel Godrich, the album features themes of heartbreak and desolation, solitude, and loneliness. For the album, much of Beck's trademark cryptic and ironic lyrics were replaced by simpler, more sincere lyrics. He also eschewed the heavy sampling of his previous albums for live instrumentation. Beck cited the breakup with his longtime girlfriend as the major influence on the album.",
+  "coverArt": "https://coverartarchive.org/release/69dbac5b-43ce-4d69-afc4-f3f0559e3006/990718896.jpg",
+  "mbid": "5f84e8b9-b8e5-3fbf-b514-0192a62d88b6",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q590851",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sea_Change_(album)",
+    "discogs": "https://www.discogs.com/master/45312",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/beck/sea_change/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/5ieP11rJQvuYz0Ov3k03cy",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1440733298?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_kfT9JyHrarCayBl3nO1QFqTbnvngrqgs0",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kfT9JyHrarCayBl3nO1QFqTbnvngrqgs0",
+    "amazonMusic": "https://music.amazon.com/albums/B000XO2R22",
+    "tidal": "https://listen.tidal.com/album/77646169",
+    "deezer": "https://www.deezer.com/album/103257"
+  }
+}
