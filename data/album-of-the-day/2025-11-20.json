@@ -1,0 +1,32 @@
+{
+  "artist": "Black Sabbath",
+  "title": "Black Sabbath Vol. 4",
+  "year": "1972",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "rolling-stone-the-100-greatest-metal-albums-of-all-time"
+  ],
+  "genres": [
+    "hard rock",
+    "heavy metal",
+    "rock"
+  ],
+  "description": null,
+  "coverArt": null,
+  "mbid": "7ffe94e1-6c57-47a8-b164-dea4fe39fe89",
+  "externalLinks": {
+    "wikidata": null,
+    "wikipedia": null,
+    "discogs": "https://www.discogs.com/master/4803",
+    "rateyourmusic": "https://rateyourmusic.com/release/comp/black-sabbath/attention/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/Black%20Sabbath%20Black%20Sabbath%20Vol%204",
+    "appleMusic": "https://music.apple.com/us/search?term=Black%20Sabbath%20Black%20Sabbath%20Vol%204",
+    "youtube": "https://www.youtube.com/results?search_query=Black%20Sabbath%20Black%20Sabbath%20Vol%204",
+    "youtubeMusic": "https://music.youtube.com/search?q=Black%20Sabbath%20Black%20Sabbath%20Vol%204",
+    "amazonMusic": "https://music.amazon.com/search/Black%20Sabbath%20Black%20Sabbath%20Vol%204",
+    "tidal": "https://tidal.com/search?q=Black%20Sabbath%20Black%20Sabbath%20Vol%204",
+    "deezer": "https://www.deezer.com/search/Black%20Sabbath%20Black%20Sabbath%20Vol%204"
+  }
+}
