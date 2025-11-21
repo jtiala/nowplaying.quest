@@ -1,0 +1,30 @@
+{
+  "artist": "Yes",
+  "title": "Fragile",
+  "year": "1971",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions"
+  ],
+  "genres": [
+    "progressive rock",
+    "rock"
+  ],
+  "description": "Fragile is the fourth studio album by the English progressive rock band Yes, released in the UK on 12 November 1971 and in the US on 4 January 1972 by Atlantic Records. It was the band's first album to feature keyboardist Rick Wakeman, who replaced Tony Kaye after the group had finished touring their breakthrough record, The Yes Album (1971).",
+  "coverArt": "https://coverartarchive.org/release/4a06b4d3-eda0-47cc-aa7f-299bfd5bd9cd/12979452897.jpg",
+  "mbid": "b1176e7b-fa2e-3b28-959a-d8f55b5b6ccf",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q835488",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fragile_(Yes_album)",
+    "discogs": "https://www.discogs.com/master/34934",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/yes/fragile/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/4X6gq5bgpGXcHINlFWzriM",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1049008924?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=PLMNMmvIC2uGbaMg3qwogu1TBnhQ8KBKlf",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PLMNMmvIC2uGbaMg3qwogu1TBnhQ8KBKlf",
+    "amazonMusic": "https://music.amazon.com/albums/B001L5XNUW",
+    "tidal": "https://listen.tidal.com/album/68714526",
+    "deezer": "https://www.deezer.com/album/254318"
+  }
+}
