@@ -1,0 +1,38 @@
+{
+  "artist": "Taylor Swift",
+  "title": "Evermore",
+  "year": "2020",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions"
+  ],
+  "genres": [
+    "alternative pop",
+    "americana",
+    "chamber pop",
+    "contemporary folk",
+    "country pop",
+    "folk pop",
+    "indie folk",
+    "pop",
+    "pop rock",
+    "singer-songwriter"
+  ],
+  "description": "Evermore is the ninth studio album by the American singer-songwriter Taylor Swift. It was surprise-released on December 11, 2020, through Republic Records. Swift conceived Evermore as a \"sister record\" to its predecessor, Folklore, which had been released in July. She recorded Evermore mainly with Aaron Dessner at his Long Pond Studio in the Hudson Valley.",
+  "coverArt": "https://coverartarchive.org/release/4e376d35-2492-43eb-80ba-88f36ca59c2d/31907656502.jpg",
+  "mbid": "e86d6219-f5a2-4edd-bf2b-3f9eab190ae0",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q104092260",
+    "wikipedia": "https://en.wikipedia.org/wiki/Evermore",
+    "discogs": "https://www.discogs.com/master/1863903",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/taylor-swift/evermore/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/2Xoteh7uEpea4TohMxjtaq",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1544268281?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=PLfiMjLyNWxeYYOxAh89RSWuU7Feu2Y6fR",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PLfiMjLyNWxeYYOxAh89RSWuU7Feu2Y6fR",
+    "amazonMusic": "https://music.amazon.com/albums/B08Q8KSKFP",
+    "tidal": "https://listen.tidal.com/album/165682541",
+    "deezer": "https://www.deezer.com/album/192580112"
+  }
+}
