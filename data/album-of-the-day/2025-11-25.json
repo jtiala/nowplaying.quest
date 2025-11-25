@@ -1,0 +1,30 @@
+{
+  "artist": "Willie Nelson",
+  "title": "Red Headed Stranger",
+  "year": "1975",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "country"
+  ],
+  "description": "Red Headed Stranger is the eighteenth studio album by American outlaw country singer Willie Nelson, released in 1975. Following the success of his recordings with Atlantic Records, coupled with the negotiating skills of his manager, Neil Reshen, Nelson signed a contract with Columbia Records, the label that gave him total creative control over his works. The concept for the album was inspired by the \"Tale of the Red Headed Stranger\", a song that Nelson used to play as a disc jockey on his program in Fort Worth, Texas. After signing with Columbia, he decided to record the song, and arranged the details during his return to Austin, Texas, from a trip to Colorado. It was recorded at low cost at Autumn Sound Studios in Garland, Texas.",
+  "coverArt": "https://coverartarchive.org/release/d9812a80-e57b-4028-8df2-05d0e5d5a1dd/7516694715.jpg",
+  "mbid": "b51ba291-2490-3132-a85d-2094de795b63",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q755963",
+    "wikipedia": "https://en.wikipedia.org/wiki/Red_Headed_Stranger",
+    "discogs": "https://www.discogs.com/master/97786",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/willie_nelson/red_headed_stranger/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/5aEtg4dxdBk4pj6SJ3hNsM",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/404365971?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/results?search_query=Willie%20Nelson%20Red%20Headed%20Stranger",
+    "youtubeMusic": "https://music.youtube.com/search?q=Willie%20Nelson%20Red%20Headed%20Stranger",
+    "amazonMusic": "https://music.amazon.com/albums/B001DC0BRG",
+    "tidal": "https://listen.tidal.com/album/13176803",
+    "deezer": "https://www.deezer.com/album/1408159"
+  }
+}
