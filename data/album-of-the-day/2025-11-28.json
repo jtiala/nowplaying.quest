@@ -1,0 +1,37 @@
+{
+  "artist": "Bob Dylan",
+  "title": "Highway 61 Revisited",
+  "year": "1965",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "blues rock",
+    "classic rock",
+    "contemporary folk",
+    "folk",
+    "folk rock",
+    "pop",
+    "rock"
+  ],
+  "description": "Highway 61 Revisited is the sixth studio album by the American singer-songwriter Bob Dylan, released on August 30, 1965, by Columbia Records. Dylan continued the musical approach of his previous album Bringing It All Back Home (1965), using rock musicians as his backing band on every track of the album in a further departure from his primarily acoustic folk sound, except for the closing track, the 11-minute ballad \"Desolation Row\". Critics have focused on the innovative way Dylan combined driving, blues-based music with the subtlety of poetry to create songs that captured the political and cultural climate of contemporary America. Author Michael Gray argued that, in an important sense, the 1960s \"started\" with this album.",
+  "coverArt": "https://coverartarchive.org/release/d61a2bd9-81ac-4023-bd22-1c884d4a176c/13700705404.jpg",
+  "mbid": "fb48b1dc-412f-36aa-8820-1023c08c46c6",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q217211",
+    "wikipedia": "https://en.wikipedia.org/wiki/Highway_61_Revisited",
+    "discogs": "https://www.discogs.com/master/3986",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/bob_dylan/highway_61_revisited/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/6YabPKtZAjxwyWbuO9p4ZD",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/201281514?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_meM95pUg2yLGBqXFqRySrIJtQ3ypExyPc",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_meM95pUg2yLGBqXFqRySrIJtQ3ypExyPc",
+    "amazonMusic": "https://music.amazon.com/albums/B00136NYR6",
+    "tidal": "https://listen.tidal.com/album/11343637",
+    "deezer": "https://www.deezer.com/album/1329897"
+  }
+}
