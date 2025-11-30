@@ -1,0 +1,33 @@
+{
+  "artist": "Burial",
+  "title": "Burial",
+  "year": "2006",
+  "curatedLists": [
+    "nme-the-500-greatest-albums-of-all-time"
+  ],
+  "genres": [
+    "downtempo",
+    "dubstep",
+    "electronic",
+    "future garage",
+    "grime"
+  ],
+  "description": "Burial is the debut studio album by British electronic musician Burial, released on 15 May 2006 by Kode9's Hyperdub label. Considered a landmark of the mid-2000s dubstep scene, the album's sound features a dark, emotive take on the UK rave music that preoccupied Burial in his youth, including UK garage and 2-step. Critics have variously interpreted the release as an elegy for the dissipated rave movement and a sullen audio portrait of London.",
+  "coverArt": "https://coverartarchive.org/release/52a9da6a-a254-4271-86e6-610a6a1baae7/13379201322.jpg",
+  "mbid": "2c28f0ee-bab8-30e1-94bb-399e1916d039",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q550551",
+    "wikipedia": "https://en.wikipedia.org/wiki/Burial_(Burial_album)",
+    "discogs": "https://www.discogs.com/master/11767",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/burial_f1/burial/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/5ij6VfAkBwTa5Y3951PdAx",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1674002850?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/results?search_query=Burial%20Burial",
+    "youtubeMusic": "https://music.youtube.com/search?q=Burial%20Burial",
+    "amazonMusic": "https://music.amazon.com/albums/B014BUC7C8",
+    "tidal": "https://listen.tidal.com/album/111851454",
+    "deezer": "https://www.deezer.com/album/100535462"
+  }
+}
