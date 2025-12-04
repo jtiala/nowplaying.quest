@@ -1,0 +1,35 @@
+{
+  "artist": "Wu-Tang Clan",
+  "title": "Enter the Wu-Tang (36 Chambers)",
+  "year": "1993",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time",
+    "rolling-stone-the-200-greatest-hip-hop-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "boom bap",
+    "east coast hip hop",
+    "hardcore hip hop",
+    "hip hop"
+  ],
+  "description": "\nEnter the Wu-Tang , often referred to as simply 36 Chambers, is the debut studio album by the American hip-hop collective Wu-Tang Clan, released on November 9, 1993, by Loud Records and RCA Records. The recording sessions took place during late 1992 to early 1993 at Firehouse Studio in New York City, and the album was produced by the group's de facto leader RZA. Its title originates from the martial arts films Enter the Dragon (1973) and The 36th Chamber of Shaolin (1978).",
+  "coverArt": "https://coverartarchive.org/release/2a059e43-e66c-4d6d-9a4f-dea9a6919061/10112836421.jpg",
+  "mbid": "610fb60f-900a-3c42-ac7d-f6b6aa8035f9",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q679150",
+    "wikipedia": "https://en.wikipedia.org/wiki/Enter_the_Wu-Tang_(36_Chambers)",
+    "discogs": "https://www.discogs.com/master/25303",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/wu_tang_clan/enter_the_wu_tang__36_chambers_/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/7otEvlhYLzpqiaxq3dT4Lg",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1746566237?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_mT45cYrp-9hV8bqeO1CcMTQHvHxFhibdM",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mT45cYrp-9hV8bqeO1CcMTQHvHxFhibdM",
+    "amazonMusic": "https://music.amazon.com/albums/B0D47ZHG35",
+    "tidal": "https://listen.tidal.com/album/363384829",
+    "deezer": "https://www.deezer.com/album/587206892"
+  }
+}
