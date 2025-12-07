@@ -1,0 +1,39 @@
+{
+  "artist": "Leonard Cohen",
+  "title": "Songs of Leonard Cohen",
+  "year": "1967",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "baroque pop",
+    "blues",
+    "chamber folk",
+    "contemporary folk",
+    "folk",
+    "folk pop",
+    "folk rock",
+    "rock",
+    "singer-songwriter"
+  ],
+  "description": "Songs of Leonard Cohen is the debut studio album by Canadian singer-songwriter Leonard Cohen, released on December 27, 1967, on Columbia Records. More successful in Europe than in North America, Songs of Leonard Cohen foreshadowed the kind of chart success Cohen would go on to achieve. It peaked at number 13 on the UK Albums Chart, spending nearly a year and a half on it. In the US, it reached number 83 on the Billboard 200.",
+  "coverArt": "https://coverartarchive.org/release/2fc159df-d05b-44f6-9659-51136c3ba66b/2144230905.jpg",
+  "mbid": "34291a49-8df9-304e-bd39-16b11d829d5f",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q923550",
+    "wikipedia": "https://en.wikipedia.org/wiki/Songs_of_Leonard_Cohen",
+    "discogs": "https://www.discogs.com/master/3832",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/leonard_cohen/songs_of_leonard_cohen/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/6EcqWi6PA9CbvtulGbEsPN",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1826864082?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_loe1dj5T1i3TdNwAlWQT2tkcAp_dXbhtQ",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_loe1dj5T1i3TdNwAlWQT2tkcAp_dXbhtQ",
+    "amazonMusic": "https://music.amazon.com/albums/B0FHMVNXN6",
+    "tidal": "https://listen.tidal.com/album/448259183",
+    "deezer": "https://www.deezer.com/album/788682491"
+  }
+}
