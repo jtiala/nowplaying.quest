@@ -1,0 +1,37 @@
+{
+  "artist": "Fiona Apple",
+  "title": "Tidal",
+  "year": "1996",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "npr-the-150-greatest-albums-made-by-women"
+  ],
+  "genres": [
+    "alternative pop",
+    "alternative rock",
+    "baroque pop",
+    "indie rock",
+    "pop",
+    "pop rock",
+    "rock",
+    "soft rock"
+  ],
+  "description": "Tidal is the debut studio album by American singer-songwriter Fiona Apple, released on July 23, 1996, by The WORK Group. Tidal produced three singles: \"Shadowboxer\", \"Sleep to Dream\", and \"Criminal\". The last was the album's most popular single, winning a Grammy Award for Best Female Rock Vocal Performance in 1998. In 2017, Tidal got its first vinyl run as a \"Vinyl Me Please\" exclusive \"Record of the Month\".",
+  "coverArt": "https://coverartarchive.org/release/760df385-dc2f-4623-9d2e-22a133915e0a/18626409610.jpg",
+  "mbid": "82ba556e-99bf-380d-b9b5-5a97737f1cd1",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q847595",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tidal_(album)",
+    "discogs": "https://www.discogs.com/master/88829",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/fiona_apple/tidal/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/5gVBXH8MT6zfdRkjp7qT18",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/309677190?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_kgm2aRzrjZBdMzbzVz7s8FWi_N9hI0P-4",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kgm2aRzrjZBdMzbzVz7s8FWi_N9hI0P-4",
+    "amazonMusic": "https://music.amazon.com/albums/B0022W2K16",
+    "tidal": "https://listen.tidal.com/album/33771515",
+    "deezer": "https://www.deezer.com/album/8255472"
+  }
+}
