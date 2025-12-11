@@ -1,0 +1,37 @@
+{
+  "artist": "Tyler, The Creator",
+  "title": "Flower Boy",
+  "year": "2017",
+  "curatedLists": [
+    "pitchfork-200-best-albums-of-the-last-25-years"
+  ],
+  "genres": [
+    "alternative hip hop",
+    "alternative r&b",
+    "experimental hip hop",
+    "hip hop",
+    "jazz rap",
+    "neo soul",
+    "neo-psychedelia",
+    "pop rap",
+    "synth funk"
+  ],
+  "description": "Flower Boy is the fifth studio album by the American rapper and producer Tyler, the Creator, released on July 21, 2017, by Columbia Records. Produced entirely by Tyler, the album features guest vocals from a range of artists, including Frank Ocean, ASAP Rocky, Anna of the North, Lil Wayne, Kali Uchis, Steve Lacy, Estelle, Jaden Smith and Rex Orange County.",
+  "coverArt": "https://coverartarchive.org/release/88aba80a-e240-4464-8dad-a32654ba1348/17352753022.jpg",
+  "mbid": "e248e931-c26c-4c94-aba2-2f89ce583901",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q32922784",
+    "wikipedia": "https://en.wikipedia.org/wiki/Flower_Boy",
+    "discogs": "https://www.discogs.com/master/1212609",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/tyler-the-creator/flower-boy/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/2nkto6YNI4rUYTLqEwWJ3o",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1254572564?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_kKOFOy7csvAV07ipX0MYHZLIccf3TBcRw",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kKOFOy7csvAV07ipX0MYHZLIccf3TBcRw",
+    "amazonMusic": "https://music.amazon.com/albums/B073KPT9P6",
+    "tidal": "https://listen.tidal.com/album/76331728",
+    "deezer": "https://www.deezer.com/album/44730061"
+  }
+}
