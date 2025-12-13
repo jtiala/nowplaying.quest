@@ -1,0 +1,34 @@
+{
+  "artist": "T. Rex",
+  "title": "Electric Warrior",
+  "year": "1971",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "glam rock",
+    "hard rock",
+    "rock",
+    "rock and roll"
+  ],
+  "description": "Electric Warrior is the second studio album by English rock band T. Rex and their sixth since their 1968 debut as Tyrannosaurus Rex, released on 24 September 1971, by Fly Records in the United Kingdom and Reprise Records in the United States. The album marked a turning point in the band's style, moving away from the folk-oriented sound of the group's previous albums and pioneering a more flamboyant, pop-oriented glam rock style.",
+  "coverArt": "https://coverartarchive.org/release/2e778d53-5187-4d53-9ec9-2fb8ae1a85c8/11819020454.jpg",
+  "mbid": "e53310bf-8ccc-3d7f-a0b7-5ca4dbababcb",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q940412",
+    "wikipedia": "https://en.wikipedia.org/wiki/Electric_Warrior",
+    "discogs": "https://www.discogs.com/master/72458",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/t__rex/electric_warrior/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/4Yw5uS8at8GkWmH2gZmLY0",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/251016654?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=PLz6cAheObZcgRECr_7VDHOQtV4mDyCISo",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PLz6cAheObZcgRECr_7VDHOQtV4mDyCISo",
+    "amazonMusic": "https://music.amazon.com/albums/B07VXMS86P",
+    "tidal": "https://listen.tidal.com/album/68710866",
+    "deezer": "https://www.deezer.com/search/T%20Rex%20Electric%20Warrior"
+  }
+}
