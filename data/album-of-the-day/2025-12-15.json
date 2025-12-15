@@ -1,0 +1,29 @@
+{
+  "artist": "Bud Powell",
+  "title": "The Genius of Bud Powell",
+  "year": "1956",
+  "curatedLists": [
+    "jazzwise-the-100-jazz-albums-that-shook-the-world"
+  ],
+  "genres": [
+    "jazz"
+  ],
+  "description": null,
+  "coverArt": "https://coverartarchive.org/release/15cc2a72-a3c9-4c3d-9ea8-c5124adb9796/2109825908.jpg",
+  "mbid": "953018bc-2e26-4ee5-9081-5d6e3f11f3d8",
+  "externalLinks": {
+    "wikidata": null,
+    "wikipedia": null,
+    "discogs": "https://www.discogs.com/master/420267",
+    "rateyourmusic": null
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/34ImPCHsrSFkXUSkFfYqdr",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1440734428?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/results?search_query=Bud%20Powell%20The%20Genius%20of%20Bud%20Powell",
+    "youtubeMusic": "https://music.youtube.com/search?q=Bud%20Powell%20The%20Genius%20of%20Bud%20Powell",
+    "amazonMusic": "https://music.amazon.com/albums/B001NS7HD6",
+    "tidal": "https://listen.tidal.com/album/4858757",
+    "deezer": "https://www.deezer.com/album/246933"
+  }
+}
