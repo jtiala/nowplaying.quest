@@ -1,0 +1,35 @@
+{
+  "artist": "Al Green",
+  "title": "Greatest Hits",
+  "year": "1975",
+  "curatedLists": [
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "ballad",
+    "blues",
+    "funk",
+    "rock",
+    "smooth soul",
+    "soul",
+    "southern soul"
+  ],
+  "description": "Al Green's Greatest Hits is a 1975 greatest hits release by soul singer Al Green. In 2003, the album was ranked number 52 on Rolling Stone's list of \"The 500 Greatest Albums of All Time\", maintaining the rating in a 2012 revised list. The album's ranking dropped to number 456 in the 2020 revised list. The compilation has consistently ranked as one of the best executed 'greatest hits' albums in history. The album peaked at No. 3 on the Billboard Top Soul LPs chart and No. 17 on the Top LPs chart.",
+  "coverArt": "https://coverartarchive.org/release/4d792f1e-d0cc-41ec-b038-b463d721c361/35275325355.jpg",
+  "mbid": "9421508e-362a-38e8-ba54-658513768862",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q558449",
+    "wikipedia": "https://en.wikipedia.org/wiki/Al_Green's_Greatest_Hits",
+    "discogs": "https://www.discogs.com/master/141238",
+    "rateyourmusic": "https://rateyourmusic.com/release/comp/al_green/greatest_hits_f1/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/6W0V8B0fJItvOwC8v114rZ",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1203896404?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_mGQ5a04e_i1wZwucgMwpqOk9BShqGCIrU",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mGQ5a04e_i1wZwucgMwpqOk9BShqGCIrU",
+    "amazonMusic": "https://music.amazon.com/albums/B01NB1W6HW",
+    "tidal": "https://listen.tidal.com/album/70170177",
+    "deezer": "https://www.deezer.com/album/15300751"
+  }
+}
