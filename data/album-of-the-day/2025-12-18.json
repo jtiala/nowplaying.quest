@@ -1,0 +1,39 @@
+{
+  "artist": "Slipknot",
+  "title": "Slipknot",
+  "year": "1999",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions"
+  ],
+  "genres": [
+    "alternative metal",
+    "death metal",
+    "electronic",
+    "groove metal",
+    "heavy metal",
+    "industrial metal",
+    "metal",
+    "nu metal",
+    "rap metal",
+    "rock",
+    "trance"
+  ],
+  "description": "Slipknot is the debut studio album by American heavy metal band Slipknot. It was released on June 29, 1999, by Roadrunner Records, following a demo containing a few of the songs which had previously been released in 1998. Later, it was reissued in December 1999 with a slightly-altered track listing and mastering as the result of a lawsuit. It was the first release by the band to be produced by Ross Robinson, who sought to refine Slipknot's sound rather than alter the group's musical direction. This is the only album to feature original guitarist Josh Brainard who left at the end of recording in late 1998 while the band was taking a brief break. Jim Root, who recorded one track at this point, would appear full time on subsequent albums starting with their next album Iowa.",
+  "coverArt": "https://coverartarchive.org/release/f2210d5c-8da6-3e53-936b-1d08d58cdac0/38019029641.jpg",
+  "mbid": "5140eef4-5b5d-309c-a3aa-5c5da107b1da",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q743725",
+    "wikipedia": "https://en.wikipedia.org/wiki/Slipknot_(album)",
+    "discogs": "https://www.discogs.com/master/53314",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/slipknot/slipknot/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/5lOFvOWAdy9G6p44noRILU",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/927731469?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/results?search_query=Slipknot%20Slipknot",
+    "youtubeMusic": "https://music.youtube.com/search?q=Slipknot%20Slipknot",
+    "amazonMusic": "https://music.amazon.com/albums/B001202LRM",
+    "tidal": "https://listen.tidal.com/album/68572473",
+    "deezer": "https://www.deezer.com/album/97430"
+  }
+}
