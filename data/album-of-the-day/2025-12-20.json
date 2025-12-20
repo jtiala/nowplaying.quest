@@ -1,0 +1,44 @@
+{
+  "artist": "Animal Collective",
+  "title": "Strawberry Jam",
+  "year": "2007",
+  "curatedLists": [
+    "pitchfork-200-best-albums-of-the-last-25-years"
+  ],
+  "genres": [
+    "art pop",
+    "art rock",
+    "avant-garde",
+    "electronic",
+    "electronica",
+    "experimental",
+    "experimental rock",
+    "folk rock",
+    "indie rock",
+    "indietronica",
+    "leftfield",
+    "neo-psychedelia",
+    "noise pop",
+    "post-rock",
+    "psychedelic pop",
+    "rock"
+  ],
+  "description": "Strawberry Jam is the seventh studio album by American experimental pop band Animal Collective. It was released in September 2007, the band's first on Domino Records. It was accompanied by the singles \"Peacebone\" and \"Fireworks\". The album was the band's first to chart on the Billboard 200, debuting and peaking at number 72.",
+  "coverArt": "https://coverartarchive.org/release/0e48536b-7d95-3f89-955f-96579a716cba/8019876765.jpg",
+  "mbid": "89e4f726-2b6f-3f15-992e-b52105f53899",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q2196867",
+    "wikipedia": "https://en.wikipedia.org/wiki/Strawberry_Jam",
+    "discogs": "https://www.discogs.com/master/5217",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/animal_collective/strawberry_jam/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/4TyyZazCkju7vwioaV1KyE",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/262612569?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/results?search_query=Animal%20Collective%20Strawberry%20Jam",
+    "youtubeMusic": "https://music.youtube.com/search?q=Animal%20Collective%20Strawberry%20Jam",
+    "amazonMusic": "https://music.amazon.com/albums/B073J7KCDG",
+    "tidal": "https://listen.tidal.com/album/14287280",
+    "deezer": "https://www.deezer.com/album/401351"
+  }
+}
