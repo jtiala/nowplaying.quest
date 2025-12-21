@@ -1,0 +1,38 @@
+{
+  "artist": "Bob Dylan",
+  "title": "Desire",
+  "year": "1976",
+  "curatedLists": [
+    "nme-the-500-greatest-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "blues rock",
+    "classic rock",
+    "contemporary folk",
+    "country rock",
+    "folk",
+    "folk rock",
+    "progressive country",
+    "rock",
+    "rock and roll"
+  ],
+  "description": "Desire is the seventeenth studio album by American singer-songwriter Bob Dylan, released on January 5, 1976, through Columbia Records. It is one of Dylan's most collaborative efforts, featuring the same caravan of musicians as the acclaimed Rolling Thunder Revue tours the previous year. Many of the songs also featured backing vocals by Emmylou Harris and Ronee Blakley. Most of the album was co-written by Jacques Levy, and is composed of lengthy story-songs, two of which quickly generated controversy: the 11-minute-long \"Joey\", which is seen as glorifying the violent gangster \"Crazy Joey\" Gallo, and \"Hurricane\", the opening track that tells a passionate account of the murder case against boxer Rubin \"Hurricane\" Carter, whom the song asserts was framed. Carter was released in 1985, after a judge overturned his conviction on appeal.",
+  "coverArt": "https://coverartarchive.org/release/53e4761d-024a-415f-833c-01b47e11c8c3/11781535870.jpg",
+  "mbid": "fc325dd3-73ed-36aa-9c77-6b65a958e3cf",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q1200744",
+    "wikipedia": "https://en.wikipedia.org/wiki/Desire_(Bob_Dylan_album)",
+    "discogs": "https://www.discogs.com/master/3911",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/bob_dylan/desire/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/1T8usYsiGEMPMQOLFgJEbE",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/181455682?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=PLfGibfZATlGojRzwpyquwGnYK-MuWY4_G",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PLfGibfZATlGojRzwpyquwGnYK-MuWY4_G",
+    "amazonMusic": "https://music.amazon.com/search/Bob%20Dylan%20Desire",
+    "tidal": "https://listen.tidal.com/album/14234194",
+    "deezer": "https://www.deezer.com/album/1417053"
+  }
+}
