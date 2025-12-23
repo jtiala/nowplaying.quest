@@ -1,0 +1,33 @@
+{
+  "artist": "Rush",
+  "title": "2112",
+  "year": "1976",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions"
+  ],
+  "genres": [
+    "classic rock",
+    "hard rock",
+    "progressive rock",
+    "rock",
+    "rock opera"
+  ],
+  "description": "2112 is the fourth studio album by Canadian rock band Rush, released in March 1976 by Mercury Records. Following the disappointing sales of their previous albums Caress of Steel and Fly by Night, in which both albums failed to chart in the top half of the Billboard 200, 2112 became the band's first major commercial success. The album reached No. 5 on the Canadian charts and No. 61 in the in the United States. 2112 has since become a steady seller over many decades, and has maintained a cult following among some Rush fans.",
+  "coverArt": "https://coverartarchive.org/release/fbd1d18d-79f3-4570-8e20-45f65beb4641/28627341016.jpg",
+  "mbid": "9243ac59-9390-37e1-abee-fcf31fb8035f",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q204404",
+    "wikipedia": "https://en.wikipedia.org/wiki/2112_(album)",
+    "discogs": "https://www.discogs.com/master/7315",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/rush/2112/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/3eBrvZnagmIDbdgse7cjI6",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1445876680?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=PLHTo__bpnlYV5utsdx6jyan4QBPFkkgEV",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PLHTo__bpnlYV5utsdx6jyan4QBPFkkgEV",
+    "amazonMusic": "https://music.amazon.com/albums/B00AL1P9PY",
+    "tidal": "https://listen.tidal.com/album/77648209",
+    "deezer": "https://www.deezer.com/album/6159884"
+  }
+}
