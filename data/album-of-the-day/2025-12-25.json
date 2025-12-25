@@ -1,0 +1,31 @@
+{
+  "artist": "Scorpions",
+  "title": "Blackout",
+  "year": "1982",
+  "curatedLists": [
+    "rolling-stone-the-100-greatest-metal-albums-of-all-time"
+  ],
+  "genres": [
+    "hard rock",
+    "heavy metal",
+    "rock"
+  ],
+  "description": "Blackout is the eighth studio album by the German rock band Scorpions. It was released in 1982 by Harvest and EMI Records.",
+  "coverArt": "https://coverartarchive.org/release/79ab6fec-efda-3ad0-9316-92af1575a31d/24363972417.jpg",
+  "mbid": "b00fbf7c-ebaf-3ec0-91d6-5eaad124d58f",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q170176",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blackout_(Scorpions_album)",
+    "discogs": "https://www.discogs.com/master/29283",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/scorpions/blackout/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/6x75r5C54z1quun86Bbqbr",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1440921750?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=PLsT9douBcx98B2IqbPvhmiqtu_S0LCQrJ",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PLsT9douBcx98B2IqbPvhmiqtu_S0LCQrJ",
+    "amazonMusic": "https://music.amazon.com/albums/B001NZMWPM",
+    "tidal": "https://listen.tidal.com/album/36434838",
+    "deezer": "https://www.deezer.com/album/320918027"
+  }
+}
