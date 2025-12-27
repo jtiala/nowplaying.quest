@@ -1,0 +1,36 @@
+{
+  "artist": "Foo Fighters",
+  "title": "Foo Fighters",
+  "year": "1995",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time"
+  ],
+  "genres": [
+    "alternative rock",
+    "grunge",
+    "post-grunge",
+    "power pop",
+    "punk rock",
+    "rock",
+    "shoegaze"
+  ],
+  "description": "Foo Fighters is the debut studio album by American rock band Foo Fighters, released on June 26, 1995, through Roswell and Capitol Records in the United Kingdom and on July 4, 1995 in the United States. Former Nirvana drummer Dave Grohl wrote the entire album. He recorded it himself in six days with the assistance of producer Barrett Jones at Robert Lang Studios in Seattle, Washington, in 1994.",
+  "coverArt": "https://coverartarchive.org/release/d6591261-daaa-4bb2-81b6-544e499da727/4773551626.jpg",
+  "mbid": "440c9ce8-8ce4-3103-a745-0b385ae70a34",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q735771",
+    "wikipedia": "https://en.wikipedia.org/wiki/Foo_Fighters_(album)",
+    "discogs": "https://www.discogs.com/master/62100",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/foo_fighters/foo_fighters/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/4EnNuo8fG7dMoxMefbApRY",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/258512042?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_k2BVAy-41IEGyXZ6vayuM5_nfWMGWNy-s",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_k2BVAy-41IEGyXZ6vayuM5_nfWMGWNy-s",
+    "amazonMusic": "https://music.amazon.com/albums/B00136NZ48",
+    "tidal": "https://listen.tidal.com/album/597836",
+    "deezer": "https://www.deezer.com/album/78721"
+  }
+}
