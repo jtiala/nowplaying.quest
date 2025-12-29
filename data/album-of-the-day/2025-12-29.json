@@ -1,0 +1,37 @@
+{
+  "artist": "Jefferson Airplane",
+  "title": "Volunteers",
+  "year": "1969",
+  "curatedLists": [
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "acid rock",
+    "classic rock",
+    "country rock",
+    "folk rock",
+    "hard rock",
+    "pop rock",
+    "psychedelic pop",
+    "psychedelic rock",
+    "rock"
+  ],
+  "description": "Volunteers is the fifth studio album by American psychedelic rock band Jefferson Airplane, released in 1969 on RCA Records. The album was controversial because of its revolutionary and anti-war lyrics, along with the use of profanity.",
+  "coverArt": "https://coverartarchive.org/release/ff0c705b-809b-4396-8b24-872b529f4592/43061943064.jpg",
+  "mbid": "20ce79fe-2987-3506-87fb-82fa8d0c6850",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q1088192",
+    "wikipedia": "https://en.wikipedia.org/wiki/Volunteers_(Jefferson_Airplane_album)",
+    "discogs": "https://www.discogs.com/master/47890",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/jefferson-airplane/volunteers/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/5SxBU3zQaLOq5eapsG3jFQ",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/271664884?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=PLP7u94NwnE9zM6H9VQ8KgvRsbTR7LN5Kv",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PLP7u94NwnE9zM6H9VQ8KgvRsbTR7LN5Kv",
+    "amazonMusic": "https://music.amazon.com/albums/B00138CZXI",
+    "tidal": "https://listen.tidal.com/album/40952",
+    "deezer": "https://www.deezer.com/album/76220"
+  }
+}
