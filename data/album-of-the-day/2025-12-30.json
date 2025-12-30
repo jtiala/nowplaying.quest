@@ -1,0 +1,27 @@
+{
+  "artist": "Skrillex",
+  "title": "Bangarang",
+  "year": "2011",
+  "curatedLists": [
+    "rolling-stone-the-30-greatest-edm-albums-of-all-time"
+  ],
+  "genres": [],
+  "description": null,
+  "coverArt": null,
+  "mbid": null,
+  "externalLinks": {
+    "wikidata": null,
+    "wikipedia": null,
+    "discogs": null,
+    "rateyourmusic": null
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/5XJ2NeBxZP3HFM8VoBQEUe",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/491596645?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_kWXYcR-G6RPJhXhMzU_SW24V_DNek160s",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kWXYcR-G6RPJhXhMzU_SW24V_DNek160s",
+    "amazonMusic": "https://music.amazon.com/albums/B006PAZMMK",
+    "tidal": "https://listen.tidal.com/album/11742041",
+    "deezer": "https://www.deezer.com/album/1457546"
+  }
+}
