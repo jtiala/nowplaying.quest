@@ -1,0 +1,29 @@
+{
+  "artist": "Sarah Vaughan",
+  "title": "Sassy Swings Again",
+  "year": "1967",
+  "curatedLists": [
+    "npr-the-150-greatest-albums-made-by-women"
+  ],
+  "genres": [
+    "vocal jazz"
+  ],
+  "description": "Sassy Swings Again is a 1967 studio album by Sarah Vaughan. This was Vaughan's last album for Mercury Records, and her last studio recording for four years.",
+  "coverArt": "https://coverartarchive.org/release/b2e86b5c-c052-4fcb-adca-6709f95fd202/35066847050.jpg",
+  "mbid": "db231edc-ad77-4793-8538-3a6888d88119",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q7425802",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sassy_Swings_Again",
+    "discogs": null,
+    "rateyourmusic": null
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/2fr6kboNaR8SC1AarEDaNy",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1456300237?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/results?search_query=Sarah%20Vaughan%20Sassy%20Swings%20Again",
+    "youtubeMusic": "https://music.youtube.com/search?q=Sarah%20Vaughan%20Sassy%20Swings%20Again",
+    "amazonMusic": "https://music.amazon.com/albums/B07PR4LCZ2",
+    "tidal": "https://listen.tidal.com/album/105876293",
+    "deezer": "https://www.deezer.com/album/90595422"
+  }
+}
