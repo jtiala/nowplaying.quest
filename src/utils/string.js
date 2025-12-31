@@ -104,3 +104,15 @@ export function escapeHtml(str) {
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&apos;");
 }
+
+export function urlEncode(str) {
+  if (!str || typeof str !== "string" || str.trim() === "") {
+    return "";
+  }
+
+  try {
+    return new URL(str).toString();
+  } catch (e) {
+    return "";
+  }
+}

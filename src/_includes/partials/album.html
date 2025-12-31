@@ -12,7 +12,7 @@
           <a
             title="Listen on Spotify"
             class="spotify"
-            href="{{ album.streamingLinks.spotify }}"
+            href="{{ album.streamingLinks.spotify | url_encode }}"
             target="_blank"
             rel="noopener noreferrer">
             <svg
@@ -27,7 +27,7 @@
           <a
             title="Listen on Apple Music"
             class="apple-music"
-            href="{{ album.streamingLinks.appleMusic }}"
+            href="{{ album.streamingLinks.appleMusic | url_encode }}"
             target="_blank"
             rel="noopener noreferrer">
             <svg
@@ -42,7 +42,7 @@
           <a
             title="Listen on YouTube"
             class="youtube"
-            href="{{ album.streamingLinks.youtube }}"
+            href="{{ album.streamingLinks.youtube | url_encode }}"
             target="_blank"
             rel="noopener noreferrer">
             <svg
@@ -57,7 +57,7 @@
           <a
             title="Listen on YouTube Music"
             class="youtube-music"
-            href="{{ album.streamingLinks.youtubeMusic }}"
+            href="{{ album.streamingLinks.youtubeMusic | url_encode }}"
             target="_blank"
             rel="noopener noreferrer">
             <svg
@@ -73,7 +73,7 @@
           <a
             title="Listen on Amazon Music"
             class="amazon-music"
-            href="{{ album.streamingLinks.amazonMusic }}"
+            href="{{ album.streamingLinks.amazonMusic | url_encode }}"
             target="_blank"
             rel="noopener noreferrer">
             <svg
@@ -88,7 +88,7 @@
           <a
             title="Listen on Tidal"
             class="tidal"
-            href="{{ album.streamingLinks.tidal }}"
+            href="{{ album.streamingLinks.tidal | url_encode }}"
             target="_blank"
             rel="noopener noreferrer">
             <svg
@@ -103,7 +103,7 @@
           <a
             title="Listen on Deezer"
             class="deezer"
-            href="{{ album.streamingLinks.deezer }}"
+            href="{{ album.streamingLinks.deezer | url_encode }}"
             target="_blank"
             rel="noopener noreferrer">
             <svg
@@ -119,7 +119,7 @@
         <em>
           If your preferred streaming platform doesn't have the album, try
           <a
-            href="{{ album.streamingLinks.youtube }}"
+            href="{{ album.streamingLinks.youtube | url_encode }}"
             target="_blank"
             rel="noopener noreferrer">searching for it on YouTube</a>.
         </em>
@@ -159,7 +159,7 @@
             {% if album.externalLinks.wikipedia %}
               <li>
                 <a
-                  href="{{ album.externalLinks.wikipedia }}"
+                  href="{{ album.externalLinks.wikipedia | url_encode }}"
                   target="_blank"
                   rel="noopener noreferrer">
                   Wikipedia
@@ -169,7 +169,7 @@
             {% if album.externalLinks.rateyourmusic %}
               <li>
                 <a
-                  href="{{ album.externalLinks.rateyourmusic }}"
+                  href="{{ album.externalLinks.rateyourmusic | url_encode }}"
                   target="_blank"
                   rel="noopener noreferrer">
                   Rate Your Music
@@ -179,7 +179,7 @@
             {% if album.externalLinks.discogs %}
               <li>
                 <a
-                  href="{{ album.externalLinks.discogs }}"
+                  href="{{ album.externalLinks.discogs | url_encode }}"
                   target="_blank"
                   rel="noopener noreferrer">
                   Discogs

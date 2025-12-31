@@ -7,7 +7,7 @@ import {
   generatePlatformHashtags,
 } from "./src/utils/content.js";
 import { formatDate } from "./src/utils/date.js";
-import { escapeHtml } from "./src/utils/string.js";
+import { escapeHtml, urlEncode } from "./src/utils/string.js";
 
 const outdir = "_site";
 
@@ -66,6 +66,7 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addFilter("format_date", formatDate);
   eleventyConfig.addFilter("escape_html", escapeHtml);
+  eleventyConfig.addFilter("url_encode", urlEncode);
   eleventyConfig.addFilter(
     "generate_caption",
     function (album, dateStr, url, platform) {
