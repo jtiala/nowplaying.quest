@@ -1,0 +1,35 @@
+{
+  "artist": "Sparks",
+  "title": "Kimono My House",
+  "year": "1974",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "art pop",
+    "art rock",
+    "glam rock",
+    "pop rock",
+    "progressive",
+    "rock"
+  ],
+  "description": "Kimono My House is the third studio album by American rock band Sparks, released on May 1, 1974, by Island Records. The album is considered to be their commercial breakthrough, and was met with widespread acclaim.",
+  "coverArt": "https://coverartarchive.org/release/940f4f66-33da-4fd4-bfbe-b9f256406761/13458872183.jpg",
+  "mbid": "0539b843-2228-36f5-965d-f370d05f66c3",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q241983",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kimono_My_House",
+    "discogs": "https://www.discogs.com/master/87047",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/sparks/kimono_my_house/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/7KOmuu3cbJQEQYGt3XmLmY",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1443750483?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_nsu3wh7aueSQnu8A90tkUWRww9pDgSlyo",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nsu3wh7aueSQnu8A90tkUWRww9pDgSlyo",
+    "amazonMusic": "https://music.amazon.com/albums/B001J18EO8",
+    "tidal": "https://listen.tidal.com/album/34780355",
+    "deezer": "https://www.deezer.com/album/684797"
+  }
+}
