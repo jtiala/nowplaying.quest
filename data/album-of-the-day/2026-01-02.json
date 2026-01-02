@@ -1,0 +1,33 @@
+{
+  "artist": "Talking Heads",
+  "title": "Fear of Music",
+  "year": "1979",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time"
+  ],
+  "genres": [
+    "art rock",
+    "new wave",
+    "post-punk",
+    "progressive"
+  ],
+  "description": "Fear of Music is the third studio album by the American new wave band Talking Heads, released on August 3, 1979, by Sire Records. It was recorded at locations in New York City during April and May 1979 and was produced by Brian Eno and Talking Heads. The album reached number 21 on the Billboard 200 and number 33 on the UK Albums Chart. It spawned the singles \"Life During Wartime\", \"I Zimbra\", and \"Cities\".",
+  "coverArt": "https://coverartarchive.org/release/59d0000a-d099-447e-8ef6-e5b83e9ebafe/2761427476.jpg",
+  "mbid": "f378dcb1-841b-3be1-9d96-779036562de1",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q934211",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fear_of_Music",
+    "discogs": "https://www.discogs.com/master/39260",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/talking-heads/fear-of-music/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/4OLsnJQPTX0S6lODXw1MqC",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/300965520?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=PLDZmtI4GBWqxFiYlTPheik4OfJS6gHV3F",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PLDZmtI4GBWqxFiYlTPheik4OfJS6gHV3F",
+    "amazonMusic": "https://music.amazon.com/albums/B001OGLN3M",
+    "tidal": "https://listen.tidal.com/album/2850251",
+    "deezer": "https://www.deezer.com/album/340251"
+  }
+}
