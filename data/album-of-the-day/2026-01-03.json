@@ -1,0 +1,32 @@
+{
+  "artist": "Phoebe Bridgers",
+  "title": "Punisher",
+  "year": "2020",
+  "curatedLists": [
+    "pitchfork-200-best-albums-of-the-last-25-years"
+  ],
+  "genres": [
+    "chamber folk",
+    "indie folk",
+    "indie rock",
+    "singer-songwriter"
+  ],
+  "description": "Punisher is the second studio album by American singer-songwriter Phoebe Bridgers, released on June 18, 2020, by Dead Oceans. It is the follow-up to her 2017 debut album, Stranger in the Alps.",
+  "coverArt": "https://coverartarchive.org/release/053dc03a-871e-40cf-80fa-e079b0b8a52b/26238957233.jpg",
+  "mbid": "cf75fd5a-ca84-4371-94d7-27410360f06b",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q96419213",
+    "wikipedia": "https://en.wikipedia.org/wiki/Punisher_(album)",
+    "discogs": "https://www.discogs.com/master/1757517",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/phoebe-bridgers/punisher/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/6Pp6qGEywDdofgFC1oFbSH",
+    "appleMusic": "https://music.apple.com/us/search?term=Phoebe%20Bridgers%20Punisher",
+    "youtube": "https://www.youtube.com/playlist?list=PLATeyS5bPJiGZhPiDEOXpWmuFa-IceqZk",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PLATeyS5bPJiGZhPiDEOXpWmuFa-IceqZk",
+    "amazonMusic": "https://music.amazon.com/albums/B086GYSB6B",
+    "tidal": "https://listen.tidal.com/album/135629244",
+    "deezer": "https://www.deezer.com/album/139385112"
+  }
+}
