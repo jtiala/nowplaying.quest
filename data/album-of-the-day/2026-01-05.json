@@ -1,0 +1,38 @@
+{
+  "artist": "Le Tigre",
+  "title": "Le Tigre",
+  "year": "1999",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time"
+  ],
+  "genres": [
+    "electro",
+    "electroclash",
+    "electronic",
+    "indie rock",
+    "new wave",
+    "pop",
+    "post-punk",
+    "rock",
+    "synth-pop"
+  ],
+  "description": "Le Tigre is the debut studio album of American music trio Le Tigre. It was released October 25, 1999, on Mr. Lady Records. The album combined pop music with the band's feminist political lyrics. It received positive reviews from music critics.",
+  "coverArt": "https://coverartarchive.org/release/233b7916-ae58-3278-9907-f3b591390651/3723048096.jpg",
+  "mbid": "116d142c-e7fd-3902-8ca5-0d4999abd00e",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q847634",
+    "wikipedia": "https://en.wikipedia.org/wiki/Le_Tigre_(album)",
+    "discogs": "https://www.discogs.com/master/96921",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/le_tigre/le_tigre/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/0dSSZGzoukzrFBnG07J45i",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/507045045?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_loHUrcBKtcQ_6KTymjhmWh9IaSwzb7B7o",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_loHUrcBKtcQ_6KTymjhmWh9IaSwzb7B7o",
+    "amazonMusic": "https://music.amazon.com/albums/B00K6AUMCA",
+    "tidal": "https://listen.tidal.com/album/92268617",
+    "deezer": "https://www.deezer.com/album/236245422"
+  }
+}
