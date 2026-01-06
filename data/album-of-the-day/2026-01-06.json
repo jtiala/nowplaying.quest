@@ -1,0 +1,29 @@
+{
+  "artist": "The Roots",
+  "title": "How I Got Over",
+  "year": "2010",
+  "curatedLists": [
+    "rolling-stone-the-200-greatest-hip-hop-albums-of-all-time"
+  ],
+  "genres": [
+    "hip hop"
+  ],
+  "description": "How I Got Over is the ninth studio album by American hip hop band the Roots. It was released on June 22, 2010, by Def Jam Recordings.",
+  "coverArt": "https://coverartarchive.org/release/ce2507be-1576-44d0-9c2f-f5f135d514ed/2434018811.jpg",
+  "mbid": "9b643b98-ea0d-4c17-9dd1-8cfe2a92248f",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q989857",
+    "wikipedia": "https://en.wikipedia.org/wiki/How_I_Got_Over_(album)",
+    "discogs": "https://www.discogs.com/master/259627",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/the-roots/how-i-got-over/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/25sYZjutddzUpXNbeQ7bEC",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1440733756?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=PLHPXX16lch_yXOjKGS-hfiGXME9t05UJ3",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PLHPXX16lch_yXOjKGS-hfiGXME9t05UJ3",
+    "amazonMusic": "https://music.amazon.com/albums/B003RNZDKY",
+    "tidal": "https://listen.tidal.com/album/4156968",
+    "deezer": "https://www.deezer.com/album/597915"
+  }
+}
