@@ -1,0 +1,34 @@
+{
+  "artist": "Motörhead",
+  "title": "Ace of Spades",
+  "year": "1980",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "hard rock",
+    "heavy metal",
+    "metal",
+    "rock",
+    "speed metal"
+  ],
+  "description": "Ace of Spades is the fourth studio album by English rock band Motörhead, released in October 1980 via Bronze Records. It is the band's most commercially successful album, peaking at number four on the UK Albums Chart and reaching gold status in the UK by March 1981. It was preceded by the release of the title track as a single in October, which peaked in the UK Singles Chart at No. 15 in early November.",
+  "coverArt": "https://coverartarchive.org/release/6d30be96-5999-49a8-a7d5-62c73549808e/1820851358.jpg",
+  "mbid": "51d51de2-0312-4798-8529-bed2ae2581c6",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q481752",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ace_of_Spades_(Motörhead_album)",
+    "discogs": "https://www.discogs.com/master/38512",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/motorhead/ace_of_spades/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/1LORPYoTiPGpJC37GqYSvC",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1611639286?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=PLPYc31xNjTtkqoeTmsDXc5BP4d_LH9cKv",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PLPYc31xNjTtkqoeTmsDXc5BP4d_LH9cKv",
+    "amazonMusic": "https://music.amazon.com/albums/B0FS259S92",
+    "tidal": "https://listen.tidal.com/album/221609186",
+    "deezer": "https://www.deezer.com/album/304072247"
+  }
+}
