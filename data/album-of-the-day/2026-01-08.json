@@ -1,0 +1,39 @@
+{
+  "artist": "Beastie Boys",
+  "title": "Hello Nasty",
+  "year": "1998",
+  "curatedLists": [
+    "nme-the-500-greatest-albums-of-all-time"
+  ],
+  "genres": [
+    "abstract hip hop",
+    "art pop",
+    "boom bap",
+    "east coast hip hop",
+    "electro",
+    "experimental hip hop",
+    "hip hop",
+    "instrumental hip hop",
+    "neo-psychedelia",
+    "rap rock",
+    "turntablism"
+  ],
+  "description": "Hello Nasty is the fifth studio album by the American hip-hop group Beastie Boys, released on July 14, 1998, by Grand Royal and Capitol Records. The album sold 681,000 copies in its first week, debuting at No. 1 on the Billboard 200 chart, and won Best Alternative Music Album and Best Rap Performance by a Duo or Group at the 41st Annual Grammy Awards. In Beastie Boys Book (2018), Ad-Rock said he felt Hello Nasty was the group's \"best record\".",
+  "coverArt": "https://coverartarchive.org/release/97b7095d-0a2b-4d44-af26-eae537a7fee2/23077388963.jpg",
+  "mbid": "96c996ab-2a78-3abd-8974-c96b5724ae28",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q1035160",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hello_Nasty",
+    "discogs": "https://www.discogs.com/master/20224",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/beastie_boys/hello_nasty/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/6eGYLONkDMja0MNtZWnRRB",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/721224205?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_kIusAHmMfMXhUjSdFt9VorrjTFVdTQPCg",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_kIusAHmMfMXhUjSdFt9VorrjTFVdTQPCg",
+    "amazonMusic": "https://music.amazon.com/albums/B002KC7UWM",
+    "tidal": "https://listen.tidal.com/album/3049160",
+    "deezer": "https://www.deezer.com/album/374183"
+  }
+}
