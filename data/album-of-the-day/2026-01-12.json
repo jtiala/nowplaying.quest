@@ -1,0 +1,33 @@
+{
+  "artist": "Songhoy Blues",
+  "title": "Music in Exile",
+  "year": "2015",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions"
+  ],
+  "genres": [
+    "alternative rock",
+    "art rock",
+    "blues",
+    "pop",
+    "rock"
+  ],
+  "description": null,
+  "coverArt": "https://coverartarchive.org/release/b7fc3597-65ed-4536-ab7e-c0da71eef876/10046582074.png",
+  "mbid": "f7f190c5-85fd-45af-a7a2-825804d53ee4",
+  "externalLinks": {
+    "wikidata": null,
+    "wikipedia": null,
+    "discogs": "https://www.discogs.com/master/803405",
+    "rateyourmusic": null
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/5zpmNObCgAASco8nNJXIkb",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/971619376?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=PLMAMCQPLZoRQcSN2UA8OKVw3KCjE7LaNL",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PLMAMCQPLZoRQcSN2UA8OKVw3KCjE7LaNL",
+    "amazonMusic": "https://music.amazon.com/albums/B00U17LJ66",
+    "tidal": "https://listen.tidal.com/album/42697184",
+    "deezer": "https://www.deezer.com/album/9760586"
+  }
+}
