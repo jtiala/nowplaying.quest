@@ -1,0 +1,34 @@
+{
+  "artist": "Aerosmith",
+  "title": "Toys in the Attic",
+  "year": "1975",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "arena rock",
+    "blues rock",
+    "classic rock",
+    "hard rock",
+    "rock"
+  ],
+  "description": "Toys in the Attic is the third studio album by American rock band Aerosmith, released on April 8, 1975, by Columbia Records. Its first single, \"Sweet Emotion\", was released on May 19 and the original version of \"Walk This Way\" followed on August 28 in the same year. The album is the band's most commercially successful studio LP in the United States, with nine million copies sold, according to the RIAA. In 2003, the album was ranked No. 228 on Rolling Stone's list of The 500 Greatest Albums of All Time. The album's title track and their collaboration with Run-DMC on a cover version of \"Walk This Way\" are included on the Rock and Roll Hall of Fame list of the \"500 Songs that Shaped Rock and Roll\".",
+  "coverArt": "https://coverartarchive.org/release/53d2b3ed-29f3-3f90-9e59-e3943314ee58/29367097212.jpg",
+  "mbid": "d03bb6b1-d7b4-38ea-974e-847cbb31dca4",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q683019",
+    "wikipedia": "https://en.wikipedia.org/wiki/Toys_in_the_Attic_(album)",
+    "discogs": "https://www.discogs.com/master/36627",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/aerosmith/toys_in_the_attic/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/6As5aOEQjfxLIChIB3fQRD",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1660108657?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=PLDDAYQXk_M65ojLsYX1Pm_5iMMS8LQDHM",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PLDDAYQXk_M65ojLsYX1Pm_5iMMS8LQDHM",
+    "amazonMusic": "https://music.amazon.com/albums/B0BPJXFFD3",
+    "tidal": "https://listen.tidal.com/album/265320946",
+    "deezer": "https://www.deezer.com/album/384906257"
+  }
+}
