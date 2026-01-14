@@ -1,0 +1,36 @@
+{
+  "artist": "Peaches",
+  "title": "The Teaches of Peaches",
+  "year": "2000",
+  "curatedLists": [
+    "the-guardian-the-100-best-albums-of-the-21st-century"
+  ],
+  "genres": [
+    "breaks",
+    "electro",
+    "electroclash",
+    "electronic",
+    "electronica",
+    "experimental",
+    "pop",
+    "synth-pop"
+  ],
+  "description": "The Teaches of Peaches is the second studio album by Canadian recording artist Merrill Nisker, and her first under the stage name Peaches. It was released on September 5, 2000, by Kitty-Yo. Her roommate Feist contributed vocals for the album.",
+  "coverArt": "https://coverartarchive.org/release/12acc3df-aad6-3490-a4d1-0d93664747ea/14670827462.jpg",
+  "mbid": "748e6295-979a-322c-a698-2d478b6868bd",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q7768187",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Teaches_of_Peaches",
+    "discogs": "https://www.discogs.com/master/39612",
+    "rateyourmusic": null
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/6gFOrIOM2TwzoRvobkpn1a",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/251117621?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_mXnutMP1mQ7SEDbT-_j7hVRfWR60RC40k",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mXnutMP1mQ7SEDbT-_j7hVRfWR60RC40k",
+    "amazonMusic": "https://music.amazon.com/albums/B000S59OVS",
+    "tidal": "https://listen.tidal.com/album/58912072",
+    "deezer": "https://www.deezer.com/album/156865772"
+  }
+}
