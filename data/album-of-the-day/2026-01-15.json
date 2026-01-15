@@ -1,0 +1,33 @@
+{
+  "artist": "Joan Baez",
+  "title": "Joan Baez",
+  "year": "1960",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions"
+  ],
+  "genres": [
+    "contemporary folk",
+    "folk",
+    "folk rock",
+    "pop",
+    "rock"
+  ],
+  "description": "Joan Baez, also known as Joan Baez, Vol. 1, is the debut solo album by folk singer Joan Baez. The album was recorded in the summer of 1960 and released the same year. The original release featured 13 traditional folk songs. Later reissues included three additional songs.",
+  "coverArt": "https://coverartarchive.org/release/d41896e1-47a1-4159-8552-b836fbb8d12d/23063125595.png",
+  "mbid": "637441f0-6ca3-3557-96f7-68f6701893fb",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q845927",
+    "wikipedia": "https://en.wikipedia.org/wiki/Joan_Baez_(album)",
+    "discogs": "https://www.discogs.com/master/147980",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/joan_baez/joan_baez/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/734AFYo34Q1zRpg9N8E2Ho",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/712142976?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_n6v8BXJZHJwLUH4ls2ksnW3Jt59K6D3wA",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_n6v8BXJZHJwLUH4ls2ksnW3Jt59K6D3wA",
+    "amazonMusic": "https://music.amazon.com/albums/B001F5K414",
+    "tidal": "https://listen.tidal.com/album/3406759",
+    "deezer": "https://www.deezer.com/album/301699"
+  }
+}
