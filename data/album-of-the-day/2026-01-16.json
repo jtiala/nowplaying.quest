@@ -1,0 +1,35 @@
+{
+  "artist": "Helmet",
+  "title": "Meantime",
+  "year": "1992",
+  "curatedLists": [
+    "rolling-stone-the-100-greatest-metal-albums-of-all-time"
+  ],
+  "genres": [
+    "alternative metal",
+    "alternative rock",
+    "hard rock",
+    "heavy metal",
+    "metal",
+    "post-hardcore",
+    "rock"
+  ],
+  "description": "Meantime is the second studio album and major label debut by American alternative metal band Helmet. It was released on June 23, 1992, through Interscope Records.",
+  "coverArt": "https://coverartarchive.org/release/4f79360f-dec8-4135-9cf8-f5543b62b8b4/2228075128.jpg",
+  "mbid": "12f44455-925d-353c-9bdc-fd70885b1bc2",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q1060474",
+    "wikipedia": "https://en.wikipedia.org/wiki/Meantime_(album)",
+    "discogs": "https://www.discogs.com/master/52329",
+    "rateyourmusic": null
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/0U7asaf4jS8EORTjHEWNcJ",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1440915669?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=PLHTo__bpnlYUdD6fN1mactK-IyjkdYJHf",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PLHTo__bpnlYUdD6fN1mactK-IyjkdYJHf",
+    "amazonMusic": "https://music.amazon.com/albums/B000W1MCWQ",
+    "tidal": "https://listen.tidal.com/album/635815",
+    "deezer": "https://www.deezer.com/album/240766"
+  }
+}
