@@ -1,0 +1,38 @@
+{
+  "artist": "Lynyrd Skynyrd",
+  "title": "(pronounced 'lĕh-'nérd 'skin-'nérd)",
+  "year": "1973",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "americana",
+    "arena rock",
+    "blues rock",
+    "boogie rock",
+    "classic rock",
+    "hard rock",
+    "pop",
+    "rock",
+    "southern rock"
+  ],
+  "description": "(Pronounced 'Lĕh-'nérd 'Skin-'nérd) is the debut studio album by American rock band Lynyrd Skynyrd, released on August 13, 1973, by MCA Records. Recording took place in Doraville, Georgia at Studio One, following a lengthy period of rehearsals. Prior to the album's conception, many of its songs were already featured in Lynyrd Skynyrd's live repertoire. To promote it, the band released \"Gimme Three Steps\" and \"Free Bird\" as singles; these, along with \"Simple Man\" and \"Tuesday's Gone\", are among the band's best-known songs.",
+  "coverArt": "https://coverartarchive.org/release/5941cba2-4dbe-4a42-881a-6765286b4240/5897896718.jpg",
+  "mbid": "33446893-8c9f-30b6-aa73-d719df371430",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q276827",
+    "wikipedia": "https://en.wikipedia.org/wiki/(Pronounced_'Lĕh-'nérd_'Skin-'nérd)",
+    "discogs": "https://www.discogs.com/master/70569",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/lynyrd_skynyrd/_pronounced_leh_nerd_skin_nerd__f4/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/3THuBNp86ScbTXwpTmAbdw",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1445734211?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=PLVnkoLiLMTm67JdHHs2oboRm9V1cu8LKF",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PLVnkoLiLMTm67JdHHs2oboRm9V1cu8LKF",
+    "amazonMusic": "https://music.amazon.com/albums/B000V6AD46",
+    "tidal": "https://listen.tidal.com/album/570093",
+    "deezer": "https://www.deezer.com/album/160195"
+  }
+}
