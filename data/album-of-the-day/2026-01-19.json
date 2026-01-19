@@ -1,0 +1,35 @@
+{
+  "artist": "Drake",
+  "title": "If You're Reading This It's Too Late",
+  "year": "2015",
+  "curatedLists": [
+    "rolling-stone-the-200-greatest-hip-hop-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "alternative r&b",
+    "cloud rap",
+    "contemporary r&b",
+    "hip hop",
+    "pop rap",
+    "trap"
+  ],
+  "description": "If You're Reading This It's Too Late is the fourth mixtape by Canadian rapper Drake. It was surprise released on February 13, 2015 through OVO Sound, Young Money, Cash Money and Republic Records. The mixtape was produced by Drake's longtime collaborators 40 and Boi-1da, as well as labelmate PartyNextDoor, among others. Features include PartyNextDoor, Travis Scott, and Lil Wayne.",
+  "coverArt": "https://coverartarchive.org/release/cf5b3c45-52d2-4cfc-96d1-a6b08b216fa5/31977800197.jpg",
+  "mbid": "68d79778-aceb-486c-88a7-0abb3665344b",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q19248558",
+    "wikipedia": "https://en.wikipedia.org/wiki/If_You're_Reading_This_It's_Too_Late",
+    "discogs": "https://www.discogs.com/master/826492",
+    "rateyourmusic": "https://rateyourmusic.com/release/mixtape/drake/if_youre_reading_this_its_too_late/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/0ptlfJfwGTy0Yvrk14JK1I",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1440839718?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=PLsFUbQpMyyfgUhx4RKwPzK8wWf01-0T1D",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PLsFUbQpMyyfgUhx4RKwPzK8wWf01-0T1D",
+    "amazonMusic": "https://music.amazon.com/albums/B00TJTBJBC",
+    "tidal": "https://listen.tidal.com/album/41295825",
+    "deezer": "https://www.deezer.com/album/9691186"
+  }
+}
