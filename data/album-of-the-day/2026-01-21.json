@@ -1,0 +1,34 @@
+{
+  "artist": "James Brown",
+  "title": "'Live' at the Apollo",
+  "year": "1963",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "deep soul",
+    "funk",
+    "r&b",
+    "soul"
+  ],
+  "description": "Live at the Apollo is the first live album by James Brown and the Famous Flames, recorded at the Apollo Theater in Harlem in October 1962 and released in May 1963 by King Records. Capturing Brown's popular stage show for the first time on record, the album was a major commercial success, was critically acclaimed, and cemented his status as a leading R&B star.",
+  "coverArt": "https://coverartarchive.org/release/ad8c35db-2d1b-4674-a6f3-e7616227ee20/9144940593.jpg",
+  "mbid": "a2bad96f-a572-38f2-b362-5865dedc0d35",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q898420",
+    "wikipedia": "https://en.wikipedia.org/wiki/Live_at_the_Apollo_(1963_album)",
+    "discogs": "https://www.discogs.com/master/65036",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/james-brown/live-at-the-apollo/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/2YbNS9jFAQJNZA3ctIHdYK",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1444487850?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/results?search_query=James%20Brown%20Live%20at%20the%20Apollo",
+    "youtubeMusic": "https://music.youtube.com/search?q=James%20Brown%20Live%20at%20the%20Apollo",
+    "amazonMusic": "https://music.amazon.com/albums/B07KZSWYVM",
+    "tidal": "https://listen.tidal.com/album/99999016",
+    "deezer": "https://www.deezer.com/album/80672622"
+  }
+}
