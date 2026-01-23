@@ -1,0 +1,30 @@
+{
+  "artist": "The Byrds",
+  "title": "Greatest Hits",
+  "year": "1967",
+  "curatedLists": [
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "folk rock",
+    "rock"
+  ],
+  "description": "The Byrds' Greatest Hits is the first greatest hits album by the American rock band the Byrds and was released in August 1967 on Columbia Records. It is the top-selling album in the Byrds' catalogue and reached number 6 on the Billboard Top LPs chart, but failed to chart in the UK.",
+  "coverArt": "https://coverartarchive.org/release/fff61319-05be-4f76-9c91-a52bcd7ed266/4289782420.jpg",
+  "mbid": "32060957-af04-3df0-8773-d705f56c25c0",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q1577242",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Byrds'_Greatest_Hits",
+    "discogs": "https://www.discogs.com/master/29930",
+    "rateyourmusic": null
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/1NoUvTyvwokGSPcqudblVQ",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/157543662?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/results?search_query=The%20Byrds%20Greatest%20Hits",
+    "youtubeMusic": "https://music.youtube.com/search?q=The%20Byrds%20Greatest%20Hits",
+    "amazonMusic": "https://music.amazon.com/albums/B00138H89E",
+    "tidal": "https://listen.tidal.com/album/1865292",
+    "deezer": "https://www.deezer.com/album/97765"
+  }
+}
