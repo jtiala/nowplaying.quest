@@ -1,0 +1,29 @@
+{
+  "artist": "George Jones",
+  "title": "The Grand Tour",
+  "year": "1974",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions"
+  ],
+  "genres": [
+    "country"
+  ],
+  "description": "The Grand Tour is an album by the American country music artist George Jones, released in 1974 as his fifth album for Epic Records. It peaked at #11 on the Billboard Country Albums chart and contained the hit title track, which reached a peak of #1 in August 1974. It is Jones’ 50th Album Release.",
+  "coverArt": "https://coverartarchive.org/release/1bc7d72f-e3d7-4e64-ba5a-41f2151285f0/23186345056.png",
+  "mbid": "e709a485-297f-37a4-a2ae-c405956dd5c1",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q589782",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Grand_Tour_(album)",
+    "discogs": "https://www.discogs.com/master/683613",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/george-jones/the-grand-tour/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/4AB1Ni41i1YgE1snxb0b6r",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/272750643?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/results?search_query=George%20Jones%20The%20Grand%20Tour",
+    "youtubeMusic": "https://music.youtube.com/search?q=George%20Jones%20The%20Grand%20Tour",
+    "amazonMusic": "https://music.amazon.com/search/George%20Jones%20The%20Grand%20Tour",
+    "tidal": "https://listen.tidal.com/album/34051895",
+    "deezer": "https://www.deezer.com/album/8290422"
+  }
+}
