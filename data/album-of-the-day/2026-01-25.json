@@ -1,0 +1,30 @@
+{
+  "artist": "David Bowie",
+  "title": "ChangesOneBowie",
+  "year": "1976",
+  "curatedLists": [
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "pop rock",
+    "rock"
+  ],
+  "description": "Changesonebowie is a compilation album by English musician David Bowie, issued through RCA Records in 1976. It collected songs from the 1969–1976 period, including the first LP appearance of \"John, I'm Only Dancing\". A \"sax version\" of this song, cut during the Aladdin Sane sessions in 1973, appeared on the first 1000 copies of the UK pressing. Later pressings of Changesonebowie featured the original version of the single that had been recorded and released in 1972. All US pressings of the LP contain this original version as well.",
+  "coverArt": "https://coverartarchive.org/release/89d10403-8f8c-4b0e-8f46-bf2357c7e48a/12215216018.jpg",
+  "mbid": "16c74734-083d-3913-a622-402216677a82",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q1937658",
+    "wikipedia": "https://en.wikipedia.org/wiki/Changesonebowie",
+    "discogs": "https://www.discogs.com/master/22239",
+    "rateyourmusic": "https://rateyourmusic.com/release/comp/david-bowie/changesonebowie/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/3aGkjugjzDWaETRbbRafoF",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1090470635?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=PLDWnXJX7OJiwFMS4W14E4mOjHhewiSM7G",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PLDWnXJX7OJiwFMS4W14E4mOjHhewiSM7G",
+    "amazonMusic": "https://music.amazon.com/albums/B01CP30NUQ",
+    "tidal": "https://listen.tidal.com/album/60101116",
+    "deezer": "https://www.deezer.com/album/13020914"
+  }
+}
