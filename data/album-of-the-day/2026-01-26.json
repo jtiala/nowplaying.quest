@@ -1,0 +1,33 @@
+{
+  "artist": "Ozzy Osbourne",
+  "title": "Diary of a Madman",
+  "year": "1981",
+  "curatedLists": [
+    "rolling-stone-the-100-greatest-metal-albums-of-all-time"
+  ],
+  "genres": [
+    "glam metal",
+    "hard rock",
+    "heavy metal",
+    "metal",
+    "rock"
+  ],
+  "description": "Diary of a Madman is the second studio album by the English heavy metal singer Ozzy Osbourne, released in October 1981. This is the last Osbourne studio album to feature guitarist Randy Rhoads and drummer Lee Kerslake. An altered version appeared in 2002 with the original bass and drum parts removed and re-recorded. In 2011, a Deluxe 30th Anniversary Edition was released with all original parts restored. To date, the album has sold over three million copies worldwide.",
+  "coverArt": "https://coverartarchive.org/release/5073ba98-868e-43af-aa54-2e2b5b63fa04/7124923543.jpg",
+  "mbid": "5e8dc90d-610e-3d85-8884-a1449d74e6cc",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q730613",
+    "wikipedia": "https://en.wikipedia.org/wiki/Diary_of_a_Madman_(album)",
+    "discogs": "https://www.discogs.com/master/41160",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/ozzy-osbourne/diary-of-a-madman/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/4xiRrFE0Gq4Si9mAfPB3hZ",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/437515100?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=PLxA687tYuMWgTTJnKt8GpohxiOzxWdIeJ",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PLxA687tYuMWgTTJnKt8GpohxiOzxWdIeJ",
+    "amazonMusic": "https://music.amazon.com/albums/B007R68DOA",
+    "tidal": "https://listen.tidal.com/album/6698390",
+    "deezer": "https://www.deezer.com/album/1100653"
+  }
+}
