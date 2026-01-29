@@ -1,0 +1,32 @@
+{
+  "artist": "Bangles",
+  "title": "All Over the Place",
+  "year": "1984",
+  "curatedLists": [
+    "npr-the-150-greatest-albums-made-by-women"
+  ],
+  "genres": [
+    "new wave",
+    "pop",
+    "pop rock",
+    "rock"
+  ],
+  "description": "All Over the Place is the debut studio album by American pop rock band the Bangles. Released in May 1984 by Columbia Records, the album was not a major commercial success – peaking at number 80 on the Billboard 200 albums chart. It sold respectably, mostly through steady airplay on college radio stations. It also gave the band the chance to perform as an opening act for Cyndi Lauper and Huey Lewis and the News, and brought the group to the attention of Prince, who would write \"Manic Monday\", their first hit.",
+  "coverArt": "https://coverartarchive.org/release/a5314501-6f1d-4139-8334-e044103c0f66/9071795758.jpg",
+  "mbid": "14e7f3b2-0da4-32d5-9ce1-d6b61a708c33",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q1653869",
+    "wikipedia": "https://en.wikipedia.org/wiki/All_Over_the_Place_(The_Bangles_album)",
+    "discogs": "https://www.discogs.com/master/64744",
+    "rateyourmusic": null
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/4WdNNACnrsj7CZvceyTgkN",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/397546638?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/results?search_query=Bangles%20All%20Over%20the%20Place",
+    "youtubeMusic": "https://music.youtube.com/search?q=Bangles%20All%20Over%20the%20Place",
+    "amazonMusic": "https://music.amazon.com/albums/B00VR0ZWHI",
+    "tidal": "https://listen.tidal.com/album/34092749",
+    "deezer": "https://www.deezer.com/album/1375278"
+  }
+}
