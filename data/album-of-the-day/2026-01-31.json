@@ -1,0 +1,40 @@
+{
+  "artist": "The Beatles",
+  "title": "Rubber Soul",
+  "year": "1965",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "beat music",
+    "british rhythm & blues",
+    "britpop",
+    "folk pop",
+    "folk rock",
+    "pop",
+    "pop rock",
+    "psychedelic",
+    "psychedelic pop",
+    "rock"
+  ],
+  "description": "Rubber Soul is the sixth studio album by the English rock band the Beatles. It was released on 3 December 1965 in the United Kingdom on EMI's Parlophone label, accompanied by the non-album double A-side single \"We Can Work It Out\" / \"Day Tripper\". The original North American release, issued by Capitol Records, contains ten of the fourteen songs and two tracks withheld from the band's Help! (1965) album. Rubber Soul was described as an important artistic achievement by the band, meeting a highly favourable critical response and topping sales charts in Britain and the United States for several weeks.",
+  "coverArt": "https://coverartarchive.org/release/288cd84a-a357-461c-98d6-745077837816/31984493615.jpg",
+  "mbid": "dca03435-8adb-30a5-ba82-5a162267ff38",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q190640",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rubber_Soul",
+    "discogs": "https://www.discogs.com/master/45526",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/the_beatles/rubber_soul_f1/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/50o7kf2wLwVmOTVYJOTplm",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1441164359?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=PLycVTiaj8OI9Ptzsl9nzxfwUgZ0jx-Hyb",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PLycVTiaj8OI9Ptzsl9nzxfwUgZ0jx-Hyb",
+    "amazonMusic": "https://music.amazon.com/albums/B07FT2R423",
+    "tidal": "https://listen.tidal.com/album/55163273",
+    "deezer": "https://www.deezer.com/album/12047936"
+  }
+}
