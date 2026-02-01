@@ -1,0 +1,38 @@
+{
+  "artist": "Jane Weaver",
+  "title": "Modern Kosmology",
+  "year": "2017",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions"
+  ],
+  "genres": [
+    "electro",
+    "electronic",
+    "folk",
+    "indie pop",
+    "indie rock",
+    "krautrock",
+    "neo-psychedelia",
+    "pop",
+    "rock",
+    "synth-pop"
+  ],
+  "description": null,
+  "coverArt": "https://coverartarchive.org/release/a9eceb94-db36-44c0-925d-4fb9fd9fbac0/25606591587.jpg",
+  "mbid": "eafc91d4-5a7d-4563-beb8-5019de5c2397",
+  "externalLinks": {
+    "wikidata": null,
+    "wikipedia": null,
+    "discogs": "https://www.discogs.com/master/1183211",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/jane-weaver/modern-kosmology/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/6PN720FM9NAPx1N4NIKkSi",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1667963394?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_m99ZwTs4LrQ9OG1HnZPBQY2kAA9_w8wt8",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_m99ZwTs4LrQ9OG1HnZPBQY2kAA9_w8wt8",
+    "amazonMusic": "https://music.amazon.com/albums/B0BT2RXBM9",
+    "tidal": "https://listen.tidal.com/album/273530842",
+    "deezer": "https://www.deezer.com/album/400327407"
+  }
+}
