@@ -1,0 +1,34 @@
+{
+  "artist": "Rage Against the Machine",
+  "title": "The Battle of Los Angeles",
+  "year": "1999",
+  "curatedLists": [
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "alternative metal",
+    "funk metal",
+    "metal",
+    "post-hardcore",
+    "rap metal",
+    "rock"
+  ],
+  "description": "The Battle of Los Angeles is the third studio album by American rock band Rage Against the Machine, released by Epic Records on November 2, 1999. At the 43rd Annual Grammy Awards, it was nominated for Best Rock Album, and the song \"Guerrilla Radio\" won the award for Best Hard Rock Performance. In their year-end lists, Time and Rolling Stone magazines both named the album the best of 1999.",
+  "coverArt": "https://coverartarchive.org/release/7e638a51-a1b1-4b96-a8af-2fbbaa45539a/8119844464.jpg",
+  "mbid": "25e72bf4-09fc-3e66-9d31-9247d91b4819",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q754834",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Battle_of_Los_Angeles_(album)",
+    "discogs": "https://www.discogs.com/master/7963",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/rage-against-the-machine/the-battle-of-los-angeles/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/2eia0myWFgoHuttJytCxgX",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/192816635?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=PLNPGM2D7aODfKEScaIR6Dym3aa5nOw19C",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PLNPGM2D7aODfKEScaIR6Dym3aa5nOw19C",
+    "amazonMusic": "https://music.amazon.com/albums/B00138KDO6",
+    "tidal": "https://listen.tidal.com/album/23682768",
+    "deezer": "https://www.deezer.com/album/1398819"
+  }
+}
