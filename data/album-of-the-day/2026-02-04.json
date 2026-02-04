@@ -1,0 +1,33 @@
+{
+  "artist": "Carpenters",
+  "title": "A Song for You",
+  "year": "1972",
+  "curatedLists": [
+    "npr-the-150-greatest-albums-made-by-women"
+  ],
+  "genres": [
+    "easy listening",
+    "pop",
+    "pop rock",
+    "rock",
+    "soft rock"
+  ],
+  "description": "A Song for You is the fourth studio album by the American music duo the Carpenters, released on June 22, 1972. According to Richard Carpenter, A Song for You was intended to be a concept album with the title tune opening and closing the set and the bookended selections comprising the 'song'. \"A Song for You\" was written by songwriter Leon Russell.",
+  "coverArt": "https://coverartarchive.org/release/c44b7976-aec8-4ebc-bad3-25fac5df3450/37152350539.jpg",
+  "mbid": "1d47f2fc-cc62-3462-8c0d-d9259820953f",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q1755196",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Song_for_You_(The_Carpenters_album)",
+    "discogs": "https://www.discogs.com/master/84966",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/carpenters/a-song-for-you/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/1nA6Exnq2mWD8678q3E4Ov",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1423236399?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_k-i_cYJKmQ_atfhxneKT11mjXPjvM0iWU",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_k-i_cYJKmQ_atfhxneKT11mjXPjvM0iWU",
+    "amazonMusic": "https://music.amazon.com/albums/B07G8NG8LX",
+    "tidal": "https://listen.tidal.com/album/93214407",
+    "deezer": "https://www.deezer.com/album/70177372"
+  }
+}
