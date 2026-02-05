@@ -1,0 +1,37 @@
+{
+  "artist": "Iggy and The Stooges",
+  "title": "Raw Power",
+  "year": "1973",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "classic rock",
+    "garage rock",
+    "hard rock",
+    "proto-punk",
+    "punk",
+    "punk rock",
+    "rock"
+  ],
+  "description": "Raw Power is the third studio album by American rock band the Stooges, released on February 7, 1973, by Columbia Records. The album departed from the \"groove-ridden, feel-based songs\" of the band's first two records in favor of a more anthemic hard rock approach inspired by new guitarist James Williamson, who co-wrote the album's eight songs with singer Iggy Pop.",
+  "coverArt": "https://coverartarchive.org/release/d89b2fc8-3dad-3a08-952d-09622ab99f3a/8067123145.jpg",
+  "mbid": "156cbf68-eaea-3f6a-852e-aa6afbd779db",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q918613",
+    "wikipedia": "https://en.wikipedia.org/wiki/Raw_Power",
+    "discogs": "https://www.discogs.com/master/38175",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/iggy_and_the_stooges/raw_power/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/6mxbG8KrOTZIxlP4gzaliM",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/157475333?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/results?search_query=Iggy%20and%20The%20Stooges%20Raw%20Power",
+    "youtubeMusic": "https://music.youtube.com/search?q=Iggy%20and%20The%20Stooges%20Raw%20Power",
+    "amazonMusic": "https://music.amazon.com/albums/B00138KGS4",
+    "tidal": "https://listen.tidal.com/album/1304464",
+    "deezer": "https://www.deezer.com/album/112805"
+  }
+}
