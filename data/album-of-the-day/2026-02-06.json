@@ -1,0 +1,30 @@
+{
+  "artist": "Dr. Feelgood",
+  "title": "Stupidity",
+  "year": "1976",
+  "curatedLists": [
+    "nme-the-500-greatest-albums-of-all-time"
+  ],
+  "genres": [
+    "blues rock",
+    "rock"
+  ],
+  "description": "Stupidity is a live album by English rock band Dr. Feelgood. It was released in September 1976 and is the band's third overall album. Their mushrooming popularity was confirmed when Stupidity (1976) topped the UK Albums Chart.",
+  "coverArt": "https://coverartarchive.org/release/05bce22c-f349-481b-a477-33cda011ef1a/22642741968.png",
+  "mbid": "47e6e4b8-0d83-356a-9ae5-8345cfa638ba",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q3501160",
+    "wikipedia": "https://en.wikipedia.org/wiki/Stupidity_(Dr._Feelgood_album)",
+    "discogs": "https://www.discogs.com/master/105937",
+    "rateyourmusic": null
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/3551pKuqEHNvsAbVU0TVrt",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1663544886?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/results?search_query=Dr%20Feelgood%20Stupidity",
+    "youtubeMusic": "https://music.youtube.com/search?q=Dr%20Feelgood%20Stupidity",
+    "amazonMusic": "https://music.amazon.com/albums/B0BRTBSB6Z",
+    "tidal": "https://listen.tidal.com/album/270277842",
+    "deezer": "https://www.deezer.com/search/Dr%20Feelgood%20Stupidity"
+  }
+}
