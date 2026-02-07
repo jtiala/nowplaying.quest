@@ -1,0 +1,32 @@
+{
+  "artist": "The Breeders",
+  "title": "Last Splash",
+  "year": "1993",
+  "curatedLists": [
+    "nme-the-500-greatest-albums-of-all-time",
+    "npr-the-150-greatest-albums-made-by-women",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "alternative rock",
+    "rock"
+  ],
+  "description": "Last Splash is the second studio album by American alternative rock band the Breeders, released on August 30, 1993. Originally formed as a side project for Pixies bassist Kim Deal, the Breeders quickly became her primary recording outlet. Last Splash peaked at number 33 on the Billboard 200 albums chart, and by June 1994, the album had been certified platinum by the Recording Industry Association of America (RIAA) for shipments in excess of one million units.",
+  "coverArt": "https://coverartarchive.org/release/ef99ecda-76ae-3d00-aff4-719d33db6ffe/13112946175.png",
+  "mbid": "7aaf0618-292c-3474-bfbc-d831baf710cf",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q2136712",
+    "wikipedia": "https://en.wikipedia.org/wiki/Last_Splash",
+    "discogs": "https://www.discogs.com/master/20764",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/the_breeders/last_splash/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/57F44c0MTziVzHPEuJtH9A",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1251495447?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=PLWVreuogjhtDNXveO7DV7oDKXwl80dtjE",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PLWVreuogjhtDNXveO7DV7oDKXwl80dtjE",
+    "amazonMusic": "https://music.amazon.com/albums/B073JFJ96Z",
+    "tidal": "https://listen.tidal.com/album/157762275",
+    "deezer": "https://www.deezer.com/album/43927741"
+  }
+}
