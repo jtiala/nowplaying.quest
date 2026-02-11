@@ -1,0 +1,32 @@
+{
+  "artist": "Echo & The Bunnymen",
+  "title": "Porcupine",
+  "year": "1983",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions"
+  ],
+  "genres": [
+    "indie rock",
+    "new wave",
+    "post-punk",
+    "rock"
+  ],
+  "description": "Porcupine is the third studio album by the English post-punk band Echo & the Bunnymen. First released on 4 February 1983, it became the band's highest-charting release when it reached number two on the UK Albums Chart despite initially receiving poor reviews. It also reached number 137 on the American Billboard 200, number 85 on the Canadian RPM 100 Albums and number 24 on the Swedish chart. In 1984, the album was certified gold by the British Phonographic Industry. The album includes the singles \"The Back of Love\" and \"The Cutter.\"",
+  "coverArt": "https://coverartarchive.org/release/8c7448c8-3511-4ae0-afc6-dd276c89f273/21886999740.jpg",
+  "mbid": "931e971f-eb34-369f-b6a4-f5ef7c6a1c9e",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q914397",
+    "wikipedia": "https://en.wikipedia.org/wiki/Porcupine_(album)",
+    "discogs": "https://www.discogs.com/master/28547",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/echo_and_the_bunnymen/porcupine/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/4brJ6hWYqPj1sccgk390dC",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/31740123?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_nDuEZ86TMviYaHlqmXj8pyMdE-nHmvBkk",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_nDuEZ86TMviYaHlqmXj8pyMdE-nHmvBkk",
+    "amazonMusic": "https://music.amazon.com/albums/B00122046U",
+    "tidal": "https://listen.tidal.com/album/217144",
+    "deezer": "https://www.deezer.com/album/341028"
+  }
+}
