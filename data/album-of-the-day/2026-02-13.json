@@ -1,0 +1,33 @@
+{
+  "artist": "Marianne Faithfull",
+  "title": "Broken English",
+  "year": "1979",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time",
+    "npr-the-150-greatest-albums-made-by-women"
+  ],
+  "genres": [
+    "art pop",
+    "new wave",
+    "rock"
+  ],
+  "description": "Broken English is the seventh studio album by English singer Marianne Faithfull. It was released on 2 November 1979 by Island Records. The album marked a major comeback for Faithfull after years of drug abuse, homelessness and anorexia. It is often regarded as her definitive recording, and Faithfull herself described it as her \"masterpiece\".",
+  "coverArt": "https://coverartarchive.org/release/d0d55d72-f77d-44e6-99f9-59a0eacb3ee8/5224225688.jpg",
+  "mbid": "96e40648-a0e2-320b-9592-fff4a49d9395",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q849982",
+    "wikipedia": "https://en.wikipedia.org/wiki/Broken_English_(album)",
+    "discogs": "https://www.discogs.com/master/57119",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/marianne_faithfull/broken_english/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/68Ug5EIHfcHffStaXYKysO",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1443851809?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=PLz6cAheObZchaeUCRYxTpbJU1Asi8SlJu",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PLz6cAheObZchaeUCRYxTpbJU1Asi8SlJu",
+    "amazonMusic": "https://music.amazon.com/albums/B000VZMQD8",
+    "tidal": "https://listen.tidal.com/album/637013",
+    "deezer": "https://www.deezer.com/album/219146"
+  }
+}
