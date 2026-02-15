@@ -1,0 +1,40 @@
+{
+  "artist": "Sufjan Stevens",
+  "title": "Illinois",
+  "year": "2005",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time",
+    "pitchfork-200-best-albums-of-the-last-25-years"
+  ],
+  "genres": [
+    "baroque pop",
+    "chamber folk",
+    "chamber pop",
+    "folk rock",
+    "indie folk",
+    "indie rock",
+    "orchestral",
+    "progressive",
+    "rock",
+    "singer-songwriter"
+  ],
+  "description": "Illinois is the fifth studio album by the American singer-songwriter Sufjan Stevens. It features songs referencing places, events, and persons related to the U.S. state of Illinois. Illinois is Stevens' second based on a U.S. state—part of a planned series of fifty that began with the 2003 album Michigan and that Stevens has since acknowledged was a joke. It was adapted into a musical, Illinoise, in 2023 and, after playing smaller venues, opened at the St. James Theatre on Broadway in April 2024.",
+  "coverArt": "https://coverartarchive.org/release/b14f3252-4973-3fe0-a4da-af5d39626cc1/26865127077.jpg",
+  "mbid": "1fb75447-c513-38c4-ad8f-1bfc441aa74c",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q1658831",
+    "wikipedia": "https://en.wikipedia.org/wiki/Illinois_(Sufjan_Stevens_album)",
+    "discogs": "https://www.discogs.com/master/14863",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/sufjan-stevens/illinois/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/1pOl0KEC1iQnA6F0XxV4To",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/309742278?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_mvDMUbRUk-QGWlDE2O6SLwuKxyQr_3t44",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mvDMUbRUk-QGWlDE2O6SLwuKxyQr_3t44",
+    "amazonMusic": "https://music.amazon.com/albums/B000S56R1I",
+    "tidal": "https://listen.tidal.com/album/19327275",
+    "deezer": "https://www.deezer.com/album/6158892"
+  }
+}
