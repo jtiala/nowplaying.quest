@@ -1,0 +1,35 @@
+{
+  "artist": "Swans",
+  "title": "To Be Kind",
+  "year": "2014",
+  "curatedLists": [
+    "pitchfork-200-best-albums-of-the-last-25-years"
+  ],
+  "genres": [
+    "art rock",
+    "drone",
+    "experimental rock",
+    "no wave",
+    "noise rock",
+    "post-rock",
+    "rock"
+  ],
+  "description": "To Be Kind is the thirteenth studio album by American experimental rock band Swans, released on May 12, 2014. A double album, it was recorded by producer John Congleton in Texas.",
+  "coverArt": "https://coverartarchive.org/release/01430596-3eaa-4d2f-8198-8e15aac948bd/7269530596.jpg",
+  "mbid": "d2df1a2d-4da1-40a3-a825-5674ce117579",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q16862871",
+    "wikipedia": "https://en.wikipedia.org/wiki/To_Be_Kind",
+    "discogs": "https://www.discogs.com/master/686208",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/swans/to_be_kind/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/4dq7JNcHKrnozzFQg5bpmn",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/836834698?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=PLUcXHQ7VorrWwHd0LKx91zBsmVL40lP54",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PLUcXHQ7VorrWwHd0LKx91zBsmVL40lP54",
+    "amazonMusic": "https://music.amazon.com/albums/B073JG1M57",
+    "tidal": "https://listen.tidal.com/album/28901963",
+    "deezer": "https://www.deezer.com/album/7729069"
+  }
+}
