@@ -1,0 +1,38 @@
+{
+  "artist": "Whitney Houston",
+  "title": "Whitney",
+  "year": "1987",
+  "curatedLists": [
+    "nme-the-500-greatest-albums-of-all-time"
+  ],
+  "genres": [
+    "club",
+    "contemporary r&b",
+    "dance",
+    "dance-pop",
+    "disco",
+    "electronic",
+    "freestyle",
+    "pop",
+    "pop soul",
+    "synth-pop"
+  ],
+  "description": "Whitney is the second studio album by American singer Whitney Houston. It was released on June 1, 1987, by Arista Records. The follow-up to her debut album, production on the album aimed at reaching the same audience as her debut, which also mostly featured ballads and love songs while including several upbeat songs. Mostly produced by Narada Michael Walden and Michael Masser, plus contributions from Kashif and John \"Jellybean\" Benitez, and featuring guest output from musicians such as Kenny G and Roy Ayers, the album became an immediate hit upon its release.",
+  "coverArt": "https://coverartarchive.org/release/1eb4416b-1f67-39a9-9b00-c59b3a24c983/22197251125.png",
+  "mbid": "4f5bfc50-7a41-385e-9961-3db0feaec430",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q1139652",
+    "wikipedia": "https://en.wikipedia.org/wiki/Whitney_(album)",
+    "discogs": "https://www.discogs.com/master/51633",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/whitney_houston/whitney/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/5Vdzprr5cOqXQo44eHeV7t",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/840431884?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=PLoCWJhz_4WqHZN5tc6Jz-pGEadsRodsRo",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PLoCWJhz_4WqHZN5tc6Jz-pGEadsRodsRo",
+    "amazonMusic": "https://music.amazon.com/albums/B00136JRZY",
+    "tidal": "https://listen.tidal.com/album/27100908",
+    "deezer": "https://www.deezer.com/album/7530488"
+  }
+}
