@@ -1,0 +1,34 @@
+{
+  "artist": "Mystery Jets",
+  "title": "Twenty One",
+  "year": "2008",
+  "curatedLists": [
+    "nme-the-500-greatest-albums-of-all-time"
+  ],
+  "genres": [
+    "alternative rock",
+    "electronic",
+    "indie rock",
+    "new wave",
+    "pop",
+    "rock"
+  ],
+  "description": "Twenty One is the second studio album by Mystery Jets, released in the UK on 24 March 2008.",
+  "coverArt": "https://coverartarchive.org/release/c4bd2bcc-43bb-46c3-88b9-701cec45abaf/39898295067.jpg",
+  "mbid": "ddf76ed6-53bd-3963-b751-332bc321e812",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q7857804",
+    "wikipedia": "https://en.wikipedia.org/wiki/Twenty_One_(Mystery_Jets_album)",
+    "discogs": "https://www.discogs.com/master/152805",
+    "rateyourmusic": null
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/2efbbdHh1iSps9yfBZdy7G",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/276086542?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=PLB7752387E255815A",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PLB7752387E255815A",
+    "amazonMusic": "https://music.amazon.com/albums/B002BGLKGO",
+    "tidal": "https://listen.tidal.com/album/1658474",
+    "deezer": "https://www.deezer.com/album/92806"
+  }
+}
