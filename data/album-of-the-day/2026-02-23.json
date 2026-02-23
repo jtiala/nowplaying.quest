@@ -1,0 +1,31 @@
+{
+  "artist": "Big Star",
+  "title": "#1 Record",
+  "year": "1972",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "power pop",
+    "rock"
+  ],
+  "description": "#1 Record is the debut studio album by the American rock band Big Star. It was released on April 24, 1972, by Memphis-based Ardent Records.",
+  "coverArt": "https://coverartarchive.org/release/85455e7b-953e-404c-a8f9-061d71fc4aba/15870976012.jpg",
+  "mbid": "18ec10a7-864f-3f1b-8d68-5cb622165b20",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q269307",
+    "wikipedia": "https://en.wikipedia.org/wiki/Number_1_Record",
+    "discogs": "https://www.discogs.com/master/13825",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/big_star/_1_record/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/1BumwwIEw1EC3xAHyf1ive",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1422691834?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=PLHp65gVxQqeBoqr0Usj5Byk9i_Pe74a0e",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PLHp65gVxQqeBoqr0Usj5Byk9i_Pe74a0e",
+    "amazonMusic": "https://music.amazon.com/albums/B01B6XTFB4",
+    "tidal": "https://listen.tidal.com/album/56997439",
+    "deezer": "https://www.deezer.com/album/320445247"
+  }
+}
