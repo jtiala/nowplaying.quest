@@ -1,0 +1,40 @@
+{
+  "artist": "Sigur Rós",
+  "title": "Ágætis byrjun",
+  "year": "1999",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "pitchfork-200-best-albums-of-the-last-25-years"
+  ],
+  "genres": [
+    "alternative rock",
+    "ambient",
+    "chamber pop",
+    "dream pop",
+    "electronic",
+    "experimental",
+    "experimental rock",
+    "post-rock",
+    "rock",
+    "slowcore",
+    "symphonic rock"
+  ],
+  "description": "Ágætis byrjun is the second studio album by Icelandic post-rock band Sigur Rós, released on 12 June 1999. The album was recorded between the summer of 1998 and the spring of 1999 with producer Ken Thomas. Ágætis byrjun represented a substantial departure from the band's previous album Von, with that album's extended ambient soundscapes replaced by Jónsi Birgisson's cello-bowed guitar work and orchestration, using a double string octet amongst other chamber elements.",
+  "coverArt": "https://coverartarchive.org/release/344183d6-7aae-3b68-b2cc-b24f9ca79bbf/8210434349.jpg",
+  "mbid": "62b427b8-1c52-34e7-b250-da2aa3e44860",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q249952",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ágætis_byrjun",
+    "discogs": "https://www.discogs.com/master/9621",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/sigur_ros/agaetis_byrjun/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/1DMMv1Kmoli3Y9fVEZDUVC",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1447442814?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/playlist?list=PLNPGM2D7aODdevCs6d82Bn7klRO_XchKs",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=PLNPGM2D7aODdevCs6d82Bn7klRO_XchKs",
+    "amazonMusic": "https://music.amazon.com/albums/B07LH9V7VG",
+    "tidal": "https://listen.tidal.com/album/101349508",
+    "deezer": "https://www.deezer.com/album/82417442"
+  }
+}
