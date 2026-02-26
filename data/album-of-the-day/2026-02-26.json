@@ -1,0 +1,36 @@
+{
+  "artist": "Cat Stevens",
+  "title": "Tea for the Tillerman",
+  "year": "1970",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "blues",
+    "folk pop",
+    "folk rock",
+    "pop",
+    "pop rock",
+    "rock",
+    "singer-songwriter"
+  ],
+  "description": "Tea for the Tillerman is the fourth studio album by singer-songwriter Cat Stevens, released in November 1970.",
+  "coverArt": "https://coverartarchive.org/release/e85224b5-15e6-48e6-8b43-0cd6c017a9e2/39302736790.jpg",
+  "mbid": "418678e7-2807-3bed-a305-11b4181e533e",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q1077486",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tea_for_the_Tillerman",
+    "discogs": "https://www.discogs.com/master/37103",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/cat-stevens/tea-for-the-tillerman/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/44VxbAytHpVi3Rq8hRhild",
+    "appleMusic": "https://music.apple.com/us/search?term=Cat%20Stevens%20Tea%20for%20the%20Tillerman",
+    "youtube": "https://www.youtube.com/playlist?list=OLAK5uy_n0T0CDIQ9JPBX73Y8A3PCz78UrIUb7gOw",
+    "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_n0T0CDIQ9JPBX73Y8A3PCz78UrIUb7gOw",
+    "amazonMusic": "https://music.amazon.com/albums/B08L45K31K",
+    "tidal": "https://listen.tidal.com/album/156113387",
+    "deezer": "https://www.deezer.com/album/189259342"
+  }
+}
