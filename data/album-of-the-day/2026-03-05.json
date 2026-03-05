@@ -1,0 +1,34 @@
+{
+  "artist": "The Byrds",
+  "title": "Younger Than Yesterday",
+  "year": "1967",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "folk rock",
+    "pop rock",
+    "psychedelic pop",
+    "rock"
+  ],
+  "description": "Younger Than Yesterday is the fourth studio album by the American rock band the Byrds, released on February 6, 1967, by Columbia Records. It saw the band continuing to integrate elements of psychedelia and jazz into their music, a process they had begun on their previous album, Fifth Dimension. In addition, the album captured the band and record producer Gary Usher experimenting with new musical textures, including brass instruments, reverse tape effects and an electronic oscillator.",
+  "coverArt": "https://coverartarchive.org/release/a4ef5475-62dc-4558-93a1-ada35d6042e6/21454871291.jpg",
+  "mbid": "4e4c1014-7c7b-397a-9c80-35b115a034fe",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q2031535",
+    "wikipedia": "https://en.wikipedia.org/wiki/Younger_Than_Yesterday",
+    "discogs": "https://www.discogs.com/master/30054",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/the_byrds/younger_than_yesterday/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/33puYJ2y5qANDenRmL8BS1",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/648526404?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/results?search_query=The%20Byrds%20Younger%20Than%20Yesterday",
+    "youtubeMusic": "https://music.youtube.com/search?q=The%20Byrds%20Younger%20Than%20Yesterday",
+    "amazonMusic": "https://music.amazon.com/albums/B00CSSOFFI",
+    "tidal": "https://listen.tidal.com/album/20379802",
+    "deezer": "https://www.deezer.com/album/6604362"
+  }
+}
