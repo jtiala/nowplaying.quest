@@ -1,0 +1,36 @@
+{
+  "artist": "The Beach Boys",
+  "title": "The Beach Boys Today!",
+  "year": "1965",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "baroque pop",
+    "pop",
+    "pop rock",
+    "rock",
+    "sunshine pop",
+    "surf",
+    "surf rock"
+  ],
+  "description": "The Beach Boys Today! is the eighth studio album by the American rock band the Beach Boys, released March 8, 1965, by Capitol Records. Expanding on the increased musical sophistication that had marked their 1964 release All Summer Long, Today! signaled a departure from their previous work with its orchestral sound, intimate subject matter, and abandonment of car or surf songs. Side one features an uptempo sound, while side two consists mostly of introspective ballads. It has since become regarded as one of the greatest albums of all time.",
+  "coverArt": "https://coverartarchive.org/release/2f67a719-dd71-4946-a422-f03a5522b0ba/6260715956.jpg",
+  "mbid": "2b581513-39cc-3a81-9c50-79a8dbf5c031",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q224367",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Beach_Boys_Today!",
+    "discogs": "https://www.discogs.com/master/268265",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/the-beach-boys/the-beach-boys-today/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/1xPtXzS5yCbDAqC7pxRCaF",
+    "appleMusic": "https://geo.music.apple.com/us/album/_/1443096398?mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m",
+    "youtube": "https://www.youtube.com/results?search_query=The%20Beach%20Boys%20The%20Beach%20Boys%20Today",
+    "youtubeMusic": "https://music.youtube.com/search?q=The%20Beach%20Boys%20The%20Beach%20Boys%20Today",
+    "amazonMusic": "https://music.amazon.com/albums/B009B50BWW",
+    "tidal": "https://listen.tidal.com/album/17176134",
+    "deezer": "https://www.deezer.com/album/5909551"
+  }
+}
