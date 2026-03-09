@@ -1,0 +1,31 @@
+{
+  "artist": "George Russell",
+  "title": "The Jazz Workshop",
+  "year": "1957",
+  "curatedLists": [
+    "jazzwise-the-100-jazz-albums-that-shook-the-world"
+  ],
+  "genres": [
+    "cool jazz",
+    "jazz",
+    "post-bop"
+  ],
+  "description": "The Jazz Workshop is the debut album by jazz composer George Russell, featuring his \"Smalltet\", which included Art Farmer, Hal McKusick, Barry Galbraith, and Bill Evans.",
+  "coverArt": null,
+  "mbid": "49b2a15d-fb81-3f54-803d-ddf817022aae",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q956819",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Jazz_Workshop",
+    "discogs": "https://www.discogs.com/master/346150",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/george_russell/jazz_workshop/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/George%20Russell%20The%20Jazz%20Workshop",
+    "appleMusic": "https://music.apple.com/us/search?term=George%20Russell%20The%20Jazz%20Workshop",
+    "youtube": "https://www.youtube.com/results?search_query=George%20Russell%20The%20Jazz%20Workshop",
+    "youtubeMusic": "https://music.youtube.com/search?q=George%20Russell%20The%20Jazz%20Workshop",
+    "amazonMusic": "https://music.amazon.com/search/George%20Russell%20The%20Jazz%20Workshop",
+    "tidal": "https://tidal.com/search?q=George%20Russell%20The%20Jazz%20Workshop",
+    "deezer": "https://www.deezer.com/search/George%20Russell%20The%20Jazz%20Workshop"
+  }
+}
