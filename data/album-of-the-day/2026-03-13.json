@@ -1,0 +1,31 @@
+{
+  "artist": "U2",
+  "title": "Boy",
+  "year": "1980",
+  "curatedLists": [
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "alternative rock",
+    "post-punk",
+    "rock"
+  ],
+  "description": "Boy is the debut studio album by the Irish rock band U2. It was produced by Steve Lillywhite and was released on 20 October 1980 by Island Records. Boy contains songs from the band's 40-song repertoire at the time, including two tracks that were re-recorded from their original versions on the group's debut release, the EP Three.",
+  "coverArt": "https://coverartarchive.org/release/24385f92-4dd1-4726-8719-437d1c74ac18/7239583402.jpg",
+  "mbid": "53b0d89e-f856-3015-a3a6-a70e1e935fd6",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q207662",
+    "wikipedia": "https://en.wikipedia.org/wiki/Boy_(album)",
+    "discogs": "https://www.discogs.com/master/48750",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/u2/boy/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/album/2co53OwPjlTvPDQTpErBtU",
+    "appleMusic": "https://music.apple.com/us/search?term=U2%20Boy",
+    "youtube": "https://www.youtube.com/results?search_query=U2%20Boy",
+    "youtubeMusic": "https://music.youtube.com/search?q=U2%20Boy",
+    "amazonMusic": "https://music.amazon.com/albums/B001NAZSGC",
+    "tidal": "https://listen.tidal.com/album/1851431",
+    "deezer": "https://www.deezer.com/album/109388"
+  }
+}
