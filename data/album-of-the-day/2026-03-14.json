@@ -1,0 +1,33 @@
+{
+  "artist": "Traffic",
+  "title": "Traffic",
+  "year": "1968",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions"
+  ],
+  "genres": [
+    "blues rock",
+    "folk rock",
+    "progressive rock",
+    "psychedelic rock",
+    "rock"
+  ],
+  "description": "Traffic is the self-titled second studio album by the English rock band Traffic, released on 20 September 1968 on Island Records in the United Kingdom as ILPS 9081T (stereo), and United Artists in the United States, as UAS 6676 (stereo). The album peaked at number 9 in the UK Albums Chart and at number 17 on the Billboard Top LPs chart. It was the last album recorded by the group before their initial breakup.",
+  "coverArt": "https://coverartarchive.org/release/5414db91-00db-3fb8-8fb6-4d1dc7299529/21619640953.jpg",
+  "mbid": "7d426408-10e5-3c3b-b119-a72e81be8eba",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q858200",
+    "wikipedia": "https://en.wikipedia.org/wiki/Traffic_(Traffic_album)",
+    "discogs": "https://www.discogs.com/master/69053",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/traffic/traffic/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/Traffic%20Traffic",
+    "appleMusic": "https://music.apple.com/us/search?term=Traffic%20Traffic",
+    "youtube": "https://www.youtube.com/results?search_query=Traffic%20Traffic",
+    "youtubeMusic": "https://music.youtube.com/search?q=Traffic%20Traffic",
+    "amazonMusic": "https://music.amazon.com/search/Traffic%20Traffic",
+    "tidal": "https://tidal.com/search?q=Traffic%20Traffic",
+    "deezer": "https://www.deezer.com/search/Traffic%20Traffic"
+  }
+}
