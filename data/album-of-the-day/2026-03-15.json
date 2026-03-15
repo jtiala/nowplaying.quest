@@ -1,0 +1,34 @@
+{
+  "artist": "Elton John",
+  "title": "Elton John",
+  "year": "1970",
+  "curatedLists": [
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "blues",
+    "piano rock",
+    "pop",
+    "pop rock",
+    "rock",
+    "soft rock"
+  ],
+  "description": "Elton John is the second studio album by British singer-songwriter Elton John. It was released on 10 April 1970 through DJM Records. Including John's breakthrough single \"Your Song\", the album helped establish his career during the rise of the singer-songwriter era of popular music.",
+  "coverArt": "https://coverartarchive.org/release/4ae79ddb-6933-4919-8b50-3e88f20394f2/23457510097.jpg",
+  "mbid": "527eeafc-adbc-3c85-a048-0711acb4a932",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q1138432",
+    "wikipedia": "https://en.wikipedia.org/wiki/Elton_John_(album)",
+    "discogs": "https://www.discogs.com/master/84203",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/elton_john/elton_john/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/Elton%20John%20Elton%20John",
+    "appleMusic": "https://music.apple.com/us/search?term=Elton%20John%20Elton%20John",
+    "youtube": "https://www.youtube.com/results?search_query=Elton%20John%20Elton%20John",
+    "youtubeMusic": "https://music.youtube.com/search?q=Elton%20John%20Elton%20John",
+    "amazonMusic": "https://music.amazon.com/search/Elton%20John%20Elton%20John",
+    "tidal": "https://tidal.com/search?q=Elton%20John%20Elton%20John",
+    "deezer": "https://www.deezer.com/search/Elton%20John%20Elton%20John"
+  }
+}
