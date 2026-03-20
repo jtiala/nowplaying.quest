@@ -1,0 +1,44 @@
+{
+  "artist": "Michael Jackson",
+  "title": "Bad",
+  "year": "1987",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "ballad",
+    "club",
+    "contemporary r&b",
+    "dance",
+    "dance-pop",
+    "disco",
+    "funk",
+    "new jack swing",
+    "pop",
+    "pop rock",
+    "pop soul",
+    "r&b",
+    "synth funk",
+    "synth-pop"
+  ],
+  "description": "Bad is the seventh studio album by the American singer Michael Jackson. It was released on August 31, 1987, by Epic Records. Highly anticipated, the album took three years to produce between 1985 and 1987, and was Jackson's third and final collaboration with producer Quincy Jones. A dance-pop and R&B album, it captures Jackson with greater artistic freedom, as he composed and co-produced all but two of its tracks, discussing celebrity, romance, world peace, and self-improvement. The album features appearances from Siedah Garrett and Stevie Wonder.",
+  "coverArt": "https://coverartarchive.org/release/60b529f1-f99b-499f-9b3d-e96f9971039e/17067123637.jpg",
+  "mbid": "a5711a77-42d1-3f4c-830c-e27a96f0800f",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q44142",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bad_(album)",
+    "discogs": "https://www.discogs.com/master/8517",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/michael_jackson/bad/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/Michael%20Jackson%20Bad",
+    "appleMusic": "https://music.apple.com/us/search?term=Michael%20Jackson%20Bad",
+    "youtube": "https://www.youtube.com/results?search_query=Michael%20Jackson%20Bad",
+    "youtubeMusic": "https://music.youtube.com/search?q=Michael%20Jackson%20Bad",
+    "amazonMusic": "https://music.amazon.com/search/Michael%20Jackson%20Bad",
+    "tidal": "https://tidal.com/search?q=Michael%20Jackson%20Bad",
+    "deezer": "https://www.deezer.com/search/Michael%20Jackson%20Bad"
+  }
+}
