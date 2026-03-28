@@ -1,0 +1,36 @@
+{
+  "artist": "Miles Davis",
+  "title": "Kind of Blue",
+  "year": "1959",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "jazzwise-the-100-jazz-albums-that-shook-the-world",
+    "nme-the-500-greatest-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "cool jazz",
+    "hard bop",
+    "jazz",
+    "modal jazz",
+    "post-bop"
+  ],
+  "description": "Kind of Blue is a studio album by American jazz musician Miles Davis, released on August 17, 1959, by Columbia Records. For this album, Davis led a sextet featuring saxophonists John Coltrane and Julian \"Cannonball\" Adderley, pianist Bill Evans, bassist Paul Chambers, and drummer Jimmy Cobb, with new band pianist Wynton Kelly replacing Evans on \"Freddie Freeloader\". The album was recorded at Columbia's 30th Street Studio in New York City in two sessions on March 2 and April 22, 1959.",
+  "coverArt": "https://coverartarchive.org/release/e7ba3cb7-a074-45ee-870f-3baeb6d3e8bf/12708426541.jpg",
+  "mbid": "8e8a594f-2175-38c7-a871-abb68ec363e7",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q283221",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kind_of_Blue",
+    "discogs": "https://www.discogs.com/master/5460",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/miles_davis/kind_of_blue/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/Miles%20Davis%20Kind%20of%20Blue",
+    "appleMusic": "https://music.apple.com/us/search?term=Miles%20Davis%20Kind%20of%20Blue",
+    "youtube": "https://www.youtube.com/results?search_query=Miles%20Davis%20Kind%20of%20Blue",
+    "youtubeMusic": "https://music.youtube.com/search?q=Miles%20Davis%20Kind%20of%20Blue",
+    "amazonMusic": "https://music.amazon.com/search/Miles%20Davis%20Kind%20of%20Blue",
+    "tidal": "https://tidal.com/search?q=Miles%20Davis%20Kind%20of%20Blue",
+    "deezer": "https://www.deezer.com/search/Miles%20Davis%20Kind%20of%20Blue"
+  }
+}
