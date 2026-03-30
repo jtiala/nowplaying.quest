@@ -1,0 +1,35 @@
+{
+  "artist": "The Specials",
+  "title": "Specials",
+  "year": "1979",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time"
+  ],
+  "genres": [
+    "2 tone",
+    "pop",
+    "reggae",
+    "rock",
+    "rocksteady",
+    "ska"
+  ],
+  "description": "The Specials is the debut studio album by the English ska revival band the Specials. Released on 19 October 1979 on Jerry Dammers' 2 Tone label, the album is seen by some as the defining moment in the UK ska scene. Produced by Elvis Costello, the album captures the disaffection and anger felt by the youth of the UK's \"concrete jungle\"—a phrase borrowed from Bob Marley's 1973 album Catch a Fire—used to describe the grim, violent inner cities of 1970s Britain. The album features a mixture of original material and several covers of classic Jamaican ska tracks.",
+  "coverArt": "https://coverartarchive.org/release/b3e8b3fc-4ada-39a9-bd88-9dcfe3d1ceaa/5761424758.jpg",
+  "mbid": "9c02ca99-df9a-3e48-8b7a-fabb599d19a3",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q1090708",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Specials_(album)",
+    "discogs": "https://www.discogs.com/master/8179",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/the-specials/specials-2/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/The%20Specials%20Specials",
+    "appleMusic": "https://music.apple.com/us/search?term=The%20Specials%20Specials",
+    "youtube": "https://www.youtube.com/results?search_query=The%20Specials%20Specials",
+    "youtubeMusic": "https://music.youtube.com/search?q=The%20Specials%20Specials",
+    "amazonMusic": "https://music.amazon.com/search/The%20Specials%20Specials",
+    "tidal": "https://tidal.com/search?q=The%20Specials%20Specials",
+    "deezer": "https://www.deezer.com/search/The%20Specials%20Specials"
+  }
+}
