@@ -1,0 +1,34 @@
+{
+  "artist": "Public Image Ltd.",
+  "title": "Public Image",
+  "year": "1978",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions"
+  ],
+  "genres": [
+    "alternative rock",
+    "art rock",
+    "avant-garde",
+    "new wave",
+    "post-punk",
+    "rock"
+  ],
+  "description": null,
+  "coverArt": "https://coverartarchive.org/release/b02a98f7-e2d0-411f-bd8a-a2358219fa67/20465247575.jpg",
+  "mbid": "0642142f-f88c-4885-b7d0-17f717196d4c",
+  "externalLinks": {
+    "wikidata": null,
+    "wikipedia": null,
+    "discogs": "https://www.discogs.com/master/1396324",
+    "rateyourmusic": null
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/Public%20Image%20Ltd%20Public%20Image",
+    "appleMusic": "https://music.apple.com/us/search?term=Public%20Image%20Ltd%20Public%20Image",
+    "youtube": "https://www.youtube.com/results?search_query=Public%20Image%20Ltd%20Public%20Image",
+    "youtubeMusic": "https://music.youtube.com/search?q=Public%20Image%20Ltd%20Public%20Image",
+    "amazonMusic": "https://music.amazon.com/search/Public%20Image%20Ltd%20Public%20Image",
+    "tidal": "https://tidal.com/search?q=Public%20Image%20Ltd%20Public%20Image",
+    "deezer": "https://www.deezer.com/search/Public%20Image%20Ltd%20Public%20Image"
+  }
+}
