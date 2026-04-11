@@ -1,0 +1,37 @@
+{
+  "artist": "Taylor Swift",
+  "title": "Fearless",
+  "year": "2008",
+  "curatedLists": [
+    "npr-the-150-greatest-albums-made-by-women"
+  ],
+  "genres": [
+    "contemporary country",
+    "country",
+    "country pop",
+    "folk",
+    "pop",
+    "pop rock",
+    "rock",
+    "singer-songwriter",
+    "teen pop"
+  ],
+  "description": "Fearless is the second studio album by the American singer-songwriter Taylor Swift. It was released in North America on November 11, 2008, by Big Machine Records. Inspired by Swift's teenage perspectives, Fearless explores love and life using fairy tale-inspired lyrical imagery.",
+  "coverArt": "https://coverartarchive.org/release/6b36d317-b26f-496a-98d6-bb5dec9b173a/40731862566.jpg",
+  "mbid": "63eba062-847c-3b73-8b0f-6baf27bba6fa",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q842214",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fearless_(Taylor_Swift_album)",
+    "discogs": "https://www.discogs.com/master/222553",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/taylor_swift/fearless/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/Taylor%20Swift%20Fearless",
+    "appleMusic": "https://music.apple.com/us/search?term=Taylor%20Swift%20Fearless",
+    "youtube": "https://www.youtube.com/results?search_query=Taylor%20Swift%20Fearless",
+    "youtubeMusic": "https://music.youtube.com/search?q=Taylor%20Swift%20Fearless",
+    "amazonMusic": "https://music.amazon.com/search/Taylor%20Swift%20Fearless",
+    "tidal": "https://tidal.com/search?q=Taylor%20Swift%20Fearless",
+    "deezer": "https://www.deezer.com/search/Taylor%20Swift%20Fearless"
+  }
+}
