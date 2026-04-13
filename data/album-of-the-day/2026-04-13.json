@@ -1,0 +1,36 @@
+{
+  "artist": "Eagles",
+  "title": "Hotel California",
+  "year": "1976",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "blues",
+    "classic rock",
+    "country rock",
+    "electronic",
+    "pop rock",
+    "rock",
+    "soft rock"
+  ],
+  "description": "Hotel California is the fifth studio album by the American rock band the Eagles, released on December 8, 1976, by Asylum Records. Recorded by the band and produced by Bill Szymczyk at the Criteria and Record Plant studios between March and October 1976, it was the band's first album with guitarist Joe Walsh, who had replaced founding member Bernie Leadon, and the last to feature founding bassist/vocalist Randy Meisner. The album cover is a photograph of the Beverly Hills Hotel, taken by David Alexander.",
+  "coverArt": "https://coverartarchive.org/release/fa7d3357-f3e9-4da5-ad70-09c05ef8207f/18785014502.jpg",
+  "mbid": "836f349a-0434-3e8b-a0bc-261f77a9f99c",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q752172",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hotel_California_(album)",
+    "discogs": "https://www.discogs.com/master/59501",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/eagles/hotel_california/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/Eagles%20Hotel%20California",
+    "appleMusic": "https://music.apple.com/us/search?term=Eagles%20Hotel%20California",
+    "youtube": "https://www.youtube.com/results?search_query=Eagles%20Hotel%20California",
+    "youtubeMusic": "https://music.youtube.com/search?q=Eagles%20Hotel%20California",
+    "amazonMusic": "https://music.amazon.com/search/Eagles%20Hotel%20California",
+    "tidal": "https://tidal.com/search?q=Eagles%20Hotel%20California",
+    "deezer": "https://www.deezer.com/search/Eagles%20Hotel%20California"
+  }
+}
