@@ -1,0 +1,29 @@
+{
+  "artist": "David Bowie",
+  "title": "Blackstar",
+  "year": "2016",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "pitchfork-200-best-albums-of-the-last-25-years",
+    "the-guardian-the-100-best-albums-of-the-21st-century"
+  ],
+  "genres": [],
+  "description": null,
+  "coverArt": null,
+  "mbid": null,
+  "externalLinks": {
+    "wikidata": null,
+    "wikipedia": null,
+    "discogs": null,
+    "rateyourmusic": null
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/David%20Bowie%20Blackstar",
+    "appleMusic": "https://music.apple.com/us/search?term=David%20Bowie%20Blackstar",
+    "youtube": "https://www.youtube.com/results?search_query=David%20Bowie%20Blackstar",
+    "youtubeMusic": "https://music.youtube.com/search?q=David%20Bowie%20Blackstar",
+    "amazonMusic": "https://music.amazon.com/search/David%20Bowie%20Blackstar",
+    "tidal": "https://tidal.com/search?q=David%20Bowie%20Blackstar",
+    "deezer": "https://www.deezer.com/search/David%20Bowie%20Blackstar"
+  }
+}
