@@ -1,0 +1,32 @@
+{
+  "artist": "Miles Davis",
+  "title": "Birth of the Cool",
+  "year": "1957",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "jazzwise-the-100-jazz-albums-that-shook-the-world"
+  ],
+  "genres": [
+    "bebop",
+    "cool jazz",
+    "jazz"
+  ],
+  "description": "Birth of the Cool is a compilation album by the American jazz trumpeter and bandleader Miles Davis. It was released in February or March 1957 on Capitol Records. It compiles eleven tracks recorded by Davis's nonet for the label over the course of three sessions during 1949 and 1950.",
+  "coverArt": "https://coverartarchive.org/release/9f97004b-25e9-4cd9-8aca-a87cb199fe43/19126231822.png",
+  "mbid": "903d5fe8-ab43-33b2-9411-6738af50de19",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q804018",
+    "wikipedia": "https://en.wikipedia.org/wiki/Birth_of_the_Cool",
+    "discogs": "https://www.discogs.com/master/62308",
+    "rateyourmusic": "https://rateyourmusic.com/release/comp/miles_davis/birth_of_the_cool/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/Miles%20Davis%20Birth%20of%20the%20Cool",
+    "appleMusic": "https://music.apple.com/us/search?term=Miles%20Davis%20Birth%20of%20the%20Cool",
+    "youtube": "https://www.youtube.com/results?search_query=Miles%20Davis%20Birth%20of%20the%20Cool",
+    "youtubeMusic": "https://music.youtube.com/search?q=Miles%20Davis%20Birth%20of%20the%20Cool",
+    "amazonMusic": "https://music.amazon.com/search/Miles%20Davis%20Birth%20of%20the%20Cool",
+    "tidal": "https://tidal.com/search?q=Miles%20Davis%20Birth%20of%20the%20Cool",
+    "deezer": "https://www.deezer.com/search/Miles%20Davis%20Birth%20of%20the%20Cool"
+  }
+}
