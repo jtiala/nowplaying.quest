@@ -1,0 +1,41 @@
+{
+  "artist": "Blur",
+  "title": "Blur",
+  "year": "1997",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time"
+  ],
+  "genres": [
+    "alternative rock",
+    "art rock",
+    "britpop",
+    "experimental",
+    "indie rock",
+    "lo-fi",
+    "neo-psychedelia",
+    "pop",
+    "post-grunge",
+    "psychedelic",
+    "rock",
+    "slacker rock"
+  ],
+  "description": "Blur is the fifth studio album by the English rock band Blur, released on 10 February 1997 by Food Records. Blur had previously been broadly critical of American popular culture and their previous albums had become associated with the Britpop movement, particularly Parklife, which had helped them become one of Britain's leading pop acts. After their previous album, The Great Escape, the band faced media backlash and relationships between the members became strained.",
+  "coverArt": "https://coverartarchive.org/release/c5555d72-2713-434d-a26e-584c465a5f99/11267191059.jpg",
+  "mbid": "fdd6c833-3c96-33cb-9917-72e15bcd34bc",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q548770",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blur_(Blur_album)",
+    "discogs": "https://www.discogs.com/master/34508",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/blur/blur/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/Blur%20Blur",
+    "appleMusic": "https://music.apple.com/us/search?term=Blur%20Blur",
+    "youtube": "https://www.youtube.com/results?search_query=Blur%20Blur",
+    "youtubeMusic": "https://music.youtube.com/search?q=Blur%20Blur",
+    "amazonMusic": "https://music.amazon.com/search/Blur%20Blur",
+    "tidal": "https://tidal.com/search?q=Blur%20Blur",
+    "deezer": "https://www.deezer.com/search/Blur%20Blur"
+  }
+}
