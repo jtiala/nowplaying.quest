@@ -1,0 +1,35 @@
+{
+  "artist": "Jay-Z",
+  "title": "The Black Album",
+  "year": "2003",
+  "curatedLists": [
+    "nme-the-500-greatest-albums-of-all-time",
+    "rolling-stone-the-200-greatest-hip-hop-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions",
+    "the-guardian-the-100-best-albums-of-the-21st-century"
+  ],
+  "genres": [
+    "east coast hip hop",
+    "hardcore hip hop",
+    "hip hop",
+    "pop rap"
+  ],
+  "description": "The Black Album is the eighth studio album by American rapper Jay-Z, released on November 14, 2003, through Roc-A-Fella Records and Def Jam Recordings. It was advertised as his final album before retiring, which is also a recurring theme throughout the songs, although Jay-Z resumed his recording career in 2005. For the album, Jay-Z wanted to enlist a different producer for each song, working with Just Blaze, Kanye West, the Neptunes, Eminem, DJ Quik, Timbaland, 9th Wonder and Rick Rubin, among others. The album also features an uncredited guest appearance by Pharrell Williams.",
+  "coverArt": "https://coverartarchive.org/release/2144dd2c-fe35-4dff-8afa-38213e73a5e9/42298360769.jpg",
+  "mbid": "77befaa0-662e-3d84-ba45-c862e16dc109",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q2563740",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Black_Album_(Jay-Z_album)",
+    "discogs": "https://www.discogs.com/master/47051",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/jay_z/the_black_album/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/JayZ%20The%20Black%20Album",
+    "appleMusic": "https://music.apple.com/us/search?term=JayZ%20The%20Black%20Album",
+    "youtube": "https://www.youtube.com/results?search_query=JayZ%20The%20Black%20Album",
+    "youtubeMusic": "https://music.youtube.com/search?q=JayZ%20The%20Black%20Album",
+    "amazonMusic": "https://music.amazon.com/search/JayZ%20The%20Black%20Album",
+    "tidal": "https://tidal.com/search?q=JayZ%20The%20Black%20Album",
+    "deezer": "https://www.deezer.com/search/JayZ%20The%20Black%20Album"
+  }
+}
