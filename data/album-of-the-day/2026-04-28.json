@@ -1,0 +1,32 @@
+{
+  "artist": "Aretha Franklin",
+  "title": "Amazing Grace",
+  "year": "1972",
+  "curatedLists": [
+    "npr-the-150-greatest-albums-made-by-women",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "blues",
+    "gospel",
+    "soul"
+  ],
+  "description": "Amazing Grace is a live album by American singer Aretha Franklin. It was recorded in January 1972 at the New Temple Missionary Baptist Church in Los Angeles, with Reverend James Cleveland and the Southern California Community Choir accompanying Franklin in performance. The recording was originally released as a double album on June 1, 1972, by Atlantic Records.",
+  "coverArt": "https://coverartarchive.org/release/9407256c-6c05-4720-9fbe-d6d9e6a10640/18298876607.jpg",
+  "mbid": "9e9b6cb5-2398-3aa7-b0c3-80c73e30b663",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q3613741",
+    "wikipedia": "https://en.wikipedia.org/wiki/Amazing_Grace_(Aretha_Franklin_album)",
+    "discogs": "https://www.discogs.com/master/209416",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/aretha-franklin/amazing-grace/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/Aretha%20Franklin%20Amazing%20Grace",
+    "appleMusic": "https://music.apple.com/us/search?term=Aretha%20Franklin%20Amazing%20Grace",
+    "youtube": "https://www.youtube.com/results?search_query=Aretha%20Franklin%20Amazing%20Grace",
+    "youtubeMusic": "https://music.youtube.com/search?q=Aretha%20Franklin%20Amazing%20Grace",
+    "amazonMusic": "https://music.amazon.com/search/Aretha%20Franklin%20Amazing%20Grace",
+    "tidal": "https://tidal.com/search?q=Aretha%20Franklin%20Amazing%20Grace",
+    "deezer": "https://www.deezer.com/search/Aretha%20Franklin%20Amazing%20Grace"
+  }
+}
