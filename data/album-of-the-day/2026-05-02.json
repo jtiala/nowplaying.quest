@@ -1,0 +1,32 @@
+{
+  "artist": "A$AP Rocky",
+  "title": "LiveLoveA$AP",
+  "year": "2011",
+  "curatedLists": [
+    "rolling-stone-the-200-greatest-hip-hop-albums-of-all-time"
+  ],
+  "genres": [
+    "cloud rap",
+    "hip hop",
+    "leftfield",
+    "trap"
+  ],
+  "description": null,
+  "coverArt": "https://coverartarchive.org/release/f4d92771-5431-4cf2-99a2-c98d398c34d8/27680668733.jpg",
+  "mbid": "1b4d965f-4827-488b-9bd8-2d724e3cf282",
+  "externalLinks": {
+    "wikidata": null,
+    "wikipedia": null,
+    "discogs": null,
+    "rateyourmusic": "https://rateyourmusic.com/release/mixtape/a_ap_rocky/livelovea_ap/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/AAP%20Rocky%20LiveLoveAAP",
+    "appleMusic": "https://music.apple.com/us/search?term=AAP%20Rocky%20LiveLoveAAP",
+    "youtube": "https://www.youtube.com/results?search_query=AAP%20Rocky%20LiveLoveAAP",
+    "youtubeMusic": "https://music.youtube.com/search?q=AAP%20Rocky%20LiveLoveAAP",
+    "amazonMusic": "https://music.amazon.com/search/AAP%20Rocky%20LiveLoveAAP",
+    "tidal": "https://tidal.com/search?q=AAP%20Rocky%20LiveLoveAAP",
+    "deezer": "https://www.deezer.com/search/AAP%20Rocky%20LiveLoveAAP"
+  }
+}
