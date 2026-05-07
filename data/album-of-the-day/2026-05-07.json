@@ -1,0 +1,37 @@
+{
+  "artist": "The Band",
+  "title": "The Band",
+  "year": "1969",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "classic rock",
+    "country rock",
+    "folk rock",
+    "rock",
+    "rock and roll",
+    "roots rock",
+    "southern rock"
+  ],
+  "description": "The Band, also known as The Brown Album, is the second studio album by the Canadian-American rock band the Band, released on September 22, 1969, by Capitol Records. According to Rob Bowman's liner notes for the 2000 reissue, The Band has been viewed as a concept album, with the songs focusing on people, places and traditions associated with a traditional view of Americana. Thus, many of the songs draw on historic themes, such as \"The Night They Drove Old Dixie Down\", \"King Harvest \" and \"Jawbone\".",
+  "coverArt": "https://coverartarchive.org/release/2ff35d4e-5623-4723-929c-bff2e0a5eb37/9925745196.jpg",
+  "mbid": "ea337405-285f-3846-9049-5e3addf149fc",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q926142",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Band_(album)",
+    "discogs": "https://www.discogs.com/master/14499",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/the_band/the_band/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/The%20Band%20The%20Band",
+    "appleMusic": "https://music.apple.com/us/search?term=The%20Band%20The%20Band",
+    "youtube": "https://www.youtube.com/results?search_query=The%20Band%20The%20Band",
+    "youtubeMusic": "https://music.youtube.com/search?q=The%20Band%20The%20Band",
+    "amazonMusic": "https://music.amazon.com/search/The%20Band%20The%20Band",
+    "tidal": "https://tidal.com/search?q=The%20Band%20The%20Band",
+    "deezer": "https://www.deezer.com/search/The%20Band%20The%20Band"
+  }
+}
