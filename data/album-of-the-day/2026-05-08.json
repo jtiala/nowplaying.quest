@@ -1,0 +1,41 @@
+{
+  "artist": "The Who",
+  "title": "My Generation",
+  "year": "1965",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "beat music",
+    "british rhythm & blues",
+    "classic rock",
+    "electric blues",
+    "garage rock",
+    "hard rock",
+    "merseybeat",
+    "mod",
+    "pop",
+    "power pop",
+    "proto-punk",
+    "rock"
+  ],
+  "description": "My Generation is the debut studio album by the English rock band the Who, released on 3 December 1965 by Brunswick Records in the United Kingdom, and Festival Records in Australia. In the United States, it was released on 25 April 1966 by Decca Records as The Who Sings My Generation, with a different cover and a slightly altered track listing. Besides the members of the Who, being Roger Daltrey (vocals), Pete Townshend (guitar), John Entwistle (bass) and Keith Moon (drums), the album features contributions by session musician Nicky Hopkins (piano).",
+  "coverArt": "https://coverartarchive.org/release/90336d32-5b2a-4a01-b647-dd3154c146ab/2221543630.jpg",
+  "mbid": "00c3da9f-309b-3f78-ba23-6a753fd6313d",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q375249",
+    "wikipedia": "https://en.wikipedia.org/wiki/My_Generation_(album)",
+    "discogs": "https://www.discogs.com/master/68534",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/the_who/my_generation/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/The%20Who%20My%20Generation",
+    "appleMusic": "https://music.apple.com/us/search?term=The%20Who%20My%20Generation",
+    "youtube": "https://www.youtube.com/results?search_query=The%20Who%20My%20Generation",
+    "youtubeMusic": "https://music.youtube.com/search?q=The%20Who%20My%20Generation",
+    "amazonMusic": "https://music.amazon.com/search/The%20Who%20My%20Generation",
+    "tidal": "https://tidal.com/search?q=The%20Who%20My%20Generation",
+    "deezer": "https://www.deezer.com/search/The%20Who%20My%20Generation"
+  }
+}
