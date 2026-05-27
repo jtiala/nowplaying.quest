@@ -1,0 +1,40 @@
+{
+  "artist": "ABC",
+  "title": "The Lexicon of Love",
+  "year": "1982",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time"
+  ],
+  "genres": [
+    "dance",
+    "dance-pop",
+    "disco",
+    "electronic",
+    "new romantic",
+    "new wave",
+    "pop",
+    "pop rock",
+    "rock",
+    "sophisti-pop",
+    "synth-pop"
+  ],
+  "description": "The Lexicon of Love is the debut studio album by the English pop band ABC. Released on 21 June 1982 by Neutron Records, it entered the UK Albums Chart at number one, also topping the New Zealand and Finnish charts. Certified gold in the US, it went platinum in the UK where four singles reached the top 20; \"Tears Are Not Enough\", \"Poison Arrow\", \"The Look of Love\" and \"All of My Heart\", which Pitchfork ranked number one on their \"Now That's What I Call New Pop!\" list.",
+  "coverArt": "https://coverartarchive.org/release/568fd92b-b389-455a-9983-246d98506dae/7786007781.jpg",
+  "mbid": "5bc5e6a3-4c24-33c3-9022-4b815d0c48d5",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q1188724",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lexicon_of_Love",
+    "discogs": "https://www.discogs.com/master/71286",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/abc/the_lexicon_of_love/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/ABC%20The%20Lexicon%20of%20Love",
+    "appleMusic": "https://music.apple.com/us/search?term=ABC%20The%20Lexicon%20of%20Love",
+    "youtube": "https://www.youtube.com/results?search_query=ABC%20The%20Lexicon%20of%20Love",
+    "youtubeMusic": "https://music.youtube.com/search?q=ABC%20The%20Lexicon%20of%20Love",
+    "amazonMusic": "https://music.amazon.com/search/ABC%20The%20Lexicon%20of%20Love",
+    "tidal": "https://tidal.com/search?q=ABC%20The%20Lexicon%20of%20Love",
+    "deezer": "https://www.deezer.com/search/ABC%20The%20Lexicon%20of%20Love"
+  }
+}
