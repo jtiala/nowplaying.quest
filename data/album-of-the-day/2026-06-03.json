@@ -1,0 +1,33 @@
+{
+  "artist": "Modest Mouse",
+  "title": "The Moon & Antarctica",
+  "year": "2000",
+  "curatedLists": [
+    "pitchfork-200-best-albums-of-the-last-25-years"
+  ],
+  "genres": [
+    "alternative punk",
+    "alternative rock",
+    "emo",
+    "indie rock",
+    "rock"
+  ],
+  "description": "The Moon & Antarctica is the third studio album by American rock band Modest Mouse, released on June 13, 2000, by Epic Records.",
+  "coverArt": "https://coverartarchive.org/release/eef3f2f5-8925-47be-97a3-469a7421c387/2685431738.jpg",
+  "mbid": "a8e26959-b3b2-3440-a74a-0dc06cd6310d",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q3544418",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Moon_&_Antarctica",
+    "discogs": "https://www.discogs.com/master/51574",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/modest_mouse/the_moon_and_antarctica/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/Modest%20Mouse%20The%20Moon%20Antarctica",
+    "appleMusic": "https://music.apple.com/us/search?term=Modest%20Mouse%20The%20Moon%20Antarctica",
+    "youtube": "https://www.youtube.com/results?search_query=Modest%20Mouse%20The%20Moon%20Antarctica",
+    "youtubeMusic": "https://music.youtube.com/search?q=Modest%20Mouse%20The%20Moon%20Antarctica",
+    "amazonMusic": "https://music.amazon.com/search/Modest%20Mouse%20The%20Moon%20Antarctica",
+    "tidal": "https://tidal.com/search?q=Modest%20Mouse%20The%20Moon%20Antarctica",
+    "deezer": "https://www.deezer.com/search/Modest%20Mouse%20The%20Moon%20Antarctica"
+  }
+}
