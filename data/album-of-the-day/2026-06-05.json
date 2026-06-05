@@ -1,0 +1,42 @@
+{
+  "artist": "Pink Floyd",
+  "title": "The Dark Side of the Moon",
+  "year": "1973",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "ambient",
+    "art rock",
+    "classic rock",
+    "electronic",
+    "experimental",
+    "hard rock",
+    "jazz",
+    "progressive",
+    "progressive rock",
+    "psychedelic rock",
+    "rock",
+    "space rock"
+  ],
+  "description": "The Dark Side of the Moon is the eighth studio album by the English progressive rock band Pink Floyd, released on 1 March 1973 by Capitol Records in the US, and on 16 March 1973 by Harvest Records in the UK. Developed during live performances, it was conceived as a concept album that would focus on the pressures faced by the band during their arduous lifestyle, and also deal with the mental health problems of former band member Syd Barrett. New material was recorded in two sessions in 1972 and 1973 at EMI Studios in London.",
+  "coverArt": "https://coverartarchive.org/release/956fbc58-362d-43b8-b880-3779e0508559/34025419985.jpg",
+  "mbid": "f5093c06-23e3-404f-aeaa-40f72885ee3a",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q150901",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Dark_Side_of_the_Moon",
+    "discogs": "https://www.discogs.com/master/10362",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/pink-floyd/the-dark-side-of-the-moon/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/Pink%20Floyd%20The%20Dark%20Side%20of%20the%20Moon",
+    "appleMusic": "https://music.apple.com/us/search?term=Pink%20Floyd%20The%20Dark%20Side%20of%20the%20Moon",
+    "youtube": "https://www.youtube.com/results?search_query=Pink%20Floyd%20The%20Dark%20Side%20of%20the%20Moon",
+    "youtubeMusic": "https://music.youtube.com/search?q=Pink%20Floyd%20The%20Dark%20Side%20of%20the%20Moon",
+    "amazonMusic": "https://music.amazon.com/search/Pink%20Floyd%20The%20Dark%20Side%20of%20the%20Moon",
+    "tidal": "https://tidal.com/search?q=Pink%20Floyd%20The%20Dark%20Side%20of%20the%20Moon",
+    "deezer": "https://www.deezer.com/search/Pink%20Floyd%20The%20Dark%20Side%20of%20the%20Moon"
+  }
+}
