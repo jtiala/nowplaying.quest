@@ -1,0 +1,31 @@
+{
+  "artist": "The Cribs",
+  "title": "The New Fellas",
+  "year": "2005",
+  "curatedLists": [
+    "nme-the-500-greatest-albums-of-all-time"
+  ],
+  "genres": [
+    "garage rock",
+    "indie rock",
+    "rock"
+  ],
+  "description": null,
+  "coverArt": "https://coverartarchive.org/release/cfdffcab-a44b-4189-a05d-a197dfb10c9e/28864802820.jpg",
+  "mbid": "51c2df0e-0a7d-32a8-9845-4c5c2467dea6",
+  "externalLinks": {
+    "wikidata": null,
+    "wikipedia": null,
+    "discogs": "https://www.discogs.com/master/118478",
+    "rateyourmusic": null
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/The%20Cribs%20The%20New%20Fellas",
+    "appleMusic": "https://music.apple.com/us/search?term=The%20Cribs%20The%20New%20Fellas",
+    "youtube": "https://www.youtube.com/results?search_query=The%20Cribs%20The%20New%20Fellas",
+    "youtubeMusic": "https://music.youtube.com/search?q=The%20Cribs%20The%20New%20Fellas",
+    "amazonMusic": "https://music.amazon.com/search/The%20Cribs%20The%20New%20Fellas",
+    "tidal": "https://tidal.com/search?q=The%20Cribs%20The%20New%20Fellas",
+    "deezer": "https://www.deezer.com/search/The%20Cribs%20The%20New%20Fellas"
+  }
+}
