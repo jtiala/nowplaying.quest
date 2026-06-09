@@ -1,0 +1,32 @@
+{
+  "artist": "The Shangri-Las",
+  "title": "Leader of the Pack",
+  "year": "1965",
+  "curatedLists": [
+    "npr-the-150-greatest-albums-made-by-women"
+  ],
+  "genres": [
+    "pop",
+    "pop rock",
+    "rock",
+    "rock and roll"
+  ],
+  "description": null,
+  "coverArt": "https://coverartarchive.org/release/879cf18c-0b08-4c9e-9a89-16a107273613/14196234281.jpg",
+  "mbid": "6ec2b20b-75ea-4069-9150-b433c8e388d6",
+  "externalLinks": {
+    "wikidata": null,
+    "wikipedia": null,
+    "discogs": null,
+    "rateyourmusic": null
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/The%20ShangriLas%20Leader%20of%20the%20Pack",
+    "appleMusic": "https://music.apple.com/us/search?term=The%20ShangriLas%20Leader%20of%20the%20Pack",
+    "youtube": "https://www.youtube.com/results?search_query=The%20ShangriLas%20Leader%20of%20the%20Pack",
+    "youtubeMusic": "https://music.youtube.com/search?q=The%20ShangriLas%20Leader%20of%20the%20Pack",
+    "amazonMusic": "https://music.amazon.com/search/The%20ShangriLas%20Leader%20of%20the%20Pack",
+    "tidal": "https://tidal.com/search?q=The%20ShangriLas%20Leader%20of%20the%20Pack",
+    "deezer": "https://www.deezer.com/search/The%20ShangriLas%20Leader%20of%20the%20Pack"
+  }
+}
