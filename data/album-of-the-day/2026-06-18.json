@@ -1,0 +1,38 @@
+{
+  "artist": "Arctic Monkeys",
+  "title": "AM",
+  "year": "2013",
+  "curatedLists": [
+    "nme-the-500-greatest-albums-of-all-time",
+    "pitchfork-200-best-albums-of-the-last-25-years",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "alternative pop",
+    "alternative rock",
+    "blues rock",
+    "indie rock",
+    "pop",
+    "pop rock",
+    "psychedelic rock",
+    "rock"
+  ],
+  "description": "AM is the fifth studio album by the English rock band Arctic Monkeys, released on 6 September 2013 through Domino Recording Company. It was produced by longtime collaborator James Ford and co-produced by Ross Orton at Sage & Sound Recording in Los Angeles and Rancho De La Luna in Joshua Tree, California.",
+  "coverArt": "https://coverartarchive.org/release/c7858e6b-9232-4c01-a703-35e60d3f7ec3/11863856066.jpg",
+  "mbid": "a348ba2f-f8b3-4686-b928-e63d8d94d543",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q13539256",
+    "wikipedia": "https://en.wikipedia.org/wiki/AM_(Arctic_Monkeys_album)",
+    "discogs": "https://www.discogs.com/master/593987",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/arctic_monkeys/am_f2/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/Arctic%20Monkeys%20AM",
+    "appleMusic": "https://music.apple.com/us/search?term=Arctic%20Monkeys%20AM",
+    "youtube": "https://www.youtube.com/results?search_query=Arctic%20Monkeys%20AM",
+    "youtubeMusic": "https://music.youtube.com/search?q=Arctic%20Monkeys%20AM",
+    "amazonMusic": "https://music.amazon.com/search/Arctic%20Monkeys%20AM",
+    "tidal": "https://tidal.com/search?q=Arctic%20Monkeys%20AM",
+    "deezer": "https://www.deezer.com/search/Arctic%20Monkeys%20AM"
+  }
+}
