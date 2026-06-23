@@ -1,0 +1,34 @@
+{
+  "artist": "Run-D.M.C.",
+  "title": "Run-D.M.C.",
+  "year": "1984",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "rolling-stone-the-200-greatest-hip-hop-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "east coast hip hop",
+    "hardcore hip hop",
+    "hip hop",
+    "rap rock"
+  ],
+  "description": "Run-D.M.C. is the debut studio album by American hip hop group Run-D.M.C., released on March 27, 1984, by Profile Records, and re-issued by Arista Records. The album was primarily produced by Russell Simmons and Larry Smith.",
+  "coverArt": "https://coverartarchive.org/release/db021c6b-b4f1-43c3-9d70-707bc2730928/43953787497.jpg",
+  "mbid": "eec6f4a7-b992-34df-8984-af0fe00550e0",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q926138",
+    "wikipedia": "https://en.wikipedia.org/wiki/Run-D.M.C._(album)",
+    "discogs": "https://www.discogs.com/master/63312",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/run_d_m_c_/run_d_m_c_/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/RunDMC%20RunDMC",
+    "appleMusic": "https://music.apple.com/us/search?term=RunDMC%20RunDMC",
+    "youtube": "https://www.youtube.com/results?search_query=RunDMC%20RunDMC",
+    "youtubeMusic": "https://music.youtube.com/search?q=RunDMC%20RunDMC",
+    "amazonMusic": "https://music.amazon.com/search/RunDMC%20RunDMC",
+    "tidal": "https://tidal.com/search?q=RunDMC%20RunDMC",
+    "deezer": "https://www.deezer.com/search/RunDMC%20RunDMC"
+  }
+}
