@@ -1,0 +1,35 @@
+{
+  "artist": "Pixies",
+  "title": "Surfer Rosa",
+  "year": "1988",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "alternative rock",
+    "indie rock",
+    "noise rock",
+    "post-hardcore",
+    "rock"
+  ],
+  "description": "Surfer Rosa is the debut studio album by the American alternative rock band Pixies, released in March 1988 on the British label 4AD. It was produced by Steve Albini. Surfer Rosa contains many of the elements of the Pixies' earlier output, including Spanish lyrics and references to Puerto Rico. It includes references to mutilation and voyeurism alongside experimental recording techniques and a distinctive drum sound.",
+  "coverArt": "https://coverartarchive.org/release/e78fc156-e0be-4e1a-a668-9338356dfe29/3350498477.jpg",
+  "mbid": "74e36cbc-a747-3ebf-a60e-51e656c87741",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q571213",
+    "wikipedia": "https://en.wikipedia.org/wiki/Surfer_Rosa",
+    "discogs": "https://www.discogs.com/master/16731",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/pixies/surfer_rosa/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/Pixies%20Surfer%20Rosa",
+    "appleMusic": "https://music.apple.com/us/search?term=Pixies%20Surfer%20Rosa",
+    "youtube": "https://www.youtube.com/results?search_query=Pixies%20Surfer%20Rosa",
+    "youtubeMusic": "https://music.youtube.com/search?q=Pixies%20Surfer%20Rosa",
+    "amazonMusic": "https://music.amazon.com/search/Pixies%20Surfer%20Rosa",
+    "tidal": "https://tidal.com/search?q=Pixies%20Surfer%20Rosa",
+    "deezer": "https://www.deezer.com/search/Pixies%20Surfer%20Rosa"
+  }
+}
