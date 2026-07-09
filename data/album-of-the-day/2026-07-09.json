@@ -1,0 +1,36 @@
+{
+  "artist": "The Beatles",
+  "title": "Help!",
+  "year": "1965",
+  "curatedLists": [
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "beat music",
+    "classic rock",
+    "folk pop",
+    "folk rock",
+    "merseybeat",
+    "pop",
+    "pop rock",
+    "rock"
+  ],
+  "description": "Help! is the fifth studio album by the English rock band the Beatles and the soundtrack to the film Help!. It was released on 6 August 1965 by Parlophone. Seven of the fourteen songs, including the singles \"Help!\" and \"Ticket to Ride\", appeared in the film and take up the first side of the vinyl album. The second side includes \"Yesterday\", the most-covered song ever written. The album was met with favourable critical reviews and topped the Australian, German, British and American charts.",
+  "coverArt": "https://coverartarchive.org/release/40825ca0-0568-3de0-bbe7-d5e07ed9a191/4924232519.jpg",
+  "mbid": "0d44e1cb-c6e0-3453-8b68-4d2082f05421",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q201816",
+    "wikipedia": "https://en.wikipedia.org/wiki/Help!",
+    "discogs": "https://www.discogs.com/master/45895",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/the_beatles/help__f1/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/The%20Beatles%20Help",
+    "appleMusic": "https://music.apple.com/us/search?term=The%20Beatles%20Help",
+    "youtube": "https://www.youtube.com/results?search_query=The%20Beatles%20Help",
+    "youtubeMusic": "https://music.youtube.com/search?q=The%20Beatles%20Help",
+    "amazonMusic": "https://music.amazon.com/search/The%20Beatles%20Help",
+    "tidal": "https://tidal.com/search?q=The%20Beatles%20Help",
+    "deezer": "https://www.deezer.com/search/The%20Beatles%20Help"
+  }
+}
