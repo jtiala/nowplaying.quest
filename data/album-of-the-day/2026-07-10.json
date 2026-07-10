@@ -1,0 +1,34 @@
+{
+  "artist": "Metallica",
+  "title": "Kill 'Em All",
+  "year": "1983",
+  "curatedLists": [
+    "rolling-stone-the-100-greatest-metal-albums-of-all-time"
+  ],
+  "genres": [
+    "hard rock",
+    "heavy metal",
+    "metal",
+    "rock",
+    "speed metal",
+    "thrash metal"
+  ],
+  "description": "Kill 'Em All is the debut album by the American heavy metal band Metallica, released on July 25, 1983, through the independent label Megaforce Records. After forming in 1981, Metallica began by playing shows in local clubs in Los Angeles. They recorded several demos to gain attention from club owners and eventually relocated to San Francisco to secure the services of bassist Cliff Burton. The group's No Life 'til Leather demo tape (1982) was noticed by Megaforce label head Jon Zazula, who signed them and provided a $15,000 recording budget. Guitarist Dave Mustaine, who co-wrote several of Kill 'Em All's songs, was fired shortly before recording began; he was replaced by Kirk Hammett.",
+  "coverArt": "https://coverartarchive.org/release/0d099294-ec29-4d0b-821d-202a32c85a14/25181401889.jpg",
+  "mbid": "f44f4f73-a714-31a1-a4b8-bfcaaf311f50",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q182826",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kill_'Em_All",
+    "discogs": "https://www.discogs.com/master/6387",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/metallica/kill-em-all/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/Metallica%20Kill%20Em%20All",
+    "appleMusic": "https://music.apple.com/us/search?term=Metallica%20Kill%20Em%20All",
+    "youtube": "https://www.youtube.com/results?search_query=Metallica%20Kill%20Em%20All",
+    "youtubeMusic": "https://music.youtube.com/search?q=Metallica%20Kill%20Em%20All",
+    "amazonMusic": "https://music.amazon.com/search/Metallica%20Kill%20Em%20All",
+    "tidal": "https://tidal.com/search?q=Metallica%20Kill%20Em%20All",
+    "deezer": "https://www.deezer.com/search/Metallica%20Kill%20Em%20All"
+  }
+}
