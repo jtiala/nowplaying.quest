@@ -1,0 +1,31 @@
+{
+  "artist": "Ice-T",
+  "title": "Power",
+  "year": "1988",
+  "curatedLists": [
+    "rolling-stone-the-200-greatest-hip-hop-albums-of-all-time"
+  ],
+  "genres": [
+    "gangsta rap",
+    "hip hop",
+    "west coast hip hop"
+  ],
+  "description": null,
+  "coverArt": "https://coverartarchive.org/release/c25c886a-82d2-4fee-b4e3-0945af3af75e/31759403678.jpg",
+  "mbid": "c5a315b3-1a56-30a1-939f-21343ae97636",
+  "externalLinks": {
+    "wikidata": null,
+    "wikipedia": null,
+    "discogs": "https://www.discogs.com/master/107602",
+    "rateyourmusic": null
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/IceT%20Power",
+    "appleMusic": "https://music.apple.com/us/search?term=IceT%20Power",
+    "youtube": "https://www.youtube.com/results?search_query=IceT%20Power",
+    "youtubeMusic": "https://music.youtube.com/search?q=IceT%20Power",
+    "amazonMusic": "https://music.amazon.com/search/IceT%20Power",
+    "tidal": "https://tidal.com/search?q=IceT%20Power",
+    "deezer": "https://www.deezer.com/search/IceT%20Power"
+  }
+}
