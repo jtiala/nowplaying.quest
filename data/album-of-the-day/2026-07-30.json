@@ -1,0 +1,31 @@
+{
+  "artist": "Boz Scaggs",
+  "title": "Boz Scaggs",
+  "year": "1969",
+  "curatedLists": [
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "blues",
+    "pop rock",
+    "rock"
+  ],
+  "description": "Boz Scaggs is the second studio album by American musician Boz Scaggs, released in 1969 by Atlantic Records. A stylistically diverse album, Boz Scaggs incorporates several genres, including Americana, blue-eyed soul, country, and rhythm and blues. The lyrics are about typical themes found in blues songs, such as love, regret, guilt, and loss. Scaggs recorded the album at Muscle Shoals Sound Studio with producer Jann Wenner, the co-founder of Rolling Stone magazine. The Muscle Shoals Rhythm Section heavily contributed to the album, which included a young Duane Allman, before his rise to fame with the Allman Brothers Band.",
+  "coverArt": "https://coverartarchive.org/release/d8b76d46-697c-3a73-a79b-c6f56f932744/5232107321.jpg",
+  "mbid": "3bed87ca-f946-3ef4-a1b5-e48cbb20f387",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q4952779",
+    "wikipedia": "https://en.wikipedia.org/wiki/Boz_Scaggs_(album)",
+    "discogs": "https://www.discogs.com/master/108241",
+    "rateyourmusic": null
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/Boz%20Scaggs%20Boz%20Scaggs",
+    "appleMusic": "https://music.apple.com/us/search?term=Boz%20Scaggs%20Boz%20Scaggs",
+    "youtube": "https://www.youtube.com/results?search_query=Boz%20Scaggs%20Boz%20Scaggs",
+    "youtubeMusic": "https://music.youtube.com/search?q=Boz%20Scaggs%20Boz%20Scaggs",
+    "amazonMusic": "https://music.amazon.com/search/Boz%20Scaggs%20Boz%20Scaggs",
+    "tidal": "https://tidal.com/search?q=Boz%20Scaggs%20Boz%20Scaggs",
+    "deezer": "https://www.deezer.com/search/Boz%20Scaggs%20Boz%20Scaggs"
+  }
+}
