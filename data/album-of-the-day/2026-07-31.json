@@ -1,0 +1,35 @@
+{
+  "artist": "Elliott Smith",
+  "title": "Figure 8",
+  "year": "2000",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "the-guardian-the-100-best-albums-of-the-21st-century"
+  ],
+  "genres": [
+    "chamber pop",
+    "folk rock",
+    "indie folk",
+    "indie pop",
+    "indie rock",
+    "rock"
+  ],
+  "description": "Figure 8 is the fifth studio album by American singer-songwriter Elliott Smith, and the final album released during his lifetime. It was recorded from 1998 to 2000 at numerous studios and released on April 18, 2000, through DreamWorks Records. Preceded by the singles \"Happiness\" and \"Son of Sam\", Figure 8 was Smith's second release on a major label.",
+  "coverArt": "https://coverartarchive.org/release/05c38a1d-9acb-3cf3-ae1a-b8367f88b3ae/18782213344.png",
+  "mbid": "2fd75c21-7a92-3bcc-b045-d5bab5c36d11",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q263520",
+    "wikipedia": "https://en.wikipedia.org/wiki/Figure_8_(album)",
+    "discogs": "https://www.discogs.com/master/6163",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/elliott_smith/figure_8/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/Elliott%20Smith%20Figure%208",
+    "appleMusic": "https://music.apple.com/us/search?term=Elliott%20Smith%20Figure%208",
+    "youtube": "https://www.youtube.com/results?search_query=Elliott%20Smith%20Figure%208",
+    "youtubeMusic": "https://music.youtube.com/search?q=Elliott%20Smith%20Figure%208",
+    "amazonMusic": "https://music.amazon.com/search/Elliott%20Smith%20Figure%208",
+    "tidal": "https://tidal.com/search?q=Elliott%20Smith%20Figure%208",
+    "deezer": "https://www.deezer.com/search/Elliott%20Smith%20Figure%208"
+  }
+}
