@@ -1,0 +1,27 @@
+{
+  "artist": "Don McLean",
+  "title": "American Pie",
+  "year": "1971",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions"
+  ],
+  "genres": [],
+  "description": null,
+  "coverArt": "https://coverartarchive.org/release/2122c7ee-3fa2-408a-9001-f5eb9a22a320/13548648707.jpg",
+  "mbid": "1189a8bc-f356-3c0a-a689-d8e0d1b5e4b8",
+  "externalLinks": {
+    "wikidata": null,
+    "wikipedia": null,
+    "discogs": null,
+    "rateyourmusic": null
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/Don%20McLean%20American%20Pie",
+    "appleMusic": "https://music.apple.com/us/search?term=Don%20McLean%20American%20Pie",
+    "youtube": "https://www.youtube.com/results?search_query=Don%20McLean%20American%20Pie",
+    "youtubeMusic": "https://music.youtube.com/search?q=Don%20McLean%20American%20Pie",
+    "amazonMusic": "https://music.amazon.com/search/Don%20McLean%20American%20Pie",
+    "tidal": "https://tidal.com/search?q=Don%20McLean%20American%20Pie",
+    "deezer": "https://www.deezer.com/search/Don%20McLean%20American%20Pie"
+  }
+}
