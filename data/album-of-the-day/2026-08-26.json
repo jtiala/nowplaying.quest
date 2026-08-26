@@ -1,0 +1,36 @@
+{
+  "artist": "Oasis",
+  "title": "Definitely Maybe",
+  "year": "1994",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "alternative rock",
+    "britpop",
+    "madchester",
+    "neo-psychedelia",
+    "rock",
+    "shoegaze"
+  ],
+  "description": "Definitely Maybe is the debut studio album by the English rock band Oasis, released on 29 August 1994 by Creation Records. The album features Noel Gallagher on lead guitar, backing vocals and as chief songwriter, Liam Gallagher on lead vocals, Paul \"Bonehead\" Arthurs on rhythm guitar, Paul \"Guigsy\" McGuigan on bass guitar and Tony McCarroll on drums.",
+  "coverArt": "https://coverartarchive.org/release/d6f68975-dc8f-4e91-ac6f-0061b2adb325/31844190146.jpg",
+  "mbid": "451dca98-c118-32e1-9244-c47ca9c3c0f9",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q328993",
+    "wikipedia": "https://en.wikipedia.org/wiki/Definitely_Maybe",
+    "discogs": "https://www.discogs.com/master/52255",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/oasis/definitely_maybe/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/Oasis%20Definitely%20Maybe",
+    "appleMusic": "https://music.apple.com/us/search?term=Oasis%20Definitely%20Maybe",
+    "youtube": "https://www.youtube.com/results?search_query=Oasis%20Definitely%20Maybe",
+    "youtubeMusic": "https://music.youtube.com/search?q=Oasis%20Definitely%20Maybe",
+    "amazonMusic": "https://music.amazon.com/search/Oasis%20Definitely%20Maybe",
+    "tidal": "https://tidal.com/search?q=Oasis%20Definitely%20Maybe",
+    "deezer": "https://www.deezer.com/search/Oasis%20Definitely%20Maybe"
+  }
+}
