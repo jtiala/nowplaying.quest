@@ -1,0 +1,30 @@
+{
+  "artist": "Gang of Four",
+  "title": "Entertainment!",
+  "year": "1979",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time",
+    "rolling-stone-the-40-greatest-punk-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [],
+  "description": null,
+  "coverArt": "https://coverartarchive.org/release/844c0de9-d040-492b-af05-6ae2f8f6bcf5/43109848254.jpg",
+  "mbid": "d0493944-992b-3534-9174-8320c1879837",
+  "externalLinks": {
+    "wikidata": null,
+    "wikipedia": null,
+    "discogs": null,
+    "rateyourmusic": null
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/Gang%20of%20Four%20Entertainment",
+    "appleMusic": "https://music.apple.com/us/search?term=Gang%20of%20Four%20Entertainment",
+    "youtube": "https://www.youtube.com/results?search_query=Gang%20of%20Four%20Entertainment",
+    "youtubeMusic": "https://music.youtube.com/search?q=Gang%20of%20Four%20Entertainment",
+    "amazonMusic": "https://music.amazon.com/search/Gang%20of%20Four%20Entertainment",
+    "tidal": "https://tidal.com/search?q=Gang%20of%20Four%20Entertainment",
+    "deezer": "https://www.deezer.com/search/Gang%20of%20Four%20Entertainment"
+  }
+}
