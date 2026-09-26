@@ -1,0 +1,36 @@
+{
+  "artist": "Pulp",
+  "title": "Different Class",
+  "year": "1995",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "alternative rock",
+    "art rock",
+    "britpop",
+    "glam rock",
+    "indie rock",
+    "rock"
+  ],
+  "description": "Different Class is the fifth studio album by English rock band Pulp, released on 30 October 1995 by Island Records.",
+  "coverArt": "https://coverartarchive.org/release/e26332fc-d9c5-4507-aeda-5f83df17a5a9/3032704385.jpg",
+  "mbid": "88f69eab-8f07-343b-847c-b944ad33dfcf",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q771579",
+    "wikipedia": "https://en.wikipedia.org/wiki/Different_Class",
+    "discogs": "https://www.discogs.com/master/87137",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/pulp/different_class/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/Pulp%20Different%20Class",
+    "appleMusic": "https://music.apple.com/us/search?term=Pulp%20Different%20Class",
+    "youtube": "https://www.youtube.com/results?search_query=Pulp%20Different%20Class",
+    "youtubeMusic": "https://music.youtube.com/search?q=Pulp%20Different%20Class",
+    "amazonMusic": "https://music.amazon.com/search/Pulp%20Different%20Class",
+    "tidal": "https://tidal.com/search?q=Pulp%20Different%20Class",
+    "deezer": "https://www.deezer.com/search/Pulp%20Different%20Class"
+  }
+}
