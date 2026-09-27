@@ -1,0 +1,30 @@
+{
+  "artist": "Sleep",
+  "title": "Jerusalem",
+  "year": "1999",
+  "curatedLists": [
+    "rolling-stone-the-100-greatest-metal-albums-of-all-time"
+  ],
+  "genres": [
+    "doom metal",
+    "rock"
+  ],
+  "description": "Jerusalem and Dopesmoker are two versions of the third studio album by the American stoner doom band Sleep. The former title was released in 1999 by The Music Cartel in a version the band disliked, and the latter was released by Tee Pee Records in 2003 as the band intended.",
+  "coverArt": "https://coverartarchive.org/release/32e07466-b939-4a6e-a791-bd11544a314f/7742616329.jpg",
+  "mbid": "ae690c03-b02e-4ea9-8cfa-c28e8193259d",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q6185212",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jerusalem_and_Dopesmoker",
+    "discogs": "https://www.discogs.com/master/213068",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/sleep/jerusalem/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/Sleep%20Jerusalem",
+    "appleMusic": "https://music.apple.com/us/search?term=Sleep%20Jerusalem",
+    "youtube": "https://www.youtube.com/results?search_query=Sleep%20Jerusalem",
+    "youtubeMusic": "https://music.youtube.com/search?q=Sleep%20Jerusalem",
+    "amazonMusic": "https://music.amazon.com/search/Sleep%20Jerusalem",
+    "tidal": "https://tidal.com/search?q=Sleep%20Jerusalem",
+    "deezer": "https://www.deezer.com/search/Sleep%20Jerusalem"
+  }
+}
