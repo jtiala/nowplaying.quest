@@ -1,0 +1,32 @@
+{
+  "artist": "Alicia Keys",
+  "title": "The Diary of Alicia Keys",
+  "year": "2003",
+  "curatedLists": [
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "contemporary r&b",
+    "neo soul",
+    "r&b",
+    "soul"
+  ],
+  "description": "The Diary of Alicia Keys is the second studio album by American singer-songwriter Alicia Keys. It was released on November 25, 2003, by J Records. Almost entirely written and produced by Keys, the album is a concept album functioning as her auditory diary, primarily dealing with relationship complexities. Musically, it is predominantly a soul, R&B, contemporary classical, and hip-hop record.",
+  "coverArt": "https://coverartarchive.org/release/3993f8e0-ab08-482b-8247-b6186126ff0e/36046505312.jpg",
+  "mbid": "e53e291f-9a9c-38a0-96e0-86a9b63b776d",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q261724",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Diary_of_Alicia_Keys",
+    "discogs": "https://www.discogs.com/master/144296",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/alicia-keys/the-diary-of-alicia-keys/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/Alicia%20Keys%20The%20Diary%20of%20Alicia%20Keys",
+    "appleMusic": "https://music.apple.com/us/search?term=Alicia%20Keys%20The%20Diary%20of%20Alicia%20Keys",
+    "youtube": "https://www.youtube.com/results?search_query=Alicia%20Keys%20The%20Diary%20of%20Alicia%20Keys",
+    "youtubeMusic": "https://music.youtube.com/search?q=Alicia%20Keys%20The%20Diary%20of%20Alicia%20Keys",
+    "amazonMusic": "https://music.amazon.com/search/Alicia%20Keys%20The%20Diary%20of%20Alicia%20Keys",
+    "tidal": "https://tidal.com/search?q=Alicia%20Keys%20The%20Diary%20of%20Alicia%20Keys",
+    "deezer": "https://www.deezer.com/search/Alicia%20Keys%20The%20Diary%20of%20Alicia%20Keys"
+  }
+}
