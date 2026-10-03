@@ -1,0 +1,33 @@
+{
+  "artist": "Babyshambles",
+  "title": "Down in Albion",
+  "year": "2005",
+  "curatedLists": [
+    "nme-the-500-greatest-albums-of-all-time"
+  ],
+  "genres": [
+    "alternative rock",
+    "garage rock revival",
+    "indie rock",
+    "post-punk revival",
+    "rock"
+  ],
+  "description": "Down in Albion is the debut album by English rock band Babyshambles.",
+  "coverArt": "https://coverartarchive.org/release/fecc51a0-562a-43db-b1fd-7e8ff290b5ff/21303054829.jpg",
+  "mbid": "ba3f9a91-a69d-3b2a-81f6-165685d80d97",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q1253208",
+    "wikipedia": "https://en.wikipedia.org/wiki/Down_in_Albion",
+    "discogs": "https://www.discogs.com/master/11589",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/babyshambles/down_in_albion/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/Babyshambles%20Down%20in%20Albion",
+    "appleMusic": "https://music.apple.com/us/search?term=Babyshambles%20Down%20in%20Albion",
+    "youtube": "https://www.youtube.com/results?search_query=Babyshambles%20Down%20in%20Albion",
+    "youtubeMusic": "https://music.youtube.com/search?q=Babyshambles%20Down%20in%20Albion",
+    "amazonMusic": "https://music.amazon.com/search/Babyshambles%20Down%20in%20Albion",
+    "tidal": "https://tidal.com/search?q=Babyshambles%20Down%20in%20Albion",
+    "deezer": "https://www.deezer.com/search/Babyshambles%20Down%20in%20Albion"
+  }
+}
