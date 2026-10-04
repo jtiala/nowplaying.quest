@@ -1,0 +1,33 @@
+{
+  "artist": "Converge",
+  "title": "Jane Doe",
+  "year": "2001",
+  "curatedLists": [
+    "rolling-stone-the-100-greatest-metal-albums-of-all-time"
+  ],
+  "genres": [
+    "hardcore punk",
+    "mathcore",
+    "metalcore",
+    "progressive",
+    "sludge metal"
+  ],
+  "description": "Jane Doe is the fourth studio album by American metalcore band Converge, released on September 4, 2001 by Equal Vision Records. The album was produced by Matthew Ellard alongside guitarist Kurt Ballou, and the artwork was designed by lead vocalist Jacob Bannon. It was the band's first album to feature bassist Nate Newton and drummer Ben Koller, and the last to feature guitarist Aaron Dalbec; Converge's line-up has remained stable since.",
+  "coverArt": "https://coverartarchive.org/release/c0c80905-b460-4385-b84d-b068eb14bf5a/7979568810.jpg",
+  "mbid": "f56e3b38-c620-32f4-9845-2e2115f5e96f",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q3806997",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jane_Doe_(album)",
+    "discogs": "https://www.discogs.com/master/62038",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/converge/jane-doe/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/Converge%20Jane%20Doe",
+    "appleMusic": "https://music.apple.com/us/search?term=Converge%20Jane%20Doe",
+    "youtube": "https://www.youtube.com/results?search_query=Converge%20Jane%20Doe",
+    "youtubeMusic": "https://music.youtube.com/search?q=Converge%20Jane%20Doe",
+    "amazonMusic": "https://music.amazon.com/search/Converge%20Jane%20Doe",
+    "tidal": "https://tidal.com/search?q=Converge%20Jane%20Doe",
+    "deezer": "https://www.deezer.com/search/Converge%20Jane%20Doe"
+  }
+}
