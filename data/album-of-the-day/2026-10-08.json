@@ -1,0 +1,32 @@
+{
+  "artist": "Dr. John",
+  "title": "Dr. John's Gumbo",
+  "year": "1972",
+  "curatedLists": [
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [
+    "blues",
+    "funk",
+    "louisiana blues",
+    "new orleans r&b"
+  ],
+  "description": "Dr. John's Gumbo is the fifth album by the New Orleans singer and pianist Dr. John. Released in 1972, it is a tribute to the music of his native city. The album is a collection of classic New Orleans tunes.",
+  "coverArt": "https://coverartarchive.org/release/ca2c4403-ea6a-4b0e-9207-1a0f7e5bc2ff/39108850225.jpg",
+  "mbid": "d05e634f-6132-3c72-ae1e-0590fc1b99d0",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q5304188",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dr._John's_Gumbo",
+    "discogs": "https://www.discogs.com/master/49048",
+    "rateyourmusic": null
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/Dr%20John%20Dr%20Johns%20Gumbo",
+    "appleMusic": "https://music.apple.com/us/search?term=Dr%20John%20Dr%20Johns%20Gumbo",
+    "youtube": "https://www.youtube.com/results?search_query=Dr%20John%20Dr%20Johns%20Gumbo",
+    "youtubeMusic": "https://music.youtube.com/search?q=Dr%20John%20Dr%20Johns%20Gumbo",
+    "amazonMusic": "https://music.amazon.com/search/Dr%20John%20Dr%20Johns%20Gumbo",
+    "tidal": "https://tidal.com/search?q=Dr%20John%20Dr%20Johns%20Gumbo",
+    "deezer": "https://www.deezer.com/search/Dr%20John%20Dr%20Johns%20Gumbo"
+  }
+}
