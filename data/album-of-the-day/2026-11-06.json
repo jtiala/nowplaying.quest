@@ -1,0 +1,33 @@
+{
+  "artist": "Steely Dan",
+  "title": "Countdown to Ecstasy",
+  "year": "1973",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time"
+  ],
+  "genres": [
+    "jazz pop",
+    "jazz rock",
+    "pop rock",
+    "rock"
+  ],
+  "description": "Countdown to Ecstasy is the second studio album by American rock band Steely Dan, released in July 1973 by ABC Records. It was recorded at the Village Recorder in West Los Angeles, California, except for Rick Derringer's slide guitar part for \"Show Biz Kids\", which was recorded at Caribou Ranch in Nederland, Colorado. Recorded after the departure of vocalist David Palmer, Donald Fagen sings lead on every track.",
+  "coverArt": "https://coverartarchive.org/release/469bb2b2-ac3c-4047-b7c0-9ccc47cc834d/36869177595.jpg",
+  "mbid": "33726877-dd41-301b-9f1e-498ebbadc7d8",
+  "externalLinks": {
+    "wikidata": "https://www.wikidata.org/wiki/Q634785",
+    "wikipedia": "https://en.wikipedia.org/wiki/Countdown_to_Ecstasy",
+    "discogs": "https://www.discogs.com/master/16898",
+    "rateyourmusic": "https://rateyourmusic.com/release/album/steely-dan/countdown-to-ecstasy/"
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/Steely%20Dan%20Countdown%20to%20Ecstasy",
+    "appleMusic": "https://music.apple.com/us/search?term=Steely%20Dan%20Countdown%20to%20Ecstasy",
+    "youtube": "https://www.youtube.com/results?search_query=Steely%20Dan%20Countdown%20to%20Ecstasy",
+    "youtubeMusic": "https://music.youtube.com/search?q=Steely%20Dan%20Countdown%20to%20Ecstasy",
+    "amazonMusic": "https://music.amazon.com/search/Steely%20Dan%20Countdown%20to%20Ecstasy",
+    "tidal": "https://tidal.com/search?q=Steely%20Dan%20Countdown%20to%20Ecstasy",
+    "deezer": "https://www.deezer.com/search/Steely%20Dan%20Countdown%20to%20Ecstasy"
+  }
+}
