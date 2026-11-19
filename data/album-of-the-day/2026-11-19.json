@@ -1,0 +1,28 @@
+{
+  "artist": "Miles Davis",
+  "title": "Sketches of Spain",
+  "year": "1960",
+  "curatedLists": [
+    "jazzwise-the-100-jazz-albums-that-shook-the-world",
+    "rolling-stone-the-500-greatest-albums-of-all-time-all-editions"
+  ],
+  "genres": [],
+  "description": null,
+  "coverArt": "https://coverartarchive.org/release/aa50db83-2fa2-4347-ad68-3b495cac8ea8/33304241141.jpg",
+  "mbid": "966fede2-31b2-3b6a-ab50-4a650d3bb97d",
+  "externalLinks": {
+    "wikidata": null,
+    "wikipedia": null,
+    "discogs": null,
+    "rateyourmusic": null
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/Miles%20Davis%20Sketches%20of%20Spain",
+    "appleMusic": "https://music.apple.com/us/search?term=Miles%20Davis%20Sketches%20of%20Spain",
+    "youtube": "https://www.youtube.com/results?search_query=Miles%20Davis%20Sketches%20of%20Spain",
+    "youtubeMusic": "https://music.youtube.com/search?q=Miles%20Davis%20Sketches%20of%20Spain",
+    "amazonMusic": "https://music.amazon.com/search/Miles%20Davis%20Sketches%20of%20Spain",
+    "tidal": "https://tidal.com/search?q=Miles%20Davis%20Sketches%20of%20Spain",
+    "deezer": "https://www.deezer.com/search/Miles%20Davis%20Sketches%20of%20Spain"
+  }
+}
