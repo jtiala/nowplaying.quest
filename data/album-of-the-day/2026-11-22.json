@@ -1,0 +1,27 @@
+{
+  "artist": "Love",
+  "title": "Da Capo",
+  "year": "1966",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions"
+  ],
+  "genres": [],
+  "description": null,
+  "coverArt": "https://coverartarchive.org/release/2a275931-f268-47de-8b63-d5c0fe40a23a/14562010053.jpg",
+  "mbid": "4cc16c40-ef3a-36d9-9f96-89cbf1c61ec6",
+  "externalLinks": {
+    "wikidata": null,
+    "wikipedia": null,
+    "discogs": null,
+    "rateyourmusic": null
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/Love%20Da%20Capo",
+    "appleMusic": "https://music.apple.com/us/search?term=Love%20Da%20Capo",
+    "youtube": "https://www.youtube.com/results?search_query=Love%20Da%20Capo",
+    "youtubeMusic": "https://music.youtube.com/search?q=Love%20Da%20Capo",
+    "amazonMusic": "https://music.amazon.com/search/Love%20Da%20Capo",
+    "tidal": "https://tidal.com/search?q=Love%20Da%20Capo",
+    "deezer": "https://www.deezer.com/search/Love%20Da%20Capo"
+  }
+}
