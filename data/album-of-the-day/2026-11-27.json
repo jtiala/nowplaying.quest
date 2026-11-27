@@ -1,0 +1,28 @@
+{
+  "artist": "R.E.M.",
+  "title": "Green",
+  "year": "1988",
+  "curatedLists": [
+    "1001-albums-you-must-hear-before-you-die-all-editions",
+    "nme-the-500-greatest-albums-of-all-time"
+  ],
+  "genres": [],
+  "description": null,
+  "coverArt": "https://coverartarchive.org/release/05872610-258a-3a39-87fe-93f1f410eb5e/21342110219.jpg",
+  "mbid": "16a9cef3-b470-3ae1-bf10-cc04232d3e21",
+  "externalLinks": {
+    "wikidata": null,
+    "wikipedia": null,
+    "discogs": null,
+    "rateyourmusic": null
+  },
+  "streamingLinks": {
+    "spotify": "https://open.spotify.com/search/REM%20Green",
+    "appleMusic": "https://music.apple.com/us/search?term=REM%20Green",
+    "youtube": "https://www.youtube.com/results?search_query=REM%20Green",
+    "youtubeMusic": "https://music.youtube.com/search?q=REM%20Green",
+    "amazonMusic": "https://music.amazon.com/search/REM%20Green",
+    "tidal": "https://tidal.com/search?q=REM%20Green",
+    "deezer": "https://www.deezer.com/search/REM%20Green"
+  }
+}
